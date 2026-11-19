@@ -1,0 +1,13 @@
+{
+ "run": "266",
+ "arm": "kimi",
+ "group": "or",
+ "reasoning": false,
+ "draws": 10,
+ "status": "UNREAD",
+ "unread_reason": "provider unavailable: every call returned OpenRouter HTTP 404 'No endpoints found for moonshotai/kimi-k3' with the run 261 provider pinned (pareto-alpha/us, ParetoAlpha, no fallbacks); the model's endpoint list at 2026-11-19 no longer includes ParetoAlpha. Stopped by pid on Cassian's rule (stop, do not substitute).",
+ "calls": 0,
+ "spent_usd": 0.0,
+ "written_by": "hand, after the process was stopped (it retries without end on a 404)",
+ "finished": "2026-11-19T09:03:44Z"
+}

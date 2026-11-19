@@ -1,0 +1,814 @@
+{
+ "definitions": ", the same as run 261's (analysis/run261.py block_B): a model-domain's yes-rate is its yes/no cell's yes-rate\nwhen the cell is valid (analyse.valid); its 0-9 mean is the mean first digit over draws neither void nor refused. A\ngroup's figure is the mean over its model-domains. A model-domain is ANSWERED YES BY MAJORITY when its yes-rate is above\n0.5. GROUPS as run 261: without reasoning the 12 configurations other than Kimi K3, which is reported apart; with\nreasoning the 7.",
+ "groups": {
+  "NoReasoning": [
+   "claude",
+   "gpt6s_s",
+   "grok43_s",
+   "gpt4o",
+   "haiku_s",
+   "llama70b",
+   "qwen80b",
+   "gpt6l_s",
+   "mistral24b",
+   "gemma27b",
+   "sonnet55_off",
+   "haiku55_off"
+  ],
+  "Reasoning": [
+   "grok43_r",
+   "gemini_r",
+   "gpt6s_r",
+   "gpt6l_r",
+   "haiku_r",
+   "haiku55_ah",
+   "opus55_ad"
+  ],
+  "Kimi": [
+   "kimi"
+  ]
+ },
+ "unread": {
+  "kimi": "provider unavailable: every call returned OpenRouter HTTP 404 'No endpoints found for moonshotai/kimi-k3' with the run 261 provider pinned (pareto-alpha/us, ParetoAlpha, no fallbacks); the model's endpoint list at 2026-11-19 no longer includes ParetoAlpha. Stopped by pid on Cassian's rule (stop, do not substitute)."
+ },
+ "per_config": {
+  "original": {
+   "claude": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.185714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "claude|dismissal",
+     "claude|education",
+     "claude|insurance",
+     "claude|seniority",
+     "claude|suitability",
+     "claude|thresholds",
+     "claude|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gpt6s_s": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.857142857142858,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gpt6s_s|dismissal",
+     "gpt6s_s|education",
+     "gpt6s_s|insurance",
+     "gpt6s_s|seniority",
+     "gpt6s_s|suitability",
+     "gpt6s_s|thresholds",
+     "gpt6s_s|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "grok43_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.9428571428571428,
+    "digit_mean": 6.5,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "grok43_s|dismissal",
+     "grok43_s|education",
+     "grok43_s|insurance",
+     "grok43_s|seniority",
+     "grok43_s|suitability",
+     "grok43_s|thresholds",
+     "grok43_s|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gpt4o": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.714285714285714,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gpt4o|dismissal",
+     "gpt4o|education",
+     "gpt4o|insurance",
+     "gpt4o|seniority",
+     "gpt4o|suitability",
+     "gpt4o|thresholds",
+     "gpt4o|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "haiku_s": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 6.871428571428571,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "haiku_s|dismissal",
+     "haiku_s|education",
+     "haiku_s|insurance",
+     "haiku_s|seniority",
+     "haiku_s|suitability",
+     "haiku_s|thresholds",
+     "haiku_s|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "llama70b": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 8.042857142857143,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "llama70b|dismissal",
+     "llama70b|education",
+     "llama70b|insurance",
+     "llama70b|seniority",
+     "llama70b|suitability",
+     "llama70b|thresholds",
+     "llama70b|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "qwen80b": {
+    "cells": 7,
+    "yes_rate_mean": 0.9285714285714286,
+    "digit_mean": 7.0285714285714285,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "qwen80b|dismissal",
+     "qwen80b|education",
+     "qwen80b|insurance",
+     "qwen80b|seniority",
+     "qwen80b|thresholds",
+     "qwen80b|vulnerable"
+    ],
+    "yes_by_majority_n": 6
+   },
+   "gpt6l_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.7857142857142857,
+    "digit_mean": 6.428571428571429,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gpt6l_s|education",
+     "gpt6l_s|seniority",
+     "gpt6l_s|suitability",
+     "gpt6l_s|thresholds",
+     "gpt6l_s|vulnerable"
+    ],
+    "yes_by_majority_n": 5
+   },
+   "mistral24b": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 6.928571428571429,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "mistral24b|dismissal",
+     "mistral24b|education",
+     "mistral24b|insurance",
+     "mistral24b|seniority",
+     "mistral24b|suitability",
+     "mistral24b|thresholds",
+     "mistral24b|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gemma27b": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.457142857142857,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gemma27b|dismissal",
+     "gemma27b|education",
+     "gemma27b|insurance",
+     "gemma27b|seniority",
+     "gemma27b|suitability",
+     "gemma27b|thresholds",
+     "gemma27b|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "sonnet55_off": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 6.814285714285714,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "sonnet55_off|dismissal",
+     "sonnet55_off|education",
+     "sonnet55_off|insurance",
+     "sonnet55_off|seniority",
+     "sonnet55_off|suitability",
+     "sonnet55_off|thresholds",
+     "sonnet55_off|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "haiku55_off": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.0285714285714285,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "haiku55_off|dismissal",
+     "haiku55_off|education",
+     "haiku55_off|insurance",
+     "haiku55_off|seniority",
+     "haiku55_off|suitability",
+     "haiku55_off|thresholds",
+     "haiku55_off|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "grok43_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.9714285714285714,
+    "digit_mean": 6.285714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "grok43_r|dismissal",
+     "grok43_r|education",
+     "grok43_r|insurance",
+     "grok43_r|seniority",
+     "grok43_r|suitability",
+     "grok43_r|thresholds",
+     "grok43_r|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gemini_r": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.285714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gemini_r|dismissal",
+     "gemini_r|education",
+     "gemini_r|insurance",
+     "gemini_r|seniority",
+     "gemini_r|suitability",
+     "gemini_r|thresholds",
+     "gemini_r|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gpt6s_r": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.885714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gpt6s_r|dismissal",
+     "gpt6s_r|education",
+     "gpt6s_r|insurance",
+     "gpt6s_r|seniority",
+     "gpt6s_r|suitability",
+     "gpt6s_r|thresholds",
+     "gpt6s_r|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "gpt6l_r": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.257142857142857,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gpt6l_r|dismissal",
+     "gpt6l_r|education",
+     "gpt6l_r|insurance",
+     "gpt6l_r|seniority",
+     "gpt6l_r|suitability",
+     "gpt6l_r|thresholds",
+     "gpt6l_r|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "haiku_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.9428571428571428,
+    "digit_mean": 6.542857142857143,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "haiku_r|dismissal",
+     "haiku_r|education",
+     "haiku_r|insurance",
+     "haiku_r|seniority",
+     "haiku_r|suitability",
+     "haiku_r|thresholds",
+     "haiku_r|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "haiku55_ah": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 6.857142857142858,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "haiku55_ah|dismissal",
+     "haiku55_ah|education",
+     "haiku55_ah|insurance",
+     "haiku55_ah|seniority",
+     "haiku55_ah|suitability",
+     "haiku55_ah|thresholds",
+     "haiku55_ah|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "opus55_ad": {
+    "cells": 7,
+    "yes_rate_mean": 1.0,
+    "digit_mean": 7.0,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "opus55_ad|dismissal",
+     "opus55_ad|education",
+     "opus55_ad|insurance",
+     "opus55_ad|seniority",
+     "opus55_ad|suitability",
+     "opus55_ad|thresholds",
+     "opus55_ad|vulnerable"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "kimi": {
+    "cells": 7,
+    "yes_rate_mean": 0.7285714285714285,
+    "digit_mean": 8.385714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "kimi|education",
+     "kimi|seniority",
+     "kimi|suitability",
+     "kimi|thresholds",
+     "kimi|vulnerable"
+    ],
+    "yes_by_majority_n": 5
+   }
+  },
+  "mirror": {
+   "claude": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 1.5,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "gpt6s_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "grok43_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.15714285714285714,
+    "digit_mean": 0.7714285714285715,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "grok43_s|insurance"
+    ],
+    "yes_by_majority_n": 1
+   },
+   "gpt4o": {
+    "cells": 7,
+    "yes_rate_mean": 0.07142857142857142,
+    "digit_mean": 0.14285714285714285,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "haiku_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 1.3428571428571427,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "llama70b": {
+    "cells": 7,
+    "yes_rate_mean": 0.07142857142857142,
+    "digit_mean": 0.8285714285714286,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "qwen80b": {
+    "cells": 7,
+    "yes_rate_mean": 0.14285714285714285,
+    "digit_mean": 0.7428571428571429,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "qwen80b|suitability"
+    ],
+    "yes_by_majority_n": 1
+   },
+   "gpt6l_s": {
+    "cells": 7,
+    "yes_rate_mean": 0.014285714285714287,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "mistral24b": {
+    "cells": 7,
+    "yes_rate_mean": 0.27142857142857146,
+    "digit_mean": 4.085714285714285,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "mistral24b|insurance",
+     "mistral24b|suitability"
+    ],
+    "yes_by_majority_n": 2
+   },
+   "gemma27b": {
+    "cells": 7,
+    "yes_rate_mean": 0.42857142857142855,
+    "digit_mean": 5.8428571428571425,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "gemma27b|dismissal",
+     "gemma27b|suitability",
+     "gemma27b|vulnerable"
+    ],
+    "yes_by_majority_n": 3
+   },
+   "sonnet55_off": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0.014285714285714287,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "haiku55_off": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 1.5,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "grok43_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "gemini_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "gpt6s_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "gpt6l_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "haiku_r": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 1.1142857142857143,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "haiku55_ah": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   },
+   "opus55_ad": {
+    "cells": 7,
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0,
+    "digit_cells": 7,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   }
+  }
+ },
+ "by_group": {
+  "original": {
+   "NoReasoning": {
+    "yes_rate_mean": 0.9714285714285714,
+    "digit_mean": 7.154761904761905,
+    "cells": 84,
+    "digit_cells": 84,
+    "yes_by_majority": [
+     "claude|dismissal",
+     "claude|education",
+     "claude|insurance",
+     "claude|seniority",
+     "claude|suitability",
+     "claude|thresholds",
+     "claude|vulnerable",
+     "gemma27b|dismissal",
+     "gemma27b|education",
+     "gemma27b|insurance",
+     "gemma27b|seniority",
+     "gemma27b|suitability",
+     "gemma27b|thresholds",
+     "gemma27b|vulnerable",
+     "gpt4o|dismissal",
+     "gpt4o|education",
+     "gpt4o|insurance",
+     "gpt4o|seniority",
+     "gpt4o|suitability",
+     "gpt4o|thresholds",
+     "gpt4o|vulnerable",
+     "gpt6l_s|education",
+     "gpt6l_s|seniority",
+     "gpt6l_s|suitability",
+     "gpt6l_s|thresholds",
+     "gpt6l_s|vulnerable",
+     "gpt6s_s|dismissal",
+     "gpt6s_s|education",
+     "gpt6s_s|insurance",
+     "gpt6s_s|seniority",
+     "gpt6s_s|suitability",
+     "gpt6s_s|thresholds",
+     "gpt6s_s|vulnerable",
+     "grok43_s|dismissal",
+     "grok43_s|education",
+     "grok43_s|insurance",
+     "grok43_s|seniority",
+     "grok43_s|suitability",
+     "grok43_s|thresholds",
+     "grok43_s|vulnerable",
+     "haiku55_off|dismissal",
+     "haiku55_off|education",
+     "haiku55_off|insurance",
+     "haiku55_off|seniority",
+     "haiku55_off|suitability",
+     "haiku55_off|thresholds",
+     "haiku55_off|vulnerable",
+     "haiku_s|dismissal",
+     "haiku_s|education",
+     "haiku_s|insurance",
+     "haiku_s|seniority",
+     "haiku_s|suitability",
+     "haiku_s|thresholds",
+     "haiku_s|vulnerable",
+     "llama70b|dismissal",
+     "llama70b|education",
+     "llama70b|insurance",
+     "llama70b|seniority",
+     "llama70b|suitability",
+     "llama70b|thresholds",
+     "llama70b|vulnerable",
+     "mistral24b|dismissal",
+     "mistral24b|education",
+     "mistral24b|insurance",
+     "mistral24b|seniority",
+     "mistral24b|suitability",
+     "mistral24b|thresholds",
+     "mistral24b|vulnerable",
+     "qwen80b|dismissal",
+     "qwen80b|education",
+     "qwen80b|insurance",
+     "qwen80b|seniority",
+     "qwen80b|thresholds",
+     "qwen80b|vulnerable",
+     "sonnet55_off|dismissal",
+     "sonnet55_off|education",
+     "sonnet55_off|insurance",
+     "sonnet55_off|seniority",
+     "sonnet55_off|suitability",
+     "sonnet55_off|thresholds",
+     "sonnet55_off|vulnerable"
+    ],
+    "yes_by_majority_n": 81
+   },
+   "Reasoning": {
+    "yes_rate_mean": 0.9877551020408163,
+    "digit_mean": 7.016326530612245,
+    "cells": 49,
+    "digit_cells": 49,
+    "yes_by_majority": [
+     "gemini_r|dismissal",
+     "gemini_r|education",
+     "gemini_r|insurance",
+     "gemini_r|seniority",
+     "gemini_r|suitability",
+     "gemini_r|thresholds",
+     "gemini_r|vulnerable",
+     "gpt6l_r|dismissal",
+     "gpt6l_r|education",
+     "gpt6l_r|insurance",
+     "gpt6l_r|seniority",
+     "gpt6l_r|suitability",
+     "gpt6l_r|thresholds",
+     "gpt6l_r|vulnerable",
+     "gpt6s_r|dismissal",
+     "gpt6s_r|education",
+     "gpt6s_r|insurance",
+     "gpt6s_r|seniority",
+     "gpt6s_r|suitability",
+     "gpt6s_r|thresholds",
+     "gpt6s_r|vulnerable",
+     "grok43_r|dismissal",
+     "grok43_r|education",
+     "grok43_r|insurance",
+     "grok43_r|seniority",
+     "grok43_r|suitability",
+     "grok43_r|thresholds",
+     "grok43_r|vulnerable",
+     "haiku55_ah|dismissal",
+     "haiku55_ah|education",
+     "haiku55_ah|insurance",
+     "haiku55_ah|seniority",
+     "haiku55_ah|suitability",
+     "haiku55_ah|thresholds",
+     "haiku55_ah|vulnerable",
+     "haiku_r|dismissal",
+     "haiku_r|education",
+     "haiku_r|insurance",
+     "haiku_r|seniority",
+     "haiku_r|suitability",
+     "haiku_r|thresholds",
+     "haiku_r|vulnerable",
+     "opus55_ad|dismissal",
+     "opus55_ad|education",
+     "opus55_ad|insurance",
+     "opus55_ad|seniority",
+     "opus55_ad|suitability",
+     "opus55_ad|thresholds",
+     "opus55_ad|vulnerable"
+    ],
+    "yes_by_majority_n": 49
+   },
+   "Kimi": {
+    "yes_rate_mean": 0.7285714285714285,
+    "digit_mean": 8.385714285714286,
+    "cells": 7,
+    "digit_cells": 7,
+    "yes_by_majority": [
+     "kimi|education",
+     "kimi|seniority",
+     "kimi|suitability",
+     "kimi|thresholds",
+     "kimi|vulnerable"
+    ],
+    "yes_by_majority_n": 5
+   }
+  },
+  "mirror": {
+   "NoReasoning": {
+    "yes_rate_mean": 0.09642857142857143,
+    "digit_mean": 1.3976190476190475,
+    "cells": 84,
+    "digit_cells": 84,
+    "yes_by_majority": [
+     "gemma27b|dismissal",
+     "gemma27b|suitability",
+     "gemma27b|vulnerable",
+     "grok43_s|insurance",
+     "mistral24b|insurance",
+     "mistral24b|suitability",
+     "qwen80b|suitability"
+    ],
+    "yes_by_majority_n": 7
+   },
+   "Reasoning": {
+    "yes_rate_mean": 0.0,
+    "digit_mean": 0.15918367346938775,
+    "cells": 49,
+    "digit_cells": 49,
+    "yes_by_majority": [],
+    "yes_by_majority_n": 0
+   }
+  }
+ },
+ "spent_usd": {
+  "claude": 0.030060000000000014,
+  "gpt6s_s": 0.02664,
+  "grok43_s": 0.0179171,
+  "gpt4o": 0.027000000000000003,
+  "haiku_s": 0.013225,
+  "llama70b": 0.007709179999999999,
+  "qwen80b": 0.001332,
+  "gpt6l_s": 0.001332,
+  "mistral24b": 0.0006155800000000001,
+  "gemma27b": 0.0007810199999999998,
+  "sonnet55_off": 0.03044999999999999,
+  "haiku55_off": 0.0015169999999999997,
+  "grok43_r": 0.08913969999999999,
+  "gemini_r": 0.07326375,
+  "gpt6s_r": 0.04252,
+  "gpt6l_r": 0.0038954999999999992,
+  "haiku_r": 0.11836,
+  "haiku55_ah": 0.027112999999999998,
+  "opus55_ad": 0.14772,
+  "kimi": 0.0
+ },
+ "calls": {
+  "claude": 140,
+  "gpt6s_s": 140,
+  "grok43_s": 140,
+  "gpt4o": 140,
+  "haiku_s": 140,
+  "llama70b": 140,
+  "qwen80b": 140,
+  "gpt6l_s": 140,
+  "mistral24b": 140,
+  "gemma27b": 140,
+  "sonnet55_off": 140,
+  "haiku55_off": 140,
+  "grok43_r": 70,
+  "gemini_r": 70,
+  "gpt6s_r": 70,
+  "gpt6l_r": 70,
+  "haiku_r": 70,
+  "haiku55_ah": 70,
+  "opus55_ad": 70,
+  "kimi": 0
+ },
+ "served": {
+  "claude": [
+   "Anthropic"
+  ],
+  "gpt6s_s": [
+   "OpenAI"
+  ],
+  "grok43_s": [
+   "xAI"
+  ],
+  "gpt4o": [
+   "OpenAI"
+  ],
+  "haiku_s": [
+   "Anthropic"
+  ],
+  "llama70b": [
+   "CoreWeave"
+  ],
+  "qwen80b": [
+   "Parasail"
+  ],
+  "gpt6l_s": [
+   "OpenAI"
+  ],
+  "mistral24b": [
+   "Parasail"
+  ],
+  "gemma27b": [
+   "Parasail"
+  ],
+  "sonnet55_off": [
+   "Anthropic API (direct)"
+  ],
+  "haiku55_off": [
+   "Anthropic API (direct)"
+  ],
+  "grok43_r": [
+   "xAI"
+  ],
+  "gemini_r": [
+   "Google"
+  ],
+  "gpt6s_r": [
+   "OpenAI"
+  ],
+  "gpt6l_r": [
+   "OpenAI"
+  ],
+  "haiku_r": [
+   "Anthropic API (direct)"
+  ],
+  "haiku55_ah": [
+   "Anthropic API (direct)"
+  ],
+  "opus55_ad": [
+   "Anthropic API (direct)"
+  ],
+  "kimi": null
+ }
+}

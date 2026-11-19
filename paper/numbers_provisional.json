@@ -1,0 +1,196 @@
+{
+ "ProvBareAloneNoReasoningAllSameRun": {
+  "den": 20,
+  "kind": "str",
+  "num": 1,
+  "printed": "1 of 20",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].alone_bare.correct",
+  "value": "1 of 20"
+ },
+ "ProvBareAloneNoReasoningFixedRuleSameRun": {
+  "den": 4,
+  "kind": "str",
+  "num": 0,
+  "printed": "0 of 4",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b'] and domain in ['insurance', 'thresholds']].alone_bare.correct",
+  "value": "0 of 4"
+ },
+ "ProvBareAloneNoReasoningJudgementSameRun": {
+  "den": 16,
+  "kind": "str",
+  "num": 1,
+  "printed": "1 of 16",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b'] and domain not in ['insurance', 'thresholds']].alone_bare.correct",
+  "value": "1 of 16"
+ },
+ "ProvBareAloneReasoningAllSameRun": {
+  "den": 10,
+  "kind": "str",
+  "num": 3,
+  "printed": "3 of 10",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].alone_bare.correct",
+  "value": "3 of 10"
+ },
+ "ProvBareAloneReasoningFixedRuleSameRun": {
+  "den": 2,
+  "kind": "str",
+  "num": 2,
+  "printed": "2 of 2",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r'] and domain in ['insurance', 'thresholds']].alone_bare.correct",
+  "value": "2 of 2"
+ },
+ "ProvBareAloneReasoningJudgementSameRun": {
+  "den": 8,
+  "kind": "str",
+  "num": 1,
+  "printed": "1 of 8",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r'] and domain not in ['insurance', 'thresholds']].alone_bare.correct",
+  "value": "1 of 8"
+ },
+ "ProvBareAloneReasoningSameRun": {
+  "den": 10,
+  "kind": "pct",
+  "num": 3,
+  "printed": "30\\%",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].alone_bare.correct",
+  "value": 0.3
+ },
+ "ProvBareAloneSameRun": {
+  "den": 20,
+  "kind": "pct",
+  "num": 1,
+  "printed": "5\\%",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].alone_bare.correct",
+  "value": 0.05
+ },
+ "ProvExampleALetThroughNoReasoning": {
+  "den": 20,
+  "kind": "str",
+  "num": 1,
+  "printed": "1 of 20",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].out_A.let_through",
+  "value": "1 of 20"
+ },
+ "ProvExampleALetThroughReasoning": {
+  "den": 10,
+  "kind": "str",
+  "num": 1,
+  "printed": "1 of 10",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].out_A.let_through",
+  "value": "1 of 10"
+ },
+ "ProvExampleAloneNoReasoning": {
+  "den": 20,
+  "kind": "pct",
+  "num": 12,
+  "printed": "60\\%",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].alone_B.correct",
+  "value": 0.6
+ },
+ "ProvExampleAloneNoReasoningAll": {
+  "den": 20,
+  "kind": "str",
+  "num": 12,
+  "printed": "12 of 20",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].alone_B.correct",
+  "value": "12 of 20"
+ },
+ "ProvExampleAloneNoReasoningFixedRule": {
+  "den": 4,
+  "kind": "str",
+  "num": 4,
+  "printed": "4 of 4",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b'] and domain in ['insurance', 'thresholds']].alone_B.correct",
+  "value": "4 of 4"
+ },
+ "ProvExampleAloneNoReasoningJudgement": {
+  "den": 16,
+  "kind": "str",
+  "num": 8,
+  "printed": "8 of 16",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b'] and domain not in ['insurance', 'thresholds']].alone_B.correct",
+  "value": "8 of 16"
+ },
+ "ProvExampleAloneReasoning": {
+  "den": 10,
+  "kind": "pct",
+  "num": 4,
+  "printed": "40\\%",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].alone_B.correct",
+  "value": 0.4
+ },
+ "ProvExampleAloneReasoningAll": {
+  "den": 10,
+  "kind": "str",
+  "num": 4,
+  "printed": "4 of 10",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].alone_B.correct",
+  "value": "4 of 10"
+ },
+ "ProvExampleAloneReasoningFixedRule": {
+  "den": 2,
+  "kind": "str",
+  "num": 2,
+  "printed": "2 of 2",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r'] and domain in ['insurance', 'thresholds']].alone_B.correct",
+  "value": "2 of 2"
+ },
+ "ProvExampleAloneReasoningJudgement": {
+  "den": 8,
+  "kind": "str",
+  "num": 2,
+  "printed": "2 of 8",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r'] and domain not in ['insurance', 'thresholds']].alone_B.correct",
+  "value": "2 of 8"
+ },
+ "ProvExampleLetThroughNoReasoning": {
+  "den": 20,
+  "kind": "pct",
+  "num": 0,
+  "printed": "0\\%",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].out_B.let_through",
+  "value": 0.0
+ },
+ "ProvExampleLetThroughReasoning": {
+  "den": 10,
+  "kind": "pct",
+  "num": 0,
+  "printed": "0\\%",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].out_B.let_through",
+  "value": 0.0
+ },
+ "ProvExampleStillRejectedNoReasoning": {
+  "den": 12,
+  "kind": "str",
+  "num": 12,
+  "printed": "12 of 12",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b'] and alone_B.correct].not out_B.let_through",
+  "value": "12 of 12"
+ },
+ "ProvExampleStillRejectedReasoning": {
+  "den": 4,
+  "kind": "str",
+  "num": 4,
+  "printed": "4 of 4",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r'] and alone_B.correct].not out_B.let_through",
+  "value": "4 of 4"
+ },
+ "ProvRuleLetThroughReasoningSameRun": {
+  "den": 10,
+  "kind": "pct",
+  "num": 5,
+  "printed": "50\\%",
+  "source": "results/run262_result.json#rows[arm in ['gpt6s_r', 'haiku_r']].out_rule.let_through",
+  "value": 0.5
+ },
+ "ProvRuleLetThroughSameRun": {
+  "den": 20,
+  "kind": "pct",
+  "num": 11,
+  "printed": "55\\%",
+  "source": "results/run262_result.json#rows[arm in ['claude', 'gpt6s_s', 'qwen80b', 'llama70b']].out_rule.let_through",
+  "value": 0.55
+ },
+ "_sha256": "92c82d30f3edf12b6673b64d2dd60f71364d5b6829d8d677f4413a7256ae492d",
+ "_source": "results/run262_result.json"
+}

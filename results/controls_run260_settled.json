@@ -1,0 +1,45 @@
+{
+ "definition": "a cell is settled when both days' yes-rates are at most 0.1, or both at least 0.9; a settled cell has no room to flip. Descriptive, added after run 260 was read.",
+ "run260": {
+  "cells": 198,
+  "unsettled": 28,
+  "flips_among_unsettled": 1,
+  "unsettled_by_item": {
+   "N1": 4,
+   "N2": 3,
+   "N3": 4,
+   "N4": 3,
+   "N5": 4,
+   "N6": 4,
+   "N7": 1,
+   "N8": 0,
+   "N9": 2,
+   "N10": 1,
+   "N11": 0,
+   "N12": 2,
+   "N13": 0,
+   "N14": 0,
+   "N15": 0,
+   "N16": 0,
+   "N17": 0,
+   "N18": 0
+  }
+ },
+ "run259": {
+  "B": {
+   "cells": 66,
+   "unsettled": 9,
+   "flips_among_unsettled": 4
+  },
+  "C": {
+   "cells": 66,
+   "unsettled": 8,
+   "flips_among_unsettled": 0
+  },
+  "D": {
+   "cells": 66,
+   "unsettled": 10,
+   "flips_among_unsettled": 1
+  }
+ }
+}

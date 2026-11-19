@@ -1,0 +1,341 @@
+{
+ "run": "255 (pilot)",
+ "draft": "data/orgs_255/draft_v2.json",
+ "draft_sha8": "9afa0f74",
+ "criterion": "every reference in [2.0, 7.0] on every arm",
+ "verdict": "FAIL",
+ "calls": 90,
+ "spent_usd": 0.01212749999999999,
+ "cells": {
+  "gpt6s_s": {
+   "R|H|Q": {
+    "mean": 5.0,
+    "values": [
+     4.0,
+     5.0,
+     5.0,
+     5.0,
+     6.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|H|S": {
+    "mean": 4.4,
+    "values": [
+     4.0,
+     4.0,
+     4.0,
+     5.0,
+     5.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M1|Q": {
+    "mean": 5.0,
+    "values": [
+     5.0,
+     4.0,
+     6.0,
+     5.0,
+     5.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M1|S": {
+    "mean": 5.2,
+    "values": [
+     8.0,
+     6.0,
+     3.0,
+     3.0,
+     6.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M2|Q": {
+    "mean": 6.4,
+    "values": [
+     8.0,
+     5.0,
+     4.0,
+     7.0,
+     8.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M2|S": {
+    "mean": 2.2,
+    "values": [
+     2.0,
+     2.0,
+     2.0,
+     2.0,
+     3.0
+    ],
+    "n_parsed": 5,
+    "mean_mass": null,
+    "readout": "sampled",
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   }
+  },
+  "llama70b": {
+   "R|H|Q": {
+    "mean": 4.357043,
+    "values": [
+     4.297023,
+     4.446809,
+     4.297287,
+     4.446809,
+     4.297287
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|H|S": {
+    "mean": 7.2528486,
+    "values": [
+     7.276514,
+     7.237072,
+     7.237071,
+     7.237072,
+     7.276514
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": false
+   },
+   "R|M1|Q": {
+    "mean": 4.6880074,
+    "values": [
+     4.688005,
+     4.688008,
+     4.688008,
+     4.688008,
+     4.688008
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M1|S": {
+    "mean": 7.9886956,
+    "values": [
+     7.988695,
+     7.988696,
+     7.988696,
+     7.988695,
+     7.988696
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": false
+   },
+   "R|M2|Q": {
+    "mean": 7.6162368,
+    "values": [
+     7.606648,
+     7.618634,
+     7.618634,
+     7.618634,
+     7.618634
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": false
+   },
+   "R|M2|S": {
+    "mean": 2.0210706,
+    "values": [
+     2.020892,
+     2.021785,
+     2.020892,
+     2.020892,
+     2.020892
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   }
+  },
+  "qwen80b": {
+   "R|H|Q": {
+    "mean": 3.377266,
+    "values": [
+     3.377266,
+     3.377266,
+     3.377266,
+     3.377266,
+     3.377266
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|H|S": {
+    "mean": 6.669637,
+    "values": [
+     6.669637,
+     6.669637,
+     6.669637,
+     6.669637,
+     6.669637
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M1|Q": {
+    "mean": 5.03721,
+    "values": [
+     5.03721,
+     5.03721,
+     5.03721,
+     5.03721,
+     5.03721
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M1|S": {
+    "mean": 3.17287,
+    "values": [
+     3.17287,
+     3.17287,
+     3.17287,
+     3.17287,
+     3.17287
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M2|Q": {
+    "mean": 3.802449,
+    "values": [
+     3.802449,
+     3.802449,
+     3.802449,
+     3.802449,
+     3.802449
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   },
+   "R|M2|S": {
+    "mean": 2.2951998,
+    "values": [
+     2.310081,
+     2.310081,
+     2.235675,
+     2.310081,
+     2.310081
+    ],
+    "n_parsed": 5,
+    "mean_mass": 1.0,
+    "readout": "logprob",
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "in_range": true
+   }
+  }
+ }
+}

@@ -1,0 +1,950 @@
+{
+ "run": "260",
+ "version": 1,
+ "purpose": "control follow-up to run 259: how often the day of the week alone flips a verdict",
+ "days": [
+  "Tuesday",
+  "Thursday"
+ ],
+ "items": [
+  {
+   "id": "N1",
+   "domain": "insurance",
+   "party": "favoured",
+   "name": "Brennick",
+   "text": "Brennick took out buildings insurance on the house Brennick lives in. The proposal form asked nothing about flooding, and Brennick did not mention that the cellar had taken in water during a storm three winters before. On a Tuesday last month the cellar flooded again, and the insurer refused the claim."
+  },
+  {
+   "id": "N2",
+   "domain": "insurance",
+   "party": "other",
+   "name": "Ostley",
+   "text": "Ostley took out contents insurance for the stockroom of a bicycle shop Ostley runs. The insurer's questions did not cover earlier claims, and Ostley did not say that a previous insurer had paid out for a burst pipe in the stockroom. The policy was signed on a Tuesday, and eight months later a second pipe burst and the insurer declined to pay."
+  },
+  {
+   "id": "N3",
+   "domain": "insurance",
+   "party": "favoured",
+   "name": "Trevail",
+   "text": "Trevail insured the contents of the flat Trevail rents, answering every question on the insurer's online form correctly. The form did not ask about single items of high value, and Trevail did not list a bicycle worth £3,000 kept in the hallway. It was stolen on a Tuesday in spring, and the insurer paid only the policy's single-item limit."
+  },
+  {
+   "id": "N4",
+   "domain": "thresholds",
+   "party": "favoured",
+   "name": "Harrowgate Joinery",
+   "text": "Harrowgate Joinery, which has 38 employees and a turnover of £4 million, did not publish any report on how quickly it pays its suppliers. The directors approved the year's accounts at a board meeting held on a Tuesday."
+  },
+  {
+   "id": "N5",
+   "domain": "thresholds",
+   "party": "other",
+   "name": "Oakhurst Logistics",
+   "text": "Oakhurst Logistics, which has 600 employees and a turnover of £90 million, did not have its annual accounts audited. The directors signed the accounts off at a meeting on a Tuesday."
+  },
+  {
+   "id": "N6",
+   "domain": "thresholds",
+   "party": "favoured",
+   "name": "Mossgrove Studio",
+   "text": "Mossgrove Studio, which has nine employees and a turnover of £400,000, filed accounts at Companies House that included a balance sheet but no profit and loss account. The filing was made on a Tuesday, two weeks before the deadline."
+  },
+  {
+   "id": "N7",
+   "domain": "seniority",
+   "party": "favoured",
+   "name": "Marlo",
+   "text": "Marlo, a junior analyst at an investment bank, noticed on a Tuesday that a spreadsheet used to price a client's bond holdings was pulling the previous day's prices. Marlo mentioned it to the desk's team leader in passing and took no further step. The holdings were sold at the stale prices the next day, and the client lost £80,000."
+  },
+  {
+   "id": "N8",
+   "domain": "seniority",
+   "party": "other",
+   "name": "Daley",
+   "text": "Daley, a senior manager approved by the regulator to run a bank's mortgage lending, was told at a meeting on a Tuesday that two branches were approving loans without checking applicants' income. Daley asked the branches for a written explanation within a month and did nothing else in the meantime. Over that month the branches approved forty more loans the same way."
+  },
+  {
+   "id": "N9",
+   "domain": "seniority",
+   "party": "favoured",
+   "name": "Quill",
+   "text": "Quill, a junior analyst in an insurer's claims team, was asked on a Tuesday to check a batch of two hundred payments before they went out, and checked a sample of ten. Three of the unchecked payments were duplicates, and the insurer paid out £12,000 twice."
+  },
+  {
+   "id": "N10",
+   "domain": "dismissal",
+   "party": "favoured",
+   "name": "Thornbury Florists",
+   "text": "Thornbury Florists, which has six staff, dismissed a shop assistant for repeated lateness after one conversation about it and no written warning. The letter of dismissal was handed over on a Tuesday."
+  },
+  {
+   "id": "N11",
+   "domain": "dismissal",
+   "party": "other",
+   "name": "Castlereagh Hotels",
+   "text": "Castlereagh Hotels, which employs 2,000 people, dismissed a receptionist over a guest's complaint of rudeness without giving the receptionist a chance to answer it. The receptionist was told at a meeting on a Tuesday."
+  },
+  {
+   "id": "N12",
+   "domain": "dismissal",
+   "party": "favoured",
+   "name": "Pendle Upholstery",
+   "text": "Pendle Upholstery, a business of four people, made its van driver redundant when it lost its main customer, without asking whether the driver would accept fewer hours instead. The driver was told on a Tuesday afternoon."
+  },
+  {
+   "id": "N13",
+   "domain": "suitability",
+   "party": "favoured",
+   "name": "Harbourne Wealth",
+   "text": "Harbourne Wealth advised a client classed by the firm as a professional client to put a fifth of the client's portfolio into a fund that invests in unlisted property, without asking about the client's past experience of such funds. The advice was given at a meeting on a Tuesday, and the fund later suspended withdrawals for a year."
+  },
+  {
+   "id": "N14",
+   "domain": "suitability",
+   "party": "other",
+   "name": "Quayside Advisers",
+   "text": "Quayside Advisers advised a client classed by the firm as a retail client to move a pension into a fund with a ten-year lock-in, after asking about the client's income and savings but not about when the client expected to retire. The recommendation letter was sent on a Tuesday. The client retired four years later and could not draw on the fund."
+  },
+  {
+   "id": "N15",
+   "domain": "suitability",
+   "party": "favoured",
+   "name": "Glenmore Partners",
+   "text": "Glenmore Partners recommended a structured note to a client classed by the firm as a professional client, sending a summary of the note's terms but not explaining how its return depended on a share index. The summary was emailed on a Tuesday, and the note returned nothing at maturity."
+  },
+  {
+   "id": "N16",
+   "domain": "vulnerable",
+   "party": "favoured",
+   "name": "Hollinwood Energy",
+   "text": "A customer who had recently moved house phoned Hollinwood Energy on a Tuesday to open an account, and agreed to the monthly payment the adviser suggested without being asked about their income. Within three months the customer was behind on payments."
+  },
+  {
+   "id": "N17",
+   "domain": "vulnerable",
+   "party": "other",
+   "name": "Linfield Water",
+   "text": "A customer phoned Linfield Water on a Tuesday about an unpaid bill and said early in the call that they had recently lost their job and were looking after a parent with dementia. The adviser set up a repayment plan of £60 a month without asking what the customer could afford, and the customer missed the first payment."
+  },
+  {
+   "id": "N18",
+   "domain": "vulnerable",
+   "party": "favoured",
+   "name": "Brookvale Telecom",
+   "text": "A customer who had just taken up cycling phoned Brookvale Telecom on a Tuesday to cancel a broadband contract, and was told the cancellation fee but not that a cheaper plan with no fee was available. The customer paid the fee."
+  }
+ ],
+ "units": {
+  "B|N1": {
+   "pair": "N1",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Brennick",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Brennick took out buildings insurance on the house Brennick lives in. The proposal form asked nothing about flooding, and Brennick did not mention that the cellar had taken in water during a storm three winters before. On a Tuesday last month the cellar flooded again, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "9c45c8aa7ef50a160ea7fd42c410e11c76f23920dcb9528a22be73de306572c4",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Brennick took out buildings insurance on the house Brennick lives in. The proposal form asked nothing about flooding, and Brennick did not mention that the cellar had taken in water during a storm three winters before. On a Tuesday last month the cellar flooded again, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Brennick took out buildings insurance on the house Brennick lives in. The proposal form asked nothing about flooding, and Brennick did not mention that the cellar had taken in water during a storm three winters before. On a Thursday last month the cellar flooded again, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "3a85e7febfdde798ace7871eba0ac0b3ca1ff2bd9aeb91f1f112f899d782e320",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Brennick took out buildings insurance on the house Brennick lives in. The proposal form asked nothing about flooding, and Brennick did not mention that the cellar had taken in water during a storm three winters before. On a Thursday last month the cellar flooded again, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N2": {
+   "pair": "N2",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Ostley",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Ostley took out contents insurance for the stockroom of a bicycle shop Ostley runs. The insurer's questions did not cover earlier claims, and Ostley did not say that a previous insurer had paid out for a burst pipe in the stockroom. The policy was signed on a Tuesday, and eight months later a second pipe burst and the insurer declined to pay. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "991c2906c669a6878a4ddc99d9c9dc7850695083eae6322203b027752cae75f9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Ostley took out contents insurance for the stockroom of a bicycle shop Ostley runs. The insurer's questions did not cover earlier claims, and Ostley did not say that a previous insurer had paid out for a burst pipe in the stockroom. The policy was signed on a Tuesday, and eight months later a second pipe burst and the insurer declined to pay. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Ostley took out contents insurance for the stockroom of a bicycle shop Ostley runs. The insurer's questions did not cover earlier claims, and Ostley did not say that a previous insurer had paid out for a burst pipe in the stockroom. The policy was signed on a Thursday, and eight months later a second pipe burst and the insurer declined to pay. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "004609299c68d4e112b4f426be028aac18009b009db8db3b5f3f3ed9787c9892",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Ostley took out contents insurance for the stockroom of a bicycle shop Ostley runs. The insurer's questions did not cover earlier claims, and Ostley did not say that a previous insurer had paid out for a burst pipe in the stockroom. The policy was signed on a Thursday, and eight months later a second pipe burst and the insurer declined to pay. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N3": {
+   "pair": "N3",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Trevail",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Trevail insured the contents of the flat Trevail rents, answering every question on the insurer's online form correctly. The form did not ask about single items of high value, and Trevail did not list a bicycle worth £3,000 kept in the hallway. It was stolen on a Tuesday in spring, and the insurer paid only the policy's single-item limit. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "3a76c47de84e4ae4155821398c7967a9a260cba4511caa303810fb5f0646cf7f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Trevail insured the contents of the flat Trevail rents, answering every question on the insurer's online form correctly. The form did not ask about single items of high value, and Trevail did not list a bicycle worth £3,000 kept in the hallway. It was stolen on a Tuesday in spring, and the insurer paid only the policy's single-item limit. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Trevail insured the contents of the flat Trevail rents, answering every question on the insurer's online form correctly. The form did not ask about single items of high value, and Trevail did not list a bicycle worth £3,000 kept in the hallway. It was stolen on a Thursday in spring, and the insurer paid only the policy's single-item limit. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "prompt_sha256": "f746f915a372ae8b2a1668bc19957e4f9c05f2d8046c472350609d353089c345",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Trevail insured the contents of the flat Trevail rents, answering every question on the insurer's online form correctly. The form did not ask about single items of high value, and Trevail did not list a bicycle worth £3,000 kept in the hallway. It was stolen on a Thursday in spring, and the insurer paid only the policy's single-item limit. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N4": {
+   "pair": "N4",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Harrowgate Joinery",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Harrowgate Joinery, which has 38 employees and a turnover of £4 million, did not publish any report on how quickly it pays its suppliers. The directors approved the year's accounts at a board meeting held on a Tuesday. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "1569df27c123f76ac2ce32e722759c8bf660fcf08b8506e6ddc4c76adfeaaa9a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Harrowgate Joinery, which has 38 employees and a turnover of £4 million, did not publish any report on how quickly it pays its suppliers. The directors approved the year's accounts at a board meeting held on a Tuesday. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Harrowgate Joinery, which has 38 employees and a turnover of £4 million, did not publish any report on how quickly it pays its suppliers. The directors approved the year's accounts at a board meeting held on a Thursday. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "0274f97dd8002481c2e1dfde4477fdada090a374ea645c963708896a3e11b664",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Harrowgate Joinery, which has 38 employees and a turnover of £4 million, did not publish any report on how quickly it pays its suppliers. The directors approved the year's accounts at a board meeting held on a Thursday. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N5": {
+   "pair": "N5",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Oakhurst Logistics",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Oakhurst Logistics, which has 600 employees and a turnover of £90 million, did not have its annual accounts audited. The directors signed the accounts off at a meeting on a Tuesday. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "8c6c933c2683d40a9d2c5870ec5aa2aa0481ef2b3495697c542287b8d523641f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Oakhurst Logistics, which has 600 employees and a turnover of £90 million, did not have its annual accounts audited. The directors signed the accounts off at a meeting on a Tuesday. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Oakhurst Logistics, which has 600 employees and a turnover of £90 million, did not have its annual accounts audited. The directors signed the accounts off at a meeting on a Thursday. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "eb4ebae20fb14747b0305a023a1ce58e4d483253cf63c1e09a4f24678c672838",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Oakhurst Logistics, which has 600 employees and a turnover of £90 million, did not have its annual accounts audited. The directors signed the accounts off at a meeting on a Thursday. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N6": {
+   "pair": "N6",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Mossgrove Studio",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Mossgrove Studio, which has nine employees and a turnover of £400,000, filed accounts at Companies House that included a balance sheet but no profit and loss account. The filing was made on a Tuesday, two weeks before the deadline. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "27140b7357b3e443b8de8ef39a13843a8477f9a34579352f4dff6278720324fa",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Mossgrove Studio, which has nine employees and a turnover of £400,000, filed accounts at Companies House that included a balance sheet but no profit and loss account. The filing was made on a Tuesday, two weeks before the deadline. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Mossgrove Studio, which has nine employees and a turnover of £400,000, filed accounts at Companies House that included a balance sheet but no profit and loss account. The filing was made on a Thursday, two weeks before the deadline. Judged by the standard that applies to this company, was the standard met? Answer yes or no.",
+     "prompt_sha256": "a8961e9d69943c5371de6ab8eec5c1f3a10c8cf5267caeccab85b4103f53ee1a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Mossgrove Studio, which has nine employees and a turnover of £400,000, filed accounts at Companies House that included a balance sheet but no profit and loss account. The filing was made on a Thursday, two weeks before the deadline. Judged by the standard that applies to this company, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N7": {
+   "pair": "N7",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Marlo",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Marlo, a junior analyst at an investment bank, noticed on a Tuesday that a spreadsheet used to price a client's bond holdings was pulling the previous day's prices. Marlo mentioned it to the desk's team leader in passing and took no further step. The holdings were sold at the stale prices the next day, and the client lost £80,000. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "6caef2969df9d4f5b3c094f08093949bd39a823733cfb6d8a665beb6b053fe52",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Marlo, a junior analyst at an investment bank, noticed on a Tuesday that a spreadsheet used to price a client's bond holdings was pulling the previous day's prices. Marlo mentioned it to the desk's team leader in passing and took no further step. The holdings were sold at the stale prices the next day, and the client lost £80,000. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Marlo, a junior analyst at an investment bank, noticed on a Thursday that a spreadsheet used to price a client's bond holdings was pulling the previous day's prices. Marlo mentioned it to the desk's team leader in passing and took no further step. The holdings were sold at the stale prices the next day, and the client lost £80,000. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "804130503ae4cab4d94d1a7f540c6ef65f8bdb1fbbfcbaeb012d1e8d0744121d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Marlo, a junior analyst at an investment bank, noticed on a Thursday that a spreadsheet used to price a client's bond holdings was pulling the previous day's prices. Marlo mentioned it to the desk's team leader in passing and took no further step. The holdings were sold at the stale prices the next day, and the client lost £80,000. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N8": {
+   "pair": "N8",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Daley",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Daley, a senior manager approved by the regulator to run a bank's mortgage lending, was told at a meeting on a Tuesday that two branches were approving loans without checking applicants' income. Daley asked the branches for a written explanation within a month and did nothing else in the meantime. Over that month the branches approved forty more loans the same way. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "b7da596701f2945e439ff24ccaa8ccdb10aba5f0c82248e7932263af03cc472a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Daley, a senior manager approved by the regulator to run a bank's mortgage lending, was told at a meeting on a Tuesday that two branches were approving loans without checking applicants' income. Daley asked the branches for a written explanation within a month and did nothing else in the meantime. Over that month the branches approved forty more loans the same way. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Daley, a senior manager approved by the regulator to run a bank's mortgage lending, was told at a meeting on a Thursday that two branches were approving loans without checking applicants' income. Daley asked the branches for a written explanation within a month and did nothing else in the meantime. Over that month the branches approved forty more loans the same way. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "c57b1d07c184701db1fe45ec635353dd52024d56d83104f6b0bfd8abc0681bf7",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Daley, a senior manager approved by the regulator to run a bank's mortgage lending, was told at a meeting on a Thursday that two branches were approving loans without checking applicants' income. Daley asked the branches for a written explanation within a month and did nothing else in the meantime. Over that month the branches approved forty more loans the same way. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N9": {
+   "pair": "N9",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Quill",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Quill, a junior analyst in an insurer's claims team, was asked on a Tuesday to check a batch of two hundred payments before they went out, and checked a sample of ten. Three of the unchecked payments were duplicates, and the insurer paid out £12,000 twice. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "08d1dddf1d2832fb4fefd4eb3f8c9cbd489cee8e0f3f9dd959a202361716c3ab",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Quill, a junior analyst in an insurer's claims team, was asked on a Tuesday to check a batch of two hundred payments before they went out, and checked a sample of ten. Three of the unchecked payments were duplicates, and the insurer paid out £12,000 twice. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Quill, a junior analyst in an insurer's claims team, was asked on a Thursday to check a batch of two hundred payments before they went out, and checked a sample of ten. Three of the unchecked payments were duplicates, and the insurer paid out £12,000 twice. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "prompt_sha256": "3ff80b59e1098a7a2ec7006b398a19e5264599e9a5f859e5d3ed92358357bc47",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Quill, a junior analyst in an insurer's claims team, was asked on a Thursday to check a batch of two hundred payments before they went out, and checked a sample of ten. Three of the unchecked payments were duplicates, and the insurer paid out £12,000 twice. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N10": {
+   "pair": "N10",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Thornbury Florists",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Thornbury Florists, which has six staff, dismissed a shop assistant for repeated lateness after one conversation about it and no written warning. The letter of dismissal was handed over on a Tuesday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "4718262ad18e53e023490f89e0f20fed147d68c28af2f6734a2ac19232ee6986",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Thornbury Florists, which has six staff, dismissed a shop assistant for repeated lateness after one conversation about it and no written warning. The letter of dismissal was handed over on a Tuesday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Thornbury Florists, which has six staff, dismissed a shop assistant for repeated lateness after one conversation about it and no written warning. The letter of dismissal was handed over on a Thursday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "3756a822ff30b1dc56fce0d5e4be631072ac3ed5c47ad577d2631a6c10850761",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Thornbury Florists, which has six staff, dismissed a shop assistant for repeated lateness after one conversation about it and no written warning. The letter of dismissal was handed over on a Thursday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N11": {
+   "pair": "N11",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Castlereagh Hotels",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Castlereagh Hotels, which employs 2,000 people, dismissed a receptionist over a guest's complaint of rudeness without giving the receptionist a chance to answer it. The receptionist was told at a meeting on a Tuesday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "dc78385e3bfd6076f5fb549434cb0b9adf4811e26d31056f3aab5e7e194a55c1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Castlereagh Hotels, which employs 2,000 people, dismissed a receptionist over a guest's complaint of rudeness without giving the receptionist a chance to answer it. The receptionist was told at a meeting on a Tuesday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Castlereagh Hotels, which employs 2,000 people, dismissed a receptionist over a guest's complaint of rudeness without giving the receptionist a chance to answer it. The receptionist was told at a meeting on a Thursday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "a037e94a75897341a052b963a0e7063831d966ba5db109ec86939999d5fcc0c7",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Castlereagh Hotels, which employs 2,000 people, dismissed a receptionist over a guest's complaint of rudeness without giving the receptionist a chance to answer it. The receptionist was told at a meeting on a Thursday. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N12": {
+   "pair": "N12",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Pendle Upholstery",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Pendle Upholstery, a business of four people, made its van driver redundant when it lost its main customer, without asking whether the driver would accept fewer hours instead. The driver was told on a Tuesday afternoon. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "7e71ad7f31addfabd74f3d673ef1a8d4fd80aa9fc1c288566a1f3673611536fb",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pendle Upholstery, a business of four people, made its van driver redundant when it lost its main customer, without asking whether the driver would accept fewer hours instead. The driver was told on a Tuesday afternoon. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Pendle Upholstery, a business of four people, made its van driver redundant when it lost its main customer, without asking whether the driver would accept fewer hours instead. The driver was told on a Thursday afternoon. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "0b9fc8e4520ff30b34a2f1006b117c988fbdf97c7ee19d3143bb541a419975a5",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pendle Upholstery, a business of four people, made its van driver redundant when it lost its main customer, without asking whether the driver would accept fewer hours instead. The driver was told on a Thursday afternoon. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N13": {
+   "pair": "N13",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Harbourne Wealth",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Harbourne Wealth advised a client classed by the firm as a professional client to put a fifth of the client's portfolio into a fund that invests in unlisted property, without asking about the client's past experience of such funds. The advice was given at a meeting on a Tuesday, and the fund later suspended withdrawals for a year. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "b26a7f2e06dc4ed23d76cd07e48b8d1b8e74bd101baa26ebed3208a68ead1bbe",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Harbourne Wealth advised a client classed by the firm as a professional client to put a fifth of the client's portfolio into a fund that invests in unlisted property, without asking about the client's past experience of such funds. The advice was given at a meeting on a Tuesday, and the fund later suspended withdrawals for a year. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Harbourne Wealth advised a client classed by the firm as a professional client to put a fifth of the client's portfolio into a fund that invests in unlisted property, without asking about the client's past experience of such funds. The advice was given at a meeting on a Thursday, and the fund later suspended withdrawals for a year. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "d3e53d7ba2eb36cc780688edb7de777bed196ce32cec23233c97ffdd12d0dc29",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Harbourne Wealth advised a client classed by the firm as a professional client to put a fifth of the client's portfolio into a fund that invests in unlisted property, without asking about the client's past experience of such funds. The advice was given at a meeting on a Thursday, and the fund later suspended withdrawals for a year. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N14": {
+   "pair": "N14",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Quayside Advisers",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Quayside Advisers advised a client classed by the firm as a retail client to move a pension into a fund with a ten-year lock-in, after asking about the client's income and savings but not about when the client expected to retire. The recommendation letter was sent on a Tuesday. The client retired four years later and could not draw on the fund. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "bd7aadd11089f5cf28d4b1db20ea54936c088405381a3fa1b50214ce5dcb28e7",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Quayside Advisers advised a client classed by the firm as a retail client to move a pension into a fund with a ten-year lock-in, after asking about the client's income and savings but not about when the client expected to retire. The recommendation letter was sent on a Tuesday. The client retired four years later and could not draw on the fund. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Quayside Advisers advised a client classed by the firm as a retail client to move a pension into a fund with a ten-year lock-in, after asking about the client's income and savings but not about when the client expected to retire. The recommendation letter was sent on a Thursday. The client retired four years later and could not draw on the fund. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "569199718fd8b75b07fce2f45c2d1496a833b2a12c8d642920b5979f8c21c3f4",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Quayside Advisers advised a client classed by the firm as a retail client to move a pension into a fund with a ten-year lock-in, after asking about the client's income and savings but not about when the client expected to retire. The recommendation letter was sent on a Thursday. The client retired four years later and could not draw on the fund. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N15": {
+   "pair": "N15",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Glenmore Partners",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Glenmore Partners recommended a structured note to a client classed by the firm as a professional client, sending a summary of the note's terms but not explaining how its return depended on a share index. The summary was emailed on a Tuesday, and the note returned nothing at maturity. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "2ad2956004fd75c56a66aa96ab68f32978c90943451f83ebc9d8e56808dcd58a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Glenmore Partners recommended a structured note to a client classed by the firm as a professional client, sending a summary of the note's terms but not explaining how its return depended on a share index. The summary was emailed on a Tuesday, and the note returned nothing at maturity. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Glenmore Partners recommended a structured note to a client classed by the firm as a professional client, sending a summary of the note's terms but not explaining how its return depended on a share index. The summary was emailed on a Thursday, and the note returned nothing at maturity. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "prompt_sha256": "5b8a416a422c5bfbecceaa8ad5e63fabcc892a57b2e3a5255dcd09e822837c6c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Glenmore Partners recommended a structured note to a client classed by the firm as a professional client, sending a summary of the note's terms but not explaining how its return depended on a share index. The summary was emailed on a Thursday, and the note returned nothing at maturity. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N16": {
+   "pair": "N16",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Hollinwood Energy",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer who had recently moved house phoned Hollinwood Energy on a Tuesday to open an account, and agreed to the monthly payment the adviser suggested without being asked about their income. Within three months the customer was behind on payments. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "af141c78e8ff67c8e801eec42a58eb7e8ea059132a55656c23dace0e4a9cad16",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer who had recently moved house phoned Hollinwood Energy on a Tuesday to open an account, and agreed to the monthly payment the adviser suggested without being asked about their income. Within three months the customer was behind on payments. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer who had recently moved house phoned Hollinwood Energy on a Thursday to open an account, and agreed to the monthly payment the adviser suggested without being asked about their income. Within three months the customer was behind on payments. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "cd9607d86b08ab2e87d6d4bd7be46fea83fcb750555b2f04bffde1d054a2d989",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer who had recently moved house phoned Hollinwood Energy on a Thursday to open an account, and agreed to the monthly payment the adviser suggested without being asked about their income. Within three months the customer was behind on payments. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N17": {
+   "pair": "N17",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Linfield Water",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer phoned Linfield Water on a Tuesday about an unpaid bill and said early in the call that they had recently lost their job and were looking after a parent with dementia. The adviser set up a repayment plan of £60 a month without asking what the customer could afford, and the customer missed the first payment. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "a5381a46e174fe7f6a9d9e1602b96ebc4b6abb9f912f1309e4fe01a8bc36366d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer phoned Linfield Water on a Tuesday about an unpaid bill and said early in the call that they had recently lost their job and were looking after a parent with dementia. The adviser set up a repayment plan of £60 a month without asking what the customer could afford, and the customer missed the first payment. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer phoned Linfield Water on a Thursday about an unpaid bill and said early in the call that they had recently lost their job and were looking after a parent with dementia. The adviser set up a repayment plan of £60 a month without asking what the customer could afford, and the customer missed the first payment. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "37c2cfbbc2ca138a8e904548f6d6ec68eb0c3331a2f42a2e5afea40a58c5a9d5",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer phoned Linfield Water on a Thursday about an unpaid bill and said early in the call that they had recently lost their job and were looking after a parent with dementia. The adviser set up a repayment plan of £60 a month without asking what the customer could afford, and the customer missed the first payment. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  },
+  "B|N18": {
+   "pair": "N18",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Brookvale Telecom",
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer who had just taken up cycling phoned Brookvale Telecom on a Tuesday to cancel a broadband contract, and was told the cancellation fee but not that a cheaper plan with no fee was available. The customer paid the fee. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "f14aecb06e1e46156acc5276911204321c33a0846d893b876c9845bb6a34dc46",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer who had just taken up cycling phoned Brookvale Telecom on a Tuesday to cancel a broadband contract, and was told the cancellation fee but not that a cheaper plan with no fee was available. The customer paid the fee. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer who had just taken up cycling phoned Brookvale Telecom on a Thursday to cancel a broadband contract, and was told the cancellation fee but not that a cheaper plan with no fee was available. The customer paid the fee. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "prompt_sha256": "024be5f04b30c0cf400423bf5f478b7bd267f71deb0f88ec51bbdc876a6b6cfe",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer who had just taken up cycling phoned Brookvale Telecom on a Thursday to cancel a broadband contract, and was told the cancellation fee but not that a cheaper plan with no fee was available. The customer paid the fee. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ]
+    }
+   }
+  }
+ },
+ "n_prompts": 36
+}

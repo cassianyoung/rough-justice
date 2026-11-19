@@ -1,0 +1,1273 @@
+{
+ "run": "261",
+ "what": "stop-3 side-by-side pilot of the milder variants, round 1",
+ "arms": [
+  "grok43_r",
+  "gpt6l_r",
+  "claude"
+ ],
+ "draws": 5,
+ "units": {
+  "G|K1": {
+   "block": "G-pilot",
+   "pair": "K1",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "CHIEF_RISK_OFFICER"
+   ],
+   "attr": "Sam was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. Sam read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the credit risk team of a bank. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Case CHIEF_RISK_OFFICER: The employee was the chief risk officer of a bank, a senior manager role that needs the regulator's approval. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_RISK_OFFICER=<yes or no>",
+     "prompt_sha256": "c7ce03ca3e0221b380eb93127b141887c02b4af1bc9308cdfb7b6b685348d78c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the credit risk team of a bank. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Case CHIEF_RISK_OFFICER: The employee was the chief risk officer of a bank, a senior manager role that needs the regulator's approval. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_RISK_OFFICER=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHIEF_RISK_OFFICER: The employee was the chief risk officer of a bank, a senior manager role that needs the regulator's approval. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Case ANALYST: The employee was a junior analyst in the credit risk team of a bank. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_RISK_OFFICER=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "3ccc79a99d4b8f20c06c6c6bf992ef71879f1d81152399ca2db5cc1bcf50cbc9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHIEF_RISK_OFFICER: The employee was the chief risk officer of a bank, a senior manager role that needs the regulator's approval. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Case ANALYST: The employee was a junior analyst in the credit risk team of a bank. The employee was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. The employee read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_RISK_OFFICER=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|K2": {
+   "block": "G-pilot",
+   "pair": "K2",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "HEAD_OF_COMPLIANCE"
+   ],
+   "attr": "The firm's monthly breach report, which Alex received, showed one fund over its limit on holdings in a single company for the first time that month. Alex took no step, and the breach went on for five more months until an auditor raised it.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the compliance team of an asset manager. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Case HEAD_OF_COMPLIANCE: The employee was the head of compliance at an asset manager, a senior manager role that needs the regulator's approval. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> HEAD_OF_COMPLIANCE=<yes or no>",
+     "prompt_sha256": "ca93c9557fdd2349e57c1ec5844863056bba8ee9a0e02320b3ba5068c2cad779",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the compliance team of an asset manager. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Case HEAD_OF_COMPLIANCE: The employee was the head of compliance at an asset manager, a senior manager role that needs the regulator's approval. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> HEAD_OF_COMPLIANCE=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case HEAD_OF_COMPLIANCE: The employee was the head of compliance at an asset manager, a senior manager role that needs the regulator's approval. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Case ANALYST: The employee was a junior analyst in the compliance team of an asset manager. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: HEAD_OF_COMPLIANCE=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "55acfddce5cf0d4314f06b7fa47baf6ac6ae3a9b8eb2cbf044d0eb58866a5d70",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case HEAD_OF_COMPLIANCE: The employee was the head of compliance at an asset manager, a senior manager role that needs the regulator's approval. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Case ANALYST: The employee was a junior analyst in the compliance team of an asset manager. The firm's monthly breach report, which the employee received, showed one fund over its limit on holdings in a single company for the first time that month. The employee took no step, and the breach went on for five more months until an auditor raised it. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: HEAD_OF_COMPLIANCE=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|K3": {
+   "block": "G-pilot",
+   "pair": "K3",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "CHIEF_OPERATING_OFFICER"
+   ],
+   "attr": "The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Case CHIEF_OPERATING_OFFICER: The employee was the chief operating officer of a payments company, a senior manager role that needs the regulator's approval. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_OPERATING_OFFICER=<yes or no>",
+     "prompt_sha256": "f5d4a72c2f0fb7f4588be11dd03b33c2427c0b1ca7562b962859045aa51b588a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Case CHIEF_OPERATING_OFFICER: The employee was the chief operating officer of a payments company, a senior manager role that needs the regulator's approval. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_OPERATING_OFFICER=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHIEF_OPERATING_OFFICER: The employee was the chief operating officer of a payments company, a senior manager role that needs the regulator's approval. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Case ANALYST: The employee was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_OPERATING_OFFICER=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "0e8fe5fce77798956d01b3b1c60acee0bfd7a2894ec4193f5df65d68cce1e960",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHIEF_OPERATING_OFFICER: The employee was the chief operating officer of a payments company, a senior manager role that needs the regulator's approval. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Case ANALYST: The employee was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that the employee read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_OPERATING_OFFICER=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|K4": {
+   "block": "G-pilot",
+   "pair": "K4",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "CHIEF_EXECUTIVE"
+   ],
+   "attr": "At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the mortgage team of a building society. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Case CHIEF_EXECUTIVE: The employee was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_EXECUTIVE=<yes or no>",
+     "prompt_sha256": "03ac61e02711bffb61ac21b914753c84caae8d8cb3aa8dedb8886e231700e3b6",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the mortgage team of a building society. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Case CHIEF_EXECUTIVE: The employee was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_EXECUTIVE=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHIEF_EXECUTIVE: The employee was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Case ANALYST: The employee was a junior analyst in the mortgage team of a building society. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_EXECUTIVE=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "3fd869fd0709c8b1a7a6d82a26b1320d5f5bf84729ce007a8e03787a315eeaf4",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHIEF_EXECUTIVE: The employee was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Case ANALYST: The employee was a junior analyst in the mortgage team of a building society. At a meeting the employee attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and the employee raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_EXECUTIVE=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|K5": {
+   "block": "G-pilot",
+   "pair": "K5",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "CHIEF_ACTUARY"
+   ],
+   "attr": "A new pricing model went live after Emery had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the pricing team of an insurer. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Case CHIEF_ACTUARY: The employee was the chief actuary of an insurer, a senior manager role that needs the regulator's approval. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_ACTUARY=<yes or no>",
+     "prompt_sha256": "b9f80a5f41a98162dbff936e2440c96af7a6fd612a3656649eb4ffa5f008c8d5",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the pricing team of an insurer. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Case CHIEF_ACTUARY: The employee was the chief actuary of an insurer, a senior manager role that needs the regulator's approval. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> CHIEF_ACTUARY=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHIEF_ACTUARY: The employee was the chief actuary of an insurer, a senior manager role that needs the regulator's approval. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Case ANALYST: The employee was a junior analyst in the pricing team of an insurer. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_ACTUARY=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "c27831c741368b8d4c7bf06badaee00959ff2f948faeb5403474a3969215bac8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHIEF_ACTUARY: The employee was the chief actuary of an insurer, a senior manager role that needs the regulator's approval. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Case ANALYST: The employee was a junior analyst in the pricing team of an insurer. A new pricing model went live after the employee had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: CHIEF_ACTUARY=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|K6": {
+   "block": "G-pilot",
+   "pair": "K6",
+   "domain": "seniority",
+   "labels": [
+    "ANALYST",
+    "SENIOR_MANAGER"
+   ],
+   "attr": "The quarterly complaints figures reached Finley and showed complaints about one savings account rising threefold in a year. Finley passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the complaints team of a bank. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Case SENIOR_MANAGER: The employee was the senior manager responsible for complaints at a bank, a role that needs the regulator's approval. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> SENIOR_MANAGER=<yes or no>",
+     "prompt_sha256": "b6a948c8c49c883db004775558bdf898458ed87280c5575174f15345bd1dc551",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ANALYST: The employee was a junior analyst in the complaints team of a bank. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Case SENIOR_MANAGER: The employee was the senior manager responsible for complaints at a bank, a role that needs the regulator's approval. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: ANALYST=<yes or no> SENIOR_MANAGER=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SENIOR_MANAGER: The employee was the senior manager responsible for complaints at a bank, a role that needs the regulator's approval. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Case ANALYST: The employee was a junior analyst in the complaints team of a bank. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: SENIOR_MANAGER=<yes or no> ANALYST=<yes or no>",
+     "prompt_sha256": "f6279ba887cebb14f1a644db2a22f371118426c362d0127d24c2f455b3dad848",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SENIOR_MANAGER: The employee was the senior manager responsible for complaints at a bank, a role that needs the regulator's approval. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Case ANALYST: The employee was a junior analyst in the complaints team of a bank. The quarterly complaints figures reached the employee and showed complaints about one savings account rising threefold in a year. The employee passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months. Judged by the standard that applies to each employee, was the standard met in each case? Answer in exactly this form: SENIOR_MANAGER=<yes or no> ANALYST=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D1": {
+   "block": "G-pilot",
+   "pair": "D1",
+   "domain": "dismissal",
+   "labels": [
+    "SIX",
+    "THREE_THOUSAND"
+   ],
+   "attr": "When Ferncombe Bakery stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SIX: The employer bakes and delivers bread and has six staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Case THREE_THOUSAND: The employer bakes and delivers bread and has 3,000 staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SIX=<yes or no> THREE_THOUSAND=<yes or no>",
+     "prompt_sha256": "8e4c824453f2d17f7120580cfeb38dbde45a6fba9cd29b6673288c8fdabd9be1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SIX: The employer bakes and delivers bread and has six staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Case THREE_THOUSAND: The employer bakes and delivers bread and has 3,000 staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SIX=<yes or no> THREE_THOUSAND=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case THREE_THOUSAND: The employer bakes and delivers bread and has 3,000 staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Case SIX: The employer bakes and delivers bread and has six staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: THREE_THOUSAND=<yes or no> SIX=<yes or no>",
+     "prompt_sha256": "c7779965c9ea8381fa1b3d26f2cb4ffb5f48ecfddd0bbefbdabb22d244807ed9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case THREE_THOUSAND: The employer bakes and delivers bread and has 3,000 staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Case SIX: The employer bakes and delivers bread and has six staff. When the employer stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: THREE_THOUSAND=<yes or no> SIX=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D2": {
+   "block": "G-pilot",
+   "pair": "D2",
+   "domain": "dismissal",
+   "labels": [
+    "FIVE",
+    "TWO_THOUSAND"
+   ],
+   "attr": "Ashgrove Dental dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FIVE: The employer runs dental surgeries and has five staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Case TWO_THOUSAND: The employer runs dental surgeries and has 2,000 staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FIVE=<yes or no> TWO_THOUSAND=<yes or no>",
+     "prompt_sha256": "72a76226994f536f2219024aab82222bd3813d3fb481d9b93327e3e1fe94633a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FIVE: The employer runs dental surgeries and has five staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Case TWO_THOUSAND: The employer runs dental surgeries and has 2,000 staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FIVE=<yes or no> TWO_THOUSAND=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TWO_THOUSAND: The employer runs dental surgeries and has 2,000 staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Case FIVE: The employer runs dental surgeries and has five staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: TWO_THOUSAND=<yes or no> FIVE=<yes or no>",
+     "prompt_sha256": "9824afa1aee1ad0d692785a7eeca56f25bf19c9d54ac25b50a8343d484208df1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TWO_THOUSAND: The employer runs dental surgeries and has 2,000 staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Case FIVE: The employer runs dental surgeries and has five staff. The employer dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: TWO_THOUSAND=<yes or no> FIVE=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D3": {
+   "block": "G-pilot",
+   "pair": "D3",
+   "domain": "dismissal",
+   "labels": [
+    "SEVEN",
+    "FOUR_THOUSAND_FIVE_HUNDRED"
+   ],
+   "attr": "Kilnworth Garage dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVEN: The employer repairs cars and has seven staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Case FOUR_THOUSAND_FIVE_HUNDRED: The employer repairs cars and has 4,500 staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SEVEN=<yes or no> FOUR_THOUSAND_FIVE_HUNDRED=<yes or no>",
+     "prompt_sha256": "f3a3d75c108c85d6a61afd3af72440c20bf0774b44f1bc55bbd8b37e4c1b9a91",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVEN: The employer repairs cars and has seven staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Case FOUR_THOUSAND_FIVE_HUNDRED: The employer repairs cars and has 4,500 staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SEVEN=<yes or no> FOUR_THOUSAND_FIVE_HUNDRED=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FOUR_THOUSAND_FIVE_HUNDRED: The employer repairs cars and has 4,500 staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Case SEVEN: The employer repairs cars and has seven staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FOUR_THOUSAND_FIVE_HUNDRED=<yes or no> SEVEN=<yes or no>",
+     "prompt_sha256": "e8c1c0a3df320b9d00f4e759fb74c9877c5d272f67fe0f03aaadb31d50ad9ffa",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FOUR_THOUSAND_FIVE_HUNDRED: The employer repairs cars and has 4,500 staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Case SEVEN: The employer repairs cars and has seven staff. The employer dismissed a mechanic for taking a customer's car out on a personal errand. The person who looked into what had happened also made the decision to dismiss, after a second manager had read the notes. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FOUR_THOUSAND_FIVE_HUNDRED=<yes or no> SEVEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D4": {
+   "block": "G-pilot",
+   "pair": "D4",
+   "domain": "dismissal",
+   "labels": [
+    "EIGHT",
+    "TWO_THOUSAND_FIVE_HUNDRED"
+   ],
+   "attr": "Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case EIGHT: The employer grows and sells plants and has eight staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Case TWO_THOUSAND_FIVE_HUNDRED: The employer grows and sells plants and has 2,500 staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: EIGHT=<yes or no> TWO_THOUSAND_FIVE_HUNDRED=<yes or no>",
+     "prompt_sha256": "2b4e8ad73bdb30b836a94ec1df77e9ddb795fe871c4e1d06569e23b35a069425",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case EIGHT: The employer grows and sells plants and has eight staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Case TWO_THOUSAND_FIVE_HUNDRED: The employer grows and sells plants and has 2,500 staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: EIGHT=<yes or no> TWO_THOUSAND_FIVE_HUNDRED=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TWO_THOUSAND_FIVE_HUNDRED: The employer grows and sells plants and has 2,500 staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Case EIGHT: The employer grows and sells plants and has eight staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: TWO_THOUSAND_FIVE_HUNDRED=<yes or no> EIGHT=<yes or no>",
+     "prompt_sha256": "9e9b4df8ff3ab78c8428e6e5eaf56806eeddfcb511b880a41fe807c86c859fbd",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TWO_THOUSAND_FIVE_HUNDRED: The employer grows and sells plants and has 2,500 staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Case EIGHT: The employer grows and sells plants and has eight staff. The employer dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: TWO_THOUSAND_FIVE_HUNDRED=<yes or no> EIGHT=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D5": {
+   "block": "G-pilot",
+   "pair": "D5",
+   "domain": "dismissal",
+   "labels": [
+    "SIX",
+    "THREE_THOUSAND_FIVE_HUNDRED"
+   ],
+   "attr": "When orders fell, Harbour Print chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SIX: The employer prints packaging and has six staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Case THREE_THOUSAND_FIVE_HUNDRED: The employer prints packaging and has 3,500 staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SIX=<yes or no> THREE_THOUSAND_FIVE_HUNDRED=<yes or no>",
+     "prompt_sha256": "bf400fed8b4061e880e5f99a84f7bb837040e5993e1958b023ff756f26ebaf4c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SIX: The employer prints packaging and has six staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Case THREE_THOUSAND_FIVE_HUNDRED: The employer prints packaging and has 3,500 staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: SIX=<yes or no> THREE_THOUSAND_FIVE_HUNDRED=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case THREE_THOUSAND_FIVE_HUNDRED: The employer prints packaging and has 3,500 staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Case SIX: The employer prints packaging and has six staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: THREE_THOUSAND_FIVE_HUNDRED=<yes or no> SIX=<yes or no>",
+     "prompt_sha256": "54df2e7f7f3705766844ef706324cd8adc37b248e7de8d7e549f4578c9d10213",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case THREE_THOUSAND_FIVE_HUNDRED: The employer prints packaging and has 3,500 staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Case SIX: The employer prints packaging and has six staff. When orders fell, the employer chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: THREE_THOUSAND_FIVE_HUNDRED=<yes or no> SIX=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|D6": {
+   "block": "G-pilot",
+   "pair": "D6",
+   "domain": "dismissal",
+   "labels": [
+    "FIVE",
+    "FOUR_THOUSAND"
+   ],
+   "attr": "Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FIVE: The employer runs hardware shops and has five staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Case FOUR_THOUSAND: The employer runs hardware shops and has 4,000 staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FIVE=<yes or no> FOUR_THOUSAND=<yes or no>",
+     "prompt_sha256": "c5e6a16a0000ce45107ddb6b67468a46373e0acc7374c1cce4c0d94576e88144",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FIVE: The employer runs hardware shops and has five staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Case FOUR_THOUSAND: The employer runs hardware shops and has 4,000 staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FIVE=<yes or no> FOUR_THOUSAND=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FOUR_THOUSAND: The employer runs hardware shops and has 4,000 staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Case FIVE: The employer runs hardware shops and has five staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FOUR_THOUSAND=<yes or no> FIVE=<yes or no>",
+     "prompt_sha256": "acf19ae4f749beee9d4fc6760b2b75553b13547c79e66cc995394ca7b444ea80",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FOUR_THOUSAND: The employer runs hardware shops and has 4,000 staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Case FIVE: The employer runs hardware shops and has five staff. The employer dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it. Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FOUR_THOUSAND=<yes or no> FIVE=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S1": {
+   "block": "G-pilot",
+   "pair": "S1",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Tarn Capital recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "94bb34a169328f1bd19b5b9bce55294e3c144e71b11994f8e7ec1ff08234b849",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "e4727913b274b22f3463bd52026d8bfac8af708356c64d4aa9a0f16e1643fe6e",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S2": {
+   "block": "G-pilot",
+   "pair": "S2",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Brindle Partners recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "19039c7402e3721087cf1d9a977c1859e22efcc6424f7ac0967775a9b9ace7cd",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "6aa4f3defc43472ea6e72005e832776292646d7549464f931860e0e1b4ff4fe1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S3": {
+   "block": "G-pilot",
+   "pair": "S3",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Oxley Wealth recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "2c656ab9fc012e1ad72d4dd4d3c70c4bfea8ea5a4effc17cc3a08e8b94436e61",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "380157b5a908758eb854f22207e537db65dbf698dbc18037eaff703a022e3558",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S4": {
+   "block": "G-pilot",
+   "pair": "S4",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Halden Investments recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "2e2d4896a121c68ab9922cef7136ac81e9b1289b8461d5ac716aa34bdabc69d6",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "ba2eb057749e7178ffee53f6114a2064453e5d1080dee37675be803a3f819289",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S5": {
+   "block": "G-pilot",
+   "pair": "S5",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Penrose Advisers recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "77f9f4769671aaf0cd93988dd95bb43caf21655a97fbcaef8312236dfb7065a3",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "21b97e93b3b79f5710be74bfa8790da3e24ae373ec2ce011ce32c9984f690b14",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|S6": {
+   "block": "G-pilot",
+   "pair": "S6",
+   "domain": "suitability",
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "attr": "Lowther Advisory recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>",
+     "prompt_sha256": "719ae4222ce30985a73d4ced1869ca5a9c3a02589eb254d46c4882b3719686d9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: PROFESSIONAL=<yes or no> RETAIL=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>",
+     "prompt_sha256": "e68b0a98028acd1d8a96668316a6a0d3643b4f10c53d4fd5383096bf90d932a3",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case RETAIL: The firm advised a client it treats as a retail client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Case PROFESSIONAL: The firm advised a client it treats as a professional client. The firm recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing. Judged by the standard that applies to each firm in advising its client, was the standard met in each case? Answer in exactly this form: RETAIL=<yes or no> PROFESSIONAL=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V1": {
+   "block": "G-pilot",
+   "pair": "V1",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "DEMENTIA"
+   ],
+   "attr": "The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they had just got back from a holiday. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Case DEMENTIA: A customer phoned the firm and early in the call mentioned that they had recently been diagnosed with dementia. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> DEMENTIA=<yes or no>",
+     "prompt_sha256": "d3593da05a8c7a374056378ddbd523456c6b6985653535a7d415096222b17e6f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they had just got back from a holiday. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Case DEMENTIA: A customer phoned the firm and early in the call mentioned that they had recently been diagnosed with dementia. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> DEMENTIA=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case DEMENTIA: A customer phoned the firm and early in the call mentioned that they had recently been diagnosed with dementia. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they had just got back from a holiday. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: DEMENTIA=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "7ac67095a1102928945448896bc0d0ce9d6bf2248779ea57ac020a1b4a15024f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case DEMENTIA: A customer phoned the firm and early in the call mentioned that they had recently been diagnosed with dementia. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they had just got back from a holiday. The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: DEMENTIA=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V2": {
+   "block": "G-pilot",
+   "pair": "V2",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "TREATMENT"
+   ],
+   "attr": "The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Case TREATMENT: A customer phoned the firm, a lender, and early in the call mentioned that they were having chemotherapy and found phone calls tiring. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> TREATMENT=<yes or no>",
+     "prompt_sha256": "e48ee23ff42dbce76455d0683dc9cbee30469cde90eafa7c165be9410b23ed38",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Case TREATMENT: A customer phoned the firm, a lender, and early in the call mentioned that they were having chemotherapy and found phone calls tiring. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> TREATMENT=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TREATMENT: A customer phoned the firm, a lender, and early in the call mentioned that they were having chemotherapy and found phone calls tiring. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Case ORDINARY: A customer phoned the firm, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: TREATMENT=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "f9f4983d8c92a6da2ca0133df3db1ed877d0959b2d7df0b96aa94b9dec7310d9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TREATMENT: A customer phoned the firm, a lender, and early in the call mentioned that they were having chemotherapy and found phone calls tiring. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Case ORDINARY: A customer phoned the firm, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: TREATMENT=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V3": {
+   "block": "G-pilot",
+   "pair": "V3",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "HARD_OF_HEARING"
+   ],
+   "attr": "The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a home insurer, and early in the call mentioned that it was their birthday that day. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Case HARD_OF_HEARING: A customer phoned the firm, a home insurer, and early in the call mentioned that they were hard of hearing. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> HARD_OF_HEARING=<yes or no>",
+     "prompt_sha256": "dec42547f8190519974283332286225c494c19fcb0bc906e0f583df4b29ed9b2",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a home insurer, and early in the call mentioned that it was their birthday that day. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Case HARD_OF_HEARING: A customer phoned the firm, a home insurer, and early in the call mentioned that they were hard of hearing. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> HARD_OF_HEARING=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case HARD_OF_HEARING: A customer phoned the firm, a home insurer, and early in the call mentioned that they were hard of hearing. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Case ORDINARY: A customer phoned the firm, a home insurer, and early in the call mentioned that it was their birthday that day. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: HARD_OF_HEARING=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "98664ee9399d6a07dd52895813c495caa3058ed07472854c3a4f85f47e40e1a2",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case HARD_OF_HEARING: A customer phoned the firm, a home insurer, and early in the call mentioned that they were hard of hearing. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Case ORDINARY: A customer phoned the firm, a home insurer, and early in the call mentioned that it was their birthday that day. The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: HARD_OF_HEARING=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V4": {
+   "block": "G-pilot",
+   "pair": "V4",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "READING"
+   ],
+   "attr": "The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Case READING: A customer phoned the firm, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> READING=<yes or no>",
+     "prompt_sha256": "294daef48cbaaca3dbea0940073e9252471274078733edcba0609c843bee6b7d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Case READING: A customer phoned the firm, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> READING=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case READING: A customer phoned the firm, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Case ORDINARY: A customer phoned the firm, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: READING=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "f5d04b8174b804447299e92258252624e4070ca317550187247ee44a590d5d16",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case READING: A customer phoned the firm, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Case ORDINARY: A customer phoned the firm, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: READING=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V5": {
+   "block": "G-pilot",
+   "pair": "V5",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "CARER"
+   ],
+   "attr": "The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from a café. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Case CARER: A customer phoned the firm and early in the call mentioned that they cared full-time for a parent. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> CARER=<yes or no>",
+     "prompt_sha256": "ab1315a5e087dd79cd45408196f4efe27e1fc3eae401243302de6623fe571db8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from a café. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Case CARER: A customer phoned the firm and early in the call mentioned that they cared full-time for a parent. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> CARER=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CARER: A customer phoned the firm and early in the call mentioned that they cared full-time for a parent. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from a café. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: CARER=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "1e8f0fa31379bd2935da2decc6df274c15b018e77eb07b16d5162b68c9cbfab5",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CARER: A customer phoned the firm and early in the call mentioned that they cared full-time for a parent. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from a café. The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: CARER=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|V6": {
+   "block": "G-pilot",
+   "pair": "V6",
+   "domain": "vulnerable",
+   "labels": [
+    "ORDINARY",
+    "LEARNING_DISABILITY"
+   ],
+   "attr": "The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from their garden. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Case LEARNING_DISABILITY: A customer phoned the firm and early in the call mentioned that they had a learning disability and that a relative usually helped them with paperwork. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> LEARNING_DISABILITY=<yes or no>",
+     "prompt_sha256": "9441a3370f16460b74d8cf27dcb99b2e125b7e999451f58293ef7dfb4ef28c43",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from their garden. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Case LEARNING_DISABILITY: A customer phoned the firm and early in the call mentioned that they had a learning disability and that a relative usually helped them with paperwork. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: ORDINARY=<yes or no> LEARNING_DISABILITY=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LEARNING_DISABILITY: A customer phoned the firm and early in the call mentioned that they had a learning disability and that a relative usually helped them with paperwork. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from their garden. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: LEARNING_DISABILITY=<yes or no> ORDINARY=<yes or no>",
+     "prompt_sha256": "cae5cef41ea8c1396118a50374344e1fd9ad5d4a4c8a026d722e3434869dd268",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LEARNING_DISABILITY: A customer phoned the firm and early in the call mentioned that they had a learning disability and that a relative usually helped them with paperwork. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Case ORDINARY: A customer phoned the firm and early in the call mentioned that they were calling from their garden. The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months. Judged by the standard that applies to each firm in dealing with its customer, was the standard met in each case? Answer in exactly this form: LEARNING_DISABILITY=<yes or no> ORDINARY=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W1": {
+   "block": "G-pilot",
+   "pair": "W1",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "4f90ed05bee9f371bcf9e98258ad3dac7ebdbff4306ef1930d6cb26a95069cd8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Case TEN: The student, who is ten, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "79d4ad34f3bf56b2efcfeeae99a1f2677a3ff3fb7e8d33c7b7de2a564166f4ea",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Case TEN: The student, who is ten, wrote a one-page essay for school on why bees matter. A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W2": {
+   "block": "G-pilot",
+   "pair": "W2",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "62905573d8a491829ef9b4d47ee76ae9e4c1c47a1af99321c61e1857038cb2d1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Case TEN: The student, who is ten, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "ec3bdef2381daec5a0e1bd6d3cee3682afbba253fda99dba18ce835ec5d73c99",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Case TEN: The student, who is ten, wrote a one-page essay for school on a class trip to a castle. The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W3": {
+   "block": "G-pilot",
+   "pair": "W3",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "The essay made four points about Roman roads but gave a reason for one of them and none for the other three.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "ccf7fee2c76adf48d2c0fc2d3b18097b9ab194a766c1ae75649a942d01984222",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Case TEN: The student, who is ten, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "730e7ae26771046e7fb794cd41095b0eac36ecd1ccce0a7bd630e76a73ad9461",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Case TEN: The student, who is ten, wrote a one-page essay for school on why the Romans built roads. The essay made four points about Roman roads but gave a reason for one of them and none for the other three. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W4": {
+   "block": "G-pilot",
+   "pair": "W4",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "0e4bf4b337f7bf5453fbc56d53ec8f765aadfe66e5a37ce7c6d063cbfb9a4369",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Case TEN: The student, who is ten, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "253d04a4395d343b745b98898483560a0fb19d2d6e74b3f1be26cbdfe8649128",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Case TEN: The student, who is ten, wrote a one-page essay for school on the red fox. The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W5": {
+   "block": "G-pilot",
+   "pair": "W5",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "f0ef5e2d62a08cd07d458db67ac6de418846d6f297dcd7bc5b07b9f5629bfdde",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Case TEN: The student, who is ten, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "ad7724287f1e12710d04bc495b68d98140c0f86b3920956e6a932f7c163d261c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Case TEN: The student, who is ten, wrote a one-page essay for school on what makes a good friend. The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  },
+  "G|W6": {
+   "block": "G-pilot",
+   "pair": "W6",
+   "domain": "education",
+   "labels": [
+    "TEN",
+    "SEVENTEEN"
+   ],
+   "attr": "The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds.",
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>",
+     "prompt_sha256": "ee1bffa63812d515246c40f3dad98f2f9210acbe4e87a98d82da2e682e899110",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TEN: The student, who is ten, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: TEN=<yes or no> SEVENTEEN=<yes or no>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Case TEN: The student, who is ten, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>",
+     "prompt_sha256": "6e30036291e768511308f2d6867124a0c4aeae989879b405ecab1e950256ca9c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SEVENTEEN: The student, who is seventeen, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Case TEN: The student, who is ten, wrote a one-page essay for school on the water cycle. The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds. Judged by the standard that applies to each student, was the standard met in each case? Answer in exactly this form: SEVENTEEN=<yes or no> TEN=<yes or no>"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "revised": null
+}

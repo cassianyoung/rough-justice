@@ -1,0 +1,1116 @@
+\providecommand{\buildtarget}{review}
+\providecommand{\buildfinal}{no}
+\def\buildtargetarxiv{arxiv}
+\def\buildfinalyes{yes}
+\newif\ifarxiv
+\ifx\buildtarget\buildtargetarxiv\arxivtrue\fi
+\providecommand{\buildpart}{main}
+\def\buildpartsupp{supp}
+\newif\ifsupp
+\ifx\buildpart\buildpartsupp\supptrue\fi
+\documentclass[11pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage{xr-hyper}
+\usepackage{letltxmacro}
+\ifarxiv\usepackage[preprint]{acl}\setlength\titlebox{3.4cm}\else\usepackage[review]{acl}\fi
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}p{#1}}
+\definecolor{bandgreen}{HTML}{D5ECD1}
+\definecolor{bandamber}{HTML}{F5D187}
+\definecolor{bandred}{HTML}{EBB6B6}
+\newdimen\rjbandv \newdimen\rjbanda \newdimen\rjbandg
+\def\rjpct#1\%#2\relax{#1}
+\newcommand{\rjbandcolour}[1]{\edef\rjband{#1}\edef\rjbandA{\BandAmberFrom}\edef\rjbandG{\BandGreenFrom}%
+  \rjbandv=\expandafter\rjpct\rjband\relax pt\relax
+  \rjbanda=\expandafter\rjpct\rjbandA\relax pt\relax
+  \rjbandg=\expandafter\rjpct\rjbandG\relax pt\relax
+  \ifdim\rjbandv<\rjbanda\def\rjbandc{bandred}\else\ifdim\rjbandv<\rjbandg\def\rjbandc{bandamber}%
+  \else\def\rjbandc{bandgreen}\fi\fi\expandafter\cellcolor\expandafter{\rjbandc}}
+\newcommand{\bandcell}[1]{\rjbandcolour{#1}#1}
+\newcommand{\bandcellnote}[2]{\rjbandcolour{#1}\begin{tabular}[t]{@{}c@{}}#1\\{\scriptsize(#2)}\end{tabular}}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{†}{\textsuperscript{\dag}}
+
+\input{numbers}
+\input{numbers_exploratory}
+\input{numbers_provisional}
+\newcommand{\model}[1]{#1}
+\newcommand{\pairid}[1]{#1}
+
+\newif\ifdraftbuild
+\draftbuildtrue
+\ifx\buildfinal\buildfinalyes\draftbuildfalse\fi
+\definecolor{provbg}{HTML}{FFE9A8}
+\newcommand{\draftonly}[1]{\ifdraftbuild\else\PackageError{main}{#1 left in a final build}{Remove it.}\fi}
+\newcommand{\provbox}[1]{{\setlength{\fboxsep}{0.6pt}\smash{\colorbox{provbg}{\vphantom{Ay}#1}}}}
+\newcommand{\Prov}[1]{\draftonly{Prov}\provbox{\csname Prov#1\endcsname}\smash{\textsuperscript{prov}}}
+\newcommand{\DraftBox}{\ifdraftbuild
+  \noindent\fcolorbox{black}{provbg}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\small\textbf{For reviewers
+  only.} Draft. Highlighted marks are items pending or facts still to check.}}\par\medskip\fi}
+
+\newcommand{\LitReportingThreshold}{250}
+\newcommand{\LitMcKinseyRegularUse}{89\%}
+\newcommand{\LitMcKinseyScaling}{44\%}
+\newcommand{\LitMcKinseyExhibit}{Exhibit~1}
+\newcommand{\LitZhengAgreement}{80\%}
+\newcommand{\LitHseeProgramsA}{70}
+\newcommand{\LitHseeProgramsB}{10}
+\newcommand{\LitHseeGpaA}{3.0}
+\newcommand{\LitHseeGpaB}{4.9}
+\newcommand{\LitHseeYears}{two}
+\newcommand{\LitYoungWithheld}{19}
+\newcommand{\LitYoungConfigs}{21}
+\newcommand{\TokenLimit}{64{,}000}
+\newcommand{\GradedBandLow}{0.05}
+\newcommand{\SplitHighRate}{0.6}
+\newcommand{\SplitLowRate}{0.4}
+\newcommand{\SameFigureNumber}{\addtocounter{figure}{-1}}
+\newcommand{\SplitHighPct}{60}
+\newcommand{\SplitLowPct}{40}
+\newcommand{\SingleCutoffPct}{50}
+\newcommand{\GradedBandHigh}{0.95}
+\newif\ifanonreview
+\ifarxiv\anonreviewfalse\else\anonreviewtrue\fi
+\newcommand{\priorwork}[2]{\ifanonreview#2\else#1\fi}
+\def\RepoURLValue{https://github.com/cassianyoung/rough-justice}
+\def\RepoDOIValue{10.5281/zenodo.24369486}
+\newcommand{\RepoURL}{\ifx\RepoURLValue\empty\draftonly{RepoURL}\provbox{[pending]}\else\expandafter\url\expandafter{\RepoURLValue}\fi}
+\newcommand{\RepoDOI}{\ifx\RepoDOIValue\empty\draftonly{RepoDOI}\provbox{[pending]}\else
+  \href{https://doi.org/\RepoDOIValue}{doi:\RepoDOIValue}\fi}
+
+\ifsupp
+\title{Rough Justice: Supplementary Material}
+\hypersetup{pdftitle={Rough Justice: Supplementary Material}}
+\edef\rjother{build/xr_RoughJustice_\buildtarget}
+\else
+\title{Rough Justice: Language Models Know the Standard but Hold Us to a Stricter One}
+\hypersetup{pdftitle={Rough Justice: Language Models Know the Standard but Hold Us to a Stricter One}}
+\edef\rjother{build/xr_RoughJustice_\buildtarget_supplementary}
+\fi
+\newcommand{\IntervalsNote}{}
+\newcommand{\RepoWhere}{}
+\newcommand{\ReleaseText}{}
+\edef\rjxr{\noexpand\externaldocument[X-]{\rjother}}\rjxr
+\AtBeginDocument{%
+  \LetLtxMacro\rjlocalref\ref
+  \DeclareRobustCommand\ref[1]{\ifcsname r@#1\endcsname\rjlocalref{#1}\else\rjlocalref*{X-#1}\fi}}
+\author{Cassian Young}
+
+\ifarxiv
+  \newcommand{\ReleaseMark}{\footnotemark[1]}
+\else
+  \newcommand{\ReleaseMark}{\footnote{\ReleaseText}}
+\fi
+\makeatletter
+\newcommand{\ArxivTitleAndAbstract}{%
+  \let\rj@acltitle\@maketitle
+  \gdef\@maketitle{\rj@acltitle\begin{abstract}\AbstractBody\end{abstract}\vskip 1.5em}%
+  \maketitle
+  {\renewcommand{\thefootnote}{\fnsymbol{footnote}}\footnotetext[1]{\ReleaseText}}}
+\makeatother
+
+\begin{document}
+\renewcommand{\IntervalsNote}{\ConfidenceLevel{} bootstrap intervals over pairs, and over models where a figure pools
+them (Appendix~\ref{app:robustness})}
+\renewcommand{\RepoWhere}{\ifarxiv the repository\else the supplementary material\fi}
+\renewcommand{\ReleaseText}{\ifarxiv Cases, prompts, responses, analysis code and the supplementary material are
+released at \RepoDOI{}.\else Cases, prompts, responses and analysis code are in the supplementary material.\fi}
+\newcommand{\AbstractBody}{%
+\DraftBox
+Companies and public bodies are adopting language models to triage and decide cases. Decisions often depend upon who a
+party is: interns have different responsibilities to managers; householders owe insurers less disclosure than
+businesses. We took \NumPairs{} matched pairs of cases from \NumDomains{} domains, read side by side and alone by
+\NumConfigurations{} configurations of \NumDistinctModels{} models, with and without reasoning. Asked directly, models
+say parties should be held to different standards. Side by side they apply the difference. But real-world deployments
+evaluate single cases. Given one case, models mostly do not apply it. Without reasoning, they differentiate the parties
+in \AloneNoReasoning{} of pairs, against \SideBySideNoReasoning{} side by side. Instead, they judge both parties by the
+stricter standard: where the requirement needs judgement, they fail the junior analyst or the ten-year-old in
+\HeldNotMetAloneNoReasoningJudgement{} of single cases, including \HeldNotMetAloneSidePassedNoReasoningJudgement{} of
+those they pass side by side. Reasoning recovers fixed rules but not requirements that need judgement. Obvious fixes
+have costs: stating the principle helps little; a precise rule lets through failings it does not mention, or, asked
+more broadly without reasoning, fails more householders and junior analysts; a worked example causes few new errors but
+only addresses part of the problem.\ReleaseMark}
+
+\ifsupp
+\maketitle
+\noindent This supplement accompanies the paper \emph{Rough Justice: Language Models Know the Standard but Hold Us to a
+Stricter One}. Sections, tables and figures numbered with an S are in this supplement; all other numbers refer to the
+main paper.\ifarxiv\footnote{\ReleaseText}\fi
+\else
+\ifarxiv
+\ArxivTitleAndAbstract
+\else
+\maketitle
+\begin{abstract}
+\AbstractBody
+\end{abstract}
+\fi
+
+\section{Introduction}
+\label{sec:intro}
+Many business, educational and administrative decisions turn on the nature of the party. For example, the same essay
+receives higher marks if written by a ten-year-old rather than a seventeen-year-old; an intern should be judged
+against lesser responsibilities than a senior manager; a householder will face a lower burden of disclosure to an
+insurer than a major business. Language models recognise this differential in principle. They also recognise it when
+comparing two such cases in context, but they mostly ignore it when they assess a case in isolation.
+
+This is a live issue for production systems because models are tasked with assessing each case in isolation: the
+usual unit of decision is one file. If a model reviews a conduct file on a junior analyst, no file on a senior manager
+is provided as a reference point. When a ten-year-old's essay is marked, there is no essay from a seventeen-year-old
+as a reference.
+
+\begin{figure}[t]
+  \centering
+  \input{figures/fig1_worked}
+  \caption{One pair from the insurance domain. Shown both policyholders, \model{Claude Haiku 5.5 (thinking off)} holds
+  the business to the stricter duty of disclosure and finds that the householder met the standard. Shown each file
+  alone, the same model finds the standard not met for both: the householder is held to the business's duty.}
+  \label{fig:worked}
+\end{figure}
+Use of AI is now near-universal across business and is growing. In a McKinsey global survey
+\citep[\LitMcKinseyExhibit]{mckinsey2026state} this year, \LitMcKinseyRegularUse{} of respondents reported regular use of AI in at least one business function, and among
+organisations using AI, \LitMcKinseyScaling{} reported that it is scaling across the enterprise. Using models to grade or
+score unstructured material is a common use.
+
+Our testing distinguishes between two kinds of requirement.
+\begin{itemize}
+\item \emph{Fixed rules}: like a reporting duty that only begins at \LitReportingThreshold{} employees. These can be
+mapped onto the facts of a case quite cleanly.
+\item \emph{Requirements that need judgement}: like the responsibilities of a senior manager, a vulnerable customer's
+rights or the grammatical standard expected of a ten-year-old. There is no mechanical solution in these cases.
+\end{itemize}
+The former requirements are easily reduced to rules; the latter are diffuse and cannot easily be summarised in rule
+form \citep{kaplow1992rules}. Regulators often prefer broad principles to detailed rules, partly because detailed rules
+invite ``creative compliance'': meeting the letter of a rule but not its spirit \citep{black2007making}. The FCA's
+Consumer Duty is a recent example of a move to principles-based regulation.
+
+The obvious ways to check that a model performs against a requirement are to ask it what the requirement is, or to
+have it evaluate two cases side by side. Models consistently pass both tests. When models are asked directly whether
+this requirement differs by party, for example whether a business should be held to a stricter duty of disclosure
+than a householder, they say yes in \DirectYesRateNoReasoning{} of answers without reasoning and
+\DirectYesRateReasoning{} with. Shown both cases side by side, they treat the parties differently in
+\SideBySideNoReasoning{} of pairs without reasoning and \SideBySideReasoning{} with it. Given one file, they do so in
+just \AloneNoReasoning{} and \AloneReasoning{}.
+
+Figure~\ref{fig:worked} shows one example of one model separating parties side by side but not in the single file.
+This failure is silent. It is not shown in tests looking for differential treatment. In this case, the treatment
+should be differential. It can only be caught by re-running files with the party changed and comparing verdicts.
+
+Our test set comprises \NumPairs{} matched pairs of short vignettes in \NumDomainsWord{} domains: school work,
+insurance disclosure, statutory thresholds, seniority, dismissal, suitability of advice and vulnerable customers
+(Table~\ref{tab:domains}).
+
+The two cases in each pair list the same conduct and the same outcome, only the party differs: a householder vs.\ a
+business, a junior analyst vs.\ a senior manager, a ten-year-old vs.\ a seventeen-year-old.
+
+Each model judged whether the requirement had been met, with the two cases side by side and with each case on its
+own. The case was read on its own in four ways:
+\begin{itemize}
+\item as written;
+\item plus the requirement stated in principle (for example, ``A large employer is held to a higher standard of
+procedure before dismissing someone than a small employer.'');
+\item plus the requirement translated into a precise rule (for example, ``\ExampleRuleQuote{}'');
+\item plus a worked example.
+\end{itemize}
+We also asked each model directly whether the requirement differs between the parties. We read
+\NumConfigurations{} configurations of \NumDistinctModels{} models, with and without reasoning. While the particular
+cases are set in UK law, the requirements they test have close counterparts in legal systems around the world.
+Table~\ref{tab:domains} shows how the \NumDomainsWord{} domains map onto these uses.
+
+\paragraph{Our findings, in summary.}
+\begin{itemize}
+\item \textbf{Models know the requirement, but they do not apply it to individual cases.} When asked directly, models
+say that parties should be held to different standards \DirectYesRateNoReasoning{}--\DirectYesRateReasoning{} of the
+time. Shown both cases, models without reasoning split \SideBySideNoReasoning{} of pairs by verdict. Given only one
+file, this falls to \AloneNoReasoning{}. The figures are \SideBySideReasoning{} versus \AloneReasoning{} with reasoning.
+\item \textbf{When models fail, they over-blame.} Where a rule of law settles the answer, models without reasoning
+wrongly fail the party the law holds to less in \HeldToLessWronglyFailedNoReasoning{} of cases. Where the requirement
+needs judgement, their performance is worse. They fail the ``party held to less'' in
+\HeldNotMetAloneNoReasoningJudgement{} of single files. Where the same model, shown both, had passed the case side by
+side, \HeldNotMetAloneSidePassedNoReasoningJudgement{} are failed. In most domains, the party held to less is the
+weaker one. In practice, the householder, the junior analyst, the small employer and the ten-year-old are held to a
+tougher requirement that should only apply to a business, senior manager, large employer or seventeen-year-old.
+\item \textbf{Reasoning fixes verdicts against rules, but not judgements.} Alone, reasoning models decide
+\AloneReasoningFixedRule{} of fixed-rule pairs correctly. But they only split \AloneReasoningJudgement{} of judgement
+pairs. This problem has not been solved in frontier models. The most advanced commercial model we tested
+(\model{Claude Opus 5.5}) splits \SideBySideOpusFiveFiveDefaultEffortJudgement{} of judgement pairs side by side but
+only splits \AloneOpusFiveFiveDefaultEffortJudgement{} alone.
+\item \textbf{None of the standard developer fixes provides a full answer for requirements that need judgement.}
+\begin{itemize}
+\item The share of judgement pairs that split rises from \AloneNoReasoningJudgement{} to
+\ToldPrincipleNoReasoningJudgement{} without reasoning, and from \AloneReasoningJudgement{} to
+\ToldPrincipleReasoningJudgement{} with, when the principle is stated.
+\item A precise rule fixes the verdict it addresses. But the usual question then lets through
+\LetThroughNoReasoningJudgement{} and \LetThroughReasoningJudgement{} of failings it does not mention. Changing the
+question to whether the party met all its obligations blocks this with reasoning. Without reasoning, models fail the
+``party held to less'' instead.
+\item A worked example with a counterexample lets almost no failings through. But it raises the share of judgement
+pairs that split from \AloneNoReasoningJudgement{} to only \ExampleSplitNoReasoningJudgement{} without reasoning. With
+reasoning, the impact is still modest, rising from \AloneReasoningJudgement{} to \ExampleSplitReasoningJudgement{} with.
+\end{itemize}
+\item \textbf{The usual tests do not reveal the problem.} A model passes when asked to state or size the principle, and
+when comparing cases. This problem is invisible to standard outcome monitoring because it looks for wrongly unequal
+treatment rather than wrongly equal treatment. The way to catch it is to re-run live files with the party swapped via
+the production pipeline.
+\end{itemize}
+
+In exploratory runs on graded scores, the difference also shrank when a case was read alone for animals and for
+objects from different eras (Supplementary~\ref{app:exploratory}). \citet{young2026blame} found the same pattern for the standard of reasonable care,
+locating it in base models before post-training. Here we show the behaviour extends to regulated decisions, and test
+typical developer fixes.
+
+\section{Related Work}
+\label{sec:related}
+\citet{zheng2023judging} used an early generation of models such as \model{GPT-4} to score the output of other
+models. The performance was strong, with an \LitZhengAgreement{} match to human judgement: about the degree to which
+human judgements match each other. They also identified systematic biases, including: position bias, a tendency to
+favour the first or second option; verbosity bias, a tendency to score more elaborate responses higher; and
+self-enhancement bias, a judge favouring answers from its own model family. They reduced, but did not remove, these
+biases by position swapping and chain-of-thought reasoning. \citet{wang2023fair} again find that placement influences
+results. They recommend two strategies to address this: prompting a model to generate explanations, or evidence,
+before assigning a score; and evaluating candidate responses across two runs with swapped orders and averaging the
+scores.
+
+\citet{jeong2025pairwise} show that such biases are exacerbated by pairwise evaluation, where models directly compare
+two items and easily prioritise superficial attributes. The biases are reduced when an item is judged in isolation.
+They propose making a model reason about each output separately first, then making the pairwise decision. Comparison
+amplifies whatever differs between two items. In their examples the difference is superficial, so comparison
+misleads; in our pairs it is the party, so comparison helps and its absence is the problem.
+
+Closer to our approach, studies of demographic bias have found that how a judgement is set up can change a model's
+verdict. \citet{nghiem2024doctor} found that models favoured a group when choosing one candidate from a list but offered
+it lower salaries when assessing candidates one at a time. \citet{vohra2026audit} found that how an audit was
+constructed, above all a candidate's position in a list, moved verdicts in hiring, lending and triage as much as
+demographics did, while a reported reversal between question formats did not generalise.
+
+Like ours, those studies hold the facts constant and change only the subject. But they ask whether parties who should
+be treated alike are treated differently. Our study looks at the inverse failure: whether parties who should be
+treated differently are being treated alike.
+
+Well-known benchmarks of legal reasoning like LegalBench \citep{guha2023legalbench} test whether models know and apply
+rules to single items with fixed answers. None holds the requirement and the facts fixed and varies only the party.
+
+Similar behaviour regarding side-by-side vs.\ individual judgements has been found in humans. The evaluability
+hypothesis \citep{hsee1996evaluability,hsee1999preference} explains why joint and separate evaluations give different
+results: preferences reverse when one attribute is hard to evaluate alone and another is easy.
+
+In one example, one job candidate is described as having written \LitHseeProgramsA{} programs in a programming
+language in \LitHseeYears{} years and has a grade point average of \LitHseeGpaA{} on a five-point scale. The value of
+this becomes clearer when set beside a second candidate who has written just \LitHseeProgramsB{} in the same period
+but has a grade point average of \LitHseeGpaB{}. Evaluated alone, the second is preferred. Evaluated side by side, the
+first \citep{hsee1996evaluability}. This has parallels with our work: a ten-year-old's essay is easier to rate with an
+older student's essay beside it.
+
+\citet{young2026blame} found a similar bias against the generic standard of reasonable care. The law is less
+demanding of a private person than of a professional doing the same work. Models recognise this when asked about the
+principle or when the two are compared. Scoring each
+alone, however, most models withheld about half or more of the latitude they themselves stated a private person is owed. The behaviour is present
+in pretrained base models, which suggests it comes from what models learn from text, not from how they are tuned for use.
+
+\section{Method}
+\label{sec:method}
+\input{tables/table1_domains}
+\input{tables/table2_design}
+
+\subsection{Cases}
+Our tests consist of \NumPairs{} pairs of short vignettes that cover \NumDomainsWord{} domains (Table~\ref{tab:domains}).
+Each pair describes the same conduct with the same outcome. They differ only in who, or what, the party is:
+\begin{itemize}
+\item a householder vs.\ a business buying insurance
+\item an employer below vs.\ above a statutory size threshold
+\item a junior analyst vs.\ a senior manager
+\item a small vs.\ a large employer dismissing someone
+\item a firm advising a professional vs.\ advising a retail client
+\item a firm dealing with an ordinary customer vs.\ a vulnerable customer
+\item a younger student vs.\ an older student.
+\end{itemize}
+In suitability of advice and vulnerable customers, the party judged is the firm, and the question names the firm
+(``the standard that applies to this firm in advising this client'', ``in dealing with this customer''); what varies is
+its client or customer. In each pair, the requirement demands more of one party than the other. We call the first party in each pair, the
+party of whom less is required, the ``party held to less''.
+
+There are two kinds of domain:
+\begin{itemize}
+\item \emph{Fixed-rule cases}, i.e.\ insurance disclosure and statutory thresholds. Here, a rule of law sets the
+correct verdict for each party. The case gives enough facts to decide it, e.g.\ the number of employees, but never
+names the rule; \RepoWhere{} gives the legal provision for each pair.
+\item \emph{Judgement cases}, i.e.\ seniority, dismissal, suitability of advice, vulnerable customers and school work.
+Here, determining what is required in a particular case requires judgement, e.g.\ what conduct is expected of an
+employee of a certain seniority in a particular situation.
+\end{itemize}
+The cases were designed to split the verdicts by meeting the lighter requirement but falling short of the heavier one,
+i.e.\ the party held to less passes, the other party fails. In judgement cases, models comparing both cases side by side
+split this way in \JudgementConsensusShare{} of pairs (Table~\ref{tab:judgement-consensus}). This measure is lowest in school work
+(\EduConsensusShare{}). Models often hold a younger student to a higher standard than we expected.
+
+\subsection{Conditions}
+Each pair was read in seven ways. In every case the question was the same:
+\begin{quote}
+Judged by the standard that applies to [this party], was the standard met? Answer yes or no.
+\end{quote}
+We used a yes-or-no verdict rather than grading, because that is the ultimate form decisions take in the real world
+(Table~\ref{tab:design}), e.g.\ pass/fail, sanction or no sanction, claim granted or rejected.
+
+The first two readings test the central claim:
+\begin{itemize}
+\item \emph{Side by side.} Both cases are presented in one prompt. They are presented in two orders, as position is
+known to affect model judgement \citep{zheng2023judging,wang2023fair}.
+\item \emph{Alone.} Each case in its own prompt.
+\end{itemize}
+The other five conditions recreate a developer's reaction to a failed test:
+\begin{itemize}
+\item add the requirement to the prompt
+\item translate a diffuse requirement into a precise rule
+\item show the model two decided cases (``worked examples''), one passing and one failing.
+\end{itemize}
+For the last two, we also check whether the fix introduces new errors of its own, i.e.\ whether it leads the model to
+accept failures against the requirement that the fix does not target directly.
+
+The tests take the following format:
+\begin{itemize}
+\item \emph{Alone, told in principle.} One sentence is added before the case stating, in general terms, how the
+requirement differs between parties, e.g.\ ``A large employer is held to a higher standard of procedure before
+dismissing someone than a small employer.''
+\item \emph{Alone, told a precise rule.} The requirement is translated into a precise rule that settles the
+case by a fact the case states, e.g.\ ``\ExampleRuleQuote{}'' In fixed-rule cases, this is the real-world rule
+stated in plain terms. In judgement cases, we stipulate a rule that falls within the requirement. None of the rules
+overrides the law or the principle.
+\item \emph{Alone, outside the rule.} The case of the party held to less is presented with an additional failing that
+the rule does not cover. This is read alone with and without the rule. Half the failings concern the rule's own subject
+and half another subject. Adding the rule should not impact the verdict.
+\item \emph{Alone, with a worked example.} Before the case, two decided cases are added from the same domain as worked
+examples. These come from a different pair to avoid simply showing the model the answer:
+\begin{itemize}
+\item the ``party held to less'' is shown as judged to have met the requirement, with a one-sentence reason; and
+\item the same case with a further failing, judged not to have met it, with its reason.
+\end{itemize}
+For example, before a dismissal case, a small employer that had warned a gardener twice by word of mouth rather than in
+writing before dismissing them was judged to have met the standard, with the reason ``Marsh Lane Nurseries is a small
+employer, and a small employer may give warnings by word of mouth''. The same case in which the employer also told
+other local employers an untruth about the gardener was judged not met.
+\item \emph{Alone, outside the example.} The same as ``Alone, outside the rule'', but with the worked examples in place
+of the precise rule.
+\end{itemize}
+
+\emph{Second wording.} To check how sensitive the results are to the wording of the question, we drew
+\SecondWordingPairs{} pairs at random, two from each domain, and read the outside conditions again with the question:
+\begin{quote}
+``\ldots did the [party] meet all of [its/their] obligations?\ldots''
+\end{quote}
+The pronoun follows the party: ``its'' for a company, employer or firm, ``their'' for a policyholder, employee or student.
+As controls, we also read the plain case with the rule, and the outside case without it.
+
+\emph{Milder conduct.} When a model fails both parties alone, there are two possibilities. Either the model is
+ignoring who the party is (the failure we test for), or its bar sits high enough that the conduct falls short for both
+parties. So that we can tell the two apart, we read the pair again with the conduct made milder by one step, in a
+version that at least two of three pilot models still split side by side.
+
+\emph{Asked directly.} For each domain, we asked every model whether the party with the heavier requirement should be
+held to a higher standard, for example: ``Should a large employer be held to more than a small employer when following
+a procedure before dismissing someone? Answer yes or no''. We also asked to what degree it should be held to more, on
+a scale from zero to nine to determine whether the yes-no output was driving the result.
+
+\subsection{Models}
+\label{sec:models}
+We read \NumConfigurations{} configurations of \NumDistinctModels{} models through providers' interfaces. Of these,
+\NumModelsNoReasoning{} were read without reasoning and \NumModelsReasoning{} with reasoning (Table~\ref{tab:models}).
+Five models were read both ways.
+
+The results were read over three sessions. The second (school work, the worked example, the direct question, the
+second wording, milder conduct and the stated jurisdiction) was designed after the first session's results. School work and
+its \NumPairsEducation{} pairs were read only in the second session. A brief third session tested whether the order of the
+direct question impacted the result.
+
+The first session's cases were re-read in the second session. This reproduced the first
+(\ExampleBareSplitNoReasoningSixDomains{} and \ExampleBareSplitReasoningSixDomains{} of pairs split, against
+\FirstSessionAloneNoReasoning{} and \FirstSessionAloneReasoning{}). This licenses pooling figures across the first two
+sessions. For reference, the first session's design is in Table~\ref{tab:first-session}.
+
+As models sample their answers, the same prompt can generate different answers. We submitted each prompt ten times to
+models without reasoning and five times to models with reasoning. Each verdict is thus recorded as a rate, not as a
+single value.
+
+Five open models were initially read alone by log-probability, but they were later re-read by sampling so that every
+condition uses one readout and numbers can be aggregated. No figure generated in the first session
+(Table~\ref{tab:first-session}) changed by more than one point. No other pooled figure changed by more than three
+points (Appendix~\ref{app:readout}).
+
+When \model{Claude Haiku 5.5} was run at maximum effort, it reached its \TokenLimit{}-token limit without answering in
+\HaikuMaxVoidCells{} of its \HaikuMaxCells{} cells (\HaikuMaxVoidShare{} of its reads). These have been excluded. If
+we had included them as failures, it would have lowered the reasoning group's judgement-case figure side by side from
+\VoidCheckExcludedSideBySideReasoningJudgement{} to \VoidCheckWrongSideBySideReasoningJudgement{}; the alone figure
+would remain at \VoidCheckWrongAloneReasoningJudgement{} (Appendix~\ref{app:robustness}).
+
+By the time of the second session, \model{Kimi K3}'s provider had ceased to serve the model without reasoning. It was
+read on another provider. Its second-session figures are reported apart in Appendix~\ref{app:later}. This is why
+\model{Kimi K3} does not have school-work readings in the group without reasoning. It only contributes to the first
+session's domains.
+
+All prompts and responses are in \RepoWhere{}.
+
+\subsection{Measure}
+\label{sec:measure}
+Our tests score pairs of verdicts rather than individual verdicts. A model that simply failed every party would still
+get half of the single verdicts right even though it paid no attention at all to the nature of the party. It is only
+by testing pairs that we can determine whether the nature of the party changes the verdict, which is the goal of the
+test.
+
+We say that a pair is ``split'' when the ``party held to less'' meets the requirement in at least \SplitHighPct{}\% of
+answers while the other party meets it in at most \SplitLowPct{}\%. Side by side, the answers from the two orders are
+pooled before this test. Where we count single files rather than pairs (the per-party figures in
+\S\ref{sec:single-file} and Appendix~\ref{app:later}), a file is judged ``met'' when at least half of its answers say
+yes.
+
+For each condition (side by side, alone, told in principle, and so on), we report the percentage of pairs that split.
+We give figures pooled across all models and for each domain. Each figure is presented with \ConfidenceLevel{}
+intervals.
+
+Each figure is impacted by two sources of uncertainty. They depend upon which cases we wrote and which models we
+tested. The intervals were calculated by resampling. The interval covers the middle \ConfidenceLevel{} of results.
+
+In fixed-rule cases, where a rule of law cleanly sets each verdict, a split pair is decided correctly and any other is
+decided wrongly.
+
+In judgement cases, we set the line between ``met'' and ``not met'' when designing the cases. We cannot call a pair
+that does not split ``wrong'' on that basis. We ask instead whether the model's verdict alone is consistent with its
+own view of the pair side by side. We also report another measure that does not depend on where we set the line: the
+``party difference''. This is the share of ``yes'' answers for the party held to less minus that for the other party.
+This matters because models can give both parties the same answer for two different reasons:
+\begin{itemize}
+\item it has set its own bar above or below both parties, or
+\item it is ignoring who the party is.
+\end{itemize}
+We use each model's side-by-side answers to tell the two apart: for the pairs a model separates when it sees both cases
+together, we ask whether it still separates them when it sees each case alone.
+
+In the case of ``Alone, outside the rule'' and ``Alone, outside the example'', we say that an added failing is ``let
+through'' when the model judges it not to meet the requirement without the precise rule or the worked examples, but
+judges it to meet the requirement with the rule or worked example in place. The rule and the worked example have no
+relevance to the added failing and should not impact the verdict. Here ``not met'' means at most \SplitLowPct{}\% of answers say yes, and
+``met'' at least \SplitHighPct{}\%. The denominator is every model-pair cell in which both readings are valid, so a
+failing already accepted without the fix counts as not let through.
+
+As the \SplitHighPct{}:\SplitLowPct{} threshold is our choice, we checked the sensitivity of the results to this choice
+by scoring every pair with a cut-off at \SingleCutoffPct{}\%. No figure changed by more than \CutoffMaxChange{} points
+(Appendix~\ref{app:robustness}).
+
+In \LowConsensusPairsCount{} judgement pairs (\LowConsensusPairsDomains{}), most reasoning models did not split the
+parties even when presented side by side. Our verdict there is the most open to dispute. But leaving them out changes
+no figure without reasoning by more than \LowConsensusMaxChangeNoReasoning{} points.
+
+With reasoning, the judgement-case figures rise (side by side from \SideBySideReasoningJudgement{} to
+\SideBySideReasoningJudgementExclLowConsensus{}, alone from \AloneReasoningJudgement{} to
+\AloneReasoningJudgementExclLowConsensus{}), so the gap widens slightly. Thus, including these pairs makes our results
+more conservative.
+
+The results also hold without the \WeakSideModelsCount{} models that split fewer than half of all pairs even side by
+side (\WeakSideModels{}). Without them, models without reasoning split \SideBySideNoReasoningStrongSide{} of pairs side
+by side and \AloneNoReasoningStrongSide{} alone (Appendix~\ref{app:robustness}).
+
+\subsection{Controls}
+Each domain had control pairs in which the two cases differed only in the day of the week. Across the
+\ControlPairsTotal{} control pairs that were read alone, changing the day flipped \DayFlipAllControls{} of verdicts.
+This flipped none at all side by side (\DayFlipFirstRunControlsSideBySideNum{} of
+\DayFlipFirstRunControlsSideBySideDen{}).
+
+Thus, an irrelevant change flips \DayFlipAllControls{} of verdicts. Most control verdicts were clear-cut. Where the
+model's answers were divided, \DayFlipUnsettled{} flipped (Appendix~\ref{app:robustness}). A single verdict near the
+threshold can therefore change by chance, but the differences between conditions that we report are far larger than
+this.
+
+To rule out the possibility that confusion over the legal regime drove the verdicts, we stated that ``UK law
+applies.'' before the case. This changed no group figure. Fixed-rule pairs alone were split in
+\UkLawSplitNoReasoningFixedRule{} of cases with the statement against \UkLawBaseSplitNoReasoningFixedRule{} without it
+for models without reasoning. For models with reasoning, it was \UkLawSplitReasoningFixedRule{} with the statement and
+\UkLawBaseSplitReasoningFixedRule{} without
+(Appendix~\ref{app:later}).
+
+
+\section{Results}
+\label{sec:results}
+\input{tables/table_main}
+\begin{figure*}[t]
+  \centering
+  \includegraphics{figures/fig3_knows_against_does.pdf}
+  \caption{Side by side against alone, by model. A pair is split when the party held to less is judged to have met
+  the standard and the other party is judged not to have (yes-rate at least \SplitHighRate{} and at most
+  \SplitLowRate{}). Open circle: the share of pairs the model splits side by
+  side; filled marker: the share it splits reading each file alone (circles without reasoning, diamonds with). Within each group, models are ordered by the gap between the two,
+  printed at the right. Models that split fewer than \RankFromSideBySide{} of pairs even side by side are faded at the
+  bottom, ordered by their side-by-side share, with no gap printed, since a short span there can mean the model seldom
+  applies the standard even side by side. The bands (\BandGreenFrom{} and above; \BandAmberFrom{} to
+  \BandGreenFrom{}; below \BandAmberFrom{}) are the author's illustrative standard for deciding a single file without
+  review. Intervals for every point are in Table~\ref{tab:knows}.}
+  \label{fig:knows}
+\end{figure*}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/fig4_let_through.pdf}
+  \caption{Attempting to reduce failures with a precise rule causes failings outside the rule to be let through. Changing
+  the question, or using a worked example instead, avoids this. The precise rule with the usual question and the worked example
+  were read on all \NumPairs{} pairs; the second question on \SecondWordingPairs{} of them, where the usual question let
+  through \SecondWordingRuleOriginalNoReasoning{} without reasoning and \SecondWordingRuleOriginalReasoning{} with it.
+  Intervals: \IntervalsNote{}.}
+  \label{fig:let-through}
+\end{figure}
+
+\subsection{The party is lost on a single file}
+\label{sec:single-file}
+\textbf{Main contrast.} When models are shown both cases together, models without reasoning split
+\SideBySideNoReasoning{} of pairs in line with the requirement. Shown each case on its own, they split just
+\AloneNoReasoning{} (Table~\ref{tab:main}). With reasoning, the figures rise to \SideBySideReasoning{} and
+\AloneReasoning{}.
+
+This delta appears in every domain. It is lowest for \AloneDropMinDomainName{} at \AloneDropMinDomain{} points and
+highest for \AloneDropMaxDomainName{} at \AloneDropMaxDomain{} points. In the judgement cases, where we set the line
+between the parties based upon our own judgement, the test is whether a model's single-file verdict is consistent with
+its own view of the pair side by side.
+
+Among the pairs a model without reasoning separates when it sees both cases, it gives the two parties the same answer
+alone in \PartyNoDiffAloneGivenSplitNoReasoningJudgement{} of cases. The mean ``party difference''
+(\S\ref{sec:measure}) falls from \PartyDiffSideBySideNoReasoningJudgement{} points to
+\PartyDiffAloneGivenSplitNoReasoningJudgement{}. The models can state the requirement. They can also apply it when
+another case is given as a reference. But models do not apply it to a single file. This matters because the single case
+is the unit of decision in a real-world deployment.
+
+\textbf{Milder conduct.} Where a model fails both parties alone, there are two explanations. Either the vignette we
+created falls short of the lighter requirement, as the model reads it; or the model is ignoring who the party is. We
+tried to distinguish them by changing one detail to make the conduct milder, e.g.\ an adviser reading out a fund's risk
+description twice instead of once, with everything else left unchanged. Making the conduct milder freed the party held
+to less in only \MilderPartySensitiveNoReasoning{} of these cases without reasoning, and \MilderPartySensitiveReasoning{}
+with (Table~\ref{tab:milder}). In the rest of the cases, both parties still failed.
+
+\textbf{School work.} The seventh domain evaluated the same one-page essay written by a ten-year-old or a
+seventeen-year-old. The models split \RunTwoSixOneSideBySideNoReasoningEducation{} of pairs side by side without
+reasoning and \RunTwoSixOneSideBySideReasoningEducation{} with it. Presented as single cases, they split
+\RunTwoSixOneAloneNoReasoningEducation{} without reasoning and none of \RunTwoSixOneAloneReasoningEducationDen{} cells
+with it (Table~\ref{tab:education}).
+
+Models with reasoning split school-work pairs side by side less often than pairs in any other domain. When they did not
+split a pair, they almost always failed both students (Appendix~\ref{app:later}). Without reasoning, the gap between
+side by side and alone in school work is \EduGapNoReasoning{} points.
+
+Among the school-work pairs a model splits side by side, it gives the two parties the same answer alone in
+\EduNoDiffAloneGivenSplitNoReasoning{} of cases without reasoning and \EduNoDiffAloneGivenSplitReasoning{} with it, and
+the mean party difference alone is \EduDiffAloneGivenSplitNoReasoning{} points and \EduDiffAloneGivenSplitReasoning{}.
+
+In the judgement cases of the other domains, on the same configurations, the figures are
+\SixJudgNoDiffAloneGivenSplitNoReasoning{} and \SixJudgNoDiffAloneGivenSplitReasoning{}, and
+\SixJudgDiffAloneGivenSplitNoReasoning{} and \SixJudgDiffAloneGivenSplitReasoning{}. Reasoning recovers nearly all of
+the difference for fixed rules, about half in the other judgement domains, and almost none in school work. With
+\NumPairsEducation{} pairs, the school-work intervals are wide. The fixes by domain, with school work in its own column,
+are in Tables~\ref{tab:by-domain-toldprinciple} to~\ref{tab:by-domain-example}.
+
+The effect is present in the leading commercial models. Figure~\ref{fig:knows} shows the gap for each model in turn.
+The largest is for \model{Claude Sonnet 5}, which separates \SideBySideClaudeSonnetFive{} of pairs side by side and
+\AloneClaudeSonnetFive{} alone.
+
+\textbf{Even fixed rules are problematic.} In fixed-rule cases a rule of law settles the answer, and the case states
+the facts that decide it. Prima facie, these should be easy to resolve. Even so, models without reasoning decide only
+\AloneNoReasoningFixedRule{} of pairs correctly alone.
+
+These errors are not evenly spread. The party the rule protects is wrongly failed in
+\HeldToLessWronglyFailedNoReasoning{} of cases, and the other party wrongly passed in
+\OtherWronglyPassedNoReasoning{}. Most wrongly decided pairs fail both parties
+(\WrongBothNotMetAmongWrongNoReasoningFixedRule{}), e.g.\ the householder and the small employer are judged by the
+requirement the law places on the business and the large employer.
+
+Models differ widely (Table~\ref{tab:wrong}): \model{Llama 3.3 70B} wrongly fails the party the rule protects in
+\HeldToLessWronglyFailedLlamaSeventyB{} of cases, \model{GPT-6 Sol} in \HeldToLessWronglyFailedGptSixSol{}. On a single
+file, the people a rule exists to protect are those the models most often get wrong.
+
+\textbf{Order.} Even judging side by side, models are not reliable without reasoning. They split
+\SideBySideHeldToLessFirst{} of pairs when the party held to less is listed first and \SideBySideHeldToLessSecond{}
+when it is listed second. Position effects of this kind are well known in model judgements
+\citep{zheng2023judging,wang2023fair}. Here this means that even the comparison that restores the requirement does so
+only part of the time.
+
+\subsection{Reasoning recovers verdicts against fixed rules, but not judgement}
+\input{tables/table_both_ways}
+\textbf{Reasoning, alone.} With reasoning, models perform well on fixed-rule cases, deciding
+\AloneReasoningFixedRule{} of pairs correctly alone. This is close to the \SideBySideReasoningFixedRule{} they decide
+side by side. In judgement cases they do not perform well: they separate the parties in
+\SideBySideReasoningJudgement{} of pairs side by side, but in only \AloneReasoningJudgement{} when presented with
+single cases (Table~\ref{tab:main}).
+
+Among the judgement cases the models separate side by side, they give the two parties the same answer on single cases
+in \PartyNoDiffAloneGivenSplitReasoningJudgement{} of cases, and the mean party difference alone is
+\PartyDiffAloneGivenSplitReasoningJudgement{} points, against \PartyDiffSideBySideReasoningJudgement{} side by side.
+
+Reasoning narrows the gap, but most remains. One reading is that a rule stated in law is something a model can
+retrieve and apply, while a requirement that needs judgement has nothing to retrieve, and the single file itself
+supplies nothing to compare against.
+
+\textbf{Asked directly.} The models know the requirements. Asked directly, they say the parties should be held to
+different standards in \DirectYesRateNoReasoning{} of answers without reasoning and \DirectYesRateReasoning{} with it.
+They also rate that difference as large. When asked to place it on a scale where zero means the same is expected of
+both and nine means far more is expected of one party, the average answer is about \DirectDigitRounded{}.
+With the parties in reverse order, \MirrorYesRateNoReasoning{} and \MirrorYesRateReasoning{} answered yes. The mean
+rating fell to \MirrorDigitNoReasoning{} and \MirrorDigitReasoning{}.
+
+Side by side they also apply the difference. Their failure to apply it to cases read alone is thus not a matter of
+disagreeing with the requirement. Recalculating only the domains where a model says the parties should differ leaves
+the judgement case figures when cases are presented alone unchanged, at
+\FilterAloneSaysDifferNoReasoningJudgementSeven{} and \FilterAloneSaysDifferReasoningJudgementSeven{}
+(Appendix~\ref{app:later}).
+
+\textbf{Told in principle.} The first response of a prompt developer to failed tests of this kind is to state the
+requirement in context. To replicate this, we added one sentence to each case saying, in general terms, how the
+requirement differs between the two types of party. For example, a dismissal case began: ``A large employer is held to a
+higher standard of procedure before dismissing someone than a small employer.'' Told in principle, models without reasoning split
+\ToldPrincipleNoReasoningJudgement{} of judgement-case pairs, against \AloneNoReasoningJudgement{} untold. Models with
+reasoning split \ToldPrincipleReasoningJudgement{}, against \AloneReasoningJudgement{}. Being told what it already knows
+helps the model, but leaves it well short of its performance when it has a case to compare. Neither of these figures is
+close to what a system deciding single files in a regulated domain would require without human review.
+
+\textbf{The same model, with and without reasoning.} Reasoning raised the judgement-case figure alone for four of the
+five models read both ways; \model{Claude Haiku 4.5} stayed at \AloneClaudeHaikuFourFiveReasoningJudgement{}
+(Table~\ref{tab:both-ways}).
+
+None of the models attained the same performance as its own side-by-side split. Reasoning thus narrows the gap but
+does not close it.
+
+The problem has not been solved in the frontier models, as might be expected. They show the same pattern, e.g.\
+\model{Claude Opus 5.5} splits \SideBySideOpusFiveFiveDefaultEffortJudgement{} of judgement-case pairs when shown them
+side by side, versus \AloneOpusFiveFiveDefaultEffortJudgement{} when they are presented alone.
+
+\subsection{A precise rule fixes the question it answers}
+\textbf{The precise rule can restore the verdict.} Told a precise rule that settles the case by a stated fact, models
+without reasoning split \ToldRuleNoReasoning{} of pairs alone. Models with reasoning reach
+\ToldRuleReasoningJudgement{} in judgement cases. This approach does not work for every model: told the rule,
+\model{Grok 4.3} without reasoning splits just \ToldRuleGrokFourThree{} of pairs, \model{Gemma 3 27B}
+\ToldRuleGemmaTwentySevenB{} and \model{Mistral Small 3.2 24B} \ToldRuleMistralTwentyFourB{}.
+
+\textbf{But it lets other failings through.} We added to the case of the ``party held to less'' an additional failing
+the rule does not mention. Without the rule, models correctly judge such cases to fall short. With it, they accept the
+failing in \LetThroughNoReasoning{} of cases without reasoning and \LetThroughReasoning{} with it
+(Figure~\ref{fig:let-through}). Reasoning models perform worse than non-reasoning models. They follow the rule more
+closely, and with the usual question that means letting more through.
+
+\textbf{The question decides what the rule means.} On a random subset of \SecondWordingPairs{} pairs we tested a
+second question, asking whether the party ``met all of its obligations''. That cut let-through from
+\SecondWordingRuleOriginalNoReasoning{} to \SecondWordingRuleNewNoReasoning{} without reasoning
+(\SecondWordingRuleChangeNoReasoning{} points [\SecondWordingRuleChangeNoReasoningLo{},
+\SecondWordingRuleChangeNoReasoningHi{}]) and from \SecondWordingRuleOriginalReasoning{} to
+\SecondWordingRuleNewReasoning{} with it (\SecondWordingRuleChangeReasoning{} [\SecondWordingRuleChangeReasoningLo{},
+\SecondWordingRuleChangeReasoningHi{}]).
+
+To check the impact of changing the question, as a control, we read the plain case of the ``party held to less'' with the rule
+but without any added failing. With reasoning, it was still judged met in \SecondWordingControlPlainMetReasoning{} of
+cases. This tells us that the broader question did not make reasoning models stricter, per se. This suggests that the
+reasoning models did not read the rule as an exemption, they interpreted the original question as asking only whether
+the rule was met.
+
+Without reasoning, the plain case was judged met in only \SecondWordingControlPlainMetNoReasoning{}, so the broader
+question trades let-through for failing the party held to less (Table~\ref{tab:wording}).
+
+\textbf{Rule and example under the second wording.} Compared on the same subset, the precise rule let through
+\SecondWordingRuleOriginalNoReasoning{} of added failings with the original question and
+\SecondWordingRuleNewNoReasoning{} with the second wording without reasoning (\SecondWordingRuleOriginalReasoning{} and
+\SecondWordingRuleNewReasoning{} with it). The worked example with a counter-example let through
+\SecondWordingExampleOriginalNoReasoning{} and \SecondWordingExampleNewNoReasoning{}
+(\SecondWordingExampleOriginalReasoning{} and \SecondWordingExampleNewReasoning{}). On the subset's
+\RestoredSubsetPairs{} judgement pairs (school work included), the second wording also reduced how often the rule restored the verdict for the
+party held to less: from \RestoredRuleOriginalNoReasoning{} to \RestoredRuleNewNoReasoning{} without reasoning, and
+from \RestoredRuleOriginalReasoning{} to \RestoredRuleNewReasoning{} with it. The worked example, read only with the
+original question, restored \RestoredExampleOriginalNoReasoning{} and \RestoredExampleOriginalReasoning{}. The example
+was not read for the plain case under the second wording.
+
+\textbf{Unrelated failings pass more often.} Failings on another subject from the rule's are let through more often
+than failings on its own subject (\LetThroughOtherSubjectNoReasoning{} against \LetThroughSameSubjectNoReasoning{}
+without reasoning; Table~\ref{tab:cutoff}).
+
+\textbf{A worked example with a counterexample.} On every pair, school work included, we showed before each case a
+decided case from the same domain but from another pair, along with a counterexample that marks its limit. The example
+and the counterexample were always shown together in the full run, never separately.
+
+With the example, models without reasoning split \ExampleSplitNoReasoning{} of pairs alone, against
+\ExampleBareSplitNoReasoning{} with no example in the same session; models with reasoning \ExampleSplitReasoning{},
+against \ExampleBareSplitReasoning{}.
+
+The added failing was let through in \ExampleLetThroughNoReasoning{} of cases without reasoning and
+\ExampleLetThroughReasoning{} with it (Figure~\ref{fig:let-through}), against \RunTwoSixOneLetThroughNoReasoningSevenDomains{} and
+\RunTwoSixOneLetThroughReasoningSevenDomains{} for the precise rule on the same pairs and models.
+Of the cases the example led a model to split, the failing was still rejected in \ExampleStillRejectedNoReasoning{} and
+\ExampleStillRejectedReasoning{}, so the low let-through is not a model answering no to everything
+(Table~\ref{tab:example}).
+
+\section{Discussion}
+\label{sec:discussion}
+\textbf{What should a deployer learn from this paper?} The configuration that is most likely to be used at production
+volume is the configuration with the worst performance. Reasoning is often impractical in production deployments for
+reasons of cost or speed. When case files are processed one at a time, models split just one pair in ten
+(\AloneNoReasoning{}) successfully.
+
+The errors flow one way only, towards over-blaming the ``party held to less''. In most domains, this means that the
+weaker party is held to a stronger standard. This is the opposite of what the rule was created to achieve. Where a
+rule of law settles the answer, \HeldToLessWronglyFailedNoReasoning{} of the parties it protects are wrongly failed.
+Judgement cases perform even worse. Models fail the ``party held to less'' in \HeldNotMetAloneNoReasoningJudgement{}
+of single files. They fail \HeldNotMetAloneSidePassedNoReasoningJudgement{} of those that they themselves passed when
+they saw them side by side.
+
+We created the shortest, cleanest cases possible, written to isolate the party. Our figures, though themselves stark,
+are also a best case. Real files are longer and messier, and verdicts on them should be expected to be less accurate
+and more impacted by noise.
+
+A similar phenomenon appears in \citet{young2026blame}. The harshest reading prevailed unless something in view
+relieved it, described as the standard of ``strict causal blame'', where mitigating factors are ignored.
+
+\textbf{Why it happens.} One potential reading of the results is this: a fixed rule is something the model can
+retrieve and apply to the facts. This is why reasoning recovers fixed rules (\AloneReasoningFixedRule{}, close to the
+\SideBySideReasoningFixedRule{} side by side). A requirement that needs judgement is judged by reference to
+something, but the single file supplies no reference point. This closely parallels Hsee's evaluability hypothesis on
+human judgement \citep{hsee1996evaluability}. Without a point of comparison, models mostly fall back to the stricter
+reading.
+
+\textbf{Why the usual tests mislead.} Testing the model by asking it to state the requirement will pass. Comparing
+two cases in context will also pass. Any test pack built upon these kinds of cases will certify a system that will
+fail on single files.
+
+\textbf{The usual fixes look like progress, but bring problems.} A precise rule makes the tested case pass, but it
+often lets through other failings the test does not contain. The fix is brittle to the question: ``the standard that
+applies'' against ``all of its obligations''.
+
+Outcome monitoring by party type, which regulators expect, is designed to uncover discrimination: unjustly unequal
+treatment. This failure is its reverse: unjustly equal treatment. It can pass those checks unseen, making it a silent
+failure.
+
+\textbf{What works as a fix, and what doesn't.}
+
+\emph{Fixed rules.} Reasoning largely solves fixed rules (\AloneReasoningFixedRule{} alone), and stating the rule
+brings reasoning models to \ToldRuleReasoningFixedRule{}.
+
+\emph{Judgement:}
+\begin{itemize}
+\item A precise rule, with reasoning and the broader question, comes closest (\RestoredRuleNewReasoning{} of verdicts
+restored and \SecondWordingRuleNewReasoning{} of failings let through, on a subset). But it needs a rule written in
+advance for each case, and edge cases nobody anticipated fall back to unaided judgement
+(\AloneReasoningJudgement{}). Moreover, principles-based regulation exists partly to avoid maintaining large sets of rules
+with unpredictable gaps.
+\item Comparison works best without a rule (\SideBySideReasoningJudgement{} side by side, with reasoning). But it
+would mean constructing an arbitrary and fictitious counterpart for each real file, such as the same HR case with a
+different employer. This approach is hard to defend as the basis of a decision in a regulated setting.
+\item A worked example with a matching counterexample lets almost no failings through (\ExampleLetThroughNoReasoning{}
+without reasoning and \ExampleLetThroughReasoning{} with). But this approach only closes about half of the gap between
+single files and side by side. In judgement cases, pairs split alone rise from \AloneNoReasoningJudgement{} to
+\ExampleSplitNoReasoningJudgement{} without reasoning, against \SideBySideNoReasoningJudgement{} side by side, and
+from \AloneReasoningJudgement{} to \ExampleSplitReasoningJudgement{} with it, against
+\SideBySideReasoningJudgement{}.
+\item Stating the principle adds little.
+\end{itemize}
+We conclude that no single fix provides a complete solution for single-file requirements that need judgement. A
+combination may do better: reasoning, precise rules where situations can be anticipated, worked examples for the rest,
+and a question that asks about all of the party's obligations. Without reasoning, the broader question fails the party
+held to less instead. We did not test this combination.
+
+\textbf{Rules and standards.} Regulators often prefer principles to detailed rules, partly because rules invite
+creative compliance \citep{black2007making}. The UK Financial Conduct Authority's Consumer Duty is a recent example: it
+states general principles of fairness, not detailed rules.
+
+In our experience as deployers of AI systems, the incentives placed on developers are counterproductive. Developers
+are given a marked test set by the business, and their goal is to pass it and get the system into production. This
+strongly incentivises fitting the prompt to the test set, even where that is counterproductive outside it. In our
+tests, writing the judgement into the prompt as a rule raised the tested cases from \AloneReasoningJudgement{} to
+\ToldRuleReasoningJudgement{} for reasoning models in judgement cases, while letting through \LetThroughReasoningJudgement{} of failings the rule did not
+mention. A test pack would not show those failings.
+
+This is Goodhart's law at work \citep{goodhart1975problems,strathern1997improving}. Once a measure becomes a target, it
+ceases to be a good measure of performance.
+
+\textbf{What deployers can do now.} Whether to use reasoning is usually driven by cost and speed, but, where a
+decision turns on a fixed rule, reasoning recovers most single-file verdicts (\AloneReasoningFixedRule{}). Without
+reasoning, stating the rule in the prompt is the cheaper alternative, but it restores fewer
+(\ToldRuleNoReasoningFixedRule{}). Take care with the question. Where reasoning is used, ask whether the party met all
+of its obligations, not whether it met ``the standard''. Single-file verdicts on a requirement that needs judgement
+should not stand without human review, with or without reasoning. The errors fall on ``not met'' for the party held
+to less, so those are the verdicts to route to a reviewer, though we did not test such a workflow.
+
+\section*{Limitations}
+\label{sec:limitations}
+Our cases are constructed as short vignettes intentionally written to isolate the party. Real files -- email chains,
+case files, essays, customer interactions -- are likely to be far longer and padded with large amounts of irrelevant
+material. This implies that these results should be read as a best case.
+
+In the judgement cases, we set the line between meeting and failing the requirement when designing the vignettes. The
+party difference measure, the models' own answers when asked directly and the models' own high scores for the
+effect all show that the models agree the parties should differ in treatment. But where the line falls has not been
+tested against practitioners. We have intentionally not measured any human baseline, so we do not claim models do worse
+than human reviewers. We claim that the models' behaviour is not consistent with their own strongly held position on
+what that behaviour should be. Note that the judgement cases closely parallel the fixed-rule cases, where there is a fact of
+the matter.
+
+All cases are set in UK law, which raises the possibility that the models are applying the wrong jurisdiction. We tested
+this by adding ``UK law applies'' but this changed no group figure.
+
+The precise rules in the judgement domains are stipulated, not statements of law. The second wording was read on
+\SecondWordingPairs{} of the \NumPairsAllSeven{} pairs. The provider that served \model{Kimi K3} in the first session
+stopped serving it without reasoning by the second session. That is why its later reads came from another provider and
+are reported apart.
+
+We tested yes-or-no verdicts -- not graded scores -- because yes/no is the final verdict in such cases. It is thus the
+ultimate question at stake. Whether graded scores show the same gap was tested only in
+exploratory runs (Supplementary~\ref{app:exploratory}).
+
+A model may lean towards the ``party held to less'' without changing its verdict. The party difference does show a lean
+of this kind (\PartyDiffAloneGivenSplitNoReasoningJudgement{} points without reasoning,
+\PartyDiffAloneGivenSplitReasoningJudgement{} with).
+
+But making the conduct one degree milder rarely changed the verdict, suggesting that few verdicts lay close to the
+threshold. Side by side, the case labels named the attribute that differs between the parties. We did not test neutral
+labels, which could make that difference less salient to the models.
+
+Reasoning models were read with fewer answers per prompt, and some models cannot have reasoning switched off or its
+amount fixed. Results describe the models as served on the dates given.
+
+\section*{Ethics Statement}
+\label{sec:ethics}
+The cases are fictional and contain no personal data. The work identifies a way in which automated decisions can treat
+parties unfairly; we release the cases and responses so that deployers can test their own configurations. The cases
+could in principle be used to tune a system to pass these tests without improving its judgement; we think the benefit
+of open testing outweighs that risk.
+
+AI assistance was used in designing the study, building the code and analysing the results. The first drafts of the
+method and results sections were generated by AI, the results directly from the result files to keep them close to the
+data; the author rewrote both sections. The figure and table captions were drafted by AI and revised by the author. The
+abstract, introduction and discussion are the author's own; AI reviewed this text and suggested corrections, and made
+minor edits when assembling the final files. The appendices and supplementary material are entirely AI-generated.
+
+\ifarxiv Code, prompts and all model responses are available at \RepoURL{} and archived at \RepoDOI.\fi
+
+\bibliography{custom}
+\fi
+
+\ifsupp
+\appendix
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theHtable}{S\arabic{table}}
+\renewcommand{\theHfigure}{S\arabic{figure}}
+
+\section{Models and settings}
+\label{app:models}
+\input{tables/tableA1_models}
+Models, routes, settings and served model strings are in Table~\ref{tab:models}.
+
+\section{Robustness, controls and order}
+\label{app:robustness}
+\input{tables/tableB0_first_session}
+\input{tables/tableB1_cutoff}
+\input{tables/tableB2_controls}
+\input{tables/tableB3_order}
+\input{tables/tableB4_haiku}
+\paragraph{Intervals.} Every interval in the paper comes from one bootstrap design. The unit is a cell: one model's
+reading of one pair under one condition. Its repeated draws (ten without reasoning, five with) are reduced to a yes-rate,
+and the cell enters the bootstrap whole; draws within a cell are not resampled. In each of \BootstrapReplicates{}
+replicates, pairs are resampled with replacement within their domain, keeping each domain's number of pairs, and, where
+a figure pools more than one model configuration, the configurations are resampled with replacement as well,
+independently of the pairs. A replicate's share is the sum of its resampled cells' numerators over the sum of their
+denominators. The interval runs from the \BootstrapLowPctile{} to the \BootstrapHighPctile{} percentile of the
+replicates. Pairs are drawn with seed \BootstrapSeedPairs{} and configurations with seed \BootstrapSeedModels{} (one set
+of draws for each set of configurations, so two figures over the same models share their draws and their difference
+stays paired). Where an interval has zero width, the Wilson score interval for the count replaces it. A figure for one
+model resamples pairs only. Every caption's ``bootstrap intervals'' means this design.
+
+Table~\ref{tab:main} on its own six domains, as it stood before school work was added, is in
+Table~\ref{tab:first-session}. Robustness to the cut-off (Table~\ref{tab:cutoff}); controls and how clear-cut they were (Table~\ref{tab:controls});
+the order effect by model (Table~\ref{tab:order}). \model{Claude Haiku 5.5} at maximum effort reached the
+\TokenLimit{}-token limit without answering in \HaikuMaxVoidCells{} cells, most of them side by side; Table~\ref{tab:haiku}
+gives its figures and the reasoning group's with those cells excluded, as in the main text, and counted as wrong.
+Its \HaikuMaxCells{} cells are \HaikuMaxCellsPerCondition{} in each of side by side, alone, told in principle and told
+a precise rule (\HaikuMaxCellsTestPerCondition{} for the test pairs and \HaikuMaxCellsControlPerCondition{} for the
+controls: one cell per order side by side, one per party alone) and \HaikuMaxCellsOutside{} outside the rule (each
+pair's case without and with the rule). Each cell has \HaikuMaxDrawsPerCell{} draws. For a model with reasoning, a cell
+is not valid when more than one draw in ten returns no answer (with \HaikuMaxDrawsPerCell{} draws, any one) or when
+fewer than four answers in five can be parsed; every one of \model{Claude Haiku 5.5}'s excluded cells is of the first
+kind.
+Without the \LowConsensusPairsCount{} judgement pairs \LowConsensusPairs{} (in \RepoWhere{}), which fewer than four of the seven reasoning configurations split side by
+side, models without reasoning split \SideBySideNoReasoningJudgementExclLowConsensus{} of judgement-case pairs side by
+side and \AloneNoReasoningJudgementExclLowConsensus{} alone, and models with reasoning
+\SideBySideReasoningJudgementExclLowConsensus{} and \AloneReasoningJudgementExclLowConsensus{}. Without the
+\WeakSideModelsCount{} models that split fewer than half of pairs side by side (\WeakSideModels{}), models without
+reasoning split \SideBySideNoReasoningFixedRuleStrongSide{} of fixed-rule pairs side by side and
+\AloneNoReasoningFixedRuleStrongSide{} alone, and \SideBySideNoReasoningJudgementStrongSide{} and
+\AloneNoReasoningJudgementStrongSide{} of judgement-case pairs.
+
+\section{The readout}
+\label{app:readout}
+\input{tables/tableE_readout}
+Five open models (\model{GPT-4o}, \model{Llama 3.3 70B}, \model{Qwen3-Next-80B}, \model{Mistral Small 3.2 24B} and
+\model{Gemma 3 27B}) were first read alone by the probability of ``yes'' and side by side by sampling. We re-read every
+alone condition for them by sampling, ten draws each, on the settings each used side by side, so that every model has
+one readout; the paper reports that readout. Table~\ref{tab:readout} gives both. For these models the probability also
+allows a graded check: in judgement cases, among the \GradedBandCells{} of \GradedJudgementCells{} cells (\GradedModelsWord{} models by
+\FirstSessionJudgementPairs{} first-session judgement pairs) where neither
+party's probability of ``yes'' is below \GradedBandLow{} or above \GradedBandHigh{}, the mean party difference alone is
+\GradedDiffLogProbJudgement{} points [\GradedDiffLogProbJudgementLo{}, \GradedDiffLogProbJudgementHi{}]. So few cells
+fall in that band that the check cannot show whether the party moves these models' judgement below the verdict.
+
+\section{The matched pairs}
+\label{app:pairs}
+\onecolumn
+Table~\ref{tab:pairs} shows one pair per domain: \pairid{I6} (Figure~\ref{fig:worked}), \pairid{D2}
+(Table~\ref{tab:design}) and pair one of each other domain. All \NumPairs{} pairs, every prompt and every response are
+in \RepoWhere{}.
+\input{tables/tableC_pairs}
+\twocolumn
+
+\section{Results by domain and by model}
+\label{app:by-domain}
+Table~\ref{tab:main-intervals} gives every interval for Table~\ref{tab:main}; Figure~\ref{fig:knows-by-domain} and
+Table~\ref{tab:knows} give Figure~\ref{fig:knows} by domain and with intervals; Tables~\ref{tab:wrong}
+and~\ref{tab:judgement-consensus} classify the wrong verdicts and the side-by-side consensus; and
+Tables~\ref{tab:by-domain-sidebyside}--\ref{tab:by-domain-example} give each condition by domain and model.
+\input{tables/table_main_intervals}
+\begin{figure*}[t]
+  \centering
+  \includegraphics{figures/fig2_main_result.pdf}
+  \caption{The first four conditions of Table~\ref{tab:main} as bars (the worked example is not drawn): share of matched pairs split as the requirement directs, for models without and with reasoning, in fixed-rule cases and
+  judgement cases. Each group shows the pair side by side, each file alone, alone told the requirement in principle,
+  and alone told it as a precise rule. Whiskers show \IntervalsNote{}.}
+  \label{fig:main}
+\end{figure*}
+\begin{figure*}[p]
+  \centering
+  \includegraphics{figures/figA_knows_against_does_by_domain_a.pdf}
+  \caption{Figure~\ref{fig:knows} by domain, with the same rules: the fixed-rule domains, seniority and dismissal
+  (continued overleaf). In the faded group, a model read both ways is marked ``(off)'' without reasoning and
+  ``(reasoning)'' with it.}
+  \label{fig:knows-by-domain}
+\end{figure*}
+\begin{figure*}[p]
+  \centering
+  \includegraphics{figures/figA_knows_against_does_by_domain_b.pdf}
+  \SameFigureNumber
+  \caption{(continued) Suitability of advice, vulnerable customers and school work.}
+\end{figure*}
+\input{tables/tableD_knows}
+\input{tables/tableD_wrong_verdicts}
+\input{tables/tableD_judgement_consensus}
+\input{tables/tableD_SideBySide}
+\input{tables/tableD_Alone}
+\input{tables/tableD_ToldPrinciple}
+\input{tables/tableD_ToldRule}
+\input{tables/tableD_LetThrough}
+\input{tables/tableD_Example}
+
+\section{School work and the new conditions}
+\label{app:later}
+\input{tables/tableF_education}
+\input{tables/tableF_example}
+\input{tables/tableF_wording}
+\input{tables/tableF_milder}
+\input{tables/tableF_files}
+School work beside the six domains is in Table~\ref{tab:education}, the worked example by kind of case in
+Table~\ref{tab:example}, the second wording and the stated jurisdiction in Table~\ref{tab:wording}, and milder conduct
+in Table~\ref{tab:milder}. Of the \EduSideUnsplitCountNoReasoning{} school-work pairs not split side by side without reasoning, \EduSideUnsplitBothNotMetNoReasoningNum{} failed both essays, \EduSideUnsplitBothMetNoReasoningNum{} passed both, \EduSideUnsplitReversedNoReasoningNum{} reversed the parties and \EduSideUnsplitUnclearNoReasoningNum{} were unclear. Of the \EduSideUnsplitCountReasoning{} not split with reasoning, \EduSideUnsplitBothNotMetReasoningNum{} failed both, \EduSideUnsplitBothMetReasoningNum{} passed both, \EduSideUnsplitReversedReasoningNum{} reversed the parties and \EduSideUnsplitUnclearReasoningNum{} were unclear. Table~\ref{tab:files} counts files, not pairs, in judgement cases: under every condition
+the other party is almost never judged met (at most \FileOtherMetAloneNoReasoning{} of files), so the errors fall on the
+party held to less, judged not met in \FileHeldNotMetAloneNoReasoning{} of files alone without reasoning and
+\FileHeldNotMetAloneReasoning{} with it. Asked directly, \DirectYesCellsNoReasoningNum{} of \DirectYesCellsNoReasoningDen{}
+model-domains without reasoning (\DirectConfigsNoReasoning{} configurations, \model{Kimi K3} apart, by
+\NumDomainsWord{} domains) and \DirectYesCellsReasoningNum{} of \DirectYesCellsReasoningDen{} with it
+(\DirectConfigsReasoning{} by \NumDomainsWord{}) said the parties should differ, counting a model-domain when at least
+\SplitHighPct{}\% of its answers said yes; those that did not were \NoDifferenceListAllNoReasoning{} (and, read apart,
+\NoDifferenceListAllKimiKThree{}). The \DirectYesRateNoReasoning{} and \DirectYesRateReasoning{} in
+\S\ref{sec:results} are the average share of yes answers over model-domains, not counts of model-domains. Stating ``UK law applies.'' moved
+the fixed-rule figure of \UkLawMoversCount{} models by more than ten points: \UkLawMovers{}. \model{Kimi K3}, whose
+school-work and new-condition reads came from a new provider, is reported apart: re-read alone there, its verdicts on
+the six original domains matched its original ones less often than any other model's. With the worked example it split \ExampleSplitKimiKThree{} of pairs alone, against
+\ExampleBareSplitKimiKThree{} with none, and let \ExampleLetThroughKimiKThree{} of added failings through.
+
+\section{Exploratory findings}
+\label{app:exploratory}
+Before the confirmatory run, a series of discovery runs shaped its design. None is a registered result, every figure
+below is exploratory, and the bases are small. Most of these runs scored each case on a graded scale (a digit from
+zero to nine unless stated) rather than asking yes or no. Their measure is the \emph{share}: the gap between the two
+parties alone divided by the gap side by side, the median over models. A gap \emph{holds} alone on a model when it is
+above that model's noise floor, measured with neutral sentences and day-of-the-week controls. Each run's
+pre-registration, frames, responses, results and outcomes are in \RepoWhere{} under the path given.
+
+\textbf{People, animals, eras and organisations (exploratory; run~\ExplRunGradingVariations{},
+\url{discovery/run252/}).} Pieces of work were scored for parties of different kinds, \ExplSubjectTestPairs{} test
+pairs and one control per kind, on \ExplGradingVarModels{} models without reasoning, \ExplDiscoveryDraws{} draws per
+prompt. For a child against an older student, the models kept \ExplFormatDigitShare{} of the side-by-side gap alone.
+For animals (a puppy against an experienced dog) they kept \ExplSubjectAnimalsShare{} (holding on
+\ExplSubjectAnimalsHolds{} of \ExplGradingVarModels{} models), and for things of different eras
+\ExplSubjectErasShare{} (\ExplSubjectErasHolds{} of \ExplGradingVarModels{}); one of the two era pairs was less
+plausible and kept less. Organisations largely kept the difference alone: \ExplSubjectOrganisationsShare{}, holding on
+\ExplSubjectOrganisationsHolds{} of \ExplGradingVarModels{} models, with the small organisation marked up and the
+large one marked down. So the loss alone was not specific to people, but organisations rated on their work kept most
+of the difference. In the main study, organisations held to a requirement (employers, firms and companies) lost the
+difference alone under yes-or-no verdicts; the exploratory run rated organisations on the quality of their work, on a
+graded scale.
+
+\textbf{Grading and other domains (exploratory; runs~\ExplRunAbsentComparison{} and~\ExplRunStandardsSurvey{},
+\url{discovery/run248/}, \url{discovery/run251/}).} Run~\ExplRunAbsentComparison{} read \ExplAbsentDomains{} domains,
+\ExplAbsentPairsPerDomain{} pairs each, on \ExplAbsentModelsOff{} models without reasoning (\ExplDiscoveryDraws{}
+draws) and \ExplAbsentModelsReasoning{} with it (\ExplAbsentDrawsReasoning{} draws). Without reasoning, the models kept
+alone \ExplAbsentGradingShareOff{} of the gap in grading, \ExplAbsentEffortShareOff{} in effort,
+\ExplAbsentProportionalityShareOff{} in proportionality, \ExplAbsentPricesShareOff{} in prices and
+\ExplAbsentPerformanceShareOff{} in performance; with reasoning, \ExplAbsentGradingShareReasoning{},
+\ExplAbsentEffortShareReasoning{}, \ExplAbsentProportionalityShareReasoning{}, \ExplAbsentPricesShareReasoning{} and
+\ExplAbsentPerformanceShareReasoning{}. Run~\ExplRunStandardsSurvey{} surveyed \ExplSurveyDomains{} domains with
+\ExplSurveyPairsPerDomain{} pairs each on \ExplGradingVarModels{} models without reasoning (\ExplDiscoveryDraws{}
+draws). Seniority was the clearest loss: every model held the senior manager to the stricter standard side by side,
+but alone kept \ExplSurveySeniorityShare{} of the gap, holding on \ExplSurveySeniorityHolds{} of
+\ExplGradingVarModels{} models. Vulnerable customers (\ExplSurveyVulnerableShare{}, \ExplSurveyVulnerableHolds{} of
+\ExplGradingVarModels{}) and grading (\ExplSurveyGradingShare{}, \ExplSurveyGradingHolds{} of \ExplGradingVarModels{})
+kept more on a graded scale. These runs informed the choice of the confirmatory domains.
+
+\textbf{Response formats (exploratory; runs~\ExplRunGradingVariations{} and~\ExplRunVerdicts{},
+\url{discovery/run252/}, \url{discovery/run253/}).} Run~\ExplRunGradingVariations{} read \ExplFormatTestPairs{} essay
+pairs (a child against an older student) on the same \ExplGradingVarModels{} models in six formats. Graded scales kept
+part of the gap alone: a digit \ExplFormatDigitShare{}, a mark out of a hundred \ExplFormatMarksShare{} and a letter
+grade \ExplFormatLetterShare{}, each holding on \ExplFormatDigitHolds{} of \ExplGradingVarModels{} models; a
+one-word rating kept \ExplFormatWordsShare{} (\ExplFormatWordsHolds{} of \ExplGradingVarModels{}). A pass-or-fail
+decision kept none: alone, the older student's borderline essay passed, and the gap held on
+\ExplFormatPassFailHolds{} of \ExplGradingVarModels{} models. A yes-or-no decision to publish kept
+\ExplFormatDecisionShare{} (\ExplFormatDecisionHolds{} of \ExplGradingVarModels{}). Run~\ExplRunVerdicts{} then asked
+for a yes-or-no verdict on whether the standard was met, on \ExplVerdictTestPairs{} test pairs in
+\ExplVerdictDomains{} domains, \ExplVerdictModels{} models, \ExplDiscoveryDraws{} draws. Alone, the verdict lost the
+split in \ExplVerdictHoldsNoneDomains{} of the \ExplVerdictDomains{} domains on every model and held on at most
+\ExplVerdictHoldsMax{} models elsewhere (grading); both parties usually got the same answer, most often ``no''. The
+confirmatory run asks for the yes-or-no verdict, the format closest to a decision.
+
+\textbf{Session and route drift (exploratory; runs~\ExplRunOrgVariations{} and~\ExplRunScaleCeiling{},
+\url{discovery/run254/}, \url{discovery/run255/}).} Before run~\ExplRunOrgVariations{}, \model{Claude Sonnet 5} was
+read directly through its provider's interface on \ExplRouteCheckCells{} cells from the previous day's run, which had
+gone through a routing service, \ExplDiscoveryDraws{} draws each. Only \ExplRouteCheckMatch{} of
+\ExplRouteCheckCells{} cells matched. Before run~\ExplRunScaleCeiling{}, the same cells were read again by both routes:
+the routing service matched its earlier draws on \ExplRouteTriangleMatchBanked{} of \ExplRouteCheckCells{} cells and
+agreed with the direct route on \ExplRouteTriangleMatchDirect{}; \ExplRouteTriangleOvernight{} cell had changed overnight on both
+routes. Answers to identical prompts can therefore shift between routes to the same model and between days. This is
+why every model in the confirmatory run read every condition in a single session through a single route
+(\S\ref{sec:method}).
+
+\textbf{A worked example without its counter-example (exploratory; run~\ExplRunExampleOnly{},
+\url{discovery/run262/}).} Five pairs were read on six models, four without reasoning (\ExplExampleOnlyDrawsOff{}
+draws) and two with it (\ExplExampleOnlyDrawsReasoning{} draws), with the worked example shown without its
+counter-example. It split \ExplExampleOnlySplitNoReasoningAllNum{} of \ExplExampleOnlySplitNoReasoningAllDen{} cells
+alone without reasoning, against \ExplExampleOnlyBareSplitNoReasoningAllNum{} of
+\ExplExampleOnlyBareSplitNoReasoningAllDen{} with no example, and let \ExplExampleOnlyLetThroughNoReasoningAllNum{} of
+\ExplExampleOnlyLetThroughNoReasoningAllDen{} added failings through. With reasoning, it split
+\ExplExampleOnlySplitReasoningAllNum{} of \ExplExampleOnlySplitReasoningAllDen{} against
+\ExplExampleOnlyBareSplitReasoningAllNum{} of \ExplExampleOnlyBareSplitReasoningAllDen{}, with
+\ExplExampleOnlyLetThroughReasoningAllNum{} of \ExplExampleOnlyLetThroughReasoningAllDen{} let through.
+
+\textbf{The example read as a precedent (exploratory; run~\ExplRunExampleOnly{}, \url{discovery/run262/}).} In the
+same run, whose reasoning we kept (the later session did not collect it), one reasoning model, \model{Claude Haiku
+4.5}, read the example as a precedent: it stated the principle the example decided, asked whether the new case fell
+within it, and distinguished it when it judged that it did not. This sometimes left the pair not split, when it judged
+the requirement the party held to less was excused from to be one it still bore.
+
+\fi
+
+\end{document}

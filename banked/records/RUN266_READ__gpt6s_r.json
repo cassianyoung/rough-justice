@@ -1,0 +1,683 @@
+{
+ "run": "266",
+ "arm": "gpt6s_r",
+ "group": "or",
+ "reasoning": true,
+ "draws": 5,
+ "readout": "sampled",
+ "frames": "records/RUN266_FRAMES.json",
+ "frames_sha256": "170b9f310557e1089a10d61beea15aa3eaf329ac091f506119d4100fdab66868",
+ "estimate_usd": 0.044500000000000005,
+ "estimate_source": "run 261's spend on its own block-B prompts (runs/run261/logs)",
+ "arm_backstop_usd": 0.1335,
+ "group_cap_usd": 1.1441688626154511,
+ "workers": 4,
+ "started": "2026-11-19T09:01:57Z",
+ "units": {
+  "B|insurance": {
+   "block": "Bmirror",
+   "domain": "insurance",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a business buying insurance",
+   "held_to_less": "a person insuring their own home",
+   "original_unit": "B|insurance in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "e5be9f964b9622d26a0b4dc84a6cd259cd2858bd2fece4872fa4fa2a9055ff18",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 496,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 462,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 502,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 579,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "d84d2f5e21f17fb82ea4f80aa40ab710cdf1a087c2822f75f907f81ad12fc349",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 494,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 514,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 453,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 505,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 472,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|thresholds": {
+   "block": "Bmirror",
+   "domain": "thresholds",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a large company",
+   "held_to_less": "a small company",
+   "original_unit": "B|thresholds in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "9a61d9e886112aece6e8b2d767d0cdccbc7aeb6f206ee2287673b5d6011b96e9",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 502,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 447,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 481,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 472,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 421,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9873a4c179e9c18acf64135aea23caffe59574aee5d077d18ac4980671a1a505",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 453,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 483,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|seniority": {
+   "block": "Bmirror",
+   "domain": "seniority",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a senior manager approved by the regulator",
+   "held_to_less": "a junior analyst",
+   "original_unit": "B|seniority in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "3c33480e8036c7cabb07c5eb4948b9be01f0321dadd70f9728252a47354814d3",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 474,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 477,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 467,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "41b04760d9a8b6b03d61f24826afb4917dbbb9b820c5fe0e8efab5ef787e4276",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 429,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 495,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 478,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 494,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|dismissal": {
+   "block": "Bmirror",
+   "domain": "dismissal",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a large employer",
+   "held_to_less": "a small employer",
+   "original_unit": "B|dismissal in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "b77c97f53a829bc298c62a546730f6898a5f2a65f2a6094c2031d1a64e342add",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 503,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 457,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 459,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 490,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 497,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4d1c39ef1f812c415e507c8f5232a0eb700c8f27d1f3206df8d12da1d60b5717",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 409,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 485,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 470,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 469,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 491,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|suitability": {
+   "block": "Bmirror",
+   "domain": "suitability",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a firm advising a retail client",
+   "held_to_less": "a firm advising a professional client",
+   "original_unit": "B|suitability in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "d0b7cb2c566e6397185d5587b6cbb8f73457a5020dfa68ac5cd0e7285974ca24",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 566,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 517,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 555,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 558,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 445,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "c260a1a768c0ead19d09fc6bcd3169c93c864cac08255b80aa760dd399d48859",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 510,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 498,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 487,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 476,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|vulnerable": {
+   "block": "Bmirror",
+   "domain": "vulnerable",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a firm dealing with a vulnerable customer",
+   "held_to_less": "a firm dealing with an ordinary customer",
+   "original_unit": "B|vulnerable in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "658029e5d1cce35f427647c5a3da898032cd2df24bb4a98757123c9b5fb8f316",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 490,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 450,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "92d0dfd3a24bd260bd465c41a523b23e1691e6d986c964c612351d2c2e41a1f0",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 497,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 572,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 526,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 508,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B|education": {
+   "block": "Bmirror",
+   "domain": "education",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "held_to_more": "a seventeen-year-old student",
+   "held_to_less": "a ten-year-old student",
+   "original_unit": "B|education in records/RUN261_FRAMES.json",
+   "cells": {
+    "digit": {
+     "key": "digit",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 0,
+     "n_void": 0,
+     "prompt_sha256": "776b41fa92f2c47be780a0d373f5b04735711ab8e66e533a1523cbb33c989577",
+     "draws": [
+      {
+       "text": "0",
+       "reasoning_len": 442,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 422,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 385,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 457,
+       "answer": null
+      },
+      {
+       "text": "0",
+       "reasoning_len": 0,
+       "answer": null
+      }
+     ],
+     "gate": "FAILED",
+     "yes_rate": null
+    },
+    "yn": {
+     "key": "yn",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "169c1919a684b5095583d40e9d707dd7571b7766aecaa8f68ab6311ad4a32049",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "OpenAI"
+ ],
+ "served_model": [
+  "openai/gpt-6-sol"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "OpenAI",
+ "wires": {
+  "side": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  }
+ },
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 70,
+ "spent_usd": 0.04252,
+ "elapsed_s": 49.0,
+ "finished": "2026-11-19T09:02:46Z"
+}

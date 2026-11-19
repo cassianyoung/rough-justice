@@ -1,0 +1,27 @@
+{
+  "title": "Rough Justice: code, prompts and model responses",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Young, Cassian",
+      "orcid": "0009-0007-8733-0991"
+    }
+  ],
+  "description": "Code, prompts and every banked model response for the paper 'Rough Justice: Language Models Know the Standard but Hold Us to a Stricter One'. Every number in the paper can be regenerated from the banked responses with one command (analysis/reproduce.py); no step calls a model.",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "language models",
+    "evaluation",
+    "standards of conduct",
+    "consistency"
+  ],
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.24369486",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/cassianyoung/rough-justice",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,1801 @@
+{
+ "run": "255",
+ "arms_read": [
+  "claude",
+  "gpt6s_s",
+  "llama70b",
+  "qwen80b"
+ ],
+ "arms_unread": {},
+ "per_arm": {
+  "claude": {
+   "reproduction": {
+    "status": "no run-254 read (claude)"
+   },
+   "cells": {
+    "H|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -0.7999999999999998,
+       -0.7999999999999998,
+       -0.7999999999999998
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": 0.0,
+       "S": 0.0
+      },
+      "floor": 0.3
+     },
+     "ref_raw": 4.0,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 2.7,
+       "S": 3.5,
+       "share": 0.7714285714285715,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 5.7,
+       "large_raw": 3.0,
+       "small_minus_ref": 1.7000000000000002,
+       "large_minus_ref": -1.0,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": 3.8,
+       "S": 3.95,
+       "share": 0.9620253164556961,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 5.8,
+       "large_raw": 2.0,
+       "small_minus_ref": 1.7999999999999998,
+       "large_minus_ref": -2.0,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "council": {
+       "A": 2.5,
+       "S": 3.5,
+       "share": 0.7142857142857143,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 5.5,
+       "large_raw": 3.0,
+       "small_minus_ref": 1.5,
+       "large_minus_ref": -1.0,
+       "small_above_ref": true,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "H|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -1.0999999999999996,
+       -0.5,
+       -0.7999999999999998
+      ],
+      "noise_floor": 0.5707311100684802,
+      "control": {
+       "A": 0.0,
+       "S": 0.0
+      },
+      "floor": 0.5707311100684802
+     },
+     "ref_raw": 4.0,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 3.1,
+       "S": 4.0,
+       "share": 0.775,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 2.9,
+       "large_raw": 6.0,
+       "small_at_floor": false,
+       "small_minus_ref": 1.1,
+       "large_minus_ref": -2.0,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": 3.8,
+       "S": 3.95,
+       "share": 0.9620253164556961,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 2.2,
+       "large_raw": 6.0,
+       "small_at_floor": false,
+       "small_minus_ref": 1.7999999999999998,
+       "large_minus_ref": -2.0,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "council": {
+       "A": 2.1999999999999997,
+       "S": 4.4,
+       "share": 0.4999999999999999,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 2.9,
+       "large_raw": 5.1,
+       "small_at_floor": false,
+       "small_minus_ref": 1.1,
+       "large_minus_ref": -1.0999999999999996,
+       "small_above_ref": true,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "M1|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.40000000000000036,
+       1.4000000000000004,
+       1.4000000000000004
+      ],
+      "noise_floor": 1.0983725334431038,
+      "control": {
+       "A": 0.0,
+       "S": 0.0
+      },
+      "floor": 1.0983725334431038
+     },
+     "ref_raw": 4.0,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.7999999999999998,
+       "S": 2.3,
+       "share": 0.3478260869565217,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 4.8,
+       "large_raw": 4.0,
+       "small_minus_ref": 0.7999999999999998,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": -0.40000000000000036,
+       "S": 2.0,
+       "share": -0.20000000000000018,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 4.6,
+       "large_raw": 5.0,
+       "small_minus_ref": 0.5999999999999996,
+       "large_minus_ref": 1.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.09999999999999964,
+       "S": 2.15,
+       "share": 0.046511627906976584,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.0,
+       "large_raw": 4.9,
+       "small_minus_ref": 1.0,
+       "large_minus_ref": 0.9000000000000004,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M1|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "noise_floor": 1.0983725334431038,
+      "control": {
+       "A": -0.2999999999999998,
+       "S": 0.0
+      },
+      "floor": 1.0983725334431038
+     },
+     "ref_raw": 3.0,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.20000000000000018,
+       "S": 3.5,
+       "share": 0.0571428571428572,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 2.8,
+       "large_raw": 3.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.20000000000000018,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.0,
+       "S": 2.6,
+       "share": 0.0,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 3.0,
+       "large_raw": 3.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.0,
+       "S": 3.0,
+       "share": 0.0,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 3.0,
+       "large_raw": 3.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M2|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       1.0,
+       1.0,
+       1.7999999999999998
+      ],
+      "noise_floor": 0.8786980267544829,
+      "control": {
+       "A": 0.09999999999999964,
+       "S": 0.0
+      },
+      "floor": 0.8786980267544829
+     },
+     "ref_raw": 4.1,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.0,
+       "S": 1.1500000000000001,
+       "share": 0.0,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.0,
+       "large_raw": 5.0,
+       "small_minus_ref": 0.9000000000000004,
+       "large_minus_ref": 0.9000000000000004,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.0,
+       "S": 1.45,
+       "share": 0.0,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.0,
+       "large_raw": 5.0,
+       "small_minus_ref": 0.9000000000000004,
+       "large_minus_ref": 0.9000000000000004,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": -0.20000000000000018,
+       "S": 1.4,
+       "share": -0.142857142857143,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 4.8,
+       "large_raw": 5.0,
+       "small_minus_ref": 0.7000000000000002,
+       "large_minus_ref": 0.9000000000000004,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M2|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       1.0,
+       1.2999999999999998,
+       -0.10000000000000009
+      ],
+      "noise_floor": 1.402308176622465,
+      "control": {
+       "A": -0.20000000000000018,
+       "S": 0.0
+      },
+      "floor": 1.402308176622465
+     },
+     "ref_raw": 2.0,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.0,
+       "S": 0.7999999999999999,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 2.0,
+       "large_raw": 2.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.0,
+       "S": 1.1,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 2.0,
+       "large_raw": 2.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.0,
+       "S": 1.35,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 2.0,
+       "large_raw": 2.0,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": 0.0,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    }
+   },
+   "pattern": {
+    "pattern": "ITEM",
+    "ceiling_flag": false,
+    "grid": {
+     "H|Q": true,
+     "H|S": true,
+     "M1|Q": false,
+     "M1|S": false,
+     "M2|Q": false,
+     "M2|S": false
+    },
+    "cells_read": 6
+   },
+   "scale_agreement": {
+    "H": {
+     "ref_Q": 4.0,
+     "ref_S": 4.0,
+     "sum": 8.0
+    },
+    "M1": {
+     "ref_Q": 4.0,
+     "ref_S": 3.0,
+     "sum": 7.0
+    },
+    "M2": {
+     "ref_Q": 4.1,
+     "ref_S": 2.0,
+     "sum": 6.1
+    }
+   },
+   "label_effects": []
+  },
+  "gpt6s_s": {
+   "reproduction": {
+    "shop|small": {
+     "255": 5.3,
+     "254": 5.1,
+     "d": 0.20000000000000018
+    },
+    "shop|large": {
+     "255": 2.9,
+     "254": 2.6,
+     "d": 0.2999999999999998
+    },
+    "A|shop": {
+     "255": 2.4,
+     "254": 2.4999999999999996,
+     "d": -0.09999999999999964,
+     "S_255": 3.05,
+     "S_254": 2.9
+    },
+    "charity|small": {
+     "255": 5.0,
+     "254": 5.0,
+     "d": 0.0
+    },
+    "charity|large": {
+     "255": 2.4,
+     "254": 2.9,
+     "d": -0.5
+    },
+    "A|charity": {
+     "255": 2.6,
+     "254": 2.1,
+     "d": 0.5,
+     "S_255": 2.5,
+     "S_254": 2.7
+    },
+    "council|small": {
+     "255": 4.9,
+     "254": 4.7,
+     "d": 0.20000000000000018
+    },
+    "council|large": {
+     "255": 2.0,
+     "254": 2.4,
+     "d": -0.3999999999999999
+    },
+    "A|council": {
+     "255": 2.9000000000000004,
+     "254": 2.3000000000000003,
+     "d": 0.6000000000000001,
+     "S_255": 2.7,
+     "S_254": 2.7
+    },
+    "ref": {
+     "255": 4.4,
+     "254": 4.2,
+     "d": 0.20000000000000018
+    },
+    "max_abs_leg_or_ref_d": 0.5
+   },
+   "cells": {
+    "H|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -0.5000000000000004,
+       -0.7000000000000002,
+       -0.7000000000000002
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.5,
+       "S": 0.0
+      },
+      "floor": 0.5
+     },
+     "ref_raw": 4.4,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 2.4,
+       "S": 3.05,
+       "share": 0.7868852459016393,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 5.3,
+       "large_raw": 2.9,
+       "small_minus_ref": 0.8999999999999995,
+       "large_minus_ref": -1.5000000000000004,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": 2.6,
+       "S": 2.5,
+       "share": 1.04,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 5.0,
+       "large_raw": 2.4,
+       "small_minus_ref": 0.5999999999999996,
+       "large_minus_ref": -2.0000000000000004,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "council": {
+       "A": 2.9000000000000004,
+       "S": 2.7,
+       "share": 1.0740740740740742,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 4.9,
+       "large_raw": 2.0,
+       "small_minus_ref": 0.5,
+       "large_minus_ref": -2.4000000000000004,
+       "small_above_ref": false,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "H|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -1.6000000000000005,
+       -0.2999999999999998,
+       0.39999999999999947
+      ],
+      "noise_floor": 1.9307627163032404,
+      "control": {
+       "A": 1.2999999999999998,
+       "S": 0.0
+      },
+      "floor": 1.9307627163032404
+     },
+     "ref_raw": 5.9,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 4.8999999999999995,
+       "S": 3.95,
+       "share": 1.2405063291139238,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 0.2,
+       "large_raw": 5.1,
+       "small_at_floor": true,
+       "small_minus_ref": 5.7,
+       "large_minus_ref": 0.8000000000000007,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 4.5,
+       "S": 3.45,
+       "share": 1.3043478260869565,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 2.5,
+       "large_raw": 7.0,
+       "small_at_floor": false,
+       "small_minus_ref": 3.4000000000000004,
+       "large_minus_ref": -1.0999999999999996,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 3.5999999999999996,
+       "S": 3.8499999999999996,
+       "share": 0.935064935064935,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 3.2,
+       "large_raw": 6.8,
+       "small_at_floor": false,
+       "small_minus_ref": 2.7,
+       "large_minus_ref": -0.8999999999999995,
+       "small_above_ref": true,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "M1|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.4999999999999991,
+       -0.5,
+       0.09999999999999964
+      ],
+      "noise_floor": 0.9575389751278468,
+      "control": {
+       "A": 0.09999999999999964,
+       "S": 0.0
+      },
+      "floor": 0.9575389751278468
+     },
+     "ref_raw": 4.8,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.5,
+       "S": 1.15,
+       "share": 0.4347826086956522,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.2,
+       "large_raw": 4.7,
+       "small_minus_ref": 0.40000000000000036,
+       "large_minus_ref": -0.09999999999999964,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.7000000000000002,
+       "S": 1.5499999999999998,
+       "share": 0.4516129032258066,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.7,
+       "large_raw": 5.0,
+       "small_minus_ref": 0.9000000000000004,
+       "large_minus_ref": 0.20000000000000018,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 1.2000000000000002,
+       "S": 0.9000000000000004,
+       "share": null,
+       "holds_alone": true,
+       "side_above_floor": false,
+       "small_raw": 6.2,
+       "large_raw": 5.0,
+       "small_minus_ref": 1.4000000000000004,
+       "large_minus_ref": 0.20000000000000018,
+       "small_above_ref": true,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 1,
+     "side_above_floor_kinds": 2,
+     "keeps_alone": false
+    },
+    "M1|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       1.1000000000000005,
+       -0.8999999999999999,
+       1.1
+      ],
+      "noise_floor": 2.196745066886208,
+      "control": {
+       "A": -0.10000000000000053,
+       "S": 0.0
+      },
+      "floor": 2.196745066886208
+     },
+     "ref_raw": 6.5,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 1.1999999999999997,
+       "S": 1.9500000000000002,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 3.4,
+       "large_raw": 4.6,
+       "small_at_floor": false,
+       "small_minus_ref": 3.1,
+       "large_minus_ref": 1.9000000000000004,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.7999999999999998,
+       "S": 1.7500000000000002,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 3.1,
+       "large_raw": 3.9,
+       "small_at_floor": false,
+       "small_minus_ref": 3.4,
+       "large_minus_ref": 2.6,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 2.0999999999999996,
+       "S": 1.2999999999999998,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 5.0,
+       "large_raw": 7.1,
+       "small_at_floor": false,
+       "small_minus_ref": 1.5,
+       "large_minus_ref": -0.5999999999999996,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    },
+    "M2|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       1.2999999999999998,
+       3.8,
+       0.8999999999999995
+      ],
+      "noise_floor": 2.9899144915309317,
+      "control": {
+       "A": -0.2999999999999998,
+       "S": 0.0
+      },
+      "floor": 2.9899144915309317
+     },
+     "ref_raw": 6.3,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -1.2000000000000002,
+       "S": 0.6999999999999997,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 5.6,
+       "large_raw": 6.8,
+       "small_minus_ref": -0.7000000000000002,
+       "large_minus_ref": 0.5,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": -1.5,
+       "S": 0.04999999999999982,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 5.0,
+       "large_raw": 6.5,
+       "small_minus_ref": -1.2999999999999998,
+       "large_minus_ref": 0.20000000000000018,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": -1.7000000000000002,
+       "S": 0.10000000000000009,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 5.3,
+       "large_raw": 7.0,
+       "small_minus_ref": -1.0,
+       "large_minus_ref": 0.7000000000000002,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    },
+    "M2|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -0.09999999999999987,
+       1.8,
+       0.30000000000000004
+      ],
+      "noise_floor": 1.9056051240718495,
+      "control": {
+       "A": 0.6999999999999997,
+       "S": 0.0
+      },
+      "floor": 1.9056051240718495
+     },
+     "ref_raw": 1.4,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.20000000000000018,
+       "S": 0.20000000000000007,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.4,
+       "large_raw": 1.6,
+       "small_at_floor": false,
+       "small_minus_ref": 0.0,
+       "large_minus_ref": -0.20000000000000018,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.09999999999999987,
+       "S": 0.04999999999999993,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.1,
+       "large_raw": 1.2,
+       "small_at_floor": false,
+       "small_minus_ref": 0.2999999999999998,
+       "large_minus_ref": 0.19999999999999996,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.7999999999999998,
+       "S": 0.10000000000000009,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.5,
+       "large_raw": 2.3,
+       "small_at_floor": false,
+       "small_minus_ref": -0.10000000000000009,
+       "large_minus_ref": -0.8999999999999999,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    }
+   },
+   "pattern": {
+    "pattern": "ITEM",
+    "ceiling_flag": false,
+    "grid": {
+     "H|Q": true,
+     "H|S": true,
+     "M1|Q": false,
+     "M1|S": false,
+     "M2|Q": false,
+     "M2|S": false
+    },
+    "cells_read": 6
+   },
+   "scale_agreement": {
+    "H": {
+     "ref_Q": 4.4,
+     "ref_S": 5.9,
+     "sum": 10.3
+    },
+    "M1": {
+     "ref_Q": 4.8,
+     "ref_S": 6.5,
+     "sum": 11.3
+    },
+    "M2": {
+     "ref_Q": 6.3,
+     "ref_S": 1.4,
+     "sum": 7.699999999999999
+    }
+   },
+   "label_effects": []
+  },
+  "llama70b": {
+   "reproduction": {
+    "shop|small": {
+     "255": 6.0037259,
+     "254": 6.0038098,
+     "d": -8.38999999999146e-05
+    },
+    "shop|large": {
+     "255": 4.0338829,
+     "254": 4.034653400000001,
+     "d": -0.0007705000000006734
+    },
+    "A|shop": {
+     "255": 1.969843,
+     "254": 1.9691563999999993,
+     "d": 0.0006866000000007588,
+     "S_255": 2.5,
+     "S_254": 2.5
+    },
+    "charity|small": {
+     "255": 6.0058161,
+     "254": 6.006258,
+     "d": -0.0004419000000002171
+    },
+    "charity|large": {
+     "255": 3.9993762,
+     "254": 3.9993187999999997,
+     "d": 5.7400000000207285e-05
+    },
+    "A|charity": {
+     "255": 2.0064398999999997,
+     "254": 2.0069392,
+     "d": -0.0004993000000004244,
+     "S_255": 1.5,
+     "S_254": 1.5000000000000002
+    },
+    "council|small": {
+     "255": 6.0075168,
+     "254": 6.0075297,
+     "d": -1.2899999999760325e-05
+    },
+    "council|large": {
+     "255": 4.0005114,
+     "254": 4.0006334,
+     "d": -0.00012200000000017752
+    },
+    "A|council": {
+     "255": 2.0070054000000006,
+     "254": 2.0068963,
+     "d": 0.0001091000000004172,
+     "S_255": 1.8,
+     "S_254": 1.8
+    },
+    "ref": {
+     "255": 4.4318568,
+     "254": 4.3870065,
+     "d": 0.04485030000000023
+    },
+    "max_abs_leg_or_ref_d": 0.04485030000000023
+   },
+   "cells": {
+    "H|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -0.005483199999999133,
+       0.029596499999999804,
+       0.024715000000000487
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.005963599999999403,
+       "S": 0.0
+      },
+      "floor": 0.3
+     },
+     "ref_raw": 4.4318568,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 1.969843,
+       "S": 2.5,
+       "share": 0.7879372,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.0037259,
+       "large_raw": 4.0338829,
+       "small_minus_ref": 1.5718690999999998,
+       "large_minus_ref": -0.3979739000000002,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": 2.0064398999999997,
+       "S": 1.5,
+       "share": 1.3376265999999999,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.0058161,
+       "large_raw": 3.9993762,
+       "small_minus_ref": 1.5739592999999994,
+       "large_minus_ref": -0.4324806000000003,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "council": {
+       "A": 2.0070054000000006,
+       "S": 1.8,
+       "share": 1.1150030000000004,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.0075168,
+       "large_raw": 4.0005114,
+       "small_minus_ref": 1.57566,
+       "large_minus_ref": -0.43134540000000055,
+       "small_above_ref": true,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "H|S": {
+     "status": "UNREAD_BY_REGISTRATION"
+    },
+    "M1|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -1.1568752999999994,
+       -0.9384126000000004,
+       -1.143027
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.03518180000000015,
+       "S": 0.0
+      },
+      "floor": 0.3
+     },
+     "ref_raw": 4.6548389,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.12716369999999966,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 4.713461,
+       "large_raw": 4.5862973,
+       "small_minus_ref": 0.05862210000000001,
+       "large_minus_ref": -0.06854159999999965,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 1.2074664000000004,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": true,
+       "side_above_floor": false,
+       "small_raw": 5.8897516,
+       "large_raw": 4.6822852,
+       "small_minus_ref": 1.2349127000000006,
+       "large_minus_ref": 0.027446300000000257,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.4892304000000003,
+       "S": 0.2999999999999994,
+       "share": null,
+       "holds_alone": true,
+       "side_above_floor": false,
+       "small_raw": 5.9683812000000005,
+       "large_raw": 5.4791508,
+       "small_minus_ref": 1.3135423000000008,
+       "large_minus_ref": 0.8243119000000005,
+       "small_above_ref": true,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 2,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": true
+    },
+    "M1|S": {
+     "status": "UNREAD_BY_REGISTRATION"
+    },
+    "M2|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       1.9293722,
+       1.5977818999999998,
+       -2.1936872000000003
+      ],
+      "noise_floor": 4.357979640517574,
+      "control": {
+       "A": 0.30347990000000014,
+       "S": 0.0
+      },
+      "floor": 4.357979640517574
+     },
+     "ref_raw": 7.5703217,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -4.1477607,
+       "S": 0.6000000000000001,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 3.8470359,
+       "large_raw": 7.9947966,
+       "small_minus_ref": -3.7232858,
+       "large_minus_ref": 0.4244748999999999,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": -0.15416439999999998,
+       "S": 0.04999999999999982,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 7.8454946,
+       "large_raw": 7.999659,
+       "small_minus_ref": 0.2751729000000003,
+       "large_minus_ref": 0.42933730000000025,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": -0.1399486000000012,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 7.8506488999999995,
+       "large_raw": 7.990597500000001,
+       "small_minus_ref": 0.28032719999999944,
+       "large_minus_ref": 0.42027580000000064,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    },
+    "M2|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       3.8361966,
+       1.4738329,
+       0.03749170000000013
+      ],
+      "noise_floor": 3.6490108775418766,
+      "control": {
+       "A": -3.8900000000063883e-05,
+       "S": 0.0
+      },
+      "floor": 3.6490108775418766
+     },
+     "ref_raw": 2.02096,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -0.011940400000000073,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 2.0080722,
+       "large_raw": 1.9961318,
+       "small_at_floor": false,
+       "small_minus_ref": 0.012887800000000116,
+       "large_minus_ref": 0.02482820000000019,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": -0.0427055999999999,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.9984591999999999,
+       "large_raw": 1.9557536,
+       "small_at_floor": false,
+       "small_minus_ref": 0.02250080000000021,
+       "large_minus_ref": 0.06520640000000011,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": -0.007304599999999883,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.9995671,
+       "large_raw": 1.9922625,
+       "small_at_floor": false,
+       "small_minus_ref": 0.02139290000000016,
+       "large_minus_ref": 0.028697500000000042,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    }
+   },
+   "pattern": {
+    "pattern": "MIXED",
+    "ceiling_flag": false,
+    "grid": {
+     "H|Q": true,
+     "M1|Q": true,
+     "M2|Q": false,
+     "M2|S": false
+    },
+    "cells_read": 4
+   },
+   "scale_agreement": {
+    "H": {
+     "ref_Q": 4.4318568,
+     "ref_S": null,
+     "sum": null
+    },
+    "M1": {
+     "ref_Q": 4.6548389,
+     "ref_S": null,
+     "sum": null
+    },
+    "M2": {
+     "ref_Q": 7.5703217,
+     "ref_S": 2.02096,
+     "sum": 9.5912817
+    }
+   },
+   "label_effects": []
+  },
+  "qwen80b": {
+   "reproduction": {
+    "shop|small": {
+     "255": 3.750957,
+     "254": 3.5818971,
+     "d": 0.16905990000000015
+    },
+    "shop|large": {
+     "255": 2.891619,
+     "254": 2.8916134000000002,
+     "d": 5.5999999997169425e-06
+    },
+    "A|shop": {
+     "255": 0.8593380000000002,
+     "254": 0.6902836999999997,
+     "d": 0.16905430000000043,
+     "S_255": 3.9,
+     "S_254": 3.8
+    },
+    "charity|small": {
+     "255": 4.089518,
+     "254": 3.9174677,
+     "d": 0.1720503
+    },
+    "charity|large": {
+     "255": 2.935062,
+     "254": 2.9580803,
+     "d": -0.02301830000000038
+    },
+    "A|charity": {
+     "255": 1.1544560000000001,
+     "254": 0.9593873999999998,
+     "d": 0.19506860000000037,
+     "S_255": 3.65,
+     "S_254": 3.65
+    },
+    "council|small": {
+     "255": 3.3369515,
+     "254": 3.3367901,
+     "d": 0.00016140000000008925
+    },
+    "council|large": {
+     "255": 2.181814,
+     "254": 2.1611092,
+     "d": 0.0207048000000003
+    },
+    "A|council": {
+     "255": 1.1551375,
+     "254": 1.1756809000000001,
+     "d": -0.02054340000000021,
+     "S_255": 3.6999999999999997,
+     "S_254": 3.5999999999999996
+    },
+    "ref": {
+     "255": 3.377266,
+     "254": 3.3656943999999998,
+     "d": 0.011571600000000348
+    },
+    "max_abs_leg_or_ref_d": 0.1720503
+   },
+   "cells": {
+    "H|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.09666359999999985,
+       0.04035100000000025,
+       0.11661250000000001
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.05553000000000008,
+       "S": 0.0
+      },
+      "floor": 0.3
+     },
+     "ref_raw": 3.377266,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.8593380000000002,
+       "S": 3.9,
+       "share": 0.22034307692307697,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 3.750957,
+       "large_raw": 2.891619,
+       "small_minus_ref": 0.373691,
+       "large_minus_ref": -0.48564700000000016,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": 1.1544560000000001,
+       "S": 3.65,
+       "share": 0.3162893150684932,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 4.089518,
+       "large_raw": 2.935062,
+       "small_minus_ref": 0.7122519999999999,
+       "large_minus_ref": -0.44220400000000026,
+       "small_above_ref": true,
+       "large_below_ref": true
+      },
+      "council": {
+       "A": 1.1551375,
+       "S": 3.6999999999999997,
+       "share": 0.31219932432432435,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 3.3369515,
+       "large_raw": 2.181814,
+       "small_minus_ref": -0.04031450000000003,
+       "large_minus_ref": -1.195452,
+       "small_above_ref": false,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 3,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "H|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -0.19442610000000027,
+       -0.3719847000000005,
+       -0.40178070000000066
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": 0.021615800000000185,
+       "S": 0.0
+      },
+      "floor": 0.3
+     },
+     "ref_raw": 6.669637,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.4570500000000006,
+       "S": 3.0,
+       "share": 0.1523500000000002,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.493396,
+       "large_raw": 6.950446,
+       "small_at_floor": false,
+       "small_minus_ref": 0.1762410000000001,
+       "large_minus_ref": -0.28080900000000053,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.5361947000000002,
+       "S": 2.8,
+       "share": 0.19149810714285725,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.4015723,
+       "large_raw": 6.937767,
+       "small_at_floor": false,
+       "small_minus_ref": 0.26806470000000004,
+       "large_minus_ref": -0.2681300000000002,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.16260679999999983,
+       "S": 3.5,
+       "share": 0.04645908571428566,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 6.819396,
+       "large_raw": 6.9820028,
+       "small_at_floor": false,
+       "small_minus_ref": -0.14975900000000042,
+       "large_minus_ref": -0.31236580000000025,
+       "small_above_ref": false,
+       "large_below_ref": true
+      }
+     },
+     "holds_alone_kinds": 2,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": true
+    },
+    "M1|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.6671493000000002,
+       0.5447896000000005,
+       0.14356359999999935
+      ],
+      "noise_floor": 0.5210595163336722,
+      "control": {
+       "A": -0.03288139999999906,
+       "S": 0.0
+      },
+      "floor": 0.5210595163336722
+     },
+     "ref_raw": 5.03721,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -0.0688140000000006,
+       "S": 3.5,
+       "share": -0.019661142857143026,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.014599,
+       "large_raw": 5.083413,
+       "small_minus_ref": -0.02261100000000038,
+       "large_minus_ref": 0.046203000000000216,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": -0.14363159999999997,
+       "S": 3.45,
+       "share": -0.04163234782608695,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.326541,
+       "large_raw": 5.4701726,
+       "small_minus_ref": 0.2893309999999998,
+       "large_minus_ref": 0.43296259999999975,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.03266420000000014,
+       "S": 2.85,
+       "share": 0.011461122807017594,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.1577032,
+       "large_raw": 5.125039,
+       "small_minus_ref": 0.1204932000000003,
+       "large_minus_ref": 0.08782900000000016,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M1|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       0.5638084000000001,
+       0.8071790000000001,
+       0.9528588
+      ],
+      "noise_floor": 0.3739406562423607,
+      "control": {
+       "A": 0.5244730000000004,
+       "S": 0.0
+      },
+      "floor": 0.5244730000000004
+     },
+     "ref_raw": 3.1979726,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -1.2690608,
+       "S": 5.0,
+       "share": -0.25381216,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 5.0161274,
+       "large_raw": 3.7470666,
+       "small_at_floor": false,
+       "small_minus_ref": -1.8181548000000003,
+       "large_minus_ref": -0.5490940000000002,
+       "small_above_ref": false,
+       "large_below_ref": true
+      },
+      "charity": {
+       "A": -1.1852199999999997,
+       "S": 4.95,
+       "share": -0.23943838383838378,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 4.035702,
+       "large_raw": 2.850482,
+       "small_at_floor": false,
+       "small_minus_ref": -0.8377293999999997,
+       "large_minus_ref": 0.3474906,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": -0.4103667999999998,
+       "S": 0.9000000000000004,
+       "share": -0.4559631111111107,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 3.3833428,
+       "large_raw": 2.972976,
+       "small_at_floor": false,
+       "small_minus_ref": -0.18537019999999993,
+       "large_minus_ref": 0.22499659999999988,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M2|Q": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       -2.5337788999999997,
+       -0.9835919999999994,
+       -0.5359849999999997
+      ],
+      "noise_floor": 1.9944781729963543,
+      "control": {
+       "A": -0.4081625999999998,
+       "S": 0.0
+      },
+      "floor": 1.9944781729963543
+     },
+     "ref_raw": 3.802449,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -1.2287255000000004,
+       "S": 3.05,
+       "share": -0.4028608196721313,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 3.1739625,
+       "large_raw": 4.402688,
+       "small_minus_ref": -0.6284865000000002,
+       "large_minus_ref": 0.6002390000000002,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 3.0824409999999998,
+       "S": 2.9499999999999997,
+       "share": 1.0448952542372882,
+       "holds_alone": true,
+       "side_above_floor": true,
+       "small_raw": 6.238434,
+       "large_raw": 3.155993,
+       "small_minus_ref": 2.4359849999999996,
+       "large_minus_ref": -0.6464560000000001,
+       "small_above_ref": true,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 1.8220120000000004,
+       "S": 3.05,
+       "share": 0.5973809836065576,
+       "holds_alone": false,
+       "side_above_floor": true,
+       "small_raw": 4.366615,
+       "large_raw": 2.544603,
+       "small_minus_ref": 0.5641660000000002,
+       "large_minus_ref": -1.2578460000000002,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 1,
+     "side_above_floor_kinds": 3,
+     "keeps_alone": false
+    },
+    "M2|S": {
+     "status": "READ",
+     "floor": {
+      "noise_devs": [
+       2.137295,
+       3.3770195999999997,
+       0.28368139999999964
+      ],
+      "noise_floor": 2.9616920020461044,
+      "control": {
+       "A": 0.14175650000000006,
+       "S": 0.0
+      },
+      "floor": 2.9616920020461044
+     },
+     "ref_raw": 2.3042254,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -0.020059199999999944,
+       "S": 2.6,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.8425262,
+       "large_raw": 1.822467,
+       "small_at_floor": false,
+       "small_minus_ref": 0.4616992,
+       "large_minus_ref": 0.4817583999999999,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "charity": {
+       "A": 0.007714999999999916,
+       "S": 2.8,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.70133,
+       "large_raw": 1.709045,
+       "small_at_floor": false,
+       "small_minus_ref": 0.6028954,
+       "large_minus_ref": 0.5951804,
+       "small_above_ref": false,
+       "large_below_ref": false
+      },
+      "council": {
+       "A": 0.5304122999999998,
+       "S": 1.5499999999999998,
+       "share": null,
+       "holds_alone": false,
+       "side_above_floor": false,
+       "small_raw": 1.5024477,
+       "large_raw": 2.03286,
+       "small_at_floor": false,
+       "small_minus_ref": 0.8017776999999999,
+       "large_minus_ref": 0.2713654000000001,
+       "small_above_ref": false,
+       "large_below_ref": false
+      }
+     },
+     "holds_alone_kinds": 0,
+     "side_above_floor_kinds": 0,
+     "keeps_alone": false
+    }
+   },
+   "pattern": {
+    "pattern": "ITEM",
+    "ceiling_flag": false,
+    "grid": {
+     "H|Q": true,
+     "H|S": true,
+     "M1|Q": false,
+     "M1|S": false,
+     "M2|Q": false,
+     "M2|S": false
+    },
+    "cells_read": 6
+   },
+   "scale_agreement": {
+    "H": {
+     "ref_Q": 3.377266,
+     "ref_S": 6.669637,
+     "sum": 10.046903
+    },
+    "M1": {
+     "ref_Q": 5.03721,
+     "ref_S": 3.1979726,
+     "sum": 8.2351826
+    },
+    "M2": {
+     "ref_Q": 3.802449,
+     "ref_S": 2.3042254,
+     "sum": 6.1066744
+    }
+   },
+   "label_effects": []
+  }
+ },
+ "limits": [
+  "llama70b: H and M1 on the shortfall scale unread by registration (pilot references 7.25 and 7.99, outside 2 to 7; the shortfall check ruled out inversion: faultless 0, never answered 9).",
+  "M2 shortfall reference near 2 on every arm in the pilot: a small leg on the floor understates the latitude."
+ ],
+ "spent_usd": 1.3574387999999984,
+ "served": {
+  "claude": {
+   "provider": [
+    "Anthropic"
+   ],
+   "model": [
+    "anthropic/claude-sonnet-5"
+   ],
+   "constant": true
+  },
+  "gpt6s_s": {
+   "provider": [
+    "OpenAI"
+   ],
+   "model": [
+    "openai/gpt-6-sol"
+   ],
+   "constant": true
+  },
+  "llama70b": {
+   "provider": [
+    "CoreWeave"
+   ],
+   "model": [
+    "meta-llama/llama-3.3-70b-instruct"
+   ],
+   "constant": true
+  },
+  "qwen80b": {
+   "provider": [
+    "Parasail"
+   ],
+   "model": [
+    "qwen/qwen3-next-80b-a3b-instruct"
+   ],
+   "constant": true
+  }
+ },
+ "failed_cells": {
+  "claude": [],
+  "gpt6s_s": [],
+  "llama70b": [],
+  "qwen80b": []
+ }
+}

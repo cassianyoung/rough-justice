@@ -1,0 +1,9215 @@
+{
+ "run": "254",
+ "arm": "llama70b",
+ "draws": 10,
+ "frames": "records/RUN254_FRAMES.json",
+ "frames_sha256": "d0b3fe70ccc66cd2b011d33f8952c14657671fb73a27b46864dec3c281a0f53f",
+ "prereg": "records/PREREG_RUN254_ORG_VARIATIONS.md",
+ "estimate_usd": 0.12796413451208513,
+ "arm_backstop_usd": 0.3838924035362554,
+ "group_cap_usd": 3.0,
+ "started": "2026-11-11T11:37:15Z",
+ "units": {
+  "L|H|shop|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "3b9d0776a302f02204e6f82b1e13e276de12975953ab4a302e8d146da5dfa6eb",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.003862,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0038098,
+     "values": [
+      6.003862,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804
+     ]
+    }
+   }
+  },
+  "L|H|shop|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "8bafe8083e72a76748eceb64c77d9ebbe9ae513143a53971c16ffd59292e9b87",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.028379,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.028379,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.034653400000001,
+     "values": [
+      4.028379,
+      4.036222,
+      4.036222,
+      4.036222,
+      4.036222,
+      4.028379,
+      4.036222,
+      4.036222,
+      4.036222,
+      4.036222
+     ]
+    }
+   }
+  },
+  "L|H|charity|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "91c6213a95f2dc5be17679972fe9523f512c1fb8d978c6912fdc9817fc20a98c",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.006258,
+     "values": [
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "4786f5ea8a28a5f93c69bb9d0ff4851c77d614ba3b27d639e05f3931f8d7fcbc",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.000583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.00075,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001008,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0009396,
+     "values": [
+      6.000583,
+      6.00075,
+      6.000583,
+      6.001008,
+      6.001008,
+      6.000583,
+      6.001291,
+      6.001291,
+      6.001291,
+      6.001008
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "39d4cf0739edf8eea2a4fa89944ae33dce501b8490d0fd735deaa195a293846b",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "7",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.1119888,
+     "values": [
+      6.095291,
+      6.095291,
+      6.119145,
+      6.119145,
+      6.119145,
+      6.119145,
+      6.119145,
+      6.119145,
+      6.095291,
+      6.119145
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "de0a1d34f6641ea772bc1e09db19634c3d1c7e6c0cb18554f717ffdb9b881d48",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.994564,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.994564,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9929304,
+     "values": [
+      5.994564,
+      5.992522,
+      5.992522,
+      5.992522,
+      5.994564,
+      5.992522,
+      5.992522,
+      5.992522,
+      5.992522,
+      5.992522
+     ]
+    }
+   }
+  },
+  "L|H|charity|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "5c3fd3ef80c0984494f4bb0bcbf0d17dbb243c28d116705461c58ec487bc8778",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.999446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.9993187999999997,
+     "values": [
+      3.999446,
+      3.999287,
+      3.999287,
+      3.999446,
+      3.999287,
+      3.999287,
+      3.999287,
+      3.999287,
+      3.999287,
+      3.999287
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "9850b336a026f04e03f1506569e4d925d5dabbea40961613a422b2cade0a9436",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.999876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999796,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.999812,
+     "values": [
+      3.999876,
+      3.999796,
+      3.999796,
+      3.999796,
+      3.999796,
+      3.999876,
+      3.999796,
+      3.999796,
+      3.999796,
+      3.999796
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "6cfb34d6a574dbe5485b903d0226831381f6feee4b1ce45cd05026dcad5365a0",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.046176,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0576294,
+     "values": [
+      4.046176,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.058902
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "caa6dac924e006ed1a5926046dbb09d2ef29a4ba19b4053f1e62ea2321bab847",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963804,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.9638052,
+     "values": [
+      3.963806,
+      3.963804,
+      3.963806,
+      3.963804,
+      3.963806,
+      3.963806,
+      3.963806,
+      3.963806,
+      3.963804,
+      3.963804
+     ]
+    }
+   }
+  },
+  "L|H|drug|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "drug",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "46da5c9622afbb9529e4f75d36642e31365dd5954d0334551505b78068e66aa8",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.017257,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.017257,
+     "values": [
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257,
+      6.017257
+     ]
+    }
+   }
+  },
+  "L|H|drug|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "drug",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "183b7ccfce368bc6656563b479fdc85f41666630990f52ce9d41744c145495a0",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.000073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000072,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000057,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0000708000000005,
+     "values": [
+      4.000073,
+      4.000072,
+      4.000073,
+      4.000072,
+      4.000073,
+      4.000072,
+      4.000072,
+      4.000072,
+      4.000072,
+      4.000057
+     ]
+    }
+   }
+  },
+  "L|H|council|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "74e29727e88494e8f722ecbb6010924efdacfd3511053a03d6604ae4ff534f59",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.006107,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006107,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006236,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0075297,
+     "values": [
+      6.006107,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.006107,
+      6.006236
+     ]
+    }
+   }
+  },
+  "L|H|council|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ab234da24cb6d8f53e7d01edcadabd09750bfddefa77ea4f310f66a69535be7a",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0006334,
+     "values": [
+      4.000419,
+      4.000687,
+      4.000419,
+      4.000687,
+      4.000687,
+      4.000687,
+      4.000687,
+      4.000687,
+      4.000687,
+      4.000687
+     ]
+    }
+   }
+  },
+  "R|H": {
+   "block": "ref",
+   "item": "H",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "861abf73d06b658d2b0d3197b9dcc5c32a9f0c6b587668f97120f6b871579764",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 4.297287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.297023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.297287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.297614,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.3870065,
+     "values": [
+      4.297287,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.297023,
+      4.297287,
+      4.297614,
+      4.446809,
+      4.446809
+     ]
+    }
+   }
+  },
+  "S|H|size|shop": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|H|shop|small",
+    "O": "L|H|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "328e784ba92b33c04ed2158a511c98e6dbf8c1736d953ddbeca142c541a2d90b",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 4.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ef01de625460343c608a3cb27b88e7675674c959e4b0b821d06394ce0e57c91f",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "S|H|size|charity": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|H|charity|small",
+    "O": "L|H|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "6e08f9102f54d9e49eca9d67f0a6a596848d14533a452d8c7aaeec4c60c729e9",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "d3e6a305bde3aeeb10d5e9ee58e91d6e506cdf23849d6dd95c04325541c973bd",
+     "draws": [
+      {
+       "text": "LARGE=2 SMALL=4",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=4",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=4",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 3.4,
+      "SMALL": 5.4
+     }
+    }
+   }
+  },
+  "S|H|size|drug": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|H|drug|small",
+    "O": "L|H|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "759ef8b01fc061f36be81b6e6cfdd53230ca792670136f7b0158d4618dcb1d8e",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ce2bc47a5f61b0a44ea7ee86d52357f94c452bb3d63c52f2659dc25709b26c19",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 2.8,
+      "SMALL": 3.0
+     }
+    }
+   }
+  },
+  "S|H|size|council": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|H|council|small",
+    "O": "L|H|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "3a17ee1b26df018b273487af4426a1625d6a47a6e529017a8eee65d651939eff",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 0.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "894b69ac94fbbd9d796f2462fd074e6add2ab9395f39ddd746b9822d06e5a84f",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "S|H|kind|large": {
+   "block": "side",
+   "item": "H",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|H|charity|large",
+    "O": "L|H|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "231f9b483302903aec5066c77962c4fb92d2888cda0e2faf9382fc94a03dc502",
+     "draws": [
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      },
+      {
+       "text": "CHARITY=4 PHARMACEUTICAL=3",
+       "parsed": {
+        "CHARITY": 4,
+        "PHARMACEUTICAL": 3
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "CHARITY",
+      "PHARMACEUTICAL"
+     ],
+     "means": {
+      "CHARITY": 4.0,
+      "PHARMACEUTICAL": 3.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "e1265f7d96b4ffe8401c3be10ada1eb79683856767b816bda398f0ad0328dce8",
+     "draws": [
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=4 CHARITY=4",
+       "parsed": {
+        "PHARMACEUTICAL": 4,
+        "CHARITY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "PHARMACEUTICAL",
+      "CHARITY"
+     ],
+     "means": {
+      "PHARMACEUTICAL": 4.0,
+      "CHARITY": 4.0
+     }
+    }
+   }
+  },
+  "K|H": {
+   "block": "control",
+   "item": "H",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "57f803f98e7275086706b71859a198dc1077b9549f6213264bb26cef01166e70",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008213,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008213,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0075702,
+     "values": [
+      4.005002,
+      4.008212,
+      4.008212,
+      4.005002,
+      4.008213,
+      4.008213,
+      4.008212,
+      4.008212,
+      4.008212,
+      4.008212
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "149e3d690cc960550c3169e1ab7de880220e603b31d560a4a55887f81e9704a9",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.013504,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.013504,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0111479999999995,
+     "values": [
+      4.013504,
+      4.013504,
+      4.010559,
+      4.010559,
+      4.010559,
+      4.010559,
+      4.010559,
+      4.010559,
+      4.010559,
+      4.010559
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "cf97ff19ecb86890e99c56d1df44156a9395e82fcf282d6d72df5962e583427d",
+     "draws": [
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 4.0,
+      "THURSDAY": 4.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "9ec7639e50be326a0c0b24ad3f665c5d0e155597367d4cba0cf0808562d32eda",
+     "draws": [
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 4.0,
+      "TUESDAY": 4.0
+     }
+    }
+   }
+  },
+  "L|C1|shop|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "2361a08c94f6e2a1176fcadc3156cff8bb89cf0389767d83a6936ac10108d9a9",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.996827,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.996827,
+     "values": [
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827,
+      8.996827
+     ]
+    }
+   }
+  },
+  "L|C1|shop|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "faefb99db2aa03e28146b0086f1e7244f325279066726ea6072dc7232b3b4ba2",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.977023,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9780212,
+     "values": [
+      8.982014,
+      8.982014,
+      8.977023,
+      8.977023,
+      8.977023,
+      8.977023,
+      8.977023,
+      8.977023,
+      8.977023,
+      8.977023
+     ]
+    }
+   }
+  },
+  "L|C1|charity|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "cc951d84250494b83fa6beeb8f009765458d02d646bedfcb6875a733a90a0009",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9851516,
+     "values": [
+      8.982014,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.982014,
+      8.985936,
+      8.985936,
+      8.985936
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ddd896b7b78da6997d429afebc8a84679e66a9d6df2661afd82e6fe583b969e8",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014064,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0145407,
+     "values": [
+      8.017986,
+      8.017986,
+      8.014064,
+      8.014064,
+      8.010987,
+      8.014064,
+      8.014064,
+      8.014064,
+      8.014064,
+      8.014064
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ba8c9b0363f94f18286ee3f4337e9c3e2b34f59d601227032fe9ea3971535909",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.320821,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.320821,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.268941,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.320821,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.284505,
+     "values": [
+      8.320821,
+      8.268941,
+      8.320821,
+      8.268941,
+      8.268941,
+      8.268941,
+      8.268941,
+      8.268941,
+      8.268941,
+      8.320821
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "796c653f4b4e6db1d756a5c5f7cfe24b069fdfa2b74d88544886bc06f24a2516",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.989977,
+     "values": [
+      8.991423,
+      8.991423,
+      8.991423,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.991423,
+      8.989013
+     ]
+    }
+   }
+  },
+  "L|C1|charity|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "af8d462ffad4404037a03b6265258053b0e3d62d4c2c6b829fb8421443ca9226",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.985936,
+     "values": [
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936,
+      8.985936
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "9073291f116a2674f3ac7abd370c965ce5fc25fbc6b2dfcf308ce03f68cb099b",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.060087,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060087,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060087,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.2227,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.1739161,
+     "values": [
+      8.060087,
+      8.2227,
+      8.060087,
+      8.2227,
+      8.060087,
+      8.2227,
+      8.2227,
+      8.2227,
+      8.2227,
+      8.2227
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "b7ad563c5ab0144d2bb1575959b63aa296967def52e7714d482b5ec16bfb0aef",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.993265899999999,
+     "values": [
+      8.99478,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.991423,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "1ea44101d864ca880155f38974c8f2986286c75545b35122d4eab1d87c28c709",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.989013,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.989253999999999,
+     "values": [
+      8.989013,
+      8.991423,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013,
+      8.989013
+     ]
+    }
+   }
+  },
+  "L|C1|drug|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "drug",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "6d265b95c42817d87f3f69eff45a600d31812decb77e3bbbf265bb5d1afbb4bd",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99883,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.99883,
+     "values": [
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883,
+      8.99883
+     ]
+    }
+   }
+  },
+  "L|C1|drug|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "drug",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "c0bcabfddad2f490217b8fe07093767aec85d42cb4b48a6f07a850e93fb5236c",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.952574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.952574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.952574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.939913,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9437113,
+     "values": [
+      8.952574,
+      8.939913,
+      8.939913,
+      8.952574,
+      8.939913,
+      8.939913,
+      8.939913,
+      8.952574,
+      8.939913,
+      8.939913
+     ]
+    }
+   }
+  },
+  "L|C1|council|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "195cb1dace8744cb9d1d48641b70c1f95550312f79120212ae714c5f9eded143",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.985936,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.982014,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9827984,
+     "values": [
+      8.985936,
+      8.982014,
+      8.982014,
+      8.982014,
+      8.982014,
+      8.982014,
+      8.985936,
+      8.982014,
+      8.982014,
+      8.982014
+     ]
+    }
+   }
+  },
+  "L|C1|council|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "304034a6c45c8a8390d58e40829d9a0fd76050f32b87696e3415a0fdc2a97120",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.952574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.952574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9670652,
+     "values": [
+      8.952574,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.952574,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688
+     ]
+    }
+   }
+  },
+  "R|C1": {
+   "block": "ref",
+   "item": "C1",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "dffa780dacb896b719844caa945e88db4bc70da98857d353d3a0ffb950393b0b",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.99478,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9941086,
+     "values": [
+      8.991423,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.99478,
+      8.991423
+     ]
+    }
+   }
+  },
+  "S|C1|size|shop": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|C1|shop|small",
+    "O": "L|C1|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "2f817fbe6da8e1d274abed6cffb95b7c5e2a7e5ca005a9070b1d2621c49f380a",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "9acc64d96e949b86e44741e9ba72503d2b71754c93865b536eb7dd54d6c1545a",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 8.0
+     }
+    }
+   }
+  },
+  "S|C1|size|charity": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|C1|charity|small",
+    "O": "L|C1|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "9f7e2c829861a97a100c2c2df2e984d287e048b23b809d0b60af9b641f874701",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "8e8f25395f0509b2a9a44ef8d49309cee3837f9796b42119f8e4db7a2d8e6326",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 8.0
+     }
+    }
+   }
+  },
+  "S|C1|size|drug": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|C1|drug|small",
+    "O": "L|C1|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "f41e6745d9ba3fceec48b482979a772e92c2bfb3b470c664f3c68e6468ac65d3",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "770f6763aa176e7c9103832ea87363bdee2b666dd43be1f48cfbf0b73cf411ca",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 9.0
+     }
+    }
+   }
+  },
+  "S|C1|size|council": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|C1|council|small",
+    "O": "L|C1|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "cdbe8bcbc510ac5fccc0ea1b265312a722fec66ddb08bf475fd6293d9bb739f1",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "d790af372c8c374144d32b36545faa51ac885874b9b94b62f35ce2ee539304f1",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=8",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 8
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 8.0
+     }
+    }
+   }
+  },
+  "S|C1|kind|large": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|C1|charity|large",
+    "O": "L|C1|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "bae25edf7b875102d76af16ef19a3e63e8cc46e23130e77f9e17546cd39f8a79",
+     "draws": [
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=7",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 7
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=7",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 7
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "CHARITY",
+      "PHARMACEUTICAL"
+     ],
+     "means": {
+      "CHARITY": 8.0,
+      "PHARMACEUTICAL": 8.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "da218eab6280e683b2d05cc50cae4b465f88d00c337efefdf97b22dff0f14063",
+     "draws": [
+      {
+       "text": "PHARMACEUTICAL=9 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 9,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=9 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 9,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=9 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 9,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=9 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 9,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=7",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 7
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=9 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 9,
+        "CHARITY": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "PHARMACEUTICAL",
+      "CHARITY"
+     ],
+     "means": {
+      "PHARMACEUTICAL": 8.5,
+      "CHARITY": 8.8
+     }
+    }
+   }
+  },
+  "K|C1": {
+   "block": "control",
+   "item": "C1",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "29661983bd07add30a5c06602c032f8faa3a7a7d191b1d302089479e9b9cf7b3",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.993307,
+     "values": [
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "43c4758a5a902fdb2d131e6c5d933f15dfd5b4dbb9e571978be82857e193b47d",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.991423,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.993307,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.9929302,
+     "values": [
+      8.991423,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.991423,
+      8.993307,
+      8.993307,
+      8.993307,
+      8.993307
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "c92cd5b4bca375fd75827a51b3d8ef9fd91d9a583b52ad2189caff63933cdf7f",
+     "draws": [
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 9.0,
+      "THURSDAY": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "823b3a0abbe101bc2237f503f38380e4d771240fe0482eddc13eb5d6911b985f",
+     "draws": [
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 9.0,
+      "TUESDAY": 9.0
+     }
+    }
+   }
+  },
+  "T|C1": {
+   "block": "sole",
+   "item": "C1",
+   "labels": [
+    "SELF_EMPLOYED",
+    "FIRM"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "7d8c7d83a8d273f7fce3a414b12b15e58d7525a3c57eb12a4a477e4b7abd5a06",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.970688,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.970688,
+     "values": [
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688,
+      8.970688
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "bed7575854149ef05afa95ba46bd4c8181289dc1740aee67b00b8a4fd6d28357",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.999569,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.999569,
+     "values": [
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569,
+      8.999569
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "36998e85533148d82ac2065f7abb145985812c05a5d7a6accc9021d105c4b825",
+     "draws": [
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=8 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 8,
+        "FIRM": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SELF_EMPLOYED",
+      "FIRM"
+     ],
+     "means": {
+      "SELF_EMPLOYED": 8.0,
+      "FIRM": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ba33bea11651543056ec8d801d4f41f4137735f36f2d0f3f4348ee9ec69201e2",
+     "draws": [
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "FIRM",
+      "SELF_EMPLOYED"
+     ],
+     "means": {
+      "FIRM": 9.0,
+      "SELF_EMPLOYED": 9.0
+     }
+    }
+   }
+  },
+  "L|C2|shop|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "0c57de5414f50ffb03c7de5c4c42583b8b33b59171d1b92e788a7212ae4d90a0",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.437823,
+     "values": [
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823,
+      8.437823
+     ]
+    }
+   }
+  },
+  "L|C2|shop|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "8ae2b272e68cf262d408ce7a346961cc902170717f1d3202e160a0f932da040b",
+     "draws": [
+      {
+       "text": "9",
+       "ev": 8.437823,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.37754,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.3835683,
+     "values": [
+      8.437823,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754,
+      8.37754
+     ]
+    }
+   }
+  },
+  "L|C2|charity|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "f89273edbfc4f04fb7951df255a5180cab0df39d2333c59ce42d8a1b9de6db78",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.00522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.00522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.003172,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.003581599999999,
+     "values": [
+      8.00522,
+      8.003172,
+      8.003172,
+      8.003172,
+      8.003172,
+      8.003172,
+      8.003172,
+      8.003172,
+      8.00522,
+      8.003172
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "8c57298a0378f8a254871f1681519f195e6d5de0cf4bacc00e277b53076f4c1c",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000026,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.000026,
+     "values": [
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026,
+      8.000026
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "f333427700db810343661f48eafcfd9ac6898aacaf517c27363fecee19cad454",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000056,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.000056,
+     "values": [
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056,
+      8.000056
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "0705f3cf6f3345aa8f3546c684d66598bd3c92c9ba32d373a7c67248dc5a932e",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.014063,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010986,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.011293700000001,
+     "values": [
+      8.014063,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986,
+      8.010986
+     ]
+    }
+   }
+  },
+  "L|C2|charity|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "1552ad219034f3be272e2885e084d82610488a3a087e3ca4d8b238121457a3c5",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.060087,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060087,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.060086,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0600862,
+     "values": [
+      8.060087,
+      8.060087,
+      8.060086,
+      8.060086,
+      8.060086,
+      8.060086,
+      8.060086,
+      8.060086,
+      8.060086,
+      8.060086
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "0b5fd8132f9f4ef2ca0e4e80301a062a48ce3b555a8ba1270c87648be9605734",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.000045,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000035,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.000036,
+     "values": [
+      8.000045,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035,
+      8.000035
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "f05989ce98b35c4f13b5112ea4dca07e2d2c9650f652ffc84a6915135ae71d81",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000261,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.000261,
+     "values": [
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261,
+      8.000261
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "a98f62dbbbcaeab05711dd72cf8f0e4251a9143b3bb56e89d52dcb4d03a6f22a",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0184851,
+     "values": [
+      8.022977,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986
+     ]
+    }
+   }
+  },
+  "L|C2|drug|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "drug",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "2affc6eb544f783e8b6e97b13083b1beebf5f67ddb422ca071afd3b1a95d1a38",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.029311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.029311799999999,
+     "values": [
+      8.029311,
+      8.029311,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312
+     ]
+    }
+   }
+  },
+  "L|C2|drug|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "drug",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "4bf4eea94befccf1e69dc438e70ba64f404075da6b478a0aa4eeb6fc5c511753",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.014063,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.010987,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0119945,
+     "values": [
+      8.017986,
+      8.010987,
+      8.010987,
+      8.010987,
+      8.014063,
+      8.010987,
+      8.010987,
+      8.010987,
+      8.010987,
+      8.010987
+     ]
+    }
+   }
+  },
+  "L|C2|council|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "b897ff06f2914825b036d90f15bd1da06eba96b9d83abcefbf9b6265641b2124",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.037327,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.047426,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0464161,
+     "values": [
+      8.037327,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426,
+      8.047426
+     ]
+    }
+   }
+  },
+  "L|C2|council|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "064215b5cda452ef2aa4272b64d81c14a182c1fe378fe01feb2be5e2c9f0daa0",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.148047,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.148047,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.119203,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.1249718,
+     "values": [
+      8.148047,
+      8.119203,
+      8.148047,
+      8.119203,
+      8.119203,
+      8.119203,
+      8.119203,
+      8.119203,
+      8.119203,
+      8.119203
+     ]
+    }
+   }
+  },
+  "R|C2": {
+   "block": "ref",
+   "item": "C2",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "4627c0638eb138a49b1d690d4d3167a2628766b62ef01e51e9a65dd90d90be5b",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.851952,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.851952,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "9",
+       "ev": 8.817574,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.824449600000001,
+     "values": [
+      8.851952,
+      8.817574,
+      8.851952,
+      8.817574,
+      8.817574,
+      8.817574,
+      8.817574,
+      8.817574,
+      8.817574,
+      8.817574
+     ]
+    }
+   }
+  },
+  "S|C2|size|shop": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|C2|shop|small",
+    "O": "L|C2|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "b28ec49ae3e075804fd5b26da224769bff9242ba10a2b1fe9ce576d5bf534d3d",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=9 LARGE=9",
+       "parsed": {
+        "SMALL": 9,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=9 LARGE=9",
+       "parsed": {
+        "SMALL": 9,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=9 LARGE=9",
+       "parsed": {
+        "SMALL": 9,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=9 LARGE=9",
+       "parsed": {
+        "SMALL": 9,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.4,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "7115d48fdc06cfae5ddd89ac0b1cc7cc0f8dbeabda2c76e5651518770b3a5f10",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 9.0
+     }
+    }
+   }
+  },
+  "S|C2|size|charity": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|C2|charity|small",
+    "O": "L|C2|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "f2956955155d39f28e58a77668c553e2c541a10bd548948c5457e3b9aac17b4a",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "88048f0612cd086f7c7adb7bc70a5157560a1d62e2ea00d93fe447691d21b4a1",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 9.0
+     }
+    }
+   }
+  },
+  "S|C2|size|drug": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|C2|drug|small",
+    "O": "L|C2|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "a4fc63195dc5424a7061eebee62e69ed495500e7d7e182ec8ce91305991f98ff",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=9 LARGE=9",
+       "parsed": {
+        "SMALL": 9,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=6",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.1,
+      "LARGE": 8.7
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "6ecf6c4fa85ce3827d69e0dfc87f3b4d805d669ef6053e7e958073652f62a7a7",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 9.0
+     }
+    }
+   }
+  },
+  "S|C2|size|council": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|C2|council|small",
+    "O": "L|C2|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "0c6292c937ff511482f951c08698abf5e2a88cdae27f5e584786de6d055ab368",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=9",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 8.0,
+      "LARGE": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ee6b7f699ca811dd7b07a9b2a7d7ba90813a65bee3d4dab356a3c4c5ffc45976",
+     "draws": [
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      },
+      {
+       "text": "LARGE=9 SMALL=9",
+       "parsed": {
+        "LARGE": 9,
+        "SMALL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 9.0,
+      "SMALL": 9.0
+     }
+    }
+   }
+  },
+  "S|C2|kind|large": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|C2|charity|large",
+    "O": "L|C2|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ebf89db2c1552cf52f95dafa000ac89d2c3da573c25bb0a84e048d50710b7f06",
+     "draws": [
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=6",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 6
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=6",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 6
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      },
+      {
+       "text": "CHARITY=8 PHARMACEUTICAL=9",
+       "parsed": {
+        "CHARITY": 8,
+        "PHARMACEUTICAL": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "CHARITY",
+      "PHARMACEUTICAL"
+     ],
+     "means": {
+      "CHARITY": 8.0,
+      "PHARMACEUTICAL": 8.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "2a7c52af628fe28f120225704222186a403e55bec234050a98b917bc7d3a8e0a",
+     "draws": [
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=6",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=9",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 9
+       }
+      },
+      {
+       "text": "PHARMACEUTICAL=8 CHARITY=6",
+       "parsed": {
+        "PHARMACEUTICAL": 8,
+        "CHARITY": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "PHARMACEUTICAL",
+      "CHARITY"
+     ],
+     "means": {
+      "PHARMACEUTICAL": 8.0,
+      "CHARITY": 8.4
+     }
+    }
+   }
+  },
+  "K|C2": {
+   "block": "control",
+   "item": "C2",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "927fbf3d0c272b3ddce78b2783b14d1d6a28ad576ffd9ad88c403b85d8087240",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.022977,
+     "values": [
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977,
+      8.022977
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "71aef52dba671dd711b356ca564026055a286487286ea5109003fb588f5ac0ff",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.017986,
+     "values": [
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986,
+      8.017986
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "68397a78adc7e4da58ddeb8535d5aa12a77eb7999854eb9781244e9f4008e861",
+     "draws": [
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 9.0,
+      "THURSDAY": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "97fba4b5e92009e0cc31e05bdef4b1669ce0eb0e0f73c203295494a311b029a8",
+     "draws": [
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 9.0,
+      "TUESDAY": 9.0
+     }
+    }
+   }
+  },
+  "T|C2": {
+   "block": "sole",
+   "item": "C2",
+   "labels": [
+    "SELF_EMPLOYED",
+    "FIRM"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "a4e2d1a19b5268e237f65e6a662600840629d1b731f89af6f73fbe71681e667f",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.000709,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.000709,
+     "values": [
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709,
+      8.000709
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "394977581e171e63103a57e8e4f6fa81d92135a0ec57b6f1ca483dfbba1923ec",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.017986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.022977,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 8.029312,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 8.0275459,
+     "values": [
+      8.029312,
+      8.017986,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.022977,
+      8.029312,
+      8.029312,
+      8.029312,
+      8.029312
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "b77ae5e75f2d0ad351fc06c2f0627066583d6ecbb0cffb00c31daf4dfd9cdb1e",
+     "draws": [
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      },
+      {
+       "text": "SELF_EMPLOYED=9 FIRM=9",
+       "parsed": {
+        "SELF_EMPLOYED": 9,
+        "FIRM": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SELF_EMPLOYED",
+      "FIRM"
+     ],
+     "means": {
+      "SELF_EMPLOYED": 9.0,
+      "FIRM": 9.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "067d46efec180f208763125c7d7ac58f07437a08f78581297c6bd7aa5376760a",
+     "draws": [
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      },
+      {
+       "text": "FIRM=9 SELF_EMPLOYED=9",
+       "parsed": {
+        "FIRM": 9,
+        "SELF_EMPLOYED": 9
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "FIRM",
+      "SELF_EMPLOYED"
+     ],
+     "means": {
+      "FIRM": 9.0,
+      "SELF_EMPLOYED": 9.0
+     }
+    }
+   }
+  },
+  "A|OR1": {
+   "block": "anchor",
+   "item": "OR1",
+   "labels": [
+    "CHARITY",
+    "LISTED"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "0fe3f41b28368f40f5922787294472bb848e41b8d4186087c87d27a212c82e78",
+     "draws": [
+      {
+       "text": "5",
+       "ev": 5.271438,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.343591,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.43135,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.364272,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.43135,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.43135,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.343591,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.43135,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.43135,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.271438,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.375108,
+     "values": [
+      5.271438,
+      5.343591,
+      5.43135,
+      5.364272,
+      5.43135,
+      5.43135,
+      5.343591,
+      5.43135,
+      5.43135,
+      5.271438
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ebafaf274cad947b0fb08d546ea57b218d9dc67ca5757e031d3860485d3996b8",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.000053,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000053,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.000068,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.000065,
+     "values": [
+      2.000053,
+      2.000068,
+      2.000068,
+      2.000068,
+      2.000053,
+      2.000068,
+      2.000068,
+      2.000068,
+      2.000068,
+      2.000068
+     ]
+    },
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "24cd8b9f1ae51009834b58f588b26d62a2020a43488c930956313459646be7d1",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.760304,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.808204,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.76059,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.7653228,
+     "values": [
+      3.760304,
+      3.76059,
+      3.76059,
+      3.808204,
+      3.76059,
+      3.76059,
+      3.76059,
+      3.76059,
+      3.76059,
+      3.76059
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "8806a6688b1edf6d3b3ba13931eb09e23f22d02009c4624b1c1d8e43a3e04dd0",
+     "draws": [
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      },
+      {
+       "text": "CHARITY=4 LISTED=1",
+       "parsed": {
+        "CHARITY": 4,
+        "LISTED": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "CHARITY",
+      "LISTED"
+     ],
+     "means": {
+      "CHARITY": 4.0,
+      "LISTED": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "1d9dd3df68771057b7684e54d712837fc1691a1d544b87dd78b90f469c0420de",
+     "draws": [
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      },
+      {
+       "text": "LISTED=2 CHARITY=6",
+       "parsed": {
+        "LISTED": 2,
+        "CHARITY": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LISTED",
+      "CHARITY"
+     ],
+     "means": {
+      "LISTED": 2.0,
+      "CHARITY": 6.0
+     }
+    }
+   }
+  },
+  "A|OR2": {
+   "block": "anchor",
+   "item": "OR2",
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "bc014559bf4ea1bb32fe38a736845303053d9a6b17b67786391f63143e914980",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.045887,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.045887,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.045887,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.05889,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0549891,
+     "values": [
+      6.045887,
+      6.045887,
+      6.05889,
+      6.045887,
+      6.05889,
+      6.05889,
+      6.05889,
+      6.05889,
+      6.05889,
+      6.05889
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "49589ace6cdcabc460ccfe30f34068aebb102be443349eef4ec596544c798ebf",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000256,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000254,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0002707,
+     "values": [
+      4.000419,
+      4.000256,
+      4.000254,
+      4.000254,
+      4.000254,
+      4.000254,
+      4.000254,
+      4.000254,
+      4.000254,
+      4.000254
+     ]
+    },
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "fd968084f2b20566364d1e4a960ae9f8e3aa3316fc26a51cafd859c9deda4936",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.001163,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001163,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001163,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001163,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.001494,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0013616,
+     "values": [
+      4.001163,
+      4.001163,
+      4.001494,
+      4.001494,
+      4.001494,
+      4.001163,
+      4.001163,
+      4.001494,
+      4.001494,
+      4.001494
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "0734cbcc304e48251e5292e43b5c07aec7c12a1f7a883b0c1a29f348d79ab987",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 3.8,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "6d52cece724fcd7009e60ca072da7b9c81984fef0eda72852fe34de182c7c866",
+     "draws": [
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=4",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=6",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 2.0,
+      "SMALL": 4.3
+     }
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "CoreWeave"
+ ],
+ "served_model": [
+  "meta-llama/llama-3.3-70b-instruct"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "wires": {
+  "abstract_yn": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": null,
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "abstract_scores": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "side": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "noise": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  }
+ },
+ "served_expected": "CoreWeave",
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 1050,
+ "spent_usd": 0.1283324999999998,
+ "elapsed_s": 339.5,
+ "finished": "2026-11-11T11:42:55Z"
+}

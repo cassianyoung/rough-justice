@@ -1,0 +1,262 @@
+{
+ "run": "255 (pre-run check)",
+ "what": "claude route triangle: banked (253, OR) / OR today / direct today",
+ "wire": {
+  "model": "anthropic/claude-sonnet-5",
+  "provider": "anthropic",
+  "max_tokens": 256,
+  "want_logprobs": false,
+  "reasoning": {
+   "enabled": false
+  },
+  "reasoning_off": false,
+  "temperature": 1.0,
+  "top_k": null,
+  "readout": "sampled",
+  "route": "openrouter"
+ },
+ "reading": "NEITHER",
+ "served_models": [
+  "anthropic/claude-sonnet-5"
+ ],
+ "providers_served": [
+  "Anthropic"
+ ],
+ "draws_with_reasoning_tokens": 0,
+ "calls": 100,
+ "spent_usd": 0.04066000000000003,
+ "n_matches_banked": 9,
+ "n_matches_direct": 7,
+ "cells": {
+  "R|grading|G1": {
+   "banked_mean": 6.0,
+   "or_today_mean": 6.0,
+   "direct_mean": 5.9,
+   "or_today_minus_banked": 0.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.09999999999999964,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ]
+  },
+  "R|grading|G4": {
+   "banked_mean": 3.0,
+   "or_today_mean": 2.8,
+   "direct_mean": 1.8,
+   "or_today_minus_banked": -0.20000000000000018,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.9999999999999998,
+   "band_vs_direct": 0.5313217480961984,
+   "matches_direct": false,
+   "or_today_values": [
+    3.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0
+   ]
+  },
+  "R|suitability|S1": {
+   "banked_mean": 7.0,
+   "or_today_mean": 7.0,
+   "direct_mean": 7.0,
+   "or_today_minus_banked": 0.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.0,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ]
+  },
+  "R|suitability|S2": {
+   "banked_mean": 6.0,
+   "or_today_mean": 6.0,
+   "direct_mean": 6.0,
+   "or_today_minus_banked": 0.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.0,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ]
+  },
+  "R|vulnerable|V1": {
+   "banked_mean": 4.0,
+   "or_today_mean": 3.0,
+   "direct_mean": 3.0,
+   "or_today_minus_banked": -1.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": false,
+   "or_today_minus_direct": 0.0,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ]
+  },
+  "R|vulnerable|V2": {
+   "banked_mean": 2.0,
+   "or_today_mean": 2.0,
+   "direct_mean": 1.1,
+   "or_today_minus_banked": 0.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.8999999999999999,
+   "band_vs_direct": 0.3,
+   "matches_direct": false,
+   "or_today_values": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ]
+  },
+  "R|seniority|K1": {
+   "banked_mean": 3.0,
+   "or_today_mean": 3.1,
+   "direct_mean": 3.5,
+   "or_today_minus_banked": 0.10000000000000009,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": -0.3999999999999999,
+   "band_vs_direct": 0.42963077170984854,
+   "matches_direct": true,
+   "or_today_values": [
+    3.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ]
+  },
+  "R|seniority|K2": {
+   "banked_mean": 7.0,
+   "or_today_mean": 7.0,
+   "direct_mean": 7.0,
+   "or_today_minus_banked": 0.0,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.0,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ]
+  },
+  "R|child|C1": {
+   "banked_mean": 2.9,
+   "or_today_mean": 3.0,
+   "direct_mean": 3.4,
+   "or_today_minus_banked": 0.10000000000000009,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": -0.3999999999999999,
+   "band_vs_direct": 0.36096204786653124,
+   "matches_direct": false,
+   "or_today_values": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ]
+  },
+  "R|child|C2": {
+   "banked_mean": 5.9,
+   "or_today_mean": 6.0,
+   "direct_mean": 6.0,
+   "or_today_minus_banked": 0.09999999999999964,
+   "band_vs_banked": 0.3,
+   "matches_banked": true,
+   "or_today_minus_direct": 0.0,
+   "band_vs_direct": 0.3,
+   "matches_direct": true,
+   "or_today_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ]
+  }
+ }
+}

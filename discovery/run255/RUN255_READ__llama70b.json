@@ -1,0 +1,8043 @@
+{
+ "run": "255",
+ "arm": "llama70b",
+ "draws": 10,
+ "frames": "records/RUN255_FRAMES.json",
+ "frames_sha256": "762d0897ffa147cd0bcb98b5fb5bfd1ae151c84547e3168ac27bbeb483ff4fee",
+ "prereg": "records/PREREG_RUN255_SCALE_CEILING.md",
+ "estimate_usd": 0.11486387708057598,
+ "arm_backstop_usd": 0.3445916312417279,
+ "group_cap_usd": 1.5,
+ "started": "2026-11-11T14:10:32Z",
+ "units": {
+  "L|H|Q|shop|small": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "3b9d0776a302f02204e6f82b1e13e276de12975953ab4a302e8d146da5dfa6eb",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.003862,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.002907,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003862,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.003804,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0037259,
+     "values": [
+      6.003862,
+      6.003804,
+      6.003804,
+      6.002907,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003804,
+      6.003862,
+      6.003804
+     ]
+    }
+   }
+  },
+  "L|H|Q|shop|large": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "8bafe8083e72a76748eceb64c77d9ebbe9ae513143a53971c16ffd59292e9b87",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.028379,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.028379,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.028379,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.036222,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0338829,
+     "values": [
+      4.028379,
+      4.036222,
+      4.028379,
+      4.036222,
+      4.036291,
+      4.036291,
+      4.028379,
+      4.036222,
+      4.036222,
+      4.036222
+     ]
+    }
+   }
+  },
+  "L|H|Q|charity|small": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "91c6213a95f2dc5be17679972fe9523f512c1fb8d978c6912fdc9817fc20a98c",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.004785,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.004785,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.004785,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006258,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0058161,
+     "values": [
+      6.004785,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.006258,
+      6.004785,
+      6.006258,
+      6.004785,
+      6.006258
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "4786f5ea8a28a5f93c69bb9d0ff4851c77d614ba3b27d639e05f3931f8d7fcbc",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.00075,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000748,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.00075,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.00075,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.001291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000581,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.000583,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0008052,
+     "values": [
+      6.00075,
+      6.000748,
+      6.00075,
+      6.000583,
+      6.001008,
+      6.001008,
+      6.00075,
+      6.001291,
+      6.000581,
+      6.000583
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "39d4cf0739edf8eea2a4fa89944ae33dce501b8490d0fd735deaa195a293846b",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095291,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095304,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.119145,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095304,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095304,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095304,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.095304,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.100068299999999,
+     "values": [
+      6.095291,
+      6.095291,
+      6.095291,
+      6.095304,
+      6.119145,
+      6.119145,
+      6.095304,
+      6.095304,
+      6.095304,
+      6.095304
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "de0a1d34f6641ea772bc1e09db19634c3d1c7e6c0cb18554f717ffdb9b881d48",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.990203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.990203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.994564,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992279,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992279,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.990203,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992279,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992279,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.992522,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9919333,
+     "values": [
+      5.990203,
+      5.990203,
+      5.994564,
+      5.992279,
+      5.992279,
+      5.990203,
+      5.992279,
+      5.992279,
+      5.992522,
+      5.992522
+     ]
+    }
+   }
+  },
+  "L|H|Q|charity|large": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "5c3fd3ef80c0984494f4bb0bcbf0d17dbb243c28d116705461c58ec487bc8778",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.999446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999574,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999287,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.9993762,
+     "values": [
+      3.999446,
+      3.999574,
+      3.999287,
+      3.999287,
+      3.999287,
+      3.999446,
+      3.999287,
+      3.999287,
+      3.999574,
+      3.999287
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "9850b336a026f04e03f1506569e4d925d5dabbea40961613a422b2cade0a9436",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.999858,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.9999,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999815,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.9999,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999815,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999815,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999815,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999815,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.9998484999999997,
+     "values": [
+      3.999858,
+      3.999876,
+      3.9999,
+      3.999815,
+      3.9999,
+      3.999876,
+      3.999815,
+      3.999815,
+      3.999815,
+      3.999815
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "6cfb34d6a574dbe5485b903d0226831381f6feee4b1ce45cd05026dcad5365a0",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.046176,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058839,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.058902,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.074924,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.074924,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.074924,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.074924,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0640319,
+     "values": [
+      4.046176,
+      4.058902,
+      4.058839,
+      4.058902,
+      4.058902,
+      4.058902,
+      4.074924,
+      4.074924,
+      4.074924,
+      4.074924
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "caa6dac924e006ed1a5926046dbb09d2ef29a4ba19b4053f1e62ea2321bab847",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.96374,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.96374,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.953758,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.953758,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.953758,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.963806,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.9607784,
+     "values": [
+      3.963806,
+      3.96374,
+      3.963806,
+      3.96374,
+      3.953758,
+      3.953758,
+      3.953758,
+      3.963806,
+      3.963806,
+      3.963806
+     ]
+    }
+   }
+  },
+  "L|H|Q|council|small": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "74e29727e88494e8f722ecbb6010924efdacfd3511053a03d6604ae4ff534f59",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.006107,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006107,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.006107,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.008121,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0075168,
+     "values": [
+      6.006107,
+      6.006107,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.006107,
+      6.008121,
+      6.008121,
+      6.008121,
+      6.008121
+     ]
+    }
+   }
+  },
+  "L|H|Q|council|large": {
+   "block": "leg",
+   "item": "H",
+   "scale": "Q",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ab234da24cb6d8f53e7d01edcadabd09750bfddefa77ea4f310f66a69535be7a",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000539,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000419,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.000687,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0005114,
+     "values": [
+      4.000419,
+      4.000539,
+      4.000419,
+      4.000687,
+      4.000687,
+      4.000419,
+      4.000419,
+      4.000419,
+      4.000419,
+      4.000687
+     ]
+    }
+   }
+  },
+  "R|H|Q": {
+   "block": "ref",
+   "item": "H",
+   "scale": "Q",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "861abf73d06b658d2b0d3197b9dcc5c32a9f0c6b587668f97120f6b871579764",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.297287,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.446809,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.4318568,
+     "values": [
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.446809,
+      4.297287,
+      4.446809
+     ]
+    }
+   }
+  },
+  "S|H|Q|shop": {
+   "block": "side",
+   "item": "H",
+   "scale": "Q",
+   "kind": "shop",
+   "legs": {
+    "F": "L|H|Q|shop|small",
+    "O": "L|H|Q|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "328e784ba92b33c04ed2158a511c98e6dbf8c1736d953ddbeca142c541a2d90b",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=1",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 4.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ef01de625460343c608a3cb27b88e7675674c959e4b0b821d06394ce0e57c91f",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "S|H|Q|charity": {
+   "block": "side",
+   "item": "H",
+   "scale": "Q",
+   "kind": "charity",
+   "legs": {
+    "F": "L|H|Q|charity|small",
+    "O": "L|H|Q|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "6e08f9102f54d9e49eca9d67f0a6a596848d14533a452d8c7aaeec4c60c729e9",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "d3e6a305bde3aeeb10d5e9ee58e91d6e506cdf23849d6dd95c04325541c973bd",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=4",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 3.8,
+      "SMALL": 5.8
+     }
+    }
+   }
+  },
+  "S|H|Q|council": {
+   "block": "side",
+   "item": "H",
+   "scale": "Q",
+   "kind": "council",
+   "legs": {
+    "F": "L|H|Q|council|small",
+    "O": "L|H|Q|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "3a17ee1b26df018b273487af4426a1625d6a47a6e529017a8eee65d651939eff",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=0",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 0
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 0.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "894b69ac94fbbd9d796f2462fd074e6add2ab9395f39ddd746b9822d06e5a84f",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "K|H|Q": {
+   "block": "control",
+   "item": "H",
+   "scale": "Q",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "57f803f98e7275086706b71859a198dc1077b9549f6213264bb26cef01166e70",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.005002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008213,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008213,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008212,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.008213,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0069283,
+     "values": [
+      4.005002,
+      4.005002,
+      4.005002,
+      4.005002,
+      4.008213,
+      4.008213,
+      4.008212,
+      4.008212,
+      4.008212,
+      4.008213
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "149e3d690cc960550c3169e1ab7de880220e603b31d560a4a55887f81e9704a9",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.013504,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.017307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.017307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010559,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010594,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010594,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.017307,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010594,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.010594,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0128919,
+     "values": [
+      4.013504,
+      4.010559,
+      4.017307,
+      4.017307,
+      4.010559,
+      4.010594,
+      4.010594,
+      4.017307,
+      4.010594,
+      4.010594
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "cf97ff19ecb86890e99c56d1df44156a9395e82fcf282d6d72df5962e583427d",
+     "draws": [
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 4.0,
+      "THURSDAY": 4.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "9ec7639e50be326a0c0b24ad3f665c5d0e155597367d4cba0cf0808562d32eda",
+     "draws": [
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 4.0,
+      "TUESDAY": 4.0
+     }
+    }
+   }
+  },
+  "L|M1|Q|shop|small": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "e313e1afed6825fbd84e18a09febf967f1f98cdac1e05ea34f54a3f3e2ca792b",
+     "draws": [
+      {
+       "text": "5",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713461,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.713461,
+     "values": [
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461,
+      4.713461
+     ]
+    }
+   }
+  },
+  "L|M1|Q|shop|large": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "e2893db28ffaee0d1e494e475ff5b7158787858455f0b0f39e2e8c3b27f02185",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.611876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.611876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.611876,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.575335,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.5862973,
+     "values": [
+      4.611876,
+      4.611876,
+      4.611876,
+      4.575335,
+      4.575335,
+      4.575335,
+      4.575335,
+      4.575335,
+      4.575335,
+      4.575335
+     ]
+    }
+   }
+  },
+  "L|M1|Q|charity|small": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "2fa3b529fc995846662b0f9610fe882f12cd658b6f3e41b0c98dc31ba0b755fa",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.866147,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.908002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.908002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884393,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884728,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884728,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884393,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.908002,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884393,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.884728,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.8897516,
+     "values": [
+      5.866147,
+      5.908002,
+      5.908002,
+      5.884393,
+      5.884728,
+      5.884728,
+      5.884393,
+      5.908002,
+      5.884393,
+      5.884728
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "b7fd5a867d624f5bb9601c3b8e25be24523985b159aa609d18a49aeb383fca87",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020983,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020999,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020983,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.020437,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0206024000000005,
+     "values": [
+      6.020437,
+      6.020983,
+      6.020437,
+      6.020437,
+      6.020999,
+      6.020983,
+      6.020437,
+      6.020437,
+      6.020437,
+      6.020437
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "988c1d880aa0b64f69992bae67dcd98bcf14546124577626987571658150af8b",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.958314,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958314,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.96737,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958436,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.96737,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958436,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958436,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958436,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.958436,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.96737,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9610918,
+     "values": [
+      5.958314,
+      5.958314,
+      5.96737,
+      5.958436,
+      5.96737,
+      5.958436,
+      5.958436,
+      5.958436,
+      5.958436,
+      5.96737
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "5678e9686adcc317948ac023df1c259338e2b15c704919888135c514e6442282",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 6.074677,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.058903,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.058903,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.074677,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.058903,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.058903,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.059161,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.074677,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.059161,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 6.058903,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.0636868,
+     "values": [
+      6.074677,
+      6.058903,
+      6.058903,
+      6.074677,
+      6.058903,
+      6.058903,
+      6.059161,
+      6.074677,
+      6.059161,
+      6.058903
+     ]
+    }
+   }
+  },
+  "L|M1|Q|charity|large": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "62c13fa79a9070b7bd81c7504d7d957e6c1aebb8160ac051da564c4ff3ba415a",
+     "draws": [
+      {
+       "text": "5",
+       "ev": 4.63583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.713253,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713253,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.63583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713253,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713253,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.635832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.713265,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.63583,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 4.713253,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.6822852,
+     "values": [
+      4.63583,
+      4.713253,
+      4.713253,
+      4.63583,
+      4.713253,
+      4.713253,
+      4.635832,
+      4.713265,
+      4.63583,
+      4.713253
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "6518271ba4779d231b8c134f954232a871702cdde3b5371e4c2dca05e5ce768a",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.964802,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.96749,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.964802,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.967647,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.972562,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9700112999999995,
+     "values": [
+      5.964802,
+      5.96749,
+      5.964802,
+      5.972562,
+      5.972562,
+      5.972562,
+      5.972562,
+      5.972562,
+      5.967647,
+      5.972562
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "e4e2683dd8c1a9d68ed0e4292e4147dc528b4279ec1f2b79dc2371e3804997cc",
+     "draws": [
+      {
+       "text": "5",
+       "ev": 5.754085,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.66059,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.72113,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.72113,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.754085,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.660598,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.72113,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.636593,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.699447,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.591592,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.692038,
+     "values": [
+      5.754085,
+      5.66059,
+      5.72113,
+      5.72113,
+      5.754085,
+      5.660598,
+      5.72113,
+      5.636593,
+      5.699447,
+      5.591592
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "8feb3f5e097f9fb26c1de189a5c495b15380a5e479a76538b966a2f03754ad84",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.999263,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999809,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999263,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.999055,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9992474,
+     "values": [
+      5.999263,
+      5.999809,
+      5.999055,
+      5.999809,
+      5.999055,
+      5.999055,
+      5.999055,
+      5.999263,
+      5.999055,
+      5.999055
+     ]
+    }
+   }
+  },
+  "L|M1|Q|council|small": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "69909610fa98f3657f17da0bdd646225ed19c87c09beec316d743181bf547674",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.961614,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.961614,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.970073,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.9683812000000005,
+     "values": [
+      5.961614,
+      5.970073,
+      5.961614,
+      5.970073,
+      5.970073,
+      5.970073,
+      5.970073,
+      5.970073,
+      5.970073,
+      5.970073
+     ]
+    }
+   }
+  },
+  "L|M1|Q|council|large": {
+   "block": "leg",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "90aaeaf68eaf484413ec0e2444db0adb57f6bcb17de5ab63717f5db593dd5550",
+     "draws": [
+      {
+       "text": "6",
+       "ev": 5.488516,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.458493,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.458417,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.458417,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.488516,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.458417,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.488516,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 5.458417,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.575382,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 5.458417,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 5.4791508,
+     "values": [
+      5.488516,
+      5.458493,
+      5.458417,
+      5.458417,
+      5.488516,
+      5.458417,
+      5.488516,
+      5.458417,
+      5.575382,
+      5.458417
+     ]
+    }
+   }
+  },
+  "R|M1|Q": {
+   "block": "ref",
+   "item": "M1",
+   "scale": "Q",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "5fbd25a22793aa46ab761a5e89c2ac13b08d63dc4b16a2055785057dc7696f29",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.576885,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.654591,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.688005,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.576885,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "5",
+       "ev": 4.688008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.688008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.688005,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.688008,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.611986,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.688008,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.6548389,
+     "values": [
+      4.576885,
+      4.654591,
+      4.688005,
+      4.576885,
+      4.688008,
+      4.688008,
+      4.688005,
+      4.688008,
+      4.611986,
+      4.688008
+     ]
+    }
+   }
+  },
+  "S|M1|Q|shop": {
+   "block": "side",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "shop",
+   "legs": {
+    "F": "L|M1|Q|shop|small",
+    "O": "L|M1|Q|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "bb776113b99f049b8d70dae3ebfa45b89da5b69aed5737e17f116f5d0096c1a6",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 4.0,
+      "LARGE": 6.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "527f1ca3ec357dfd51e2c3456e4c83ff3b8831e06e98b0a7cff1f2dc54ff5659",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "S|M1|Q|charity": {
+   "block": "side",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "charity",
+   "legs": {
+    "F": "L|M1|Q|charity|small",
+    "O": "L|M1|Q|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "f2f61484a383729e202f4e5bddc611cf7b828d48a414a1fcea3252fe9d76369a",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 4.0,
+      "LARGE": 6.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "96d5d529e9a07f4a8339fe81c6bb1289fe0dd819c016ca84f5387aac5a2b5ee2",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.0,
+      "SMALL": 6.0
+     }
+    }
+   }
+  },
+  "S|M1|Q|council": {
+   "block": "side",
+   "item": "M1",
+   "scale": "Q",
+   "kind": "council",
+   "legs": {
+    "F": "L|M1|Q|council|small",
+    "O": "L|M1|Q|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "73a8a6516b885608f971153c0f8a87b4dd4f29b2bf4cab137f5f9a8966be98f8",
+     "draws": [
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=6 LARGE=4",
+       "parsed": {
+        "SMALL": 6,
+        "LARGE": 4
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=6 LARGE=4",
+       "parsed": {
+        "SMALL": 6,
+        "LARGE": 4
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=6 LARGE=4",
+       "parsed": {
+        "SMALL": 6,
+        "LARGE": 4
+       }
+      },
+      {
+       "text": "SMALL=4 LARGE=6",
+       "parsed": {
+        "SMALL": 4,
+        "LARGE": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 4.6,
+      "LARGE": 5.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "ca9a51946e7d6f001061ee2627ac62e422417b7f70f9055df9241cd5282b1b64",
+     "draws": [
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=6",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=7",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 7
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 5.2,
+      "SMALL": 6.6
+     }
+    }
+   }
+  },
+  "K|M1|Q": {
+   "block": "control",
+   "item": "M1",
+   "scale": "Q",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "734f73d35219b35fcbd98b178876e4f8db056e00e077d0ffd77158ff11475272",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.040566,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.04413,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.051949,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0500288,
+     "values": [
+      4.051949,
+      4.051949,
+      4.040566,
+      4.04413,
+      4.051949,
+      4.051949,
+      4.051949,
+      4.051949,
+      4.051949,
+      4.051949
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ab67152fefdad9b27489194a639f0678127c101f0848770e958e61a6577223c0",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.105319,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.090402,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.071069,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.090402,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.105319,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.071069,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.071069,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.105319,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.071069,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.071069,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0852106,
+     "values": [
+      4.105319,
+      4.090402,
+      4.071069,
+      4.090402,
+      4.105319,
+      4.071069,
+      4.071069,
+      4.105319,
+      4.071069,
+      4.071069
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "0f391e49aa4e5cacc24e5037a03d2b2d02703c9a42f795490b473b0b027df71b",
+     "draws": [
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      },
+      {
+       "text": "TUESDAY=4 THURSDAY=4",
+       "parsed": {
+        "TUESDAY": 4,
+        "THURSDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 4.0,
+      "THURSDAY": 4.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "5bcf47eacdc7c244740f65fbae0d6e5145ba25acfbc25fd24d577415cdfcb1b1",
+     "draws": [
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      },
+      {
+       "text": "THURSDAY=4 TUESDAY=4",
+       "parsed": {
+        "THURSDAY": 4,
+        "TUESDAY": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 4.0,
+      "TUESDAY": 4.0
+     }
+    }
+   }
+  },
+  "L|M2|Q|shop|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "bf7f8cb400392368b098759f3fea727f242089e13413f391050c2be1b6783d17",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 3.896415,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "6",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.896415,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.890862,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.896415,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.815042,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.8470359,
+     "values": [
+      3.896415,
+      3.815042,
+      3.815042,
+      3.896415,
+      3.815042,
+      3.890862,
+      3.815042,
+      3.815042,
+      3.896415,
+      3.815042
+     ]
+    }
+   }
+  },
+  "L|M2|Q|shop|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "dd0986a0e838fe7f9058637e1738fe4d5fba25a948d48e4f8068b932b267a74a",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.995355,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.995355,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.994657,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.9947966,
+     "values": [
+      7.995355,
+      7.994657,
+      7.994657,
+      7.994657,
+      7.994657,
+      7.994657,
+      7.995355,
+      7.994657,
+      7.994657,
+      7.994657
+     ]
+    }
+   }
+  },
+  "L|M2|Q|charity|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "5c02edc185ec228631165bbaaf6b28c99a82c125681b0e15ffe6623e69eb060a",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.837873,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.866708,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.837873,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.801317,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.837017,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.837017,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.837017,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.866708,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.866708,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.866708,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.8454946,
+     "values": [
+      7.837873,
+      7.866708,
+      7.837873,
+      7.801317,
+      7.837017,
+      7.837017,
+      7.837017,
+      7.866708,
+      7.866708,
+      7.866708
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "1ca8081a6f957d689c14ce9cbd6c6e74a4aebd985ba1b96fc14cfe1ee5136207",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 3.815702,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.801424,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.801028,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.803512,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.801028,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.801028,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.815702,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.815702,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.803512,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.803512,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.806215,
+     "values": [
+      3.815702,
+      3.801424,
+      3.801028,
+      3.803512,
+      3.801028,
+      3.801028,
+      3.815702,
+      3.815702,
+      3.803512,
+      3.803512
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "92653733f56a1d5a3fdfbb9740ec4ccc307af57cc0fd21ec0909acbd9905c671",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.477848,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.479613,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.484536,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.37561,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.4724823,
+     "values": [
+      3.477848,
+      3.484536,
+      3.479613,
+      3.484536,
+      3.484536,
+      3.484536,
+      3.484536,
+      3.484536,
+      3.484536,
+      3.37561
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "c14fb10efb323e867c9b726091ae5e38622f7f35ce62cf94b60a0593d4dba873",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 4.025384,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999759,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.027932,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.037504,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.017534,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999759,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999759,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999759,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.999759,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 4.037504,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0144653,
+     "values": [
+      4.025384,
+      3.999759,
+      4.027932,
+      4.037504,
+      4.017534,
+      3.999759,
+      3.999759,
+      3.999759,
+      3.999759,
+      4.037504
+     ]
+    }
+   }
+  },
+  "L|M2|Q|charity|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "529da600d58d8f8155b36a62e9959213d9c0898501929eb0d7e093a044f985c9",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.999771,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999771,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.999631,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.999659,
+     "values": [
+      7.999771,
+      7.999631,
+      7.999771,
+      7.999631,
+      7.999631,
+      7.999631,
+      7.999631,
+      7.999631,
+      7.999631,
+      7.999631
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "e900dd54b4d32a0997bd0854cf085dcbda74f8efdbef2d97b29f528c301b5b3c",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.030762,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.024046,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030762,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.019166,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.024046,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.039311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.039311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.039311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.039311,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.024046,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.0310072,
+     "values": [
+      2.030762,
+      2.024046,
+      2.030762,
+      2.019166,
+      2.024046,
+      2.039311,
+      2.039311,
+      2.039311,
+      2.039311,
+      2.024046
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "91e166abc0a75fc5220e4a84fbf17a4b37a877ecfc27ee5a258a99963b56ef74",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.023624,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.023624,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.030175,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.0288648,
+     "values": [
+      2.023624,
+      2.030175,
+      2.030175,
+      2.023624,
+      2.030175,
+      2.030175,
+      2.030175,
+      2.030175,
+      2.030175,
+      2.030175
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "6c10e159bab0f2b60b614056ca496d3237c5130be4d7ded6dce6b09655345e1e",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 6.412904,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 5.902697,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 6.413446,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 6.362316900000001,
+     "values": [
+      6.412904,
+      5.902697,
+      6.413446,
+      6.413446,
+      6.413446,
+      6.413446,
+      6.413446,
+      6.413446,
+      6.413446,
+      6.413446
+     ]
+    }
+   }
+  },
+  "L|M2|Q|council|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "01643cfe83965ad8a8a463ceb8d0b754d613605d573153a0c902cfb0d3dbc026",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.786206,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "7",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.859571,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.857589,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.8506488999999995,
+     "values": [
+      7.786206,
+      7.857589,
+      7.857589,
+      7.857589,
+      7.857589,
+      7.859571,
+      7.857589,
+      7.857589,
+      7.857589,
+      7.857589
+     ]
+    }
+   }
+  },
+  "L|M2|Q|council|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "a5a07c4d6effe9b69f385d78a6d22bcb5f73cbfd77211d010c5ca83f6031f819",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.991277,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.991424,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.991424,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.991424,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.990071,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.990597500000001,
+     "values": [
+      7.990071,
+      7.991277,
+      7.990071,
+      7.990071,
+      7.991424,
+      7.991424,
+      7.990071,
+      7.990071,
+      7.991424,
+      7.990071
+     ]
+    }
+   }
+  },
+  "R|M2|Q": {
+   "block": "ref",
+   "item": "M2",
+   "scale": "Q",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "05c4b0a453aa544070308f0c3c665323655a03a130630cf65e6505130c9b396e",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.606648,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.618634,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.553041,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.606648,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.5703217,
+     "values": [
+      7.553041,
+      7.606648,
+      7.618634,
+      7.553041,
+      7.553041,
+      7.553041,
+      7.553041,
+      7.553041,
+      7.553041,
+      7.606648
+     ]
+    }
+   }
+  },
+  "S|M2|Q|shop": {
+   "block": "side",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "shop",
+   "legs": {
+    "F": "L|M2|Q|shop|small",
+    "O": "L|M2|Q|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "cba6137541f99056d8acbbed4eaae4061e1dae7cd5fde10910e4ad59d9cda690",
+     "draws": [
+      {
+       "text": "SMALL=6 LARGE=2",
+       "parsed": {
+        "SMALL": 6,
+        "LARGE": 2
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=6",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 7.0,
+      "LARGE": 5.8
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "29a80706e7808ef19798293c095da91b07f75c75ffff86e30ffda6515ed5108b",
+     "draws": [
+      {
+       "text": "LARGE=5 SMALL=5",
+       "parsed": {
+        "LARGE": 5,
+        "SMALL": 5
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=5 SMALL=5",
+       "parsed": {
+        "LARGE": 5,
+        "SMALL": 5
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 5.2,
+      "SMALL": 5.2
+     }
+    }
+   }
+  },
+  "S|M2|Q|charity": {
+   "block": "side",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "charity",
+   "legs": {
+    "F": "L|M2|Q|charity|small",
+    "O": "L|M2|Q|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "31dea2d493cc8139012024ed64cef6fba26634083c322417bea9a13fe255e452",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=7",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 7
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=7",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 7
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 7.8,
+      "LARGE": 7.8
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "def88fb80d678d146e743091548e070e745bcebfe0c9cd51e66ccd00bb818c04",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=5 SMALL=5",
+       "parsed": {
+        "LARGE": 5,
+        "SMALL": 5
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=6 SMALL=6",
+       "parsed": {
+        "LARGE": 6,
+        "SMALL": 6
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=5",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 5
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=5 SMALL=5",
+       "parsed": {
+        "LARGE": 5,
+        "SMALL": 5
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 4.4,
+      "SMALL": 4.5
+     }
+    }
+   }
+  },
+  "S|M2|Q|council": {
+   "block": "side",
+   "item": "M2",
+   "scale": "Q",
+   "kind": "council",
+   "legs": {
+    "F": "L|M2|Q|council|small",
+    "O": "L|M2|Q|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "f5927925a14748b193cf60d2eed23f16dab7c26b70da713bbe565bd7e8c44b7b",
+     "draws": [
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=7",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 7
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=7 LARGE=7",
+       "parsed": {
+        "SMALL": 7,
+        "LARGE": 7
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      },
+      {
+       "text": "SMALL=8 LARGE=8",
+       "parsed": {
+        "SMALL": 8,
+        "LARGE": 8
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 7.8,
+      "LARGE": 7.8
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "476dd555e491b9a79eaecbe3a8fbf31b5ce451b55727fdd732d25490223868a8",
+     "draws": [
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=2",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 2
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      },
+      {
+       "text": "LARGE=4 SMALL=4",
+       "parsed": {
+        "LARGE": 4,
+        "SMALL": 4
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 3.8,
+      "SMALL": 3.8
+     }
+    }
+   }
+  },
+  "K|M2|Q": {
+   "block": "control",
+   "item": "M2",
+   "scale": "Q",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "3e111d23c9ac1db64010c8ece62ac4edf1b4524124f0a8ec90cbb612b11e4469",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.384575,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.385431,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.243968,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.384575,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.387371,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.3722775,
+     "values": [
+      7.384575,
+      7.387371,
+      7.387371,
+      7.385431,
+      7.243968,
+      7.387371,
+      7.387371,
+      7.384575,
+      7.387371,
+      7.387371
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "a3b2fd91b9f098639484dae220be4fd331e31bcfb031792bb88c6ab2ba5a9dcb",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.075638,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068026,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.068039,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.0687976,
+     "values": [
+      7.075638,
+      7.068039,
+      7.068039,
+      7.068039,
+      7.068039,
+      7.068039,
+      7.068039,
+      7.068026,
+      7.068039,
+      7.068039
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "936899d49d4ce7cac043d094102cc9f2cfa06983f2801bf6ef68d35fb2f8668b",
+     "draws": [
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 5.0,
+      "THURSDAY": 5.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "faebd9f597ecbe917ad187235c111cb03907065b7c720fbafee4043ce2730734",
+     "draws": [
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      },
+      {
+       "text": "THURSDAY=5 TUESDAY=5",
+       "parsed": {
+        "THURSDAY": 5,
+        "TUESDAY": 5
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 5.0,
+      "TUESDAY": 5.0
+     }
+    }
+   }
+  },
+  "L|M2|S|shop|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "shop",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "9cbd92c1882500093445d0147a6f4340154e2f40f04eb9885452fca4a0f3f6d6",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.008593,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.008593,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.007942,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.0080722,
+     "values": [
+      2.008593,
+      2.007942,
+      2.007942,
+      2.007942,
+      2.007942,
+      2.007942,
+      2.007942,
+      2.008593,
+      2.007942,
+      2.007942
+     ]
+    }
+   }
+  },
+  "L|M2|S|shop|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "shop",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "65616bf07dbb95d45119ae4fab34a13095ff9244ec6d0900c579894611dffc83",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.997047,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.997047,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.99506,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.99506,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.996184,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9961318,
+     "values": [
+      1.997047,
+      1.996184,
+      1.996184,
+      1.996184,
+      1.997047,
+      1.996184,
+      1.99506,
+      1.996184,
+      1.99506,
+      1.996184
+     ]
+    }
+   }
+  },
+  "L|M2|S|charity|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "charity",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "dd80fe563dca445fda65a5a08c399c1ab3635d09c040774d90941f1cc2dcb5ac",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.998301,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998665,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998249,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998248,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998249,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998665,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998665,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998637,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998665,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.998248,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9984591999999999,
+     "values": [
+      1.998301,
+      1.998665,
+      1.998249,
+      1.998248,
+      1.998249,
+      1.998665,
+      1.998665,
+      1.998637,
+      1.998665,
+      1.998248
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "f81362a2d2c1b2ad9851eeb38b97621dca673acef9424bd820354cf57537f300",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 4.380358,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.988372,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 4.0275706,
+     "values": [
+      4.380358,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372,
+      3.988372
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "07b977843e55070905895a69ee92dada927f7cc43065e76436c697b9b7038815",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 2.296273,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.296273,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.323316,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.3179074,
+     "values": [
+      2.296273,
+      2.323316,
+      2.323316,
+      2.323316,
+      2.323316,
+      2.323316,
+      2.296273,
+      2.323316,
+      2.323316,
+      2.323316
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "a3878727a3583f8dc1048200ec831127c5c6b4324e7d6cce32e5777735b82618",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.005416,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005416,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.004299,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005403,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.004299,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005403,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005403,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005403,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.005403,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.004299,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.0050744,
+     "values": [
+      2.005416,
+      2.005416,
+      2.004299,
+      2.005403,
+      2.004299,
+      2.005403,
+      2.005403,
+      2.005403,
+      2.005403,
+      2.004299
+     ]
+    }
+   }
+  },
+  "L|M2|S|charity|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "charity",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "beea9a64dd36731ad3af25159747e23583ed6e7b2eacd25bd224ca3b4727511e",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.962797,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.962797,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.962797,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.952735,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9557536,
+     "values": [
+      1.962797,
+      1.952735,
+      1.962797,
+      1.962797,
+      1.952735,
+      1.952735,
+      1.952735,
+      1.952735,
+      1.952735,
+      1.952735
+     ]
+    },
+    "noise1": {
+     "key": "noise1",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "967c0665e46719b2559f5023254db347a0474f87ad3798a88f8df1bf5e63f3cb",
+     "draws": [
+      {
+       "text": "8",
+       "ev": 7.85931,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.825687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.825687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.825275,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "7",
+       "ev": 7.805817,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.805822,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.825687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.825687,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.805822,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 7.805822,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 7.8210616,
+     "values": [
+      7.85931,
+      7.825687,
+      7.825687,
+      7.825275,
+      7.805817,
+      7.805822,
+      7.825687,
+      7.825687,
+      7.805822,
+      7.805822
+     ]
+    },
+    "noise2": {
+     "key": "noise2",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ad120a813af963aa399626268e5c239939671ed305e5cd14ac5d7a8387d198d7",
+     "draws": [
+      {
+       "text": "4",
+       "ev": 3.842414,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.672671,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.766297,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.766297,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.712686,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.908324,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "8",
+       "ev": 3.908324,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "7",
+       "ev": 3.712686,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 3.600324,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "4",
+       "ev": 3.600324,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 3.7490347,
+     "values": [
+      3.842414,
+      3.672671,
+      3.766297,
+      3.766297,
+      3.712686,
+      3.908324,
+      3.908324,
+      3.712686,
+      3.600324,
+      3.600324
+     ]
+    },
+    "noise3": {
+     "key": "noise3",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "b7eaf5973653f0f47c8906edf86e52b0cdd2f3860290d992a42b828b91c5d28a",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.000001,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999836,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999944,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999832,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9998605,
+     "values": [
+      2.000001,
+      1.999836,
+      1.999832,
+      1.999832,
+      1.999832,
+      1.999832,
+      1.999944,
+      1.999832,
+      1.999832,
+      1.999832
+     ]
+    }
+   }
+  },
+  "L|M2|S|council|small": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "council",
+   "size": "small",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "ab99aecff4db350e187ffe6e8a8df7e55ed6b3ac4e1944216c69d848692e373c",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.999595,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999437,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999464,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999623,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9995671,
+     "values": [
+      1.999595,
+      1.999623,
+      1.999623,
+      1.999623,
+      1.999623,
+      1.999437,
+      1.999437,
+      1.999464,
+      1.999623,
+      1.999623
+     ]
+    }
+   }
+  },
+  "L|M2|S|council|large": {
+   "block": "leg",
+   "item": "M2",
+   "scale": "S",
+   "kind": "council",
+   "size": "large",
+   "cells": {
+    "alone": {
+     "key": "alone",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "1db922fc660d555b65574815864d1cff2bb94998d565c5b649fbc48358450b3f",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.989185,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.991557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.993442,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.991569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.993442,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.993442,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.991569,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.993442,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.993442,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.991535,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9922625,
+     "values": [
+      1.989185,
+      1.991557,
+      1.993442,
+      1.991569,
+      1.993442,
+      1.993442,
+      1.991569,
+      1.993442,
+      1.993442,
+      1.991535
+     ]
+    }
+   }
+  },
+  "R|M2|S": {
+   "block": "ref",
+   "item": "M2",
+   "scale": "S",
+   "cells": {
+    "ref": {
+     "key": "ref",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "804a3907f077bfa98ec4ea9e3421bc36a29a92cdbe85d3597692de078a459c97",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.021232,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.021232,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 2.020892,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 2.02096,
+     "values": [
+      2.020892,
+      2.020892,
+      2.020892,
+      2.020892,
+      2.020892,
+      2.020892,
+      2.020892,
+      2.021232,
+      2.021232,
+      2.020892
+     ]
+    }
+   }
+  },
+  "S|M2|S|shop": {
+   "block": "side",
+   "item": "M2",
+   "scale": "S",
+   "kind": "shop",
+   "legs": {
+    "F": "L|M2|S|shop|small",
+    "O": "L|M2|S|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "054101ac9c81720d35095a7b5ad54047b34543a9f253a9bfd38401c850c105af",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "3f34fe9e2c7ca968827d1e9d7493bc598271fa1fbdc403576136cada39283bac",
+     "draws": [
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 2.0,
+      "SMALL": 1.0
+     }
+    }
+   }
+  },
+  "S|M2|S|charity": {
+   "block": "side",
+   "item": "M2",
+   "scale": "S",
+   "kind": "charity",
+   "legs": {
+    "F": "L|M2|S|charity|small",
+    "O": "L|M2|S|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "4078cddd6a0d408895c41ee45c7bdf56310f2b09d766dd3f50e733d5e2c23e84",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "f4904944388cbdd9a4452035609f23f105d2dc2f5c7a3723d333931bd30f166c",
+     "draws": [
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 2.0,
+      "SMALL": 1.0
+     }
+    }
+   }
+  },
+  "S|M2|S|council": {
+   "block": "side",
+   "item": "M2",
+   "scale": "S",
+   "kind": "council",
+   "legs": {
+    "F": "L|M2|S|council|small",
+    "O": "L|M2|S|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "80a1be5b92c7678cc44b587b6a7f1aeaef9f4cf717cf96d2bc418432587c45a5",
+     "draws": [
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      },
+      {
+       "text": "SMALL=2 LARGE=1",
+       "parsed": {
+        "SMALL": 2,
+        "LARGE": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SMALL",
+      "LARGE"
+     ],
+     "means": {
+      "SMALL": 2.0,
+      "LARGE": 1.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "52df39666620bd622e6ccb8542abd8a113e3b8d2871964ad90ee7cea8af5104b",
+     "draws": [
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      },
+      {
+       "text": "LARGE=2 SMALL=1",
+       "parsed": {
+        "LARGE": 2,
+        "SMALL": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "LARGE",
+      "SMALL"
+     ],
+     "means": {
+      "LARGE": 2.0,
+      "SMALL": 1.0
+     }
+    }
+   }
+  },
+  "K|M2|S": {
+   "block": "control",
+   "item": "M2",
+   "scale": "S",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cells": {
+    "alone_F": {
+     "key": "alone_F",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "dce0cd8ddffdc8e1ceb2cc1cdabbec79eb126cca7f6551c33a1329eaf73d81e1",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.999352,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999604,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999553,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999604,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999742,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999714,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999714,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999714,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999742,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9996296,
+     "values": [
+      1.999352,
+      1.999604,
+      1.999553,
+      1.999604,
+      1.999557,
+      1.999742,
+      1.999714,
+      1.999714,
+      1.999714,
+      1.999742
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "kind": "digit",
+     "wire": "alone",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "logprob",
+     "prompt_sha256": "3e0785a8ee7ac460ad1694b984f8d62c256a303615755295caa1ee4a32393698",
+     "draws": [
+      {
+       "text": "2",
+       "ev": 1.999654,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999678,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999518,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999518,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999557,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999654,
+       "digit_mass": 1.0
+      },
+      {
+       "text": "2",
+       "ev": 1.999657,
+       "digit_mass": 1.0
+      }
+     ],
+     "mean_mass": 1.0,
+     "gate": "PASSED",
+     "mean": 1.9995907,
+     "values": [
+      1.999654,
+      1.999557,
+      1.999678,
+      1.999557,
+      1.999518,
+      1.999518,
+      1.999557,
+      1.999557,
+      1.999654,
+      1.999657
+     ]
+    },
+    "side_FO": {
+     "key": "side_FO",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "9a4effaced511ac65bbdac7d3bc6e111aa8e3ffd0987a6af6b2f41f42af16d17",
+     "draws": [
+      {
+       "text": "TUESDAY=6 THURSDAY=6",
+       "parsed": {
+        "TUESDAY": 6,
+        "THURSDAY": 6
+       }
+      },
+      {
+       "text": "TUESDAY=6 THURSDAY=6",
+       "parsed": {
+        "TUESDAY": 6,
+        "THURSDAY": 6
+       }
+      },
+      {
+       "text": "TUESDAY=5 THURSDAY=5",
+       "parsed": {
+        "TUESDAY": 5,
+        "THURSDAY": 5
+       }
+      },
+      {
+       "text": "TUESDAY=0 THURSDAY=0",
+       "parsed": {
+        "TUESDAY": 0,
+        "THURSDAY": 0
+       }
+      },
+      {
+       "text": "TUESDAY=0 THURSDAY=0",
+       "parsed": {
+        "TUESDAY": 0,
+        "THURSDAY": 0
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=0 THURSDAY=0",
+       "parsed": {
+        "TUESDAY": 0,
+        "THURSDAY": 0
+       }
+      },
+      {
+       "text": "TUESDAY=9 THURSDAY=9",
+       "parsed": {
+        "TUESDAY": 9,
+        "THURSDAY": 9
+       }
+      },
+      {
+       "text": "TUESDAY=0 THURSDAY=0",
+       "parsed": {
+        "TUESDAY": 0,
+        "THURSDAY": 0
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TUESDAY",
+      "THURSDAY"
+     ],
+     "means": {
+      "TUESDAY": 4.4,
+      "THURSDAY": 4.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "kind": "side",
+     "wire": "side",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "readout": "sampled",
+     "prompt_sha256": "84f0c66d5fda3aaf6ce86eace1c32d070c9db668bec56a1de2bea9be5d9d3f9c",
+     "draws": [
+      {
+       "text": "THURSDAY=9 TUESDAY=9",
+       "parsed": {
+        "THURSDAY": 9,
+        "TUESDAY": 9
+       }
+      },
+      {
+       "text": "THURSDAY=0 TUESDAY=0",
+       "parsed": {
+        "THURSDAY": 0,
+        "TUESDAY": 0
+       }
+      },
+      {
+       "text": "THURSDAY=0 TUESDAY=0",
+       "parsed": {
+        "THURSDAY": 0,
+        "TUESDAY": 0
+       }
+      },
+      {
+       "text": "THURSDAY=0 TUESDAY=0",
+       "parsed": {
+        "THURSDAY": 0,
+        "TUESDAY": 0
+       }
+      },
+      {
+       "text": "THURSDAY=0 TUESDAY=0",
+       "parsed": {
+        "THURSDAY": 0,
+        "TUESDAY": 0
+       }
+      },
+      {
+       "text": "THURSDAY=2 TUESDAY=2",
+       "parsed": {
+        "THURSDAY": 2,
+        "TUESDAY": 2
+       }
+      },
+      {
+       "text": "THURSDAY=0 TUESDAY=0",
+       "parsed": {
+        "THURSDAY": 0,
+        "TUESDAY": 0
+       }
+      },
+      {
+       "text": "THURSDAY=2 TUESDAY=2",
+       "parsed": {
+        "THURSDAY": 2,
+        "TUESDAY": 2
+       }
+      },
+      {
+       "text": "THURSDAY=2 TUESDAY=2",
+       "parsed": {
+        "THURSDAY": 2,
+        "TUESDAY": 2
+       }
+      },
+      {
+       "text": "THURSDAY=1 TUESDAY=1",
+       "parsed": {
+        "THURSDAY": 1,
+        "TUESDAY": 1
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THURSDAY",
+      "TUESDAY"
+     ],
+     "means": {
+      "THURSDAY": 1.6,
+      "TUESDAY": 1.6
+     }
+    }
+   }
+  }
+ },
+ "unread_by_registration": [
+  "L|H|S|shop|small",
+  "L|H|S|shop|large",
+  "L|H|S|charity|small",
+  "L|H|S|charity|large",
+  "L|H|S|council|small",
+  "L|H|S|council|large",
+  "R|H|S",
+  "S|H|S|shop",
+  "S|H|S|charity",
+  "S|H|S|council",
+  "K|H|S",
+  "L|M1|S|shop|small",
+  "L|M1|S|shop|large",
+  "L|M1|S|charity|small",
+  "L|M1|S|charity|large",
+  "L|M1|S|council|small",
+  "L|M1|S|council|large",
+  "R|M1|S",
+  "S|M1|S|shop",
+  "S|M1|S|charity",
+  "S|M1|S|council",
+  "K|M1|S"
+ ],
+ "provider_served": [
+  "CoreWeave"
+ ],
+ "served_model": [
+  "meta-llama/llama-3.3-70b-instruct"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "wires": {
+  "abstract_yn": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": null,
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "abstract_scores": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "side": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "noise": {
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "provider": "coreweave",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  }
+ },
+ "served_expected": "CoreWeave",
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 920,
+ "spent_usd": 0.1122368000000003,
+ "elapsed_s": 335.3,
+ "finished": "2026-11-11T14:16:07Z"
+}

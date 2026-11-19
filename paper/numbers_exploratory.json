@@ -1,0 +1,836 @@
+{
+ "ExplAbsentDomains": {
+  "kind": "str",
+  "printed": "five",
+  "source": "analysis/discovery_macros.py#RUN248_FRAMES pairs by domain",
+  "value": "five"
+ },
+ "ExplAbsentDrawsReasoning": {
+  "kind": "str",
+  "printed": "five",
+  "source": "analysis/discovery_macros.py#RUN248_READ__*.json draws, group r",
+  "value": "five"
+ },
+ "ExplAbsentEffortShareOff": {
+  "kind": "pct",
+  "printed": "3\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.domains.effort.median_share",
+  "value": 0.02739950000000046
+ },
+ "ExplAbsentEffortShareReasoning": {
+  "kind": "pct",
+  "printed": "42\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.domains.effort.median_share",
+  "value": 0.42371794871794877
+ },
+ "ExplAbsentGradingShareOff": {
+  "kind": "pct",
+  "printed": "33\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.domains.grading.median_share",
+  "value": 0.3333333333333331
+ },
+ "ExplAbsentGradingShareReasoning": {
+  "kind": "pct",
+  "printed": "51\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.domains.grading.median_share",
+  "value": 0.5092592592592593
+ },
+ "ExplAbsentModelsOff": {
+  "kind": "str",
+  "printed": "eleven",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.arms",
+  "value": "eleven"
+ },
+ "ExplAbsentModelsReasoning": {
+  "kind": "str",
+  "printed": "five",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.arms",
+  "value": "five"
+ },
+ "ExplAbsentPairsPerDomain": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN248_FRAMES pairs by domain",
+  "value": "four"
+ },
+ "ExplAbsentPerformanceShareOff": {
+  "kind": "pct",
+  "printed": "68\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.domains.performance.median_share",
+  "value": 0.6807991120976693
+ },
+ "ExplAbsentPerformanceShareReasoning": {
+  "kind": "pct",
+  "printed": "69\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.domains.performance.median_share",
+  "value": 0.6892895015906683
+ },
+ "ExplAbsentPricesShareOff": {
+  "kind": "pct",
+  "printed": "44\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.domains.prices.median_share",
+  "value": 0.44324720000000006
+ },
+ "ExplAbsentPricesShareReasoning": {
+  "kind": "pct",
+  "printed": "40\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.domains.prices.median_share",
+  "value": 0.3960348162475822
+ },
+ "ExplAbsentProportionalityShareOff": {
+  "kind": "pct",
+  "printed": "58\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT off.domains.proportionality.median_share",
+  "value": 0.5767188153209111
+ },
+ "ExplAbsentProportionalityShareReasoning": {
+  "kind": "pct",
+  "printed": "84\\%",
+  "source": "analysis/discovery_macros.py#RUN248_RESULT r.domains.proportionality.median_share",
+  "value": 0.8421052631578948
+ },
+ "ExplDiscoveryDraws": {
+  "kind": "str",
+  "printed": "ten",
+  "source": "analysis/discovery_macros.py#RUN{248,251,252,253}_READ__*.json draws",
+  "value": "ten"
+ },
+ "ExplExampleOnlyBareSplitNoReasoningAllDen": {
+  "kind": "int",
+  "printed": "20",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.split_bare.1",
+  "value": 20
+ },
+ "ExplExampleOnlyBareSplitNoReasoningAllNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.split_bare.0",
+  "value": 1
+ },
+ "ExplExampleOnlyBareSplitNoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.split_bare.1",
+  "value": 16
+ },
+ "ExplExampleOnlyBareSplitNoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.split_bare.0",
+  "value": 1
+ },
+ "ExplExampleOnlyBareSplitReasoningAllDen": {
+  "kind": "int",
+  "printed": "10",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.split_bare.1",
+  "value": 10
+ },
+ "ExplExampleOnlyBareSplitReasoningAllNum": {
+  "kind": "int",
+  "printed": "3",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.split_bare.0",
+  "value": 3
+ },
+ "ExplExampleOnlyBareSplitReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.split_bare.1",
+  "value": 8
+ },
+ "ExplExampleOnlyBareSplitReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.split_bare.0",
+  "value": 1
+ },
+ "ExplExampleOnlyDrawsOff": {
+  "kind": "str",
+  "printed": "ten",
+  "source": "analysis/discovery_macros.py#RUN262_READ__*.json draws (models without reasoning)",
+  "value": "ten"
+ },
+ "ExplExampleOnlyDrawsReasoning": {
+  "kind": "str",
+  "printed": "five",
+  "source": "analysis/discovery_macros.py#RUN262_READ__*.json draws (models with reasoning)",
+  "value": "five"
+ },
+ "ExplExampleOnlyLetThroughNoReasoningAllDen": {
+  "kind": "int",
+  "printed": "20",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.let_through_example_alone.1",
+  "value": 20
+ },
+ "ExplExampleOnlyLetThroughNoReasoningAllNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.let_through_example_alone.0",
+  "value": 1
+ },
+ "ExplExampleOnlyLetThroughNoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.let_through_example_alone.1",
+  "value": 16
+ },
+ "ExplExampleOnlyLetThroughNoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.let_through_example_alone.0",
+  "value": 1
+ },
+ "ExplExampleOnlyLetThroughReasoningAllDen": {
+  "kind": "int",
+  "printed": "10",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.let_through_example_alone.1",
+  "value": 10
+ },
+ "ExplExampleOnlyLetThroughReasoningAllNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.let_through_example_alone.0",
+  "value": 1
+ },
+ "ExplExampleOnlyLetThroughReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.let_through_example_alone.1",
+  "value": 8
+ },
+ "ExplExampleOnlyLetThroughReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.let_through_example_alone.0",
+  "value": 1
+ },
+ "ExplExampleOnlySplitNoReasoningAllDen": {
+  "kind": "int",
+  "printed": "20",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.split_example_alone.1",
+  "value": 20
+ },
+ "ExplExampleOnlySplitNoReasoningAllNum": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|All.split_example_alone.0",
+  "value": 8
+ },
+ "ExplExampleOnlySplitNoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.split_example_alone.1",
+  "value": 16
+ },
+ "ExplExampleOnlySplitNoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "6",
+  "source": "results/second_review_v2.json#run262_example_alone.NoReasoning|Judgement.split_example_alone.0",
+  "value": 6
+ },
+ "ExplExampleOnlySplitReasoningAllDen": {
+  "kind": "int",
+  "printed": "10",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.split_example_alone.1",
+  "value": 10
+ },
+ "ExplExampleOnlySplitReasoningAllNum": {
+  "kind": "int",
+  "printed": "3",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|All.split_example_alone.0",
+  "value": 3
+ },
+ "ExplExampleOnlySplitReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.split_example_alone.1",
+  "value": 8
+ },
+ "ExplExampleOnlySplitReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/second_review_v2.json#run262_example_alone.Reasoning|Judgement.split_example_alone.0",
+  "value": 1
+ },
+ "ExplFormatDecisionHolds": {
+  "kind": "str",
+  "printed": "three",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.decision.holds",
+  "value": "three"
+ },
+ "ExplFormatDecisionShare": {
+  "kind": "pct",
+  "printed": "58\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.decision.share",
+  "value": 0.5833333333333333
+ },
+ "ExplFormatDigitHolds": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.digit.holds",
+  "value": "four"
+ },
+ "ExplFormatDigitShare": {
+  "kind": "pct",
+  "printed": "31\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.digit.share",
+  "value": 0.3120825743776563
+ },
+ "ExplFormatLetterHolds": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.letter.holds",
+  "value": "four"
+ },
+ "ExplFormatLetterShare": {
+  "kind": "pct",
+  "printed": "51\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.letter.share",
+  "value": 0.5102272727272728
+ },
+ "ExplFormatMarksHolds": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.marks.holds",
+  "value": "four"
+ },
+ "ExplFormatMarksShare": {
+  "kind": "pct",
+  "printed": "39\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.marks.share",
+  "value": 0.3917206376883795
+ },
+ "ExplFormatPassFailHolds": {
+  "kind": "str",
+  "printed": "zero",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.passfail.holds",
+  "value": "zero"
+ },
+ "ExplFormatPassFailShare": {
+  "kind": "pct",
+  "printed": "25\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.passfail.share",
+  "value": 0.25
+ },
+ "ExplFormatTestPairs": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN252_FRAMES grading_pairs, controls excluded",
+  "value": "two"
+ },
+ "ExplFormatWordsHolds": {
+  "kind": "str",
+  "printed": "one",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.words.holds",
+  "value": "one"
+ },
+ "ExplFormatWordsShare": {
+  "kind": "pct",
+  "printed": "18\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.A.words.share",
+  "value": 0.17543859649122806
+ },
+ "ExplGradingVarModels": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT arms_read",
+  "value": "four"
+ },
+ "ExplPartyDiffExampleANoReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+47",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|FixedRule.mean",
+  "value": 0.468723918320964
+ },
+ "ExplPartyDiffExampleANoReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+35",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|Judgement.mean",
+  "value": 0.353177260961937
+ },
+ "ExplPartyDiffExampleAReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+90",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|FixedRule.mean",
+  "value": 0.9
+ },
+ "ExplPartyDiffExampleAReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+32",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|Judgement.mean",
+  "value": 0.325
+ },
+ "ExplPartyDiffExampleBNoReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+91",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|FixedRule.mean",
+  "value": 0.9051930556797765
+ },
+ "ExplPartyDiffExampleBNoReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+48",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|Judgement.mean",
+  "value": 0.47985303190500733
+ },
+ "ExplPartyDiffExampleBReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+80",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|FixedRule.mean",
+  "value": 0.8
+ },
+ "ExplPartyDiffExampleBReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+28",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|Judgement.mean",
+  "value": 0.275
+ },
+ "ExplPartyDiffExampleNoneNoReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+9",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|FixedRule.mean",
+  "value": 0.091669885191687
+ },
+ "ExplPartyDiffExampleNoneNoReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+6",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|Judgement.mean",
+  "value": 0.05532953601257806
+ },
+ "ExplPartyDiffExampleNoneReasoningFixedRule": {
+  "kind": "pts",
+  "printed": "+70",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|FixedRule.mean",
+  "value": 0.7
+ },
+ "ExplPartyDiffExampleNoneReasoningJudgement": {
+  "kind": "pts",
+  "printed": "+12",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|Judgement.mean",
+  "value": 0.125
+ },
+ "ExplPartyNoDiffCut": {
+  "kind": "ptsu",
+  "printed": "20",
+  "source": "results/party_difference_v4.json#definition.no_difference_below",
+  "value": 0.2
+ },
+ "ExplPartyNoDiffExampleANoReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "50\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|FixedRule.no_diff.share",
+  "value": 0.5
+ },
+ "ExplPartyNoDiffExampleANoReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "4",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|FixedRule.no_diff.den",
+  "value": 4
+ },
+ "ExplPartyNoDiffExampleANoReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "2",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|FixedRule.no_diff.num",
+  "value": 2
+ },
+ "ExplPartyNoDiffExampleANoReasoningJudgement": {
+  "kind": "pct",
+  "printed": "50\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|Judgement.no_diff.share",
+  "value": 0.5
+ },
+ "ExplPartyNoDiffExampleANoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|Judgement.no_diff.den",
+  "value": 16
+ },
+ "ExplPartyNoDiffExampleANoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|NoReasoning|Judgement.no_diff.num",
+  "value": 8
+ },
+ "ExplPartyNoDiffExampleAReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "0\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|FixedRule.no_diff.share",
+  "value": 0.0
+ },
+ "ExplPartyNoDiffExampleAReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "2",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|FixedRule.no_diff.den",
+  "value": 2
+ },
+ "ExplPartyNoDiffExampleAReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "0",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|FixedRule.no_diff.num",
+  "value": 0
+ },
+ "ExplPartyNoDiffExampleAReasoningJudgement": {
+  "kind": "pct",
+  "printed": "12\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|Judgement.no_diff.share",
+  "value": 0.125
+ },
+ "ExplPartyNoDiffExampleAReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|Judgement.no_diff.den",
+  "value": 8
+ },
+ "ExplPartyNoDiffExampleAReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "1",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleA|Reasoning|Judgement.no_diff.num",
+  "value": 1
+ },
+ "ExplPartyNoDiffExampleBNoReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "0\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|FixedRule.no_diff.share",
+  "value": 0.0
+ },
+ "ExplPartyNoDiffExampleBNoReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "4",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|FixedRule.no_diff.den",
+  "value": 4
+ },
+ "ExplPartyNoDiffExampleBNoReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "0",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|FixedRule.no_diff.num",
+  "value": 0
+ },
+ "ExplPartyNoDiffExampleBNoReasoningJudgement": {
+  "kind": "pct",
+  "printed": "38\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|Judgement.no_diff.share",
+  "value": 0.375
+ },
+ "ExplPartyNoDiffExampleBNoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|Judgement.no_diff.den",
+  "value": 16
+ },
+ "ExplPartyNoDiffExampleBNoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "6",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|NoReasoning|Judgement.no_diff.num",
+  "value": 6
+ },
+ "ExplPartyNoDiffExampleBReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "0\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|FixedRule.no_diff.share",
+  "value": 0.0
+ },
+ "ExplPartyNoDiffExampleBReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "2",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|FixedRule.no_diff.den",
+  "value": 2
+ },
+ "ExplPartyNoDiffExampleBReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "0",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|FixedRule.no_diff.num",
+  "value": 0
+ },
+ "ExplPartyNoDiffExampleBReasoningJudgement": {
+  "kind": "pct",
+  "printed": "38\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|Judgement.no_diff.share",
+  "value": 0.375
+ },
+ "ExplPartyNoDiffExampleBReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|Judgement.no_diff.den",
+  "value": 8
+ },
+ "ExplPartyNoDiffExampleBReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "3",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleB|Reasoning|Judgement.no_diff.num",
+  "value": 3
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "100\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|FixedRule.no_diff.share",
+  "value": 1.0
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "4",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|FixedRule.no_diff.den",
+  "value": 4
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "4",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|FixedRule.no_diff.num",
+  "value": 4
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningJudgement": {
+  "kind": "pct",
+  "printed": "94\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|Judgement.no_diff.share",
+  "value": 0.9375
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "16",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|Judgement.no_diff.den",
+  "value": 16
+ },
+ "ExplPartyNoDiffExampleNoneNoReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "15",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|NoReasoning|Judgement.no_diff.num",
+  "value": 15
+ },
+ "ExplPartyNoDiffExampleNoneReasoningFixedRule": {
+  "kind": "pct",
+  "printed": "0\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|FixedRule.no_diff.share",
+  "value": 0.0
+ },
+ "ExplPartyNoDiffExampleNoneReasoningFixedRuleDen": {
+  "kind": "int",
+  "printed": "2",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|FixedRule.no_diff.den",
+  "value": 2
+ },
+ "ExplPartyNoDiffExampleNoneReasoningFixedRuleNum": {
+  "kind": "int",
+  "printed": "0",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|FixedRule.no_diff.num",
+  "value": 0
+ },
+ "ExplPartyNoDiffExampleNoneReasoningJudgement": {
+  "kind": "pct",
+  "printed": "88\\%",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|Judgement.no_diff.share",
+  "value": 0.875
+ },
+ "ExplPartyNoDiffExampleNoneReasoningJudgementDen": {
+  "kind": "int",
+  "printed": "8",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|Judgement.no_diff.den",
+  "value": 8
+ },
+ "ExplPartyNoDiffExampleNoneReasoningJudgementNum": {
+  "kind": "int",
+  "printed": "7",
+  "source": "results/party_difference_v4.json#run262.stats.ExampleNone|Reasoning|Judgement.no_diff.num",
+  "value": 7
+ },
+ "ExplRouteCheckCells": {
+  "kind": "str",
+  "printed": "ten",
+  "source": "analysis/discovery_macros.py#RUN254_CLAUDE_ROUTE_CHECK cells",
+  "value": "ten"
+ },
+ "ExplRouteCheckMatch": {
+  "kind": "str",
+  "printed": "five",
+  "source": "analysis/discovery_macros.py#RUN254_CLAUDE_ROUTE_CHECK cells matching",
+  "value": "five"
+ },
+ "ExplRouteTriangleMatchBanked": {
+  "kind": "str",
+  "printed": "nine",
+  "source": "analysis/discovery_macros.py#RUN255_CLAUDE_ROUTE_TRIANGLE n_matches_banked",
+  "value": "nine"
+ },
+ "ExplRouteTriangleMatchDirect": {
+  "kind": "str",
+  "printed": "seven",
+  "source": "analysis/discovery_macros.py#RUN255_CLAUDE_ROUTE_TRIANGLE n_matches_direct",
+  "value": "seven"
+ },
+ "ExplRouteTriangleOvernight": {
+  "kind": "str",
+  "printed": "one",
+  "source": "analysis/discovery_macros.py#RUN255_CLAUDE_ROUTE_TRIANGLE cells changed on both routes",
+  "value": "one"
+ },
+ "ExplRunAbsentComparison": {
+  "kind": "int",
+  "printed": "248",
+  "source": "analysis/discovery_macros.py#discovery/run248/RUN248_RESULT.json run",
+  "value": 248
+ },
+ "ExplRunExampleOnly": {
+  "kind": "int",
+  "printed": "262",
+  "source": "analysis/discovery_macros.py#discovery/run262/RUN262_RESULT.json",
+  "value": 262
+ },
+ "ExplRunGradingVariations": {
+  "kind": "int",
+  "printed": "252",
+  "source": "analysis/discovery_macros.py#discovery/run252/RUN252_RESULT.json run",
+  "value": 252
+ },
+ "ExplRunOrgVariations": {
+  "kind": "int",
+  "printed": "254",
+  "source": "analysis/discovery_macros.py#discovery/run254/RUN254_RESULT.json run",
+  "value": 254
+ },
+ "ExplRunScaleCeiling": {
+  "kind": "int",
+  "printed": "255",
+  "source": "analysis/discovery_macros.py#discovery/run255/RUN255_RESULT.json run",
+  "value": 255
+ },
+ "ExplRunStandardsSurvey": {
+  "kind": "int",
+  "printed": "251",
+  "source": "analysis/discovery_macros.py#discovery/run251/RUN251_RESULT.json run",
+  "value": 251
+ },
+ "ExplRunVerdicts": {
+  "kind": "int",
+  "printed": "253",
+  "source": "analysis/discovery_macros.py#discovery/run253/RUN253_RESULT.json run",
+  "value": 253
+ },
+ "ExplSubjectAnimalsHolds": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.animals.holds",
+  "value": "two"
+ },
+ "ExplSubjectAnimalsShare": {
+  "kind": "pct",
+  "printed": "49\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.animals.share",
+  "value": 0.48596457951482486
+ },
+ "ExplSubjectErasHolds": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.eras.holds",
+  "value": "two"
+ },
+ "ExplSubjectErasShare": {
+  "kind": "pct",
+  "printed": "38\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.eras.share",
+  "value": 0.3819308769557659
+ },
+ "ExplSubjectOrganisationsHolds": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.organisations.holds",
+  "value": "four"
+ },
+ "ExplSubjectOrganisationsShare": {
+  "kind": "pct",
+  "printed": "83\\%",
+  "source": "analysis/discovery_macros.py#RUN252_RESULT pooled.B.organisations.share",
+  "value": 0.8336277107251495
+ },
+ "ExplSubjectTestPairs": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN252_FRAMES b_pairs: two test pairs and one control per category",
+  "value": "two"
+ },
+ "ExplSurveyDomains": {
+  "kind": "str",
+  "printed": "twelve",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled",
+  "value": "twelve"
+ },
+ "ExplSurveyGradingHolds": {
+  "kind": "str",
+  "printed": "three",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.grading.holds_alone_arms",
+  "value": "three"
+ },
+ "ExplSurveyGradingShare": {
+  "kind": "pct",
+  "printed": "59\\%",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.grading.share.median",
+  "value": 0.5896128266470372
+ },
+ "ExplSurveyPairsPerDomain": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN251_FRAMES pairs, controls excluded (24 over twelve domains)",
+  "value": "two"
+ },
+ "ExplSurveySeniorityHolds": {
+  "kind": "str",
+  "printed": "zero",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.seniority.holds_alone_arms",
+  "value": "zero"
+ },
+ "ExplSurveySeniorityShare": {
+  "kind": "pct",
+  "printed": "1\\%",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.seniority.share.median",
+  "value": 0.01191564680569338
+ },
+ "ExplSurveyVulnerableHolds": {
+  "kind": "str",
+  "printed": "three",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.vulnerable.holds_alone_arms",
+  "value": "three"
+ },
+ "ExplSurveyVulnerableShare": {
+  "kind": "pct",
+  "printed": "41\\%",
+  "source": "analysis/discovery_macros.py#RUN251_RESULT pooled.vulnerable.share.median",
+  "value": 0.4069002256482791
+ },
+ "ExplVerdictDomains": {
+  "kind": "str",
+  "printed": "eleven",
+  "source": "analysis/discovery_macros.py#RUN253_RESULT pooled.verdict",
+  "value": "eleven"
+ },
+ "ExplVerdictHoldsGrading": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN253_RESULT pooled.verdict.grading.holds",
+  "value": "two"
+ },
+ "ExplVerdictHoldsMax": {
+  "kind": "str",
+  "printed": "two",
+  "source": "analysis/discovery_macros.py#RUN253_RESULT max verdict holds",
+  "value": "two"
+ },
+ "ExplVerdictHoldsNoneDomains": {
+  "kind": "str",
+  "printed": "eight",
+  "source": "analysis/discovery_macros.py#RUN253_RESULT verdict holds == 0",
+  "value": "eight"
+ },
+ "ExplVerdictModels": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN253_READ__*.json",
+  "value": "four"
+ },
+ "ExplVerdictSplitAllModels": {
+  "kind": "str",
+  "printed": "four",
+  "source": "analysis/discovery_macros.py#RUN253_RESULT verdict per_arm split_side_by_side, 4 of 4",
+  "value": "four"
+ },
+ "ExplVerdictTestPairs": {
+  "kind": "int",
+  "printed": "21",
+  "source": "analysis/discovery_macros.py#RUN253_READ__claude units V| not control",
+  "value": 21
+ }
+}

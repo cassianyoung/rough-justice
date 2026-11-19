@@ -1,0 +1,97 @@
+{
+ "definition": "BASIS. The paper's seven-domain basis (seven_domains.load / merge / extend_domains): the first session's matched reads\nwith school work added, the paper's groups (13 configurations without reasoning, 7 with; Kimi K3 has no school-work\nreads). The cut-off and the bootstrap are those of the fixed-rule wrong-verdict figure (outcomes.wrongful): a file\n(one party's case read alone on one model) is judged NOT MET when its yes-rate is below one half, valid files only;\n95% intervals with pairs resampled within domain and models resampled (outcomes.FastBoot; Wilson where degenerate).",
+ "stats": {
+  "NoReasoning|FixedRule": {
+   "held_not_met": {
+    "share": 0.6474358974358975,
+    "num": 101,
+    "den": 156,
+    "ci": [
+     0.42948717948717946,
+     0.8461538461538461
+    ],
+    "ci_method": "bootstrap"
+   },
+   "held_not_met_side_passed": {
+    "share": 0.5887096774193549,
+    "num": 73,
+    "den": 124,
+    "ci": [
+     0.3724137931034483,
+     0.8145161290322581
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "Reasoning|FixedRule": {
+   "held_not_met": {
+    "share": 0.07142857142857142,
+    "num": 6,
+    "den": 84,
+    "ci": [
+     0.0,
+     0.21428571428571427
+    ],
+    "ci_method": "bootstrap"
+   },
+   "held_not_met_side_passed": {
+    "share": 0.07142857142857142,
+    "num": 6,
+    "den": 84,
+    "ci": [
+     0.0,
+     0.21428571428571427
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 7
+  },
+  "NoReasoning|Judgement": {
+   "held_not_met": {
+    "share": 0.8877284595300261,
+    "num": 340,
+    "den": 383,
+    "ci": [
+     0.8201058201058201,
+     0.9461538461538461
+    ],
+    "ci_method": "bootstrap"
+   },
+   "held_not_met_side_passed": {
+    "share": 0.8769716088328076,
+    "num": 278,
+    "den": 317,
+    "ci": [
+     0.7982456140350878,
+     0.9435736677115988
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "Reasoning|Judgement": {
+   "held_not_met": {
+    "share": 0.6859903381642513,
+    "num": 142,
+    "den": 207,
+    "ci": [
+     0.5555555555555556,
+     0.819047619047619
+    ],
+    "ci_method": "bootstrap"
+   },
+   "held_not_met_side_passed": {
+    "share": 0.6590909090909091,
+    "num": 116,
+    "den": 176,
+    "ci": [
+     0.50920245398773,
+     0.8089887640449438
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 7
+  }
+ }
+}

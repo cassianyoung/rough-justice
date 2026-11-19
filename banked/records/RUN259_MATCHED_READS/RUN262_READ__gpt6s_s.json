@@ -1,0 +1,3522 @@
+{
+ "run": "262",
+ "arm": "gpt6s_s",
+ "group": "or",
+ "reasoning": false,
+ "draws": 10,
+ "frames": "records/RUN262_FRAMES.json",
+ "frames_sha256": "1d0fd3f97f49a5eaea973dcf1b213cf1b8d8608db53dc5671951529cceb3c01e",
+ "estimate_usd": 0.32885519203910574,
+ "arm_backstop_usd": 0.9865655761173172,
+ "group_cap_usd": 4.0,
+ "workers": 4,
+ "started": "2026-11-15T14:49:27Z",
+ "units": {
+  "base_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "31f2bcb2c0760b4b7c0df4858cdc6972dbca2fdd29f96017728aee58b79d78d9",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3a1e42ca41b0ba419ad38e804c106a4b22fb55cb2214eea1dbb3e4607ae8cbf6",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.8
+    }
+   }
+  },
+  "base_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "24897012671245b3961432735ddf2109bbc2bb7acb086c541e1bbfcb63a35a46",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.1
+    },
+    "line": {
+     "key": "line",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "e2bc0a4e0dc6b1410ca9f278cfd1782ff389e78b8d1ace71f2e8bae62722e1d7",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.8
+    }
+   }
+  },
+  "A_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "634d6b6dce25743addf0c2ac44bb00681a2d3c72ed6033b6cfc6e16ea7e412df",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "55db79d86f586814a698a8f94c53c0c1a5d4a8be2f65da514b5e8751e6ee4d9a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "442648ac4140de1477f54151e69b5042143025d3d5a9e833da0eaace81bfaa87",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "676235add1df76b2a798f413b3044b3fb2dd5469b68a321391119bd92c0f0896",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "7ee4cc575572c6be5ebbd09ddf6adc4bbb2453d859650b0a70702d1e61b48b28",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.1
+    }
+   }
+  },
+  "B_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d6974e745566928419b914a1f1e6229b76faf33db99cbaf90df715637e308e4d",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a8f2a87f4579a6da1294b3bbc15f16a18f1b08ee602f8efa5c5c3408bebf3006",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "876bd0791e67c495da1e968ddba20c9b66cd996c8753ddb0bbedcd0a62f44962",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "df38fa38b2ac7ca6a9cb447b46c9de76ac421a726eff418558ac48e203f8e332",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4f185e86dec881365c874db5661e296ea69c9f062fc94bec27f5bb8898e7c3cb",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d00966c98df0721e2bdfc32923974b79eebccab3aaa24d30ba1ead439d6182a2",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f433acbfebf064a1eca1b899f35557e27c82b12f14e67efb3983e9fb06f87d96",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "dcef10fa9aa1ef73602e2263e1263d3632041106eda8a6fb67ed383c8639a685",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4e154140c1b3fb094e42992f2d1156c46d3cdd40765ad5ce86efe314a7e19006",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "7adfb9da1423539a2a5e72e33a8ebc09d87af74501ba9c727ecc360f62a88b5c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4227937b7464e7ee73f4c789f522ce2c82f1648c7e032239bd581d190f97f98b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "934a72112687786b3ab592f02c493854c4ee4b249b4b449c94a8780aa8f5b96d",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.9
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "0cac359f11c16cac698950524aa860b60e3a8b820d8c6140f89092319bf5e1a8",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f9ff65f5a95c88b18489daf6faa35cd348e449697fcfefee801708dbfc81b175",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9661ee6d7a9d374ad59d17e30b3a9055e5cfa295eed12c1a8c4477554eca6c44",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9535d07fcdb4415dd3a166a7d7cfc290ac5b94b366d1168ed81dc680dd755ddf",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.6
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "efeaf53b450121268950aef7941b93e5e97e574e155fda915a71aa9bb5e7d937",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3c5f2ac45949bd860d6efe80c549153ac2950661894269f533da4efa1872f79f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "1567ef2426a76f5225d4003d9ebcf894bc2d733ad37f443643cfdb8c5c85153f",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.6
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9d86f432519bd689f5a09a5a7f5e42774261640a9dd46a5518e2f07199f468ed",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "07821b4b1995358eebf2ea9f934bbfbaf61a8ef44426295a1e4a8a2e366f7fc5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b2fdc2c533dc1200325179a05ea017791b1a27028bce14abf09a3306d973b1c3",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c23e98ba1ae7efe756ca3bca9d435fdabb83231036fb459f71d78431d37cbd8c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b56b860e0fe6f28c396efb488dce6150ad8053d0ae0f75a5768b6388d0270c20",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2c83ba81dcdcd168b07bd543d6110bcb9f350727ec7783e7d7d18baa00efa381",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    }
+   }
+  },
+  "A_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3d2035ae04af23ba05abbeae7f97a00e7cae81fbf1733e272798adbc1f082a77",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.9
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "03307cd78daa52855bcb43139af54df41d3436bf011bb65f8c9f3af79b394ae6",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b0b2fb755eeb773c5a429954dee9209834c504c7afc188cd9e7f118fa14bb7ef",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.6
+    }
+   }
+  },
+  "B_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4f80501a486a3a069c38b0dd9d965ea2013454a163e34b8331927296a9612c07",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "5b722232c6b7817477f461d9007c9c9b4c848494b93273d2e51ee7dceeaa215f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "67257ab770c670cabba9d27bf2883730571ef6874a0f8e8d1ab5a3b0d78de557",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b08e451fbe497ec8db5831e17977916e2191a91ea7f0d3790590455b3c2231bf",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2177c88a9201ef384cfe613847d23b87abac6d8b1e431f27c5b7f49d14086174",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "26417133d47420373d9b3e7ad89e4249aa9537566f74e59a0ebeef0cac74ad64",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2ebc518fc453b6ebac33fa86a97692f5089887a5f734e460c91cbda8179a88e9",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "A_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "47f11d489edbf564e44f94593507fae8728aa90407d4842fd606087615cce7fd",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4826aa865356c5bfaef4abe910ea291588e02536cc891ff91d860d52e913ed86",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "66f9ae28c2467e9efa4c666d97b5e9cbe91d2d436a00608dddbada35ca762b49",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d23896a3b5218818efa1d880d097194881da558c5989412fcccb15ef926e2d7d",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9f2b3c8a05a2625d309e117b62c339cf3bc33fadc5bad5766b3bb5a807f650ee",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "fd9aa891db852ca60afb3253b2510583305817e4395eae390c6847067782c51c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "OpenAI"
+ ],
+ "served_model": [
+  "openai/gpt-6-sol"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "OpenAI",
+ "wires": {
+  "abstract_yn": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 1024,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "abstract_scores": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "side": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 1024,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "noise": {
+   "model": "openai/gpt-6-sol",
+   "provider": "openai",
+   "max_tokens": 1024,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  }
+ },
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 500,
+ "spent_usd": 0.2458800000000002,
+ "elapsed_s": 132.3,
+ "finished": "2026-11-15T14:51:39Z"
+}

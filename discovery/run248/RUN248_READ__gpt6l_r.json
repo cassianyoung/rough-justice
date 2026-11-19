@@ -1,0 +1,5556 @@
+{
+ "run": "248",
+ "arm": "gpt6l_r",
+ "group": "r",
+ "draws": 5,
+ "frames": "records/RUN248_FRAMES.json",
+ "frames_sha256": "60818b56f9343fed73f9716a89b4afb91aa362934ccc17f32bbd39bea0394bcd",
+ "prereg": "records/PREREG_RUN248_ABSENT_COMPARISON.md",
+ "estimate_usd": 0.04425,
+ "arm_backstop_usd": 0.13274999999999998,
+ "group_cap_usd": 7.0,
+ "started": "2026-11-08T10:32:58Z",
+ "pairs": {
+  "G1": {
+   "labels": [
+    "CHILD",
+    "STUDENT"
+   ],
+   "domain": "grading",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "cc16e9515291ff1fc94d1c7072c55a0d55d643062b9a1ac693f2e2c309a2b0fc",
+     "draws": [
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 505,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 468,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 487,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 402,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CHILD",
+      "STUDENT"
+     ],
+     "means": {
+      "CHILD": 7,
+      "STUDENT": 4.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "13af02b524085abe2ba64ed686f6f373ea7071e4e5fa28cbd99f0a1ba7faf241",
+     "draws": [
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=7",
+       "reasoning_len": 485,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=8",
+       "reasoning_len": 468,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 449,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "STUDENT",
+      "CHILD"
+     ],
+     "means": {
+      "STUDENT": 4.6,
+      "CHILD": 7.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "5c03293a6f40909588da22653249f1d390c19b2a3c398adc6c7326066deb5e03",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 453,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 417,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 456,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 443,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 465,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.6,
+     "values": [
+      7.0,
+      7.0,
+      6.0,
+      7.0,
+      6.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "411ec2a1b0f13272031a2e7db21d665f9afd0481af4a63c3f8305bc93c4871f2",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 489,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 458,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 454,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 511,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 464,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.2,
+     "values": [
+      6.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "G2": {
+   "labels": [
+    "CHILD",
+    "STUDENT"
+   ],
+   "domain": "grading",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "07c0819c61c5f42bce570e2d05bd8be129a3ee1cc13d698727a290707f436562",
+     "draws": [
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 481,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=5",
+       "reasoning_len": 530,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 5
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CHILD",
+      "STUDENT"
+     ],
+     "means": {
+      "CHILD": 7,
+      "STUDENT": 4.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "f0c5227ff66c4cf1d2d193a81414cd7e31ff333d30231c1ce5fff2371c9ead45",
+     "draws": [
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 479,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 435,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 489,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 461,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=4 CHILD=7",
+       "reasoning_len": 492,
+       "parsed": {
+        "STUDENT": 4,
+        "CHILD": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "STUDENT",
+      "CHILD"
+     ],
+     "means": {
+      "STUDENT": 4,
+      "CHILD": 7
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "a56c26cafcb66a110ab36fda218098357a5e591070ebbceadf3584e1ec0c9437",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 488,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 398,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 485,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 452,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 457,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.0,
+     "values": [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "d471613a5cf84cc72763c572df5423e2cba488c85d333d5e45eb8a12dc97e6c2",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 489,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 507,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 461,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 506,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 488,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.0,
+     "values": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "G3": {
+   "labels": [
+    "CHILD",
+    "STUDENT"
+   ],
+   "domain": "grading",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "84bda126095dd08c8da12f28f47588712adeaad9e45c7e6294122738ab988e22",
+     "draws": [
+      {
+       "text": "CHILD=8 STUDENT=6",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 8,
+        "STUDENT": 6
+       }
+      },
+      {
+       "text": "CHILD=8 STUDENT=6",
+       "reasoning_len": 481,
+       "parsed": {
+        "CHILD": 8,
+        "STUDENT": 6
+       }
+      },
+      {
+       "text": "CHILD=8 STUDENT=6",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 8,
+        "STUDENT": 6
+       }
+      },
+      {
+       "text": "CHILD=8 STUDENT=6",
+       "reasoning_len": 446,
+       "parsed": {
+        "CHILD": 8,
+        "STUDENT": 6
+       }
+      },
+      {
+       "text": "CHILD=8 STUDENT=7",
+       "reasoning_len": 452,
+       "parsed": {
+        "CHILD": 8,
+        "STUDENT": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CHILD",
+      "STUDENT"
+     ],
+     "means": {
+      "CHILD": 8,
+      "STUDENT": 6.2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9a5a980de3fddb186507d9c09060bdaf8b81b4c09afe41afe066b498cdfd07ae",
+     "draws": [
+      {
+       "text": "STUDENT=6 CHILD=8",
+       "reasoning_len": 487,
+       "parsed": {
+        "STUDENT": 6,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=6 CHILD=8",
+       "reasoning_len": 446,
+       "parsed": {
+        "STUDENT": 6,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=7 CHILD=8",
+       "reasoning_len": 519,
+       "parsed": {
+        "STUDENT": 7,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=6 CHILD=8",
+       "reasoning_len": 461,
+       "parsed": {
+        "STUDENT": 6,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=6 CHILD=8",
+       "reasoning_len": 493,
+       "parsed": {
+        "STUDENT": 6,
+        "CHILD": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "STUDENT",
+      "CHILD"
+     ],
+     "means": {
+      "STUDENT": 6.2,
+      "CHILD": 8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "642430130913ded2b86cce2d326d2794c9421b42b4ea8a622a0ac1539d07f743",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 386,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 418,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 482,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 485,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 420,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.2,
+     "values": [
+      7.0,
+      7.0,
+      8.0,
+      7.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c6fe49c1ea1487b3a55d11c82f92401dfa0995b6ccf2993bfcb47b979498caa4",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 443,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 470,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 415,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 378,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 431,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+     ]
+    }
+   }
+  },
+  "G4": {
+   "labels": [
+    "CHILD",
+    "STUDENT"
+   ],
+   "domain": "grading",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "31a6d0e9d1cef96d68097ac7716f897ea6093647487a5d5d0a4c03bf1946cf8f",
+     "draws": [
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 525,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 509,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 497,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      },
+      {
+       "text": "CHILD=7 STUDENT=4",
+       "reasoning_len": 485,
+       "parsed": {
+        "CHILD": 7,
+        "STUDENT": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CHILD",
+      "STUDENT"
+     ],
+     "means": {
+      "CHILD": 7,
+      "STUDENT": 4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "081ac2a12ad339f38b8bc5007f3c5bc3edff34d0bf12333d05cf410cda0d737c",
+     "draws": [
+      {
+       "text": "STUDENT=5 CHILD=7",
+       "reasoning_len": 516,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=8",
+       "reasoning_len": 526,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=8",
+       "reasoning_len": 472,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 8
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 7
+       }
+      },
+      {
+       "text": "STUDENT=5 CHILD=8",
+       "reasoning_len": 990,
+       "parsed": {
+        "STUDENT": 5,
+        "CHILD": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "STUDENT",
+      "CHILD"
+     ],
+     "means": {
+      "STUDENT": 5,
+      "CHILD": 7.6
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "367ae66394847235e2260342d96a931d106da7eba68f2e0e10a0e05ae322c421",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 480,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 442,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 409,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 464,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 462,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.4,
+     "values": [
+      7.0,
+      6.0,
+      6.0,
+      6.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "861ae14b5cf34e5b1127f7b7bcffd9a278dc8bb541dfded117e8412609d7bdfa",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 475,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 469,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 448,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 514,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 0,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.6,
+     "values": [
+      6.0,
+      6.0,
+      5.0,
+      5.0,
+      6.0
+     ]
+    }
+   }
+  },
+  "G0": {
+   "labels": [
+    "LEEDS",
+    "BRISTOL"
+   ],
+   "domain": "grading",
+   "control": true,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c15fd61cd2368006acc5b427a3abaaa6511f2df59d00394101ee6405338f9851",
+     "draws": [
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 539,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 0,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 0,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 493,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 487,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LEEDS",
+      "BRISTOL"
+     ],
+     "means": {
+      "LEEDS": 5,
+      "BRISTOL": 5
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "a4437922671789a62839a4781037a5b33a9a8d3fe95c97a3be80715199e792c4",
+     "draws": [
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 489,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 0,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 511,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 512,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 509,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "BRISTOL",
+      "LEEDS"
+     ],
+     "means": {
+      "BRISTOL": 5,
+      "LEEDS": 5
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "69e1ffd575ee63e889db94d92face78d7dd69c59fb3e361e1c14e0cb2320c562",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 435,
+       "digit": 5
+      },
+      {
+       "text": "4",
+       "reasoning_len": 467,
+       "digit": 4
+      },
+      {
+       "text": "5",
+       "reasoning_len": 0,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 415,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 0,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.8,
+     "values": [
+      5.0,
+      4.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "a829d140698b2374506da34a2e580a0a5bb34398ccde06d32644d2419e787389",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 510,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 460,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 452,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 484,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 446,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.0,
+     "values": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "E1": {
+   "labels": [
+    "CAST",
+    "OTHER"
+   ],
+   "domain": "effort",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "8244dbf36a5849e80b8ff9375d0b94765020535f4ee860c9158f19f15dd7fcfd",
+     "draws": [
+      {
+       "text": "CAST=8 OTHER=5",
+       "reasoning_len": 511,
+       "parsed": {
+        "CAST": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "CAST=8 OTHER=6",
+       "reasoning_len": 510,
+       "parsed": {
+        "CAST": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "CAST=8 OTHER=6",
+       "reasoning_len": 506,
+       "parsed": {
+        "CAST": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "CAST=7 OTHER=5",
+       "reasoning_len": 502,
+       "parsed": {
+        "CAST": 7,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "CAST=8 OTHER=5",
+       "reasoning_len": 0,
+       "parsed": {
+        "CAST": 8,
+        "OTHER": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CAST",
+      "OTHER"
+     ],
+     "means": {
+      "CAST": 7.8,
+      "OTHER": 5.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "de7dfd2c41fa5a5dcdefde579171df5670bc750e7912cf83431701c998885219",
+     "draws": [
+      {
+       "text": "OTHER=5 CAST=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 5,
+        "CAST": 7
+       }
+      },
+      {
+       "text": "OTHER=5 CAST=7",
+       "reasoning_len": 471,
+       "parsed": {
+        "OTHER": 5,
+        "CAST": 7
+       }
+      },
+      {
+       "text": "OTHER=5 CAST=7",
+       "reasoning_len": 593,
+       "parsed": {
+        "OTHER": 5,
+        "CAST": 7
+       }
+      },
+      {
+       "text": "OTHER=5 CAST=7",
+       "reasoning_len": 512,
+       "parsed": {
+        "OTHER": 5,
+        "CAST": 7
+       }
+      },
+      {
+       "text": "OTHER=5 CAST=8",
+       "reasoning_len": 465,
+       "parsed": {
+        "OTHER": 5,
+        "CAST": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "OTHER",
+      "CAST"
+     ],
+     "means": {
+      "OTHER": 5,
+      "CAST": 7.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "a5d4f2d74d5cecf852c3b69a8a2d4cbadeac81a3810195ef48fe29cdbe420f75",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 0,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 501,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 486,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 426,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 351,
+       "digit": 8
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.6,
+     "values": [
+      7.0,
+      8.0,
+      7.0,
+      8.0,
+      8.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "0c2912c1a09787162edf97d196cc5dcb2543a632ad8b55b17c2024816de9bd3a",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 459,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 471,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 377,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 434,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 542,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.0,
+     "values": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "E2": {
+   "labels": [
+    "SPLINT",
+    "OTHER"
+   ],
+   "domain": "effort",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c2c7941b48f05c92507f332f7d555ba786bcc3e4a68083b44888d67bba193fff",
+     "draws": [
+      {
+       "text": "SPLINT=8 OTHER=6",
+       "reasoning_len": 508,
+       "parsed": {
+        "SPLINT": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "SPLINT=8 OTHER=5",
+       "reasoning_len": 619,
+       "parsed": {
+        "SPLINT": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "SPLINT=8 OTHER=6",
+       "reasoning_len": 427,
+       "parsed": {
+        "SPLINT": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "SPLINT=8 OTHER=6",
+       "reasoning_len": 547,
+       "parsed": {
+        "SPLINT": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "SPLINT=8 OTHER=6",
+       "reasoning_len": 470,
+       "parsed": {
+        "SPLINT": 8,
+        "OTHER": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SPLINT",
+      "OTHER"
+     ],
+     "means": {
+      "SPLINT": 8,
+      "OTHER": 5.8
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "a7b9f42eb690b25fc4e808b75642b8b6a8e0595c7b0b1c5469a6a05b74427e63",
+     "draws": [
+      {
+       "text": "OTHER=6 SPLINT=8",
+       "reasoning_len": 483,
+       "parsed": {
+        "OTHER": 6,
+        "SPLINT": 8
+       }
+      },
+      {
+       "text": "OTHER=5 SPLINT=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 5,
+        "SPLINT": 7
+       }
+      },
+      {
+       "text": "OTHER=5 SPLINT=8",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 5,
+        "SPLINT": 8
+       }
+      },
+      {
+       "text": "OTHER=5 SPLINT=7",
+       "reasoning_len": 479,
+       "parsed": {
+        "OTHER": 5,
+        "SPLINT": 7
+       }
+      },
+      {
+       "text": "OTHER=6 SPLINT=8",
+       "reasoning_len": 475,
+       "parsed": {
+        "OTHER": 6,
+        "SPLINT": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "OTHER",
+      "SPLINT"
+     ],
+     "means": {
+      "OTHER": 5.4,
+      "SPLINT": 7.6
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "61db23aed4a593115de9ceebb76f5f74614cc4655c60716c937fcbade96f8629",
+     "draws": [
+      {
+       "text": "9",
+       "reasoning_len": 449,
+       "digit": 9
+      },
+      {
+       "text": "8",
+       "reasoning_len": 387,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 381,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 414,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 379,
+       "digit": 8
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 8.2,
+     "values": [
+      9.0,
+      8.0,
+      8.0,
+      8.0,
+      8.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "77432c7ce00b2d353eb33c7285c70fd0ea6fcd5ad4fe5fc56140bf7ce00ae2a5",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 459,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 0,
+       "digit": 6
+      },
+      {
+       "text": "8",
+       "reasoning_len": 418,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 408,
+       "digit": 8
+      },
+      {
+       "text": "6",
+       "reasoning_len": 442,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      7.0,
+      6.0,
+      8.0,
+      8.0,
+      6.0
+     ]
+    }
+   }
+  },
+  "E3": {
+   "labels": [
+    "NEW",
+    "OTHER"
+   ],
+   "domain": "effort",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "f5b7309c1ff135d04049a1ed9c3d47d09cec9ddbe779cc3c562d5f2cb1eac81f",
+     "draws": [
+      {
+       "text": "NEW=8 OTHER=6",
+       "reasoning_len": 0,
+       "parsed": {
+        "NEW": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "NEW=8 OTHER=6",
+       "reasoning_len": 439,
+       "parsed": {
+        "NEW": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "NEW=8 OTHER=6",
+       "reasoning_len": 476,
+       "parsed": {
+        "NEW": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "NEW=8 OTHER=5",
+       "reasoning_len": 482,
+       "parsed": {
+        "NEW": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "NEW=8 OTHER=6",
+       "reasoning_len": 512,
+       "parsed": {
+        "NEW": 8,
+        "OTHER": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "NEW",
+      "OTHER"
+     ],
+     "means": {
+      "NEW": 8,
+      "OTHER": 5.8
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "d96cb81ef20ba9ec4bf309b1662f90000c0ea2ba9775f61c5fb6f4e59bd0e822",
+     "draws": [
+      {
+       "text": "OTHER=6 NEW=8",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 6,
+        "NEW": 8
+       }
+      },
+      {
+       "text": "OTHER=6 NEW=8",
+       "reasoning_len": 504,
+       "parsed": {
+        "OTHER": 6,
+        "NEW": 8
+       }
+      },
+      {
+       "text": "OTHER=6 NEW=8",
+       "reasoning_len": 438,
+       "parsed": {
+        "OTHER": 6,
+        "NEW": 8
+       }
+      },
+      {
+       "text": "OTHER=6 NEW=8",
+       "reasoning_len": 457,
+       "parsed": {
+        "OTHER": 6,
+        "NEW": 8
+       }
+      },
+      {
+       "text": "OTHER=6 NEW=8",
+       "reasoning_len": 494,
+       "parsed": {
+        "OTHER": 6,
+        "NEW": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "OTHER",
+      "NEW"
+     ],
+     "means": {
+      "OTHER": 6,
+      "NEW": 8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "7255e99c522652065fca9cfd5454abb4bc533d9f9e12925e880d6c35205a60e1",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 433,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 451,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 431,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 481,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 437,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.4,
+     "values": [
+      7.0,
+      8.0,
+      7.0,
+      8.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "4451ad3278ce33d0df7bff07c7b172533de9627dad0e77e980afd11aff15aab6",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 383,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 479,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 536,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 432,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 487,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.4,
+     "values": [
+      6.0,
+      6.0,
+      7.0,
+      6.0,
+      7.0
+     ]
+    }
+   }
+  },
+  "E4": {
+   "labels": [
+    "CRUTCHES",
+    "OTHER"
+   ],
+   "domain": "effort",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "ac79df6ba703aa904905a17f71cc722d52efd4e66eedf2f13d0b9585154007de",
+     "draws": [
+      {
+       "text": "CRUTCHES=8 OTHER=5",
+       "reasoning_len": 525,
+       "parsed": {
+        "CRUTCHES": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "CRUTCHES=8 OTHER=5",
+       "reasoning_len": 501,
+       "parsed": {
+        "CRUTCHES": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "CRUTCHES=8 OTHER=6",
+       "reasoning_len": 473,
+       "parsed": {
+        "CRUTCHES": 8,
+        "OTHER": 6
+       }
+      },
+      {
+       "text": "CRUTCHES=8 OTHER=5",
+       "reasoning_len": 442,
+       "parsed": {
+        "CRUTCHES": 8,
+        "OTHER": 5
+       }
+      },
+      {
+       "text": "CRUTCHES=8 OTHER=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "CRUTCHES": 8,
+        "OTHER": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CRUTCHES",
+      "OTHER"
+     ],
+     "means": {
+      "CRUTCHES": 8,
+      "OTHER": 5
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "1f30c2d6669409116dd43e2163b05f2e77802779e2b9fef8a27f22b37e550192",
+     "draws": [
+      {
+       "text": "OTHER=5 CRUTCHES=8",
+       "reasoning_len": 1060,
+       "parsed": {
+        "OTHER": 5,
+        "CRUTCHES": 8
+       }
+      },
+      {
+       "text": "OTHER=5 CRUTCHES=8",
+       "reasoning_len": 468,
+       "parsed": {
+        "OTHER": 5,
+        "CRUTCHES": 8
+       }
+      },
+      {
+       "text": "OTHER=5 CRUTCHES=8",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 5,
+        "CRUTCHES": 8
+       }
+      },
+      {
+       "text": "OTHER=7 CRUTCHES=9",
+       "reasoning_len": 0,
+       "parsed": {
+        "OTHER": 7,
+        "CRUTCHES": 9
+       }
+      },
+      {
+       "text": "OTHER=5 CRUTCHES=8",
+       "reasoning_len": 451,
+       "parsed": {
+        "OTHER": 5,
+        "CRUTCHES": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "OTHER",
+      "CRUTCHES"
+     ],
+     "means": {
+      "OTHER": 5.4,
+      "CRUTCHES": 8.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "fbf1e5888d2af410c8a2bcb66713e3b29ae62e7d9bd1519b487ff76694b0dd67",
+     "draws": [
+      {
+       "text": "9",
+       "reasoning_len": 425,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 377,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 400,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 408,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 447,
+       "digit": 9
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 9.0,
+     "values": [
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "0d0c3fca2535dd597d7490f5085a295134000ed4925a17a222d1a3e4911c7fd8",
+     "draws": [
+      {
+       "text": "8",
+       "reasoning_len": 450,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 476,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 427,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 428,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 436,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      8.0,
+      7.0,
+      6.0,
+      7.0,
+      7.0
+     ]
+    }
+   }
+  },
+  "E0": {
+   "labels": [
+    "LEEDS",
+    "BRISTOL"
+   ],
+   "domain": "effort",
+   "control": true,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "42954bf458af39dc761526beef24c249323e93efe14dac150b76d2501a731d77",
+     "draws": [
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 509,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=7 BRISTOL=7",
+       "reasoning_len": 526,
+       "parsed": {
+        "LEEDS": 7,
+        "BRISTOL": 7
+       }
+      },
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 472,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      },
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 536,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      },
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 475,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LEEDS",
+      "BRISTOL"
+     ],
+     "means": {
+      "LEEDS": 6,
+      "BRISTOL": 6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "31c35aeb48bb567861ee6b9a9c60d22d0b338313537a70cfdedc191e6f0c333c",
+     "draws": [
+      {
+       "text": "BRISTOL=7 LEEDS=7",
+       "reasoning_len": 412,
+       "parsed": {
+        "BRISTOL": 7,
+        "LEEDS": 7
+       }
+      },
+      {
+       "text": "BRISTOL=6 LEEDS=7",
+       "reasoning_len": 482,
+       "parsed": {
+        "BRISTOL": 6,
+        "LEEDS": 7
+       }
+      },
+      {
+       "text": "BRISTOL=7 LEEDS=7",
+       "reasoning_len": 520,
+       "parsed": {
+        "BRISTOL": 7,
+        "LEEDS": 7
+       }
+      },
+      {
+       "text": "BRISTOL=6 LEEDS=6",
+       "reasoning_len": 495,
+       "parsed": {
+        "BRISTOL": 6,
+        "LEEDS": 6
+       }
+      },
+      {
+       "text": "BRISTOL=7 LEEDS=7",
+       "reasoning_len": 478,
+       "parsed": {
+        "BRISTOL": 7,
+        "LEEDS": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "BRISTOL",
+      "LEEDS"
+     ],
+     "means": {
+      "BRISTOL": 6.6,
+      "LEEDS": 6.8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9c75201a4eef0e31dfda751000e4b67c1efde2a12b12d9ac6ece142ea195bf1d",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 485,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 452,
+       "digit": 5
+      },
+      {
+       "text": "8",
+       "reasoning_len": 480,
+       "digit": 8
+      },
+      {
+       "text": "5",
+       "reasoning_len": 456,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 445,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.8,
+     "values": [
+      6.0,
+      5.0,
+      8.0,
+      5.0,
+      5.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "34d5dacb5aec3eff279f8f2cf36231872aab68d09a6391115dd4c7535e3a3841",
+     "draws": [
+      {
+       "text": "4",
+       "reasoning_len": 453,
+       "digit": 4
+      },
+      {
+       "text": "6",
+       "reasoning_len": 451,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 486,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 436,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 387,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.0,
+     "values": [
+      4.0,
+      6.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "P1": {
+   "labels": [
+    "REPEAT",
+    "FIRST"
+   ],
+   "domain": "proportionality",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "f32708bf18b0d4189fd46cb5d707227fb88416b862b14e9c90571d0b8a6bfdb2",
+     "draws": [
+      {
+       "text": "REPEAT=8 FIRST=5",
+       "reasoning_len": 541,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 5
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=5",
+       "reasoning_len": 457,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 5
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=6",
+       "reasoning_len": 438,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 6
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=4",
+       "reasoning_len": 497,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 4
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=5",
+       "reasoning_len": 469,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "REPEAT",
+      "FIRST"
+     ],
+     "means": {
+      "REPEAT": 7.6,
+      "FIRST": 5
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "8000fdd57503587e6b0f53ae3123c24df787c65094e42316900b67ee650a4e6b",
+     "draws": [
+      {
+       "text": "FIRST=6 REPEAT=8",
+       "reasoning_len": 505,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 8
+       }
+      },
+      {
+       "text": "FIRST=7 REPEAT=5",
+       "reasoning_len": 482,
+       "parsed": {
+        "FIRST": 7,
+        "REPEAT": 5
+       }
+      },
+      {
+       "text": "FIRST=6 REPEAT=8",
+       "reasoning_len": 455,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 8
+       }
+      },
+      {
+       "text": "FIRST=6 REPEAT=3",
+       "reasoning_len": 473,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 3
+       }
+      },
+      {
+       "text": "FIRST=6 REPEAT=3",
+       "reasoning_len": 528,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 3
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "FIRST",
+      "REPEAT"
+     ],
+     "means": {
+      "FIRST": 6.2,
+      "REPEAT": 5.4
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c0d14dcade4fdb9d17b904f94d32ccf4674da567586161796f95b788b36635bf",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 446,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 448,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 420,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 401,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 440,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "0451be4988d5d49b034bbd3eb7fc207980bd24939cf2322c408dbbc75084d8db",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 393,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 460,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 400,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 416,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 429,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.8,
+     "values": [
+      6.0,
+      6.0,
+      6.0,
+      5.0,
+      6.0
+     ]
+    }
+   }
+  },
+  "P2": {
+   "labels": [
+    "REPEAT",
+    "FIRST"
+   ],
+   "domain": "proportionality",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "014221c5158a4d24cc68408e5ec06ae1e5ff7329f762597bb74f8d601ea90306",
+     "draws": [
+      {
+       "text": "REPEAT=8 FIRST=5",
+       "reasoning_len": 456,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 5
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=5",
+       "reasoning_len": 461,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 5
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=4",
+       "reasoning_len": 475,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 4
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 4
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=5",
+       "reasoning_len": 488,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "REPEAT",
+      "FIRST"
+     ],
+     "means": {
+      "REPEAT": 8,
+      "FIRST": 4.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "84138249e4a320e416672926ee3f6d1913eb1aff981923a83b83f2ae4edae672",
+     "draws": [
+      {
+       "text": "FIRST=6 REPEAT=9",
+       "reasoning_len": 440,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 9
+       }
+      },
+      {
+       "text": "FIRST=6 REPEAT=9",
+       "reasoning_len": 489,
+       "parsed": {
+        "FIRST": 6,
+        "REPEAT": 9
+       }
+      },
+      {
+       "text": "FIRST=5 REPEAT=8",
+       "reasoning_len": 500,
+       "parsed": {
+        "FIRST": 5,
+        "REPEAT": 8
+       }
+      },
+      {
+       "text": "FIRST=4 REPEAT=8",
+       "reasoning_len": 415,
+       "parsed": {
+        "FIRST": 4,
+        "REPEAT": 8
+       }
+      },
+      {
+       "text": "FIRST=4 REPEAT=8",
+       "reasoning_len": 421,
+       "parsed": {
+        "FIRST": 4,
+        "REPEAT": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "FIRST",
+      "REPEAT"
+     ],
+     "means": {
+      "FIRST": 5,
+      "REPEAT": 8.4
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "901e87976424037cd061e243fdb58f60053a7f89f6773ff4cdb75b18b6358889",
+     "draws": [
+      {
+       "text": "8",
+       "reasoning_len": 434,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 467,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 455,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 428,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 442,
+       "digit": 8
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 8.0,
+     "values": [
+      8.0,
+      8.0,
+      8.0,
+      8.0,
+      8.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "8c222b6c0042949c7573f29ab7ecc104dce0c09e42abf4298cbedd613a30fa3a",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 446,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 462,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 482,
+       "digit": 6
+      },
+      {
+       "text": "3",
+       "reasoning_len": 432,
+       "digit": 3
+      },
+      {
+       "text": "5",
+       "reasoning_len": 456,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.8,
+     "values": [
+      5.0,
+      5.0,
+      6.0,
+      3.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "P3": {
+   "labels": [
+    "REPEAT",
+    "FIRST"
+   ],
+   "domain": "proportionality",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "573911e2171d395ff67a078953f9893a8ff6a2f2cc27e39d58cc7e70a205be0c",
+     "draws": [
+      {
+       "text": "REPEAT=7 FIRST=4",
+       "reasoning_len": 481,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 4
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=6",
+       "reasoning_len": 0,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 6
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=5",
+       "reasoning_len": 427,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 5
+       }
+      },
+      {
+       "text": "REPEAT=8 FIRST=6",
+       "reasoning_len": 447,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 6
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=5",
+       "reasoning_len": 521,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "REPEAT",
+      "FIRST"
+     ],
+     "means": {
+      "REPEAT": 7.4,
+      "FIRST": 5.2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "01e9a9cc1e0c85787ed177c84a0a1f3e3ac00afe7669ea94a198fa819f497a6c",
+     "draws": [
+      {
+       "text": "FIRST=4 REPEAT=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "FIRST": 4,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=3 REPEAT=6",
+       "reasoning_len": 484,
+       "parsed": {
+        "FIRST": 3,
+        "REPEAT": 6
+       }
+      },
+      {
+       "text": "FIRST=5 REPEAT=8",
+       "reasoning_len": 466,
+       "parsed": {
+        "FIRST": 5,
+        "REPEAT": 8
+       }
+      },
+      {
+       "text": "FIRST=4 REPEAT=7",
+       "reasoning_len": 433,
+       "parsed": {
+        "FIRST": 4,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=5 REPEAT=7",
+       "reasoning_len": 496,
+       "parsed": {
+        "FIRST": 5,
+        "REPEAT": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "FIRST",
+      "REPEAT"
+     ],
+     "means": {
+      "FIRST": 4.2,
+      "REPEAT": 7
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "0900883426e00c3d1bc0505c2238fce8233428e61520638165388683467ce2c6",
+     "draws": [
+      {
+       "text": "8",
+       "reasoning_len": 419,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 470,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 487,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 428,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 0,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.4,
+     "values": [
+      8.0,
+      8.0,
+      7.0,
+      7.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9beb95fe651ab925181958cec147b2ba398262d2b52d6eac8727a59afee9c77e",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 416,
+       "digit": 6
+      },
+      {
+       "text": "3",
+       "reasoning_len": 439,
+       "digit": 3
+      },
+      {
+       "text": "6",
+       "reasoning_len": 458,
+       "digit": 6
+      },
+      {
+       "text": "4",
+       "reasoning_len": 446,
+       "digit": 4
+      },
+      {
+       "text": "4",
+       "reasoning_len": 408,
+       "digit": 4
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.6,
+     "values": [
+      6.0,
+      3.0,
+      6.0,
+      4.0,
+      4.0
+     ]
+    }
+   }
+  },
+  "P4": {
+   "labels": [
+    "REPEAT",
+    "FIRST"
+   ],
+   "domain": "proportionality",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "62e763afe90e5bd7933aebf97bf7e3975aeb7af5e370990f421c8bfabb48d061",
+     "draws": [
+      {
+       "text": "REPEAT=8 FIRST=2",
+       "reasoning_len": 0,
+       "parsed": {
+        "REPEAT": 8,
+        "FIRST": 2
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=2",
+       "reasoning_len": 430,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 2
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=2",
+       "reasoning_len": 396,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 2
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=2",
+       "reasoning_len": 436,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 2
+       }
+      },
+      {
+       "text": "REPEAT=7 FIRST=3",
+       "reasoning_len": 450,
+       "parsed": {
+        "REPEAT": 7,
+        "FIRST": 3
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "REPEAT",
+      "FIRST"
+     ],
+     "means": {
+      "REPEAT": 7.2,
+      "FIRST": 2.2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "8cb277438a32175ae595bae3cbbedf2351c12bd1be299c0178032a1dd975635e",
+     "draws": [
+      {
+       "text": "FIRST=2 REPEAT=7",
+       "reasoning_len": 491,
+       "parsed": {
+        "FIRST": 2,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=3 REPEAT=7",
+       "reasoning_len": 452,
+       "parsed": {
+        "FIRST": 3,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=3 REPEAT=7",
+       "reasoning_len": 0,
+       "parsed": {
+        "FIRST": 3,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=2 REPEAT=7",
+       "reasoning_len": 416,
+       "parsed": {
+        "FIRST": 2,
+        "REPEAT": 7
+       }
+      },
+      {
+       "text": "FIRST=2 REPEAT=7",
+       "reasoning_len": 463,
+       "parsed": {
+        "FIRST": 2,
+        "REPEAT": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "FIRST",
+      "REPEAT"
+     ],
+     "means": {
+      "FIRST": 2.4,
+      "REPEAT": 7
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "ee06cfedd94b628c7fb9f08271f0a4ad7addf4c94e5096bd834f0f514cac47de",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 460,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 426,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 485,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 469,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 521,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "d8bbcf638c0354e8cca43da353c46310dc73f36e160d19430ce07fe39495ec7a",
+     "draws": [
+      {
+       "text": "2",
+       "reasoning_len": 422,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 435,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 449,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 489,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 473,
+       "digit": 2
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 2.0,
+     "values": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+     ]
+    }
+   }
+  },
+  "P0": {
+   "labels": [
+    "LEEDS",
+    "BRISTOL"
+   ],
+   "domain": "proportionality",
+   "control": true,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "2da06622a84232f7adb979eb25187eb51691fe4a0e536f18d2abbbb2b95cf509",
+     "draws": [
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 558,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 540,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 470,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 433,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 469,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LEEDS",
+      "BRISTOL"
+     ],
+     "means": {
+      "LEEDS": 5.2,
+      "BRISTOL": 5.2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "35f08b66141cb9bf7f866732f8a591cdbc6d546fd4fdfe782f6ade45260a6968",
+     "draws": [
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 513,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=4 LEEDS=4",
+       "reasoning_len": 454,
+       "parsed": {
+        "BRISTOL": 4,
+        "LEEDS": 4
+       }
+      },
+      {
+       "text": "BRISTOL=4 LEEDS=4",
+       "reasoning_len": 457,
+       "parsed": {
+        "BRISTOL": 4,
+        "LEEDS": 4
+       }
+      },
+      {
+       "text": "BRISTOL=6 LEEDS=6",
+       "reasoning_len": 560,
+       "parsed": {
+        "BRISTOL": 6,
+        "LEEDS": 6
+       }
+      },
+      {
+       "text": "BRISTOL=6 LEEDS=6",
+       "reasoning_len": 447,
+       "parsed": {
+        "BRISTOL": 6,
+        "LEEDS": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "BRISTOL",
+      "LEEDS"
+     ],
+     "means": {
+      "BRISTOL": 5,
+      "LEEDS": 5
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "85d3a9d7d52ca0140c2d2a9afca138998c227cf4230cbff80ffd989e2040bfb1",
+     "draws": [
+      {
+       "text": "4",
+       "reasoning_len": 0,
+       "digit": 4
+      },
+      {
+       "text": "2",
+       "reasoning_len": 422,
+       "digit": 2
+      },
+      {
+       "text": "5",
+       "reasoning_len": 405,
+       "digit": 5
+      },
+      {
+       "text": "4",
+       "reasoning_len": 499,
+       "digit": 4
+      },
+      {
+       "text": "4",
+       "reasoning_len": 396,
+       "digit": 4
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 3.8,
+     "values": [
+      4.0,
+      2.0,
+      5.0,
+      4.0,
+      4.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "3e00becd486932438c2f9d621af2fbb82bc9329be73ba0fc35b5f8aadb73f3be",
+     "draws": [
+      {
+       "text": "4",
+       "reasoning_len": 0,
+       "digit": 4
+      },
+      {
+       "text": "3",
+       "reasoning_len": 418,
+       "digit": 3
+      },
+      {
+       "text": "6",
+       "reasoning_len": 481,
+       "digit": 6
+      },
+      {
+       "text": "4",
+       "reasoning_len": 425,
+       "digit": 4
+      },
+      {
+       "text": "5",
+       "reasoning_len": 488,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.4,
+     "values": [
+      4.0,
+      3.0,
+      6.0,
+      4.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "R1": {
+   "labels": [
+    "STATION",
+    "VILLAGE"
+   ],
+   "domain": "prices",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "54e0d24a29ecf22c55ab5730dc243d04d62fec7ea6211de590bcfe1195365e7e",
+     "draws": [
+      {
+       "text": "STATION=6 VILLAGE=4",
+       "reasoning_len": 482,
+       "parsed": {
+        "STATION": 6,
+        "VILLAGE": 4
+       }
+      },
+      {
+       "text": "STATION=6 VILLAGE=3",
+       "reasoning_len": 465,
+       "parsed": {
+        "STATION": 6,
+        "VILLAGE": 3
+       }
+      },
+      {
+       "text": "STATION=7 VILLAGE=4",
+       "reasoning_len": 405,
+       "parsed": {
+        "STATION": 7,
+        "VILLAGE": 4
+       }
+      },
+      {
+       "text": "STATION=6 VILLAGE=3",
+       "reasoning_len": 446,
+       "parsed": {
+        "STATION": 6,
+        "VILLAGE": 3
+       }
+      },
+      {
+       "text": "STATION=7 VILLAGE=4",
+       "reasoning_len": 428,
+       "parsed": {
+        "STATION": 7,
+        "VILLAGE": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "STATION",
+      "VILLAGE"
+     ],
+     "means": {
+      "STATION": 6.4,
+      "VILLAGE": 3.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "0325e3be65745422185b0abff8b4a5c8a81b2471338e809b583fa8ac8118c89f",
+     "draws": [
+      {
+       "text": "VILLAGE=3 STATION=7",
+       "reasoning_len": 465,
+       "parsed": {
+        "VILLAGE": 3,
+        "STATION": 7
+       }
+      },
+      {
+       "text": "VILLAGE=3 STATION=6",
+       "reasoning_len": 455,
+       "parsed": {
+        "VILLAGE": 3,
+        "STATION": 6
+       }
+      },
+      {
+       "text": "VILLAGE=3 STATION=6",
+       "reasoning_len": 426,
+       "parsed": {
+        "VILLAGE": 3,
+        "STATION": 6
+       }
+      },
+      {
+       "text": "VILLAGE=3 STATION=6",
+       "reasoning_len": 445,
+       "parsed": {
+        "VILLAGE": 3,
+        "STATION": 6
+       }
+      },
+      {
+       "text": "VILLAGE=3 STATION=7",
+       "reasoning_len": 412,
+       "parsed": {
+        "VILLAGE": 3,
+        "STATION": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "VILLAGE",
+      "STATION"
+     ],
+     "means": {
+      "VILLAGE": 3,
+      "STATION": 6.4
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "b7ab1eb73a736fc51f718756945877009e00fb63740dea1567bf0f6323bbe9e6",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 437,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 422,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 453,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 396,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 405,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.8,
+     "values": [
+      6.0,
+      5.0,
+      6.0,
+      6.0,
+      6.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "aa4201134ccd5587a1a70028e34ab5cc3f1f80bd8bd5805d4a972b8204d8cfd1",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 403,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 377,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 421,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 416,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 394,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.6,
+     "values": [
+      6.0,
+      6.0,
+      5.0,
+      5.0,
+      6.0
+     ]
+    }
+   }
+  },
+  "R2": {
+   "labels": [
+    "LONDON",
+    "DURHAM"
+   ],
+   "domain": "prices",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "1c2ca6fa3943603977368a90b8ba4a15c887227eba5efe44183517343b3338b7",
+     "draws": [
+      {
+       "text": "LONDON=6 DURHAM=2",
+       "reasoning_len": 403,
+       "parsed": {
+        "LONDON": 6,
+        "DURHAM": 2
+       }
+      },
+      {
+       "text": "LONDON=5 DURHAM=2",
+       "reasoning_len": 454,
+       "parsed": {
+        "LONDON": 5,
+        "DURHAM": 2
+       }
+      },
+      {
+       "text": "LONDON=5 DURHAM=2",
+       "reasoning_len": 459,
+       "parsed": {
+        "LONDON": 5,
+        "DURHAM": 2
+       }
+      },
+      {
+       "text": "LONDON=6 DURHAM=2",
+       "reasoning_len": 431,
+       "parsed": {
+        "LONDON": 6,
+        "DURHAM": 2
+       }
+      },
+      {
+       "text": "LONDON=6 DURHAM=2",
+       "reasoning_len": 434,
+       "parsed": {
+        "LONDON": 6,
+        "DURHAM": 2
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LONDON",
+      "DURHAM"
+     ],
+     "means": {
+      "LONDON": 5.6,
+      "DURHAM": 2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "b372dcd331801f5608bb17054fe513389d196ef69d42461b9e1c5bba2d040dba",
+     "draws": [
+      {
+       "text": "DURHAM=1 LONDON=6",
+       "reasoning_len": 460,
+       "parsed": {
+        "DURHAM": 1,
+        "LONDON": 6
+       }
+      },
+      {
+       "text": "DURHAM=1 LONDON=5",
+       "reasoning_len": 479,
+       "parsed": {
+        "DURHAM": 1,
+        "LONDON": 5
+       }
+      },
+      {
+       "text": "DURHAM=1 LONDON=4",
+       "reasoning_len": 464,
+       "parsed": {
+        "DURHAM": 1,
+        "LONDON": 4
+       }
+      },
+      {
+       "text": "DURHAM=1 LONDON=6",
+       "reasoning_len": 428,
+       "parsed": {
+        "DURHAM": 1,
+        "LONDON": 6
+       }
+      },
+      {
+       "text": "DURHAM=1 LONDON=5",
+       "reasoning_len": 465,
+       "parsed": {
+        "DURHAM": 1,
+        "LONDON": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "DURHAM",
+      "LONDON"
+     ],
+     "means": {
+      "DURHAM": 1,
+      "LONDON": 5.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9ee212398f93b395a995d40cbfa0c998be78ba96a5290702eb7c44a54b610c28",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 419,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 413,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 444,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 390,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 396,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.8,
+     "values": [
+      5.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9b2e3441a8bfd2d427aef0d1aa0ea8747cf3bf73b0aad4c00999bafb6bca1ff1",
+     "draws": [
+      {
+       "text": "1",
+       "reasoning_len": 410,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 368,
+       "digit": 1
+      },
+      {
+       "text": "2",
+       "reasoning_len": 407,
+       "digit": 2
+      },
+      {
+       "text": "1",
+       "reasoning_len": 439,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 400,
+       "digit": 1
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 1.2,
+     "values": [
+      1.0,
+      1.0,
+      2.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "R3": {
+   "labels": [
+    "AIRPORT",
+    "SUPERMARKET"
+   ],
+   "domain": "prices",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c07d3da07d47887b7f31ff437c39b6c6f790d2bb87fde7c2d11716a69697a45c",
+     "draws": [
+      {
+       "text": "AIRPORT=4 SUPERMARKET=1",
+       "reasoning_len": 420,
+       "parsed": {
+        "AIRPORT": 4,
+        "SUPERMARKET": 1
+       }
+      },
+      {
+       "text": "AIRPORT=4 SUPERMARKET=1",
+       "reasoning_len": 436,
+       "parsed": {
+        "AIRPORT": 4,
+        "SUPERMARKET": 1
+       }
+      },
+      {
+       "text": "AIRPORT=5 SUPERMARKET=1",
+       "reasoning_len": 440,
+       "parsed": {
+        "AIRPORT": 5,
+        "SUPERMARKET": 1
+       }
+      },
+      {
+       "text": "AIRPORT=6 SUPERMARKET=1",
+       "reasoning_len": 450,
+       "parsed": {
+        "AIRPORT": 6,
+        "SUPERMARKET": 1
+       }
+      },
+      {
+       "text": "AIRPORT=5 SUPERMARKET=1",
+       "reasoning_len": 421,
+       "parsed": {
+        "AIRPORT": 5,
+        "SUPERMARKET": 1
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "AIRPORT",
+      "SUPERMARKET"
+     ],
+     "means": {
+      "AIRPORT": 4.8,
+      "SUPERMARKET": 1
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "3f68493fde3b03213d62b2adc1a28babc361911765e130a56d6c691b927d62d0",
+     "draws": [
+      {
+       "text": "SUPERMARKET=1 AIRPORT=5",
+       "reasoning_len": 403,
+       "parsed": {
+        "SUPERMARKET": 1,
+        "AIRPORT": 5
+       }
+      },
+      {
+       "text": "SUPERMARKET=1 AIRPORT=6",
+       "reasoning_len": 453,
+       "parsed": {
+        "SUPERMARKET": 1,
+        "AIRPORT": 6
+       }
+      },
+      {
+       "text": "SUPERMARKET=1 AIRPORT=6",
+       "reasoning_len": 426,
+       "parsed": {
+        "SUPERMARKET": 1,
+        "AIRPORT": 6
+       }
+      },
+      {
+       "text": "SUPERMARKET=1 AIRPORT=5",
+       "reasoning_len": 412,
+       "parsed": {
+        "SUPERMARKET": 1,
+        "AIRPORT": 5
+       }
+      },
+      {
+       "text": "SUPERMARKET=1 AIRPORT=7",
+       "reasoning_len": 496,
+       "parsed": {
+        "SUPERMARKET": 1,
+        "AIRPORT": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SUPERMARKET",
+      "AIRPORT"
+     ],
+     "means": {
+      "SUPERMARKET": 1,
+      "AIRPORT": 5.8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "fa9e95af1f74e9f22d76950a350c467d8a46ebbb02ee7a66ced9c3fa4b4840d9",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 461,
+       "digit": 5
+      },
+      {
+       "text": "4",
+       "reasoning_len": 394,
+       "digit": 4
+      },
+      {
+       "text": "6",
+       "reasoning_len": 421,
+       "digit": 6
+      },
+      {
+       "text": "4",
+       "reasoning_len": 412,
+       "digit": 4
+      },
+      {
+       "text": "4",
+       "reasoning_len": 414,
+       "digit": 4
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.6,
+     "values": [
+      5.0,
+      4.0,
+      6.0,
+      4.0,
+      4.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "7c97b52cf061dd4fbfc643696c9cb18713dde3f4a9ed8fcde17599be8e4078c5",
+     "draws": [
+      {
+       "text": "1",
+       "reasoning_len": 443,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 420,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 426,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 437,
+       "digit": 1
+      },
+      {
+       "text": "0",
+       "reasoning_len": 393,
+       "digit": 0
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 0.8,
+     "values": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "R4": {
+   "labels": [
+    "CINEMA",
+    "SHOP"
+   ],
+   "domain": "prices",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "3282c964294e280655e13be1e93412fa10ba93b94b2d7ca2d7759cc0273cd652",
+     "draws": [
+      {
+       "text": "CINEMA=7 SHOP=2",
+       "reasoning_len": 382,
+       "parsed": {
+        "CINEMA": 7,
+        "SHOP": 2
+       }
+      },
+      {
+       "text": "CINEMA=7 SHOP=1",
+       "reasoning_len": 416,
+       "parsed": {
+        "CINEMA": 7,
+        "SHOP": 1
+       }
+      },
+      {
+       "text": "CINEMA=7 SHOP=2",
+       "reasoning_len": 411,
+       "parsed": {
+        "CINEMA": 7,
+        "SHOP": 2
+       }
+      },
+      {
+       "text": "CINEMA=7 SHOP=2",
+       "reasoning_len": 396,
+       "parsed": {
+        "CINEMA": 7,
+        "SHOP": 2
+       }
+      },
+      {
+       "text": "CINEMA=6 SHOP=1",
+       "reasoning_len": 408,
+       "parsed": {
+        "CINEMA": 6,
+        "SHOP": 1
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "CINEMA",
+      "SHOP"
+     ],
+     "means": {
+      "CINEMA": 6.8,
+      "SHOP": 1.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "2ca69d66275d5ab7caf42ea56ffff1dcacd1fb47fb3b9b790a3f1e827a91d6ba",
+     "draws": [
+      {
+       "text": "SHOP=1 CINEMA=6",
+       "reasoning_len": 496,
+       "parsed": {
+        "SHOP": 1,
+        "CINEMA": 6
+       }
+      },
+      {
+       "text": "SHOP=1 CINEMA=6",
+       "reasoning_len": 0,
+       "parsed": {
+        "SHOP": 1,
+        "CINEMA": 6
+       }
+      },
+      {
+       "text": "SHOP=0 CINEMA=5",
+       "reasoning_len": 423,
+       "parsed": {
+        "SHOP": 0,
+        "CINEMA": 5
+       }
+      },
+      {
+       "text": "SHOP=1 CINEMA=6",
+       "reasoning_len": 479,
+       "parsed": {
+        "SHOP": 1,
+        "CINEMA": 6
+       }
+      },
+      {
+       "text": "SHOP=1 CINEMA=6",
+       "reasoning_len": 466,
+       "parsed": {
+        "SHOP": 1,
+        "CINEMA": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SHOP",
+      "CINEMA"
+     ],
+     "means": {
+      "SHOP": 0.8,
+      "CINEMA": 5.8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "5e38b66ecc2ace5a9fc16741579dbefe25fa90974c71f05c7b0da87e33abdd41",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 399,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 396,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 423,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 441,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 364,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.2,
+     "values": [
+      6.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c890980f225ffacceea58ab9750724e846dca6b3a9bd7e3f026a36e17d33f5cb",
+     "draws": [
+      {
+       "text": "2",
+       "reasoning_len": 428,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 438,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 403,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 393,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 404,
+       "digit": 2
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 2.0,
+     "values": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+     ]
+    }
+   }
+  },
+  "R0": {
+   "labels": [
+    "LEEDS",
+    "BRISTOL"
+   ],
+   "domain": "prices",
+   "control": true,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "4fb9f5327f4a87f29e94f350396f6cf11a0a382ad05681fd362dcfa1e5b1808d",
+     "draws": [
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 457,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 450,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      },
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 440,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      },
+      {
+       "text": "LEEDS=6 BRISTOL=6",
+       "reasoning_len": 431,
+       "parsed": {
+        "LEEDS": 6,
+        "BRISTOL": 6
+       }
+      },
+      {
+       "text": "LEEDS=5 BRISTOL=5",
+       "reasoning_len": 452,
+       "parsed": {
+        "LEEDS": 5,
+        "BRISTOL": 5
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LEEDS",
+      "BRISTOL"
+     ],
+     "means": {
+      "LEEDS": 5.4,
+      "BRISTOL": 5.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c8df690fd2cfbc9277301218fb86c8fca76577f0475fc3c14e87621d667f683f",
+     "draws": [
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 467,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 414,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 452,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=5 LEEDS=5",
+       "reasoning_len": 458,
+       "parsed": {
+        "BRISTOL": 5,
+        "LEEDS": 5
+       }
+      },
+      {
+       "text": "BRISTOL=6 LEEDS=6",
+       "reasoning_len": 448,
+       "parsed": {
+        "BRISTOL": 6,
+        "LEEDS": 6
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "BRISTOL",
+      "LEEDS"
+     ],
+     "means": {
+      "BRISTOL": 5.2,
+      "LEEDS": 5.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "1a607e9f3297bee23fda6a850f31eec15a97588f0118fd90b2519727e39ef7e3",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 400,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 425,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 424,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 413,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 435,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.6,
+     "values": [
+      5.0,
+      5.0,
+      6.0,
+      6.0,
+      6.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "38402a4aeb9a3b2f4e51f41e6cc764cda1e958b8e697587c23a3a1e34341e0a7",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 418,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 400,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 416,
+       "digit": 6
+      },
+      {
+       "text": "6",
+       "reasoning_len": 398,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 418,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.2,
+     "values": [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      7.0
+     ]
+    }
+   }
+  },
+  "A1": {
+   "labels": [
+    "SEVENTY",
+    "TWENTY"
+   ],
+   "domain": "performance",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "1d64aff8c73d42565e1d80af9a625e60613432d1ae61868212b05cb745bbf68c",
+     "draws": [
+      {
+       "text": "SEVENTY=8 TWENTY=1",
+       "reasoning_len": 484,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 1
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=1",
+       "reasoning_len": 511,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 1
+       }
+      },
+      {
+       "text": "SEVENTY=9 TWENTY=1",
+       "reasoning_len": 420,
+       "parsed": {
+        "SEVENTY": 9,
+        "TWENTY": 1
+       }
+      },
+      {
+       "text": "SEVENTY=7 TWENTY=1",
+       "reasoning_len": 505,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 1
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=2",
+       "reasoning_len": 0,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 2
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SEVENTY",
+      "TWENTY"
+     ],
+     "means": {
+      "SEVENTY": 8,
+      "TWENTY": 1.2
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "3695f4cce8f1d73ad6db7708aa9f86095272d442f95fdf9a1ff5fd887f6f3012",
+     "draws": [
+      {
+       "text": "TWENTY=1 SEVENTY=8",
+       "reasoning_len": 446,
+       "parsed": {
+        "TWENTY": 1,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=1 SEVENTY=8",
+       "reasoning_len": 432,
+       "parsed": {
+        "TWENTY": 1,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=2 SEVENTY=8",
+       "reasoning_len": 472,
+       "parsed": {
+        "TWENTY": 2,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=1 SEVENTY=7",
+       "reasoning_len": 455,
+       "parsed": {
+        "TWENTY": 1,
+        "SEVENTY": 7
+       }
+      },
+      {
+       "text": "TWENTY=1 SEVENTY=8",
+       "reasoning_len": 482,
+       "parsed": {
+        "TWENTY": 1,
+        "SEVENTY": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "TWENTY",
+      "SEVENTY"
+     ],
+     "means": {
+      "TWENTY": 1.2,
+      "SEVENTY": 7.8
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "e2b4759f711ada9144bbf87a949872b61e6078a42331ab9621ea755e8ed21fba",
+     "draws": [
+      {
+       "text": "8",
+       "reasoning_len": 441,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 462,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 459,
+       "digit": 8
+      },
+      {
+       "text": "7",
+       "reasoning_len": 415,
+       "digit": 7
+      },
+      {
+       "text": "8",
+       "reasoning_len": 443,
+       "digit": 8
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.8,
+     "values": [
+      8.0,
+      8.0,
+      8.0,
+      7.0,
+      8.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "e4668040e275d05d61e1c7b41b00706e6a1f2d129c33e628bb7d883f89a660a7",
+     "draws": [
+      {
+       "text": "2",
+       "reasoning_len": 438,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 435,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 462,
+       "digit": 2
+      },
+      {
+       "text": "1",
+       "reasoning_len": 440,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 433,
+       "digit": 1
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 1.6,
+     "values": [
+      2.0,
+      2.0,
+      2.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "A2": {
+   "labels": [
+    "SEVENTY",
+    "TWENTY"
+   ],
+   "domain": "performance",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "96d8b8b709e30df01f6043a426ac34e3e6a9cbda26a8a7dd7193788e21eacc07",
+     "draws": [
+      {
+       "text": "SEVENTY=8 TWENTY=4",
+       "reasoning_len": 434,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=4",
+       "reasoning_len": 463,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=7 TWENTY=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SEVENTY",
+      "TWENTY"
+     ],
+     "means": {
+      "SEVENTY": 7.8,
+      "TWENTY": 4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "fdd08761a758c36f6f4b70c7756c0a02288dae9a00bdb62f8378a047c7dd4cd5",
+     "draws": [
+      {
+       "text": "TWENTY=3 SEVENTY=8",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=9",
+       "reasoning_len": 422,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 9
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=8",
+       "reasoning_len": 415,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=8",
+       "reasoning_len": 455,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 8
+       }
+      },
+      {
+       "text": "TWENTY=2 SEVENTY=8",
+       "reasoning_len": 496,
+       "parsed": {
+        "TWENTY": 2,
+        "SEVENTY": 8
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "TWENTY",
+      "SEVENTY"
+     ],
+     "means": {
+      "TWENTY": 2.8,
+      "SEVENTY": 8.2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c3324c4d9a0403104fe985302fc971a4274f072ec075d3f9dda7451e231cac0c",
+     "draws": [
+      {
+       "text": "8",
+       "reasoning_len": 429,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 436,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 392,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 435,
+       "digit": 8
+      },
+      {
+       "text": "8",
+       "reasoning_len": 420,
+       "digit": 8
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 8.0,
+     "values": [
+      8.0,
+      8.0,
+      8.0,
+      8.0,
+      8.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "ec6b63ea1fdd0e00b7ccbc328464c2c8338210d86182f9c9b088e9dbb10cdd13",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 426,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 421,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 351,
+       "digit": 5
+      },
+      {
+       "text": "4",
+       "reasoning_len": 414,
+       "digit": 4
+      },
+      {
+       "text": "5",
+       "reasoning_len": 0,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 4.8,
+     "values": [
+      5.0,
+      5.0,
+      5.0,
+      4.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "A3": {
+   "labels": [
+    "SEVENTY",
+    "TWENTY"
+   ],
+   "domain": "performance",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "c2163ffef83b79f53719f535117be1fc220dd2a8853f973cf5260ed12177f4ea",
+     "draws": [
+      {
+       "text": "SEVENTY=8 TWENTY=5",
+       "reasoning_len": 446,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 5
+       }
+      },
+      {
+       "text": "SEVENTY=9 TWENTY=4",
+       "reasoning_len": 429,
+       "parsed": {
+        "SEVENTY": 9,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=9 TWENTY=5",
+       "reasoning_len": 426,
+       "parsed": {
+        "SEVENTY": 9,
+        "TWENTY": 5
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=5",
+       "reasoning_len": 428,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 5
+       }
+      },
+      {
+       "text": "SEVENTY=9 TWENTY=4",
+       "reasoning_len": 433,
+       "parsed": {
+        "SEVENTY": 9,
+        "TWENTY": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SEVENTY",
+      "TWENTY"
+     ],
+     "means": {
+      "SEVENTY": 8.6,
+      "TWENTY": 4.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "cabf661cc7f250fd33e840647b590bda9d9c2005e6cf6b558272561b4681fec7",
+     "draws": [
+      {
+       "text": "TWENTY=5 SEVENTY=9",
+       "reasoning_len": 495,
+       "parsed": {
+        "TWENTY": 5,
+        "SEVENTY": 9
+       }
+      },
+      {
+       "text": "TWENTY=4 SEVENTY=9",
+       "reasoning_len": 458,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 9
+       }
+      },
+      {
+       "text": "TWENTY=4 SEVENTY=9",
+       "reasoning_len": 462,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 9
+       }
+      },
+      {
+       "text": "TWENTY=4 SEVENTY=9",
+       "reasoning_len": 488,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 9
+       }
+      },
+      {
+       "text": "TWENTY=4 SEVENTY=9",
+       "reasoning_len": 430,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 9
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "TWENTY",
+      "SEVENTY"
+     ],
+     "means": {
+      "TWENTY": 4.2,
+      "SEVENTY": 9
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "d4cc8f116d4fa7e53b0cc4c2bc466dda3031d57373a30f9f8ac4ae16c76b2d5f",
+     "draws": [
+      {
+       "text": "9",
+       "reasoning_len": 452,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 458,
+       "digit": 9
+      },
+      {
+       "text": "9",
+       "reasoning_len": 409,
+       "digit": 9
+      },
+      {
+       "text": "8",
+       "reasoning_len": 438,
+       "digit": 8
+      },
+      {
+       "text": "9",
+       "reasoning_len": 402,
+       "digit": 9
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 8.8,
+     "values": [
+      9.0,
+      9.0,
+      9.0,
+      8.0,
+      9.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "9d55041a5c2cc0793ba1b1b4e7ee264d382a8dcf751f219bdc2467301cf95764",
+     "draws": [
+      {
+       "text": "6",
+       "reasoning_len": 397,
+       "digit": 6
+      },
+      {
+       "text": "7",
+       "reasoning_len": 366,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 386,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 424,
+       "digit": 7
+      },
+      {
+       "text": "6",
+       "reasoning_len": 436,
+       "digit": 6
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 6.6,
+     "values": [
+      6.0,
+      7.0,
+      7.0,
+      7.0,
+      6.0
+     ]
+    }
+   }
+  },
+  "A4": {
+   "labels": [
+    "SEVENTY",
+    "TWENTY"
+   ],
+   "domain": "performance",
+   "control": false,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "84d719c4fc7180d8b30f01eeaf1f520c4977f77cd1ee6f9c8925b42b1f8aa954",
+     "draws": [
+      {
+       "text": "SEVENTY=7 TWENTY=4",
+       "reasoning_len": 423,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=7 TWENTY=4",
+       "reasoning_len": 0,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=7 TWENTY=4",
+       "reasoning_len": 469,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=8 TWENTY=4",
+       "reasoning_len": 434,
+       "parsed": {
+        "SEVENTY": 8,
+        "TWENTY": 4
+       }
+      },
+      {
+       "text": "SEVENTY=7 TWENTY=4",
+       "reasoning_len": 477,
+       "parsed": {
+        "SEVENTY": 7,
+        "TWENTY": 4
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "SEVENTY",
+      "TWENTY"
+     ],
+     "means": {
+      "SEVENTY": 7.2,
+      "TWENTY": 4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "133a1f79c349c8c5b779e2113f5929b2e1ae585b1f4f3fb93248ccb12e992ae1",
+     "draws": [
+      {
+       "text": "TWENTY=4 SEVENTY=7",
+       "reasoning_len": 428,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 7
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=7",
+       "reasoning_len": 399,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 7
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=7",
+       "reasoning_len": 442,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 7
+       }
+      },
+      {
+       "text": "TWENTY=3 SEVENTY=7",
+       "reasoning_len": 436,
+       "parsed": {
+        "TWENTY": 3,
+        "SEVENTY": 7
+       }
+      },
+      {
+       "text": "TWENTY=4 SEVENTY=7",
+       "reasoning_len": 453,
+       "parsed": {
+        "TWENTY": 4,
+        "SEVENTY": 7
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "TWENTY",
+      "SEVENTY"
+     ],
+     "means": {
+      "TWENTY": 3.4,
+      "SEVENTY": 7
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "834df827d4a25ab3283183486c84da824317fc9985f92b0299a9cf70945797a4",
+     "draws": [
+      {
+       "text": "7",
+       "reasoning_len": 447,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 429,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 471,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 425,
+       "digit": 7
+      },
+      {
+       "text": "7",
+       "reasoning_len": 444,
+       "digit": 7
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 7.0,
+     "values": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "3e6fe2afcb2c8ebf2ab6a25a21491e6cfe075e39cc4dccde0d59c49875dd57ac",
+     "draws": [
+      {
+       "text": "5",
+       "reasoning_len": 406,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 439,
+       "digit": 5
+      },
+      {
+       "text": "5",
+       "reasoning_len": 426,
+       "digit": 5
+      },
+      {
+       "text": "6",
+       "reasoning_len": 391,
+       "digit": 6
+      },
+      {
+       "text": "5",
+       "reasoning_len": 426,
+       "digit": 5
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 5.2,
+     "values": [
+      5.0,
+      5.0,
+      5.0,
+      6.0,
+      5.0
+     ]
+    }
+   }
+  },
+  "A0": {
+   "labels": [
+    "LEEDS",
+    "BRISTOL"
+   ],
+   "domain": "performance",
+   "control": true,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "55777d2a46aac7f43543e61d91e883a47d975658e59d7a45f721147920b4cc77",
+     "draws": [
+      {
+       "text": "LEEDS=1 BRISTOL=1",
+       "reasoning_len": 0,
+       "parsed": {
+        "LEEDS": 1,
+        "BRISTOL": 1
+       }
+      },
+      {
+       "text": "LEEDS=2 BRISTOL=2",
+       "reasoning_len": 483,
+       "parsed": {
+        "LEEDS": 2,
+        "BRISTOL": 2
+       }
+      },
+      {
+       "text": "LEEDS=2 BRISTOL=2",
+       "reasoning_len": 0,
+       "parsed": {
+        "LEEDS": 2,
+        "BRISTOL": 2
+       }
+      },
+      {
+       "text": "LEEDS=1 BRISTOL=1",
+       "reasoning_len": 0,
+       "parsed": {
+        "LEEDS": 1,
+        "BRISTOL": 1
+       }
+      },
+      {
+       "text": "LEEDS=2 BRISTOL=2",
+       "reasoning_len": 491,
+       "parsed": {
+        "LEEDS": 2,
+        "BRISTOL": 2
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "LEEDS",
+      "BRISTOL"
+     ],
+     "means": {
+      "LEEDS": 1.6,
+      "BRISTOL": 1.6
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "condition": "side",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "96424046321f86f8c20ca32ef101e56a24e05d9f4657c192402dfec3b9969708",
+     "draws": [
+      {
+       "text": "BRISTOL=2 LEEDS=2",
+       "reasoning_len": 0,
+       "parsed": {
+        "BRISTOL": 2,
+        "LEEDS": 2
+       }
+      },
+      {
+       "text": "BRISTOL=2 LEEDS=2",
+       "reasoning_len": 508,
+       "parsed": {
+        "BRISTOL": 2,
+        "LEEDS": 2
+       }
+      },
+      {
+       "text": "BRISTOL=2 LEEDS=2",
+       "reasoning_len": 0,
+       "parsed": {
+        "BRISTOL": 2,
+        "LEEDS": 2
+       }
+      },
+      {
+       "text": "BRISTOL=2 LEEDS=2",
+       "reasoning_len": 447,
+       "parsed": {
+        "BRISTOL": 2,
+        "LEEDS": 2
+       }
+      },
+      {
+       "text": "BRISTOL=2 LEEDS=2",
+       "reasoning_len": 529,
+       "parsed": {
+        "BRISTOL": 2,
+        "LEEDS": 2
+       }
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "labels": [
+      "BRISTOL",
+      "LEEDS"
+     ],
+     "means": {
+      "BRISTOL": 2,
+      "LEEDS": 2
+     }
+    },
+    "alone_F": {
+     "key": "alone_F",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "50ea3bf6ee0faca11c26308d6e5e715861f207bbeef46c5be476b04c972f7b9b",
+     "draws": [
+      {
+       "text": "1",
+       "reasoning_len": 425,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 418,
+       "digit": 1
+      },
+      {
+       "text": "1",
+       "reasoning_len": 453,
+       "digit": 1
+      },
+      {
+       "text": "2",
+       "reasoning_len": 0,
+       "digit": 2
+      },
+      {
+       "text": "1",
+       "reasoning_len": 440,
+       "digit": 1
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 1.2,
+     "values": [
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      1.0
+     ]
+    },
+    "alone_O": {
+     "key": "alone_O",
+     "condition": "alone",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "readout": "sampled",
+     "prompt_sha256": "006784135270e20e86e7aef42e15b303f48c0d8601d4ed03f28917e29025eb41",
+     "draws": [
+      {
+       "text": "1",
+       "reasoning_len": 376,
+       "digit": 1
+      },
+      {
+       "text": "2",
+       "reasoning_len": 0,
+       "digit": 2
+      },
+      {
+       "text": "2",
+       "reasoning_len": 0,
+       "digit": 2
+      },
+      {
+       "text": "1",
+       "reasoning_len": 440,
+       "digit": 1
+      },
+      {
+       "text": "2",
+       "reasoning_len": 463,
+       "digit": 2
+      }
+     ],
+     "n_truncated": 0,
+     "gate": "PASSED",
+     "mean": 1.6,
+     "values": [
+      1.0,
+      2.0,
+      2.0,
+      1.0,
+      2.0
+     ]
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "OpenAI"
+ ],
+ "served_model": [
+  "openai/gpt-6-luna"
+ ],
+ "served_model_constant": true,
+ "provider_refusals": [],
+ "empty_responses_retried": [],
+ "wires": {
+  "side": {
+   "model": "openai/gpt-6-luna",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "openai/gpt-6-luna",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  }
+ },
+ "served_banked": "OpenAI",
+ "status": "READ",
+ "calls": 500,
+ "spent_usd": 0.030273999999999985,
+ "elapsed_s": 1639.9,
+ "finished": "2026-11-08T11:00:18Z"
+}

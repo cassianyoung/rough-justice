@@ -1,0 +1,353 @@
+{
+ "run": "254",
+ "what": "claude route check: Anthropic API direct against run 253's OpenRouter draws",
+ "criterion": "per cell |d| <= max(2.33 x sqrt(sb^2/nb + sn^2/nn), 0.30) on all ten; all draws parse; no max_tokens stop; served model constant",
+ "verdict": "NO MATCH",
+ "served_models": [
+  "claude-sonnet-5"
+ ],
+ "calls": 100,
+ "spent_usd": 0.049970000000000056,
+ "cells": {
+  "R|grading|G1": {
+   "banked_mean": 6.0,
+   "new_mean": 5.9,
+   "diff": -0.09999999999999964,
+   "band": 0.3,
+   "within_band": true,
+   "banked_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "new_values": [
+    6.0,
+    6.0,
+    5.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|grading|G4": {
+   "banked_mean": 3.0,
+   "new_mean": 1.8,
+   "diff": -1.2,
+   "band": 0.44208641689153944,
+   "within_band": false,
+   "banked_values": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "new_values": [
+    2.0,
+    0.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|suitability|S1": {
+   "banked_mean": 7.0,
+   "new_mean": 7.0,
+   "diff": 0.0,
+   "band": 0.3,
+   "within_band": true,
+   "banked_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "new_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|suitability|S2": {
+   "banked_mean": 6.0,
+   "new_mean": 6.0,
+   "diff": 0.0,
+   "band": 0.3,
+   "within_band": true,
+   "banked_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "new_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|vulnerable|V1": {
+   "banked_mean": 4.0,
+   "new_mean": 3.0,
+   "diff": -1.0,
+   "band": 0.3,
+   "within_band": false,
+   "banked_values": [
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "new_values": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|vulnerable|V2": {
+   "banked_mean": 2.0,
+   "new_mean": 1.1,
+   "diff": -0.8999999999999999,
+   "band": 0.3,
+   "within_band": false,
+   "banked_values": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "new_values": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|seniority|K1": {
+   "banked_mean": 3.0,
+   "new_mean": 3.5,
+   "diff": 0.5,
+   "band": 0.3684053474096162,
+   "within_band": false,
+   "banked_values": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "new_values": [
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    3.0,
+    3.0,
+    4.0,
+    4.0,
+    3.0,
+    3.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|seniority|K2": {
+   "banked_mean": 7.0,
+   "new_mean": 7.0,
+   "diff": 0.0,
+   "band": 0.3,
+   "within_band": true,
+   "banked_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "new_values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|child|C1": {
+   "banked_mean": 2.9,
+   "new_mean": 3.4,
+   "diff": 0.5,
+   "band": 0.42326551950282937,
+   "within_band": false,
+   "banked_values": [
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "new_values": [
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  },
+  "R|child|C2": {
+   "banked_mean": 5.9,
+   "new_mean": 6.0,
+   "diff": 0.09999999999999964,
+   "band": 0.3,
+   "within_band": true,
+   "banked_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    5.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "new_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "stop_reasons": [
+    "end_turn"
+   ]
+  }
+ }
+}

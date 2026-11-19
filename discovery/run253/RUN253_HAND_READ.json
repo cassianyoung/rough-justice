@@ -1,0 +1,300 @@
+[
+ {
+  "arm": "claude",
+  "draw": 0,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally presumed to have greater sophistication and familiarity with insurance practices and risk disclosure than an individual householder, so courts and insurers reasonably expect businesses to proactively disclose material facts even absent specific questioning.",
+  "scan": []
+ },
+ {
+  "arm": "claude",
+  "draw": 1,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business, especially one engaged in commercial transactions, is generally expected to have greater sophistication and knowledge regarding risk disclosure in insurance dealings, and courts often impose a higher duty of good faith disclosure on commercial entities because they are presumed to better understand what facts are material to the insurer's risk assessment, even when the insurer's application doesn't specifically ask about that fact.",
+  "scan": []
+ },
+ {
+  "arm": "claude",
+  "draw": 2,
+  "answer": "yes",
+  "text": "**Yes.**\n\nBusinesses are generally presumed to have greater sophistication and knowledge regarding risk disclosure in commercial transactions, so courts and insurance law often impose a higher duty of disclosure on them (even absent specific inquiry) than on ordinary individual consumers, who are typically only required to answer the questions actually asked.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "claude",
+  "draw": 3,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business, being more sophisticated and knowledgeable about risks relevant to its own operations, is generally expected to exercise a higher degree of care and disclosure in commercial transactions like insurance underwriting than an ordinary individual householder, who is presumed to have less expertise in identifying what facts might be material to an insurer.",
+  "scan": []
+ },
+ {
+  "arm": "claude",
+  "draw": 4,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally expected to have greater sophistication, access to professional advice, and awareness of what facts are material to an insurance contract, so the law reasonably imposes a higher duty of disclosure on it than on an ordinary householder who cannot be expected to know what matters to an insurer absent being asked.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "claude",
+  "draw": 5,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally presumed to have greater sophistication and knowledge regarding risk-related facts relevant to insurance, so the duty of disclosure (utmost good faith) is often applied more rigorously to commercial insureds than to ordinary consumers, who are protected by the expectation that insurers will ask about matters they consider material.",
+  "scan": [
+   "utmost good faith"
+  ]
+ },
+ {
+  "arm": "claude",
+  "draw": 6,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally expected to have greater sophistication and knowledge regarding risk-related facts material to its operations, so courts and insurers reasonably impose a higher duty of disclosure on commercial insureds than on ordinary individual householders, who may not even recognize a fact's materiality.",
+  "scan": []
+ },
+ {
+  "arm": "claude",
+  "draw": 7,
+  "answer": "no",
+  "text": "**No.**\n\nThe duty of disclosure in insurance law generally turns on what a reasonable insured would consider material and what the insurer chose to ask about, not on whether the policyholder is a business or an individual—if the insurer's questionnaire did not prompt disclosure of the fact, the insurer bears the risk of its own failure to ask, regardless of the insured's commercial sophistication.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "claude",
+  "draw": 8,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally expected to have greater sophistication and awareness of what facts are material to an insurance risk, so the law (and good faith duty in insurance contracts) typically imposes a higher duty of disclosure on commercial entities than on ordinary individual householders, who are presumed to have less insurance expertise and may reasonably rely more heavily on the insurer's questions to identify relevant facts.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "claude",
+  "draw": 9,
+  "answer": "yes",
+  "text": "**Yes.**\n\nA business is generally expected to have greater sophistication, access to professional advice, and familiarity with insurance practices than an individual householder, so the law reasonably imposes a higher duty of disclosure on commercial applicants even regarding facts the insurer failed to specifically ask about.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 0,
+  "answer": "no",
+  "text": "No, because if the insurer did not ask about the fact, a business should not have a stricter duty than a householder to volunteer it, absent a misleading answer or a specific legal duty to disclose it.",
+  "scan": [
+   "legal"
+  ]
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 1,
+  "answer": "yes",
+  "text": "Yes, because a business can reasonably be expected to recognise and disclose a material risk even if the insurer did not ask about it, whereas a householder generally need only answer the insurer’s questions honestly.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 2,
+  "answer": "yes",
+  "text": "Yes, because a business can reasonably be expected to recognize and disclose material risks even when the insurer does not ask about them, whereas a householder may not.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 3,
+  "answer": "no",
+  "text": "No, because neither should have to volunteer a fact the insurer did not ask about unless they were required to disclose it by law or to correct a misleading answer.",
+  "scan": [
+   "law"
+  ]
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 4,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to understand and disclose material risks relevant to its insurance, even if the insurer does not ask about them.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 5,
+  "answer": "yes",
+  "text": "Yes. A business is generally expected to identify and disclose material risks relevant to its insurance, even if the insurer did not ask about them, whereas a householder is generally required only to answer the insurer’s questions honestly and carefully.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 6,
+  "answer": "yes",
+  "text": "Yes. A business can reasonably be expected to identify and disclose material risks relevant to its operations, even if the insurer did not ask about them.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 7,
+  "answer": "yes",
+  "text": "Yes, because businesses are generally expected to assess and disclose material risks more carefully, even when the insurer has not asked about a particular fact.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 8,
+  "answer": "yes",
+  "text": "Yes. A business is generally expected to identify and disclose material risks without being asked, while a householder may reasonably rely on the insurer’s questions.",
+  "scan": []
+ },
+ {
+  "arm": "gpt6s_s",
+  "draw": 9,
+  "answer": "yes",
+  "text": "Yes, because a business buying insurance is generally expected to disclose material facts it knows or ought to know, while a householder is generally required to answer the insurer’s questions honestly and carefully.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 0,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and expertise in managing its affairs, including disclosing relevant information to insurers.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 1,
+  "answer": "yes",
+  "text": "Yes, because a business is expected to have a higher level of sophistication and expertise in managing its affairs, including disclosing relevant information to insurers.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 2,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and expertise in managing its affairs, including disclosing relevant information to insurers.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 3,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and understanding of insurance contracts and disclosure requirements than a householder.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 4,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and understanding of insurance principles and disclosure requirements than a householder.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 5,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and understanding of insurance contracts and disclosure requirements than a householder.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 6,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and understanding of insurance contracts and disclosure requirements than a householder.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 7,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and understanding of insurance practices and disclosure requirements than a householder.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 8,
+  "answer": "yes",
+  "text": "Yes, because a business is expected to have a higher level of sophistication and understanding of insurance matters, and therefore should be held to a stricter standard of disclosure.",
+  "scan": []
+ },
+ {
+  "arm": "llama70b",
+  "draw": 9,
+  "answer": "yes",
+  "text": "Yes, because a business is generally expected to have a higher level of sophistication and expertise in navigating complex transactions, including insurance contracts, than a typical householder.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 0,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to adhere to higher fiduciary and disclosure standards due to their professional expertise and the greater financial stakes involved in commercial insurance transactions.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 1,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to have greater expertise and responsibility in contractual obligations, and withholding material information—even if unasked—can undermine the insurer’s risk assessment more significantly than in personal contexts.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 2,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and transparency in contractual dealings due to their professional expertise and the higher stakes involved in commercial insurance.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 3,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and transparency in contractual dealings due to their professional expertise and the higher stakes involved in commercial insurance.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 4,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to have greater expertise and responsibility in commercial transactions, and failing to disclose material facts—even if not asked—can mislead insurers and undermine the principle of utmost good faith in insurance contracts.",
+  "scan": [
+   "utmost good faith"
+  ]
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 5,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and good faith in commercial transactions due to their professional expertise and the higher stakes involved in insurance contracts.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 6,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and transparency in commercial transactions due to their professional expertise and the higher stakes involved in insurance contracts.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 7,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and transparency in commercial transactions due to their professional expertise and the higher stakes involved in insurance contracts.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 8,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to exercise greater diligence and good faith in commercial transactions due to their expertise and the higher stakes involved in insurance contracts.",
+  "scan": []
+ },
+ {
+  "arm": "qwen80b",
+  "draw": 9,
+  "answer": "yes",
+  "text": "Yes, because businesses are expected to adhere to higher fiduciary and disclosure standards due to their professional expertise and the commercial nature of insurance contracts.",
+  "scan": []
+ }
+]

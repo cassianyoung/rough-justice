@@ -1,0 +1,2672 @@
+{
+ "run": "261",
+ "arm": "kimi",
+ "group": "or",
+ "reasoning": false,
+ "draws": 10,
+ "readout": "sampled",
+ "route_change": {
+  "run259_provider": "Sail Research",
+  "run261_provider": "ParetoAlpha",
+  "endpoint": "pareto-alpha/us",
+  "reasoning_on_the_wire": {
+   "enabled": false
+  },
+  "why": "Sail Research no longer serves moonshotai/kimi-k3 (records/RUN261_KIMI_PROBE.json)"
+ },
+ "arm_cap_usd": 2.0,
+ "started": "2026-11-16T17:35:53Z",
+ "frames": "records/RUN259_FRAMES.json (A units of D's subset)",
+ "frames_sha256": "f632ff01d48f4033218cf5447c0393de067c80cd053b933a650d733e7cf3e6fb",
+ "units": {
+  "A|I2": {
+   "pair": "I2",
+   "domain": "insurance",
+   "control": false,
+   "labels": [
+    "HOUSEHOLDER",
+    "BUSINESS"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "ccc2f4c05434df5f522225a905109226b8b3965da38d41d1a2816ab5996c2ce6",
+     "draws": [
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "yes"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "yes"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "yes"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "yes"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "HOUSEHOLDER",
+      "BUSINESS"
+     ],
+     "yes_rate": {
+      "HOUSEHOLDER": 0.6,
+      "BUSINESS": 0.4
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9ad1bafef022319a270e699c9d6e525fe87ba4d4ed536cd39584a4038e2ad3e0",
+     "draws": [
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "BUSINESS",
+      "HOUSEHOLDER"
+     ],
+     "yes_rate": {
+      "BUSINESS": 0.4,
+      "HOUSEHOLDER": 0.4
+     }
+    }
+   }
+  },
+  "A|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "labels": [
+    "HOUSEHOLDER",
+    "BUSINESS"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "134d7b3721f6cfaf864bead7d3ad57864d88b837bf992e14940c85d51e885efd",
+     "draws": [
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=no BUSINESS=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "no",
+        "BUSINESS": "yes"
+       }
+      },
+      {
+       "text": "HOUSEHOLDER=yes BUSINESS=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "HOUSEHOLDER": "yes",
+        "BUSINESS": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "HOUSEHOLDER",
+      "BUSINESS"
+     ],
+     "yes_rate": {
+      "HOUSEHOLDER": 0.8,
+      "BUSINESS": 0.1
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "1a975ecbbcb8b7c1c7e584dc985bba6bbdd4d94056aed45e27f9b40fcd8dc91a",
+     "draws": [
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=Yes HOUSEHOLDER=Yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "no"
+       }
+      },
+      {
+       "text": "BUSINESS=no HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "no",
+        "HOUSEHOLDER": "yes"
+       }
+      },
+      {
+       "text": "BUSINESS=yes HOUSEHOLDER=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "BUSINESS": "yes",
+        "HOUSEHOLDER": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "BUSINESS",
+      "HOUSEHOLDER"
+     ],
+     "yes_rate": {
+      "BUSINESS": 0.4,
+      "HOUSEHOLDER": 0.9
+     }
+    }
+   }
+  },
+  "A|T1": {
+   "pair": "T1",
+   "domain": "thresholds",
+   "control": false,
+   "labels": [
+    "TWO",
+    "FORTY"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "93acc034bfe3121b81c55ea8493ce0c8eba50b05745940f0b32bff08ed01a57b",
+     "draws": [
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=no, FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "no",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      },
+      {
+       "text": "TWO=yes FORTY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO": "yes",
+        "FORTY": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TWO",
+      "FORTY"
+     ],
+     "yes_rate": {
+      "TWO": 0.9,
+      "FORTY": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4222fd2a1b4666eed5198fb2ea14c2880b344fb31d370e1261d20b48dbef3ec1",
+     "draws": [
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      },
+      {
+       "text": "FORTY=no TWO=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "FORTY": "no",
+        "TWO": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "FORTY",
+      "TWO"
+     ],
+     "yes_rate": {
+      "FORTY": 0.0,
+      "TWO": 1.0
+     }
+    }
+   }
+  },
+  "A|T4": {
+   "pair": "T4",
+   "domain": "thresholds",
+   "control": false,
+   "labels": [
+    "FOUR_MILLION",
+    "THREE_HUNDRED_MILLION"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "7f050a33ce0492ac8477b2507f8e3a72b19030c86ab59a3c187118db00244c3b",
+     "draws": [
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=no THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "no",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=no THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "no",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=no THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "no",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      },
+      {
+       "text": "FOUR_MILLION=yes THREE_HUNDRED_MILLION=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "FOUR_MILLION": "yes",
+        "THREE_HUNDRED_MILLION": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "FOUR_MILLION",
+      "THREE_HUNDRED_MILLION"
+     ],
+     "yes_rate": {
+      "FOUR_MILLION": 0.7,
+      "THREE_HUNDRED_MILLION": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "28aa1c965ded458ee58e4b0d57827c9cdf8ff1c7394e4ca96dac5f920fe0cddf",
+     "draws": [
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      },
+      {
+       "text": "THREE_HUNDRED_MILLION=no FOUR_MILLION=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_HUNDRED_MILLION": "no",
+        "FOUR_MILLION": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THREE_HUNDRED_MILLION",
+      "FOUR_MILLION"
+     ],
+     "yes_rate": {
+      "THREE_HUNDRED_MILLION": 0.0,
+      "FOUR_MILLION": 1.0
+     }
+    }
+   }
+  },
+  "A|K5": {
+   "pair": "K5",
+   "domain": "seniority",
+   "control": false,
+   "labels": [
+    "ANALYST",
+    "CHIEF_ACTUARY"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b852617b9929b40794e64226d1c1f7e04a41047aef6de24a2f97ed21145a38a7",
+     "draws": [
+      {
+       "text": "ANALYST=no CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "no",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=YES CHIEF_ACTUARY=NO",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "CHIEF_ACTUARY": "no"
+       }
+      },
+      {
+       "text": "ANALYST=no CHIEF_ACTUARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "no",
+        "CHIEF_ACTUARY": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "ANALYST",
+      "CHIEF_ACTUARY"
+     ],
+     "yes_rate": {
+      "ANALYST": 0.8,
+      "CHIEF_ACTUARY": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f33cfb106cb0b5d1128580ef73af76f1318de42bb671d04a673e6765a4763d11",
+     "draws": [
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "no"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "CHIEF_ACTUARY=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "CHIEF_ACTUARY": "no",
+        "ANALYST": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "CHIEF_ACTUARY",
+      "ANALYST"
+     ],
+     "yes_rate": {
+      "CHIEF_ACTUARY": 0.0,
+      "ANALYST": 0.9
+     }
+    }
+   }
+  },
+  "A|K6": {
+   "pair": "K6",
+   "domain": "seniority",
+   "control": false,
+   "labels": [
+    "ANALYST",
+    "SENIOR_MANAGER"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "de1075e57d9473b88e29baaee69a1df414e39569f739b6c92af4bd00cc7943aa",
+     "draws": [
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      },
+      {
+       "text": "ANALYST=yes SENIOR_MANAGER=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ANALYST": "yes",
+        "SENIOR_MANAGER": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "ANALYST",
+      "SENIOR_MANAGER"
+     ],
+     "yes_rate": {
+      "ANALYST": 1.0,
+      "SENIOR_MANAGER": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a8825d7e2c020b561aeccaa7c178cc0fa444daa7df12a010cae080aa4d4903d9",
+     "draws": [
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no\nANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no\nANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      },
+      {
+       "text": "SENIOR_MANAGER=no ANALYST=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "SENIOR_MANAGER": "no",
+        "ANALYST": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SENIOR_MANAGER",
+      "ANALYST"
+     ],
+     "yes_rate": {
+      "SENIOR_MANAGER": 0.0,
+      "ANALYST": 1.0
+     }
+    }
+   }
+  },
+  "A|D5": {
+   "pair": "D5",
+   "domain": "dismissal",
+   "control": false,
+   "labels": [
+    "SIX",
+    "THREE_THOUSAND_FIVE_HUNDRED"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "bfedfbbf90f95dba58213d7c0426ecd4646e34cd0fc9a12e77b435ec44515d6b",
+     "draws": [
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=no THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "no",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=no THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "no",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=no THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "no",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=no THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "no",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "SIX=yes THREE_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "SIX": "yes",
+        "THREE_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "SIX",
+      "THREE_THOUSAND_FIVE_HUNDRED"
+     ],
+     "yes_rate": {
+      "SIX": 0.6,
+      "THREE_THOUSAND_FIVE_HUNDRED": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "eced5813e8f54623093b7de194e44a1fb76159e08cfe694638b9c24caf4e65f5",
+     "draws": [
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=yes SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "yes",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "no"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=no SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "no",
+        "SIX": "yes"
+       }
+      },
+      {
+       "text": "THREE_THOUSAND_FIVE_HUNDRED=yes SIX=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "THREE_THOUSAND_FIVE_HUNDRED": "yes",
+        "SIX": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "THREE_THOUSAND_FIVE_HUNDRED",
+      "SIX"
+     ],
+     "yes_rate": {
+      "THREE_THOUSAND_FIVE_HUNDRED": 0.2,
+      "SIX": 0.9
+     }
+    }
+   }
+  },
+  "A|D4": {
+   "pair": "D4",
+   "domain": "dismissal",
+   "control": false,
+   "labels": [
+    "EIGHT",
+    "TWO_THOUSAND_FIVE_HUNDRED"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c170c2ad66b6869489c1d74165b7ff42df53dd58c802436183698854e6f54140",
+     "draws": [
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no\n\n**Explanation:**\nUnder the standard of **unfair dismissal law** (which applies to both employers regardless of size), the dismissal procedure was inadequate in both cases.\n\n**Why \"No\" in both cases:**\n1. **Lack of Formal Procedure:** The standard requires a fair procedure, which typically includes written warnings, a formal disciplinary hearing, and the opportunity for the employee to appeal the decision.\n2. **Verbal Warnings Only:** Relying solely on two \"word of mouth\" (verbal) warnings, without a formal written record, makes it difficult to prove that the employee was given clear and sufficient notice that their job was at risk for the subsequent misconduct.\n3. **Absence of a Formal Hearing/Dismissal Process:** The summary dismissal after the third occasion suggests a lack of a formal disciplinary meeting, the chance for the gardener to state their case, or an appeal process—all essential components of procedural fairness in unfair dismissal law.\n\nThe size of the employer (8 or 2,500 staff) does not change the requirement to follow a fundamentally fair procedure for dismissal.",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=yes TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "yes",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=yes TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "yes",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=yes TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "yes",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "yes"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      },
+      {
+       "text": "EIGHT=no TWO_THOUSAND_FIVE_HUNDRED=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "EIGHT": "no",
+        "TWO_THOUSAND_FIVE_HUNDRED": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "EIGHT",
+      "TWO_THOUSAND_FIVE_HUNDRED"
+     ],
+     "yes_rate": {
+      "EIGHT": 0.3,
+      "TWO_THOUSAND_FIVE_HUNDRED": 0.1
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "e5a10d8ecfe2d08a08892a7d214cc363bb681f32cb729a10dd63c77c91b2528a",
+     "draws": [
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=yes EIGHT=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "yes",
+        "EIGHT": "no"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=no EIGHT=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "no",
+        "EIGHT": "yes"
+       }
+      },
+      {
+       "text": "TWO_THOUSAND_FIVE_HUNDRED=yes EIGHT=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "TWO_THOUSAND_FIVE_HUNDRED": "yes",
+        "EIGHT": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "TWO_THOUSAND_FIVE_HUNDRED",
+      "EIGHT"
+     ],
+     "yes_rate": {
+      "TWO_THOUSAND_FIVE_HUNDRED": 0.2,
+      "EIGHT": 0.8
+     }
+    }
+   }
+  },
+  "A|S1": {
+   "pair": "S1",
+   "domain": "suitability",
+   "control": false,
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "7b82340b9c02a6cc910679ccd4767c6a18c854ebad026ed6f9eb170eaf35e6d2",
+     "draws": [
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "PROFESSIONAL",
+      "RETAIL"
+     ],
+     "yes_rate": {
+      "PROFESSIONAL": 0.5,
+      "RETAIL": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "709de92403d925e0c628eee0b4a832d3541d13e15f217bd8759660df7c88fca8",
+     "draws": [
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "RETAIL",
+      "PROFESSIONAL"
+     ],
+     "yes_rate": {
+      "RETAIL": 0.0,
+      "PROFESSIONAL": 0.3
+     }
+    }
+   }
+  },
+  "A|S6": {
+   "pair": "S6",
+   "domain": "suitability",
+   "control": false,
+   "labels": [
+    "PROFESSIONAL",
+    "RETAIL"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f3d0a0cc7a0038454e9627ee6f7391f40cb162a63d050d55b8e77dc162e340fe",
+     "draws": [
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=yes RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "yes",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=no RETAIL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      },
+      {
+       "text": "PROFESSIONAL=NO RETAIL=NO",
+       "reasoning_len": 0,
+       "parsed": {
+        "PROFESSIONAL": "no",
+        "RETAIL": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "PROFESSIONAL",
+      "RETAIL"
+     ],
+     "yes_rate": {
+      "PROFESSIONAL": 0.5,
+      "RETAIL": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "99ae6d0cccb86f7bfd748433382e81dd991abeff22c6c6523d8bcff29b2c6262",
+     "draws": [
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "yes"
+       }
+      },
+      {
+       "text": "RETAIL=no PROFESSIONAL=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "RETAIL": "no",
+        "PROFESSIONAL": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "RETAIL",
+      "PROFESSIONAL"
+     ],
+     "yes_rate": {
+      "RETAIL": 0.0,
+      "PROFESSIONAL": 0.6
+     }
+    }
+   }
+  },
+  "A|V3": {
+   "pair": "V3",
+   "domain": "vulnerable",
+   "control": false,
+   "labels": [
+    "ORDINARY",
+    "HARD_OF_HEARING"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "6b0b814c25b560bfdbb92747a168b1ef2a42cdfdd7a911cf692fdb8f450bee0f",
+     "draws": [
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes HARD_OF_HEARING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "HARD_OF_HEARING": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "ORDINARY",
+      "HARD_OF_HEARING"
+     ],
+     "yes_rate": {
+      "ORDINARY": 1.0,
+      "HARD_OF_HEARING": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4adba5b52750f952296dc00ec875ebc7b3cecf60dc113a9359bcfa098104851b",
+     "draws": [
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "HARD_OF_HEARING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "HARD_OF_HEARING": "no",
+        "ORDINARY": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "HARD_OF_HEARING",
+      "ORDINARY"
+     ],
+     "yes_rate": {
+      "HARD_OF_HEARING": 0.0,
+      "ORDINARY": 1.0
+     }
+    }
+   }
+  },
+  "A|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "labels": [
+    "ORDINARY",
+    "READING"
+   ],
+   "cond": "A",
+   "sentence": null,
+   "cells": {
+    "side_FO": {
+     "key": "side_FO",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9f7a82e81df46f1546d7761f19688a49e585bf5ac7f56e8b29f28dc2f5f8c53f",
+     "draws": [
+      {
+       "text": "ORDINARY=yes READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=no READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "no",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=no READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "no",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=no READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "no",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=yes READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "yes",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=no READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "no",
+        "READING": "no"
+       }
+      },
+      {
+       "text": "ORDINARY=no READING=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "ORDINARY": "no",
+        "READING": "no"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "ORDINARY",
+      "READING"
+     ],
+     "yes_rate": {
+      "ORDINARY": 0.5,
+      "READING": 0.0
+     }
+    },
+    "side_OF": {
+     "key": "side_OF",
+     "wire": "side",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "398c276b0a1d4cff35c388a0e2f5cd4cffad29612e253137a20581fcea2979ae",
+     "draws": [
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=no",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "no"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      },
+      {
+       "text": "READING=no ORDINARY=yes",
+       "reasoning_len": 0,
+       "parsed": {
+        "READING": "no",
+        "ORDINARY": "yes"
+       }
+      }
+     ],
+     "gate": "PASSED",
+     "labels": [
+      "READING",
+      "ORDINARY"
+     ],
+     "yes_rate": {
+      "READING": 0.0,
+      "ORDINARY": 0.9
+     }
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "ParetoAlpha"
+ ],
+ "served_model": [
+  "moonshotai/kimi-k3"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [
+  "run259|kimi|A|I2|side_OF|d9",
+  "run259|kimi|A|I4|side_OF|d7",
+  "run259|kimi|A|I4|side_OF|d5",
+  "run259|kimi|A|K5|side_FO|d3",
+  "run259|kimi|A|K6|side_OF|d2",
+  "run259|kimi|A|D4|side_OF|d8"
+ ],
+ "provider_refusals": [],
+ "served_expected": "ParetoAlpha",
+ "wires": {
+  "abstract_yn": {
+   "model": "moonshotai/kimi-k3",
+   "provider": "pareto-alpha/us",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "abstract_scores": {
+   "model": "moonshotai/kimi-k3",
+   "provider": "pareto-alpha/us",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "side": {
+   "model": "moonshotai/kimi-k3",
+   "provider": "pareto-alpha/us",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "moonshotai/kimi-k3",
+   "provider": "pareto-alpha/us",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "noise": {
+   "model": "moonshotai/kimi-k3",
+   "provider": "pareto-alpha/us",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  }
+ },
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 4552,
+ "spent_usd": 1.4331792500000002,
+ "elapsed_s": 1837.6,
+ "finished": "2026-11-16T18:06:30Z"
+}

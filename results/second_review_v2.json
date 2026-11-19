@@ -1,0 +1,352 @@
+{
+ "definition": "Five pieces, each from reads already banked:",
+ "school_side_unsplit": {
+  "NoReasoning": {
+   "cells_valid": 72,
+   "unsplit": 25,
+   "BothMet": {
+    "share": 0.0,
+    "num": 0,
+    "den": 25,
+    "ci": [
+     0.0,
+     0.13319225276039096
+    ],
+    "ci_method": "wilson"
+   },
+   "BothNotMet": {
+    "share": 0.56,
+    "num": 14,
+    "den": 25,
+    "ci": [
+     0.23076923076923078,
+     0.9
+    ],
+    "ci_method": "bootstrap"
+   },
+   "Reversed": {
+    "share": 0.04,
+    "num": 1,
+    "den": 25,
+    "ci": [
+     0.0,
+     0.25
+    ],
+    "ci_method": "bootstrap"
+   },
+   "Unclear": {
+    "share": 0.4,
+    "num": 10,
+    "den": 25,
+    "ci": [
+     0.0,
+     0.7272727272727273
+    ],
+    "ci_method": "bootstrap"
+   }
+  },
+  "Reasoning": {
+   "cells_valid": 41,
+   "unsplit": 14,
+   "BothMet": {
+    "share": 0.0,
+    "num": 0,
+    "den": 14,
+    "ci": [
+     0.0,
+     0.21531080540298042
+    ],
+    "ci_method": "wilson"
+   },
+   "BothNotMet": {
+    "share": 0.8571428571428571,
+    "num": 12,
+    "den": 14,
+    "ci": [
+     0.55,
+     1.0
+    ],
+    "ci_method": "bootstrap"
+   },
+   "Reversed": {
+    "share": 0.0,
+    "num": 0,
+    "den": 14,
+    "ci": [
+     0.0,
+     0.21531080540298042
+    ],
+    "ci_method": "wilson"
+   },
+   "Unclear": {
+    "share": 0.14285714285714285,
+    "num": 2,
+    "den": 14,
+    "ci": [
+     0.0,
+     0.45
+    ],
+    "ci_method": "bootstrap"
+   }
+  }
+ },
+ "school_consensus": {
+  "models": [
+   "grok43_r",
+   "gemini_r",
+   "gpt6s_r",
+   "gpt6l_r",
+   "haiku_r",
+   "haiku55_ah",
+   "opus55_ad"
+  ],
+  "at_least": 5,
+  "per_pair": {
+   "W1": {
+    "split": 5,
+    "valid": 6
+   },
+   "W2": {
+    "split": 2,
+    "valid": 7
+   },
+   "W3": {
+    "split": 7,
+    "valid": 7
+   },
+   "W4": {
+    "split": 3,
+    "valid": 7
+   },
+   "W5": {
+    "split": 7,
+    "valid": 7
+   },
+   "W6": {
+    "split": 3,
+    "valid": 7
+   }
+  },
+  "share_at_least": {
+   "share": 0.5,
+   "num": 3,
+   "den": 6,
+   "ci": [
+    0.16666666666666666,
+    0.8333333333333334
+   ]
+  }
+ },
+ "run262_example_alone": {
+  "NoReasoning|All": {
+   "split_example_alone": [
+    8,
+    20
+   ],
+   "split_bare": [
+    1,
+    20
+   ],
+   "split_example_with_counter": [
+    12,
+    20
+   ],
+   "let_through_example_alone": [
+    1,
+    20
+   ]
+  },
+  "NoReasoning|Judgement": {
+   "split_example_alone": [
+    6,
+    16
+   ],
+   "split_bare": [
+    1,
+    16
+   ],
+   "split_example_with_counter": [
+    8,
+    16
+   ],
+   "let_through_example_alone": [
+    1,
+    16
+   ]
+  },
+  "Reasoning|All": {
+   "split_example_alone": [
+    3,
+    10
+   ],
+   "split_bare": [
+    3,
+    10
+   ],
+   "split_example_with_counter": [
+    4,
+    10
+   ],
+   "let_through_example_alone": [
+    1,
+    10
+   ]
+  },
+  "Reasoning|Judgement": {
+   "split_example_alone": [
+    1,
+    8
+   ],
+   "split_bare": [
+    1,
+    8
+   ],
+   "split_example_with_counter": [
+    2,
+    8
+   ],
+   "let_through_example_alone": [
+    1,
+    8
+   ]
+  }
+ },
+ "control_wilson": {
+  "DayFlipFirstRunControlsSideBySide": {
+   "num": 0,
+   "den": 64,
+   "bootstrap_ci": [
+    0.0,
+    0.0
+   ],
+   "wilson": [
+    0.0,
+    0.05662406063551054
+   ]
+  },
+  "DayFlipFirstRunControlsAlone": {
+   "num": 4,
+   "den": 66,
+   "bootstrap_ci": [
+    0.06060606060606061,
+    0.06060606060606061
+   ],
+   "wilson": [
+    0.02381861466682568,
+    0.14572908767172355
+   ]
+  },
+  "DayFlipFirstRunControlsToldPrinciple": {
+   "num": 0,
+   "den": 66,
+   "bootstrap_ci": [
+    0.0,
+    0.0
+   ],
+   "wilson": [
+    0.0,
+    0.05500255783352154
+   ]
+  },
+  "DayFlipFirstRunControlsToldRule": {
+   "num": 1,
+   "den": 66,
+   "bootstrap_ci": [
+    0.015151515151515152,
+    0.015151515151515152
+   ],
+   "wilson": [
+    0.002679640514358664,
+    0.08095920344541979
+   ]
+  }
+ },
+ "second_wording_restored": {
+  "pairs": [
+   "K5",
+   "K6",
+   "D5",
+   "D4",
+   "S1",
+   "S6",
+   "V3",
+   "V4",
+   "W4",
+   "W3"
+  ],
+  "NoReasoning": {
+   "rule_orig": {
+    "share": 0.7583333333333333,
+    "num": 91,
+    "den": 120,
+    "ci": [
+     0.5833333333333334,
+     0.9166666666666666
+    ],
+    "ci_method": "bootstrap"
+   },
+   "rule_new": {
+    "share": 0.49166666666666664,
+    "num": 59,
+    "den": 120,
+    "ci": [
+     0.325,
+     0.6583333333333333
+    ],
+    "ci_method": "bootstrap"
+   },
+   "example_orig": {
+    "share": 0.4166666666666667,
+    "num": 50,
+    "den": 120,
+    "ci": [
+     0.23333333333333334,
+     0.625
+    ],
+    "ci_method": "bootstrap"
+   }
+  },
+  "Reasoning": {
+   "rule_orig": {
+    "share": 1.0,
+    "num": 70,
+    "den": 70,
+    "ci": [
+     0.9479769368117258,
+     1.0
+    ],
+    "ci_method": "wilson"
+   },
+   "rule_new": {
+    "share": 0.8840579710144928,
+    "num": 61,
+    "den": 69,
+    "ci": [
+     0.7536231884057971,
+     0.9850746268656716
+    ],
+    "ci_method": "bootstrap"
+   },
+   "example_orig": {
+    "share": 0.6176470588235294,
+    "num": 42,
+    "den": 68,
+    "ci": [
+     0.4117647058823529,
+     0.8208955223880597
+    ],
+    "ci_method": "bootstrap"
+   }
+  }
+ },
+ "milder_pilot": {
+  "arms": [
+   "grok43_r",
+   "gpt6l_r",
+   "claude"
+  ],
+  "variants": 30,
+  "passed_two_of_three": 30,
+  "split_on_all_three": 25
+ }
+}

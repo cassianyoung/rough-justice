@@ -1,0 +1,1309 @@
+{
+ "round": 1,
+ "arms": [
+  "grok43_r",
+  "gpt6l_r",
+  "claude"
+ ],
+ "draws": 5,
+ "criterion": "a variant SPLITS on an arm when, pooled over both orders, the party held to less has yes-rate >= 0.6 and the\nother <= 0.4, with at least 8 of 10 draws parsed for each party (80%, run 259's gate); a void draw on a reasoning arm is\nnot parsed. It PASSES when it splits on at least two of the three arms.",
+ "frames": "records/RUN261_G_PILOT_FRAMES.json",
+ "pass": [
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5",
+  "K6",
+  "D1",
+  "D2",
+  "D3",
+  "D4",
+  "D5",
+  "D6",
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5",
+  "S6",
+  "V1",
+  "V2",
+  "V3",
+  "V4",
+  "V5",
+  "V6",
+  "W1",
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6"
+ ],
+ "fail": [],
+ "variants": {
+  "G|K1": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": false,
+    "claude": true
+   },
+   "n_split": 2,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_RISK_OFFICER": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      0.3,
+      10
+     ],
+     "CHIEF_RISK_OFFICER": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_RISK_OFFICER": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|K2": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": false,
+    "claude": true
+   },
+   "n_split": 2,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "HEAD_OF_COMPLIANCE": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      0.0,
+      10
+     ],
+     "HEAD_OF_COMPLIANCE": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      0.7,
+      10
+     ],
+     "HEAD_OF_COMPLIANCE": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|K3": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_OPERATING_OFFICER": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_OPERATING_OFFICER": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_OPERATING_OFFICER": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|K4": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_EXECUTIVE": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_EXECUTIVE": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_EXECUTIVE": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|K5": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": false,
+    "claude": true
+   },
+   "n_split": 2,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_ACTUARY": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      0.4,
+      10
+     ],
+     "CHIEF_ACTUARY": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "CHIEF_ACTUARY": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|K6": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "SENIOR_MANAGER": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "SENIOR_MANAGER": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ANALYST": [
+      1.0,
+      10
+     ],
+     "SENIOR_MANAGER": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D1": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D2": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D3": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "SEVEN": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "SEVEN": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "SEVEN": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D4": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": false
+   },
+   "n_split": 2,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "EIGHT": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "EIGHT": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND_FIVE_HUNDRED": [
+      0.3,
+      10
+     ]
+    },
+    "claude": {
+     "EIGHT": [
+      1.0,
+      10
+     ],
+     "TWO_THOUSAND_FIVE_HUNDRED": [
+      1.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D5": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "SIX": [
+      1.0,
+      10
+     ],
+     "THREE_THOUSAND_FIVE_HUNDRED": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|D6": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "FIVE": [
+      1.0,
+      10
+     ],
+     "FOUR_THOUSAND": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S1": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S2": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S3": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S4": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S5": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|S6": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "PROFESSIONAL": [
+      1.0,
+      10
+     ],
+     "RETAIL": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V1": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "DEMENTIA": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "DEMENTIA": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "DEMENTIA": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V2": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "TREATMENT": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "TREATMENT": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "TREATMENT": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V3": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "HARD_OF_HEARING": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "HARD_OF_HEARING": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "HARD_OF_HEARING": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V4": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "READING": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "READING": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      0.9,
+      10
+     ],
+     "READING": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V5": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "CARER": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "CARER": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "CARER": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|V6": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "LEARNING_DISABILITY": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "LEARNING_DISABILITY": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "ORDINARY": [
+      1.0,
+      10
+     ],
+     "LEARNING_DISABILITY": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W1": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W2": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": false,
+    "claude": true
+   },
+   "n_split": 2,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      0.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W3": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W4": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W5": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  },
+  "G|W6": {
+   "splits": {
+    "grok43_r": true,
+    "gpt6l_r": true,
+    "claude": true
+   },
+   "n_split": 3,
+   "passes": true,
+   "pooled": {
+    "grok43_r": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "gpt6l_r": {
+     "TEN": [
+      0.8,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    },
+    "claude": {
+     "TEN": [
+      1.0,
+      10
+     ],
+     "SEVENTEEN": [
+      0.0,
+      10
+     ]
+    }
+   }
+  }
+ },
+ "calls": 900,
+ "spent_usd": 0.7928364999999999,
+ "elapsed_s": 1352.7,
+ "finished": "2026-11-16T18:44:12Z",
+ "arms_read": {
+  "grok43_r": {
+   "status": "READ",
+   "served_model": [
+    "x-ai/grok-4.3"
+   ],
+   "provider_served": [
+    "xAI"
+   ]
+  },
+  "gpt6l_r": {
+   "status": "READ",
+   "served_model": [
+    "openai/gpt-6-luna"
+   ],
+   "provider_served": [
+    "OpenAI"
+   ]
+  },
+  "claude": {
+   "status": "READ",
+   "served_model": [
+    "anthropic/claude-sonnet-5"
+   ],
+   "provider_served": [
+    "Anthropic"
+   ]
+  }
+ }
+}

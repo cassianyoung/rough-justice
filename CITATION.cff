@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Rough Justice: code, prompts and model responses"
+type: dataset
+authors:
+  - family-names: Young
+    given-names: Cassian
+    orcid: "https://orcid.org/0009-0007-8733-0991"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"
+doi: 10.5281/zenodo.24369486
+repository-code: "https://github.com/cassianyoung/rough-justice"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24369486
+    description: "The archived release on Zenodo"
+keywords:
+  - language models
+  - evaluation
+  - standards of conduct
+  - consistency
+preferred-citation:
+  type: article
+  title: "Rough Justice: Language Models Know the Standard but Hold Us to a Stricter One"
+  authors:
+    - family-names: Young
+      given-names: Cassian
+      orcid: "https://orcid.org/0009-0007-8733-0991"
+  year: 2026

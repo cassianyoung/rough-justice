@@ -1,0 +1,314 @@
+{
+ "run": "255 (shortfall check)",
+ "prompts": {
+  "alone_FAULTLESS": "Marrowby received a written complaint from a member of the public. Marrowby replied fully on the same day, answering every point the complaint raised. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+  "alone_BAD": "Marrowby received a written complaint from a member of the public. Marrowby never replied to the complaint at all. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+  "side_FAULTLESS_first": "Consider two separate cases. Case FIRST: The organisation received a written complaint from a member of the public. The organisation replied fully on the same day, answering every point the complaint raised. Case SECOND: The organisation received a written complaint from a member of the public. The organisation never replied to the complaint at all. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRST=<digit> SECOND=<digit>",
+  "side_BAD_first": "Consider two separate cases. Case FIRST: The organisation received a written complaint from a member of the public. The organisation never replied to the complaint at all. Case SECOND: The organisation received a written complaint from a member of the public. The organisation replied fully on the same day, answering every point the complaint raised. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRST=<digit> SECOND=<digit>"
+ },
+ "readings_rule": ", fixed before any call, per arm:\n  INVERTS_GENERALLY   FAULTLESS alone >= 7, or FAULTLESS above BAD side by side (mean over both orders)\n  READS_CORRECTLY     FAULTLESS alone <= 2, BAD alone >= 7, and BAD above FAULTLESS side by side\n  UNCLEAR             anything else\nFor llama70b the M1 question follows: INVERTS_GENERALLY means M1's 7.99 is the arm behaving consistently;\nREADS_CORRECTLY means M1 was one item it misread (or read as genuinely short), not a wholesale inversion.",
+ "calls": 60,
+ "spent_usd": 0.008832599999999994,
+ "arms": {
+  "gpt6s_s": {
+   "alone_FAULTLESS": {
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "mean": 0.0
+   },
+   "alone_BAD": {
+    "values": [
+     9.0,
+     9.0,
+     9.0,
+     9.0,
+     9.0
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "mean": 9.0
+   },
+   "side_FAULTLESS_first": {
+    "values": [
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 0.0,
+     "SECOND": 9.0
+    }
+   },
+   "side_BAD_first": {
+    "values": [
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "OpenAI"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 9.0,
+     "SECOND": 0.0
+    }
+   },
+   "reading": "READS_CORRECTLY",
+   "side_gap_bad_minus_faultless": 9.0
+  },
+  "llama70b": {
+   "alone_FAULTLESS": {
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "mean": 0.0
+   },
+   "alone_BAD": {
+    "values": [
+     8.999998,
+     8.999998,
+     8.999998,
+     8.999998,
+     8.999998
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "mean": 8.999998
+   },
+   "side_FAULTLESS_first": {
+    "values": [
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 0.0,
+     "SECOND": 9.0
+    }
+   },
+   "side_BAD_first": {
+    "values": [
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "CoreWeave"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 9.0,
+     "SECOND": 0.0
+    }
+   },
+   "reading": "READS_CORRECTLY",
+   "side_gap_bad_minus_faultless": 9.0
+  },
+  "qwen80b": {
+   "alone_FAULTLESS": {
+    "values": [
+     7e-06,
+     7e-06,
+     7e-06,
+     7e-06,
+     7e-06
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "mean": 7e-06
+   },
+   "alone_BAD": {
+    "values": [
+     8.999851,
+     8.998758,
+     8.999676,
+     8.999676,
+     8.999907
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "mean": 8.9995736
+   },
+   "side_FAULTLESS_first": {
+    "values": [
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     },
+     {
+      "FIRST": 0.0,
+      "SECOND": 9.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 0.0,
+     "SECOND": 9.0
+    }
+   },
+   "side_BAD_first": {
+    "values": [
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     },
+     {
+      "FIRST": 9.0,
+      "SECOND": 0.0
+     }
+    ],
+    "n_parsed": 5,
+    "providers": [
+     "Parasail"
+    ],
+    "provider_ok": true,
+    "means": {
+     "FIRST": 9.0,
+     "SECOND": 0.0
+    }
+   },
+   "reading": "READS_CORRECTLY",
+   "side_gap_bad_minus_faultless": 9.0
+  }
+ }
+}

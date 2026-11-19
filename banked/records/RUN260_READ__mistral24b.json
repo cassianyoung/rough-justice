@@ -1,0 +1,3036 @@
+{
+ "run": "260",
+ "arm": "mistral24b",
+ "group": "or",
+ "reasoning": false,
+ "draws": 10,
+ "items": "data/sfv_260/items_v1.json",
+ "items_sha256": "38f52bd294968f723262f1245d4e7957ebd5246a83eef6228d647b1a1ae88169",
+ "prereg": "cassianyoung/rough-justice-paper analysis/controls.py (committed before any call)",
+ "estimate_usd": 0.0031519070270270276,
+ "group_cap_usd": 2.0,
+ "workers": 4,
+ "started": "2026-11-12T19:17:18Z",
+ "units": {
+  "B|N1": {
+   "pair": "N1",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Brennick",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9c45c8aa7ef50a160ea7fd42c410e11c76f23920dcb9528a22be73de306572c4",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945782169671337,
+       "mass": 0.9999337387422258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02945134914334482,
+       "mass": 0.999953484513716
+      }
+     ],
+     "mean_mass": 0.999951509936567,
+     "gate": "PASSED",
+     "yes_rate": 0.029451996398681676
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3a85e7febfdde798ace7871eba0ac0b3ca1ff2bd9aeb91f1f112f899d782e320",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.02610402780660004,
+       "mass": 1.0000105213131478
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.029451230620919512,
+       "mass": 0.9999575086889264
+      }
+     ],
+     "mean_mass": 0.9999628099513486,
+     "gate": "PASSED",
+     "yes_rate": 0.029116510339487565
+    }
+   }
+  },
+  "B|N2": {
+   "pair": "N2",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Ostley",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "991c2906c669a6878a4ddc99d9c9dc7850695083eae6322203b027752cae75f9",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04759877724778024,
+       "mass": 0.9999939596143663
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.047621736471042155,
+       "mass": 0.9999139629545302
+      }
+     ],
+     "mean_mass": 0.9999219626205138,
+     "gate": "PASSED",
+     "yes_rate": 0.04761944054871596
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "004609299c68d4e112b4f426be028aac18009b009db8db3b5f3f3ed9787c9892",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04229880306901181,
+       "mass": 0.9999351053337882
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.04763510452571989,
+       "mass": 0.9999321054585268
+      }
+     ],
+     "mean_mass": 0.999932405446053,
+     "gate": "PASSED",
+     "yes_rate": 0.04710147438004908
+    }
+   }
+  },
+  "B|N3": {
+   "pair": "N3",
+   "domain": "insurance",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Trevail",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3a76c47de84e4ae4155821398c7967a9a260cba4511caa303810fb5f0646cf7f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01104110630539364,
+       "mass": 0.999954182723105
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01103484646267614,
+       "mass": 0.9999265592534701
+      }
+     ],
+     "mean_mass": 0.9999293216004336,
+     "gate": "PASSED",
+     "yes_rate": 0.01103547244694789
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f746f915a372ae8b2a1668bc19957e4f9c05f2d8046c472350609d353089c345",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756375399576932,
+       "mass": 0.9999584687313702
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756375399576932,
+       "mass": 0.9999584687313702
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756375399576932,
+       "mass": 0.9999584687313702
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756375399576932,
+       "mass": 0.9999584687313702
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.009756399719234008,
+       "mass": 0.999955976147246
+      }
+     ],
+     "mean_mass": 0.9999569731808956,
+     "gate": "PASSED",
+     "yes_rate": 0.009756389991371177
+    }
+   }
+  },
+  "B|N4": {
+   "pair": "N4",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Harrowgate Joinery",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "1569df27c123f76ac2ce32e722759c8bf660fcf08b8506e6ddc4c76adfeaaa9a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.020353024264058373,
+       "mass": 0.9999098864743557
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.018005260058280292,
+       "mass": 0.9999754553797776
+      }
+     ],
+     "mean_mass": 0.9999688984892354,
+     "gate": "PASSED",
+     "yes_rate": 0.0182400364788581
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "0274f97dd8002481c2e1dfde4477fdada090a374ea645c963708896a3e11b664",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.015926039044577213,
+       "mass": 0.9999603499297334
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01592318614720415,
+       "mass": 0.999956261082632
+      }
+     ],
+     "mean_mass": 0.9999566699673421,
+     "gate": "PASSED",
+     "yes_rate": 0.015923471436941457
+    }
+   }
+  },
+  "B|N5": {
+   "pair": "N5",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Oakhurst Logistics",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "8c6c933c2683d40a9d2c5870ec5aa2aa0481ef2b3495697c542287b8d523641f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0758904170472693,
+       "mass": 0.9999428035034446
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.07589626531922057,
+       "mass": 0.9999491317296286
+      }
+     ],
+     "mean_mass": 0.9999484989070102,
+     "gate": "PASSED",
+     "yes_rate": 0.07589568049202544
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "eb4ebae20fb14747b0305a023a1ce58e4d483253cf63c1e09a4f24678c672838",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.08513111189337322,
+       "mass": 0.9999670651672987
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.09538277971486107,
+       "mass": 0.9999615702692038
+      }
+     ],
+     "mean_mass": 0.9999621197590134,
+     "gate": "PASSED",
+     "yes_rate": 0.09435761293271229
+    }
+   }
+  },
+  "B|N6": {
+   "pair": "N6",
+   "domain": "thresholds",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Mossgrove Studio",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "27140b7357b3e443b8de8ef39a13843a8477f9a34579352f4dff6278720324fa",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37761444998206706,
+       "mass": 0.9999523684337435
+      }
+     ],
+     "mean_mass": 0.9999523684337435,
+     "gate": "PASSED",
+     "yes_rate": 0.37761444998206706
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a8961e9d69943c5371de6ab8eec5c1f3a10c8cf5267caeccab85b4103f53ee1a",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.3776235545007936,
+       "mass": 0.999911649128981
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "p_yes": 0.37762480731973275,
+       "mass": 0.9999136619152651
+      }
+     ],
+     "mean_mass": 0.9999134606366367,
+     "gate": "PASSED",
+     "yes_rate": 0.37762468203783883
+    }
+   }
+  },
+  "B|N7": {
+   "pair": "N7",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Marlo",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "6caef2969df9d4f5b3c094f08093949bd39a823733cfb6d8a665beb6b053fe52",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0017292189149116306,
+       "mass": 0.9999675506992766
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019572643543198176,
+       "mass": 0.9999896018100789
+      }
+     ],
+     "mean_mass": 0.9999873966989987,
+     "gate": "PASSED",
+     "yes_rate": 0.0019344598103789988
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "804130503ae4cab4d94d1a7f540c6ef65f8bdb1fbbfcbaeb012d1e8d0744121d",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0015263404338542845,
+       "mass": 0.9999643660844081
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001525006940608516,
+       "mass": 0.9999565913462344
+      }
+     ],
+     "mean_mass": 0.9999573688200517,
+     "gate": "PASSED",
+     "yes_rate": 0.0015251402899330929
+    }
+   }
+  },
+  "B|N8": {
+   "pair": "N8",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Daley",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b7da596701f2945e439ff24ccaa8ccdb10aba5f0c82248e7932263af03cc472a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021907020707773524,
+       "mass": 0.9999961189887758
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002481694629544414,
+       "mass": 0.9999877930248258
+      }
+     ],
+     "mean_mass": 0.9999886256212208,
+     "gate": "PASSED",
+     "yes_rate": 0.002452595373667708
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c57b1d07c184701db1fe45ec635353dd52024d56d83104f6b0bfd8abc0681bf7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190722366815716,
+       "mass": 0.999998100836381
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002190726654535904,
+       "mass": 0.9999961436264133
+      }
+     ],
+     "mean_mass": 0.9999963393474101,
+     "gate": "PASSED",
+     "yes_rate": 0.002190726225763885
+    }
+   }
+  },
+  "B|N9": {
+   "pair": "N9",
+   "domain": "seniority",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Quill",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "08d1dddf1d2832fb4fefd4eb3f8c9cbd489cee8e0f3f9dd959a202361716c3ab",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.037369563403062335,
+       "mass": 0.9999351540380255
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313722865105873,
+       "mass": 0.99992490027422
+      }
+     ],
+     "mean_mass": 0.9999259256506006,
+     "gate": "PASSED",
+     "yes_rate": 0.03356046212625909
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3ff80b59e1098a7a2ec7006b398a19e5264599e9a5f859e5d3ed92358357bc47",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03313334265279935,
+       "mass": 0.9999421758654791
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.03738691690476537,
+       "mass": 0.9999906075401656
+      }
+     ],
+     "mean_mass": 0.9999857643726969,
+     "gate": "PASSED",
+     "yes_rate": 0.03696155947956877
+    }
+   }
+  },
+  "B|N10": {
+   "pair": "N10",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Thornbury Florists",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4718262ad18e53e023490f89e0f20fed147d68c28af2f6734a2ac19232ee6986",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.002186314484923205,
+       "mass": 0.9999666301507476
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0021867934055239207,
+       "mass": 1.000004108581946
+      }
+     ],
+     "mean_mass": 1.0000003607388261,
+     "gate": "PASSED",
+     "yes_rate": 0.002186745513463849
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3756a822ff30b1dc56fce0d5e4be631072ac3ed5c47ad577d2631a6c10850761",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.001930894336858677,
+       "mass": 0.9999476829288394
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019308986211613113,
+       "mass": 0.9999454642320911
+      }
+     ],
+     "mean_mass": 0.9999456861017659,
+     "gate": "PASSED",
+     "yes_rate": 0.0019308981927310478
+    }
+   }
+  },
+  "B|N11": {
+   "pair": "N11",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Castlereagh Hotels",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "dc78385e3bfd6076f5fb549434cb0b9adf4811e26d31056f3aab5e7e194a55c1",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      }
+     ],
+     "mean_mass": 0.9999820680835113,
+     "gate": "PASSED",
+     "yes_rate": 0.0019306348684273158
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a037e94a75897341a052b963a0e7063831d966ba5db109ec86939999d5fcc0c7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0019306348684273158,
+       "mass": 0.9999820680835113
+      }
+     ],
+     "mean_mass": 0.9999820680835113,
+     "gate": "PASSED",
+     "yes_rate": 0.0019306348684273158
+    }
+   }
+  },
+  "B|N12": {
+   "pair": "N12",
+   "domain": "dismissal",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Pendle Upholstery",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "7e71ad7f31addfabd74f3d673ef1a8d4fd80aa9fc1c288566a1f3673611536fb",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.005229304400138598,
+       "mass": 0.999990256118074
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004617691332545909,
+       "mass": 0.9999736551373234
+      }
+     ],
+     "mean_mass": 0.9999753152353985,
+     "gate": "PASSED",
+     "yes_rate": 0.004678852639305178
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "0b9fc8e4520ff30b34a2f1006b117c988fbdf97c7ee19d3143bb541a419975a5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078265406090256,
+       "mass": 0.9999645264735743
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.004078124161571257,
+       "mass": 0.9999991599234062
+      }
+     ],
+     "mean_mass": 0.9999956965784229,
+     "gate": "PASSED",
+     "yes_rate": 0.004078138286023157
+    }
+   }
+  },
+  "B|N13": {
+   "pair": "N13",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Harbourne Wealth",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b26a7f2e06dc4ed23d76cd07e48b8d1b8e74bd101baa26ebed3208a68ead1bbe",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.01409361705220368,
+       "mass": 0.9999227124054869
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.012462931125892508,
+       "mass": 0.9999700794897131
+      }
+     ],
+     "mean_mass": 0.9999653427812905,
+     "gate": "PASSED",
+     "yes_rate": 0.012625999718523625
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d3e53d7ba2eb36cc780688edb7de777bed196ce32cec23233c97ffdd12d0dc29",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.014093773521297807,
+       "mass": 0.9999228710990795
+      }
+     ],
+     "mean_mass": 0.9999228710990795,
+     "gate": "PASSED",
+     "yes_rate": 0.014093773521297807
+    }
+   }
+  },
+  "B|N14": {
+   "pair": "N14",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Quayside Advisers",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "bd7aadd11089f5cf28d4b1db20ea54936c088405381a3fa1b50214ce5dcb28e7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011771988061074314,
+       "mass": 0.9999236531042693
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011761519206984587,
+       "mass": 0.9999226050661347
+      }
+     ],
+     "mean_mass": 0.9999227098699481,
+     "gate": "PASSED",
+     "yes_rate": 0.001176256609239356
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "569199718fd8b75b07fce2f45c2d1496a833b2a12c8d642920b5979f8c21c3f4",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0011762944241969153,
+       "mass": 1.0000014486192195
+      }
+     ],
+     "mean_mass": 1.0000014486192195,
+     "gate": "PASSED",
+     "yes_rate": 0.0011762944241969153
+    }
+   }
+  },
+  "B|N15": {
+   "pair": "N15",
+   "domain": "suitability",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Glenmore Partners",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2ad2956004fd75c56a66aa96ab68f32978c90943451f83ebc9d8e56808dcd58a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0067188916455362966,
+       "mass": 0.9999607024125006
+      }
+     ],
+     "mean_mass": 0.9999607024125006,
+     "gate": "PASSED",
+     "yes_rate": 0.0067188916455362966
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "5b8a416a422c5bfbecceaa8ad5e63fabcc892a57b2e3a5255dcd09e822837c6c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.006717269794318549,
+       "mass": 0.9999893807264676
+      }
+     ],
+     "mean_mass": 0.9999893807264676,
+     "gate": "PASSED",
+     "yes_rate": 0.006717269794318549
+    }
+   }
+  },
+  "B|N16": {
+   "pair": "N16",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Hollinwood Energy",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "af141c78e8ff67c8e801eec42a58eb7e8ea059132a55656c23dace0e4a9cad16",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.000336327122036447,
+       "mass": 1.0000040206103225
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631542997417953,
+       "mass": 0.9999387870390697
+      }
+     ],
+     "mean_mass": 0.9999453103961949,
+     "gate": "PASSED",
+     "yes_rate": 0.00033631659918040627
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "cd9607d86b08ab2e87d6d4bd7be46fea83fcb750555b2f04bffde1d054a2d989",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.000296819373599234,
+       "mass": 0.999964500972846
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00033631514293207433,
+       "mass": 0.9999396404782934
+      }
+     ],
+     "mean_mass": 0.9999421265277487,
+     "gate": "PASSED",
+     "yes_rate": 0.0003323655659987903
+    }
+   }
+  },
+  "B|N17": {
+   "pair": "N17",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "other",
+   "name": "Linfield Water",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a5381a46e174fe7f6a9d9e1602b96ebc4b6abb9f912f1309e4fe01a8bc36366d",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002969438892687769,
+       "mass": 0.9999674376434989
+      }
+     ],
+     "mean_mass": 0.9999674376434989,
+     "gate": "PASSED",
+     "yes_rate": 0.0002969438892687769
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "37c2cfbbc2ca138a8e904548f6d6ec68eb0c3331a2f42a2e5afea40a58c5a9d5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968185336293775,
+       "mass": 0.999967330782791
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029694388376843455,
+       "mass": 0.9999674561660667
+      }
+     ],
+     "mean_mass": 0.9999674436277391,
+     "gate": "PASSED",
+     "yes_rate": 0.00029693134875452884
+    }
+   }
+  },
+  "B|N18": {
+   "pair": "N18",
+   "domain": "vulnerable",
+   "control": true,
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "cond": "B",
+   "sentence": null,
+   "party": "favoured",
+   "name": "Brookvale Telecom",
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f14aecb06e1e46156acc5276911204321c33a0846d893b876c9845bb6a34dc46",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968289211258725,
+       "mass": 1.0000323352660363
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.0002968287321077397,
+       "mass": 1.0000329720785288
+      }
+     ],
+     "mean_mass": 1.0000329083972797,
+     "gate": "PASSED",
+     "yes_rate": 0.00029682875100955295
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "logprob",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "024be5f04b30c0cf400423bf5f478b7bd267f71deb0f88ec51bbdc876a6b6cfe",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "p_yes": 0.00029682891836110045,
+       "mass": 1.0000323445806996
+      }
+     ],
+     "mean_mass": 1.0000323445806996,
+     "gate": "PASSED",
+     "yes_rate": 0.00029682891836110045
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "Parasail"
+ ],
+ "served_model": [
+  "mistralai/mistral-small-3.2-24b-instruct"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "Parasail",
+ "wires": {
+  "abstract_yn": {
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "provider": "Parasail",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": null,
+   "reasoning_off": true,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "abstract_scores": {
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "provider": "Parasail",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "side": {
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "provider": "Parasail",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "provider": "Parasail",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  },
+  "noise": {
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "provider": "Parasail",
+   "max_tokens": 1,
+   "want_logprobs": true,
+   "reasoning": {
+    "enabled": false
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": 20,
+   "readout": "logprob",
+   "route": "openrouter"
+  }
+ },
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 360,
+ "spent_usd": 0.0021314800000000007,
+ "elapsed_s": 125.8,
+ "finished": "2026-11-12T19:19:24Z"
+}

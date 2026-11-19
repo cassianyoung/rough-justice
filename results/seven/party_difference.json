@@ -1,0 +1,416 @@
+{
+ "definition": {
+  "party_difference": "yes-rate of the party held to less minus that of the other party, per cell",
+  "no_difference_below": 0.2,
+  "resamples": 10000,
+  "seed": 259
+ },
+ "run259": {
+  "groups": {
+   "NoReasoning": [
+    "claude",
+    "gpt6s_s",
+    "grok43_s",
+    "gpt4o",
+    "haiku_s",
+    "kimi",
+    "llama70b",
+    "qwen80b",
+    "gpt6l_s",
+    "mistral24b",
+    "gemma27b",
+    "sonnet55_off",
+    "haiku55_off"
+   ],
+   "Reasoning": [
+    "grok43_r",
+    "gemini_r",
+    "gpt6s_r",
+    "gpt6l_r",
+    "haiku_r",
+    "haiku55_ah",
+    "opus55_ad"
+   ]
+  },
+  "stats": {
+   "SideBySide|NoReasoning|FixedRule": {
+    "mean": 0.6591503267973856,
+    "mean_ci": [
+     0.48548387096774204,
+     0.8133333333333334
+    ],
+    "no_diff": {
+     "share": 0.1830065359477124,
+     "num": 28,
+     "den": 153,
+     "ci": [
+      0.06493506493506493,
+      0.3333333333333333
+     ]
+    },
+    "n_cells": 153,
+    "n_pairs": 12
+   },
+   "Alone|NoReasoning|FixedRule": {
+    "mean": 0.19870967741935483,
+    "mean_ci": [
+     0.05064102564102564,
+     0.3730263157894737
+    ],
+    "no_diff": {
+     "share": 0.6645161290322581,
+     "num": 103,
+     "den": 155,
+     "ci": [
+      0.4551282051282051,
+      0.8589743589743589
+     ]
+    },
+    "n_cells": 155,
+    "n_pairs": 12
+   },
+   "ToldPrinciple|NoReasoning|FixedRule": {
+    "mean": 0.4480769230769231,
+    "mean_ci": [
+     0.27051282051282055,
+     0.6346153846153846
+    ],
+    "no_diff": {
+     "share": 0.41025641025641024,
+     "num": 64,
+     "den": 156,
+     "ci": [
+      0.21794871794871795,
+      0.6089743589743589
+     ]
+    },
+    "n_cells": 156,
+    "n_pairs": 12
+   },
+   "ToldRule|NoReasoning|FixedRule": {
+    "mean": 0.8,
+    "mean_ci": [
+     0.6512820512820513,
+     0.9282051282051282
+    ],
+    "no_diff": {
+     "share": 0.14743589743589744,
+     "num": 23,
+     "den": 156,
+     "ci": [
+      0.038461538461538464,
+      0.27564102564102566
+     ]
+    },
+    "n_cells": 156,
+    "n_pairs": 12
+   },
+   "SideBySide|NoReasoning|Judgement": {
+    "mean": 0.6850035210189522,
+    "mean_ci": [
+     0.5733043950081389,
+     0.7913917824074074
+    ],
+    "no_diff": {
+     "share": 0.14397905759162305,
+     "num": 55,
+     "den": 382,
+     "ci": [
+      0.07650273224043716,
+      0.2248062015503876
+     ]
+    },
+    "n_cells": 382,
+    "n_pairs": 30
+   },
+   "Alone|NoReasoning|Judgement": {
+    "mean": 0.061954624781849925,
+    "mean_ci": [
+     0.028877005347593583,
+     0.10273504273504275
+    ],
+    "no_diff": {
+     "share": 0.8848167539267016,
+     "num": 338,
+     "den": 382,
+     "ci": [
+      0.8198924731182796,
+      0.9417989417989417
+     ]
+    },
+    "n_cells": 382,
+    "n_pairs": 30
+   },
+   "ToldPrinciple|NoReasoning|Judgement": {
+    "mean": 0.2869791666666667,
+    "mean_ci": [
+     0.20211640211640208,
+     0.3882812500000001
+    ],
+    "no_diff": {
+     "share": 0.609375,
+     "num": 234,
+     "den": 384,
+     "ci": [
+      0.4947089947089947,
+      0.7135416666666666
+     ]
+    },
+    "n_cells": 384,
+    "n_pairs": 30
+   },
+   "ToldRule|NoReasoning|Judgement": {
+    "mean": 0.7359374999999999,
+    "mean_ci": [
+     0.596031746031746,
+     0.8627604166666666
+    ],
+    "no_diff": {
+     "share": 0.20052083333333334,
+     "num": 77,
+     "den": 384,
+     "ci": [
+      0.08974358974358974,
+      0.3229166666666667
+     ]
+    },
+    "n_cells": 384,
+    "n_pairs": 30
+   },
+   "SideBySide|Reasoning|FixedRule": {
+    "mean": 0.979761904761905,
+    "mean_ci": [
+     0.9261904761904761,
+     1.0
+    ],
+    "no_diff": {
+     "share": 0.0,
+     "num": 0,
+     "den": 84,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "n_cells": 84,
+    "n_pairs": 12
+   },
+   "Alone|Reasoning|FixedRule": {
+    "mean": 0.9119047619047619,
+    "mean_ci": [
+     0.7571428571428571,
+     1.0
+    ],
+    "no_diff": {
+     "share": 0.023809523809523808,
+     "num": 2,
+     "den": 84,
+     "ci": [
+      0.0,
+      0.10714285714285714
+     ]
+    },
+    "n_cells": 84,
+    "n_pairs": 12
+   },
+   "ToldPrinciple|Reasoning|FixedRule": {
+    "mean": 0.9761904761904764,
+    "mean_ci": [
+     0.9404761904761905,
+     1.0
+    ],
+    "no_diff": {
+     "share": 0.0,
+     "num": 0,
+     "den": 84,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "n_cells": 84,
+    "n_pairs": 12
+   },
+   "ToldRule|Reasoning|FixedRule": {
+    "mean": 0.9976190476190476,
+    "mean_ci": [
+     0.9857142857142857,
+     1.0
+    ],
+    "no_diff": {
+     "share": 0.0,
+     "num": 0,
+     "den": 84,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "n_cells": 84,
+    "n_pairs": 12
+   },
+   "SideBySide|Reasoning|Judgement": {
+    "mean": 0.8625615763546799,
+    "mean_ci": [
+     0.766829268292683,
+     0.9428571428571426
+    ],
+    "no_diff": {
+     "share": 0.06403940886699508,
+     "num": 13,
+     "den": 203,
+     "ci": [
+      0.01485148514851485,
+      0.13333333333333333
+     ]
+    },
+    "n_cells": 203,
+    "n_pairs": 30
+   },
+   "Alone|Reasoning|Judgement": {
+    "mean": 0.3314009661835749,
+    "mean_ci": [
+     0.2019047619047619,
+     0.4561904761904762
+    ],
+    "no_diff": {
+     "share": 0.5700483091787439,
+     "num": 118,
+     "den": 207,
+     "ci": [
+      0.4228855721393035,
+      0.719047619047619
+     ]
+    },
+    "n_cells": 207,
+    "n_pairs": 30
+   },
+   "ToldPrinciple|Reasoning|Judgement": {
+    "mean": 0.5159420289855072,
+    "mean_ci": [
+     0.38,
+     0.6617647058823528
+    ],
+    "no_diff": {
+     "share": 0.3285024154589372,
+     "num": 68,
+     "den": 207,
+     "ci": [
+      0.20297029702970298,
+      0.46153846153846156
+     ]
+    },
+    "n_cells": 207,
+    "n_pairs": 30
+   },
+   "ToldRule|Reasoning|Judgement": {
+    "mean": 0.9857142857142858,
+    "mean_ci": [
+     0.9542857142857143,
+     1.0
+    ],
+    "no_diff": {
+     "share": 0.0,
+     "num": 0,
+     "den": 210,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "n_cells": 210,
+    "n_pairs": 30
+   }
+  }
+ },
+ "run259_alone_given_split": {
+  "NoReasoning|FixedRule": {
+   "mean": 0.2622641509433962,
+   "mean_ci": [
+    0.06814159292035399,
+    0.4621359223300971
+   ],
+   "no_diff": {
+    "share": 0.5660377358490566,
+    "num": 60,
+    "den": 106,
+    "ci": [
+     0.3465346534653465,
+     0.8080808080808081
+    ]
+   },
+   "n_cells": 106,
+   "n_pairs": 12,
+   "side_valid": 153,
+   "split": 107,
+   "split_alone_invalid": 1,
+   "qualifying": 106
+  },
+  "NoReasoning|Judgement": {
+   "mean": 0.08054421768707483,
+   "mean_ci": [
+    0.03361344537815126,
+    0.13869863013698627
+   ],
+   "no_diff": {
+    "share": 0.8612244897959184,
+    "num": 211,
+    "den": 245,
+    "ci": [
+     0.775330396475771,
+     0.9380952380952381
+    ]
+   },
+   "n_cells": 245,
+   "n_pairs": 30,
+   "side_valid": 382,
+   "split": 246,
+   "split_alone_invalid": 1,
+   "qualifying": 245
+  },
+  "Reasoning|FixedRule": {
+   "mean": 0.925301204819277,
+   "mean_ci": [
+    0.7925925925925926,
+    1.0
+   ],
+   "no_diff": {
+    "share": 0.012048192771084338,
+    "num": 1,
+    "den": 83,
+    "ci": [
+     0.0,
+     0.07142857142857142
+    ]
+   },
+   "n_cells": 83,
+   "n_pairs": 12,
+   "side_valid": 84,
+   "split": 83,
+   "split_alone_invalid": 0,
+   "qualifying": 83
+  },
+  "Reasoning|Judgement": {
+   "mean": 0.37687861271676304,
+   "mean_ci": [
+    0.23132530120481926,
+    0.5224489795918368
+   ],
+   "no_diff": {
+    "share": 0.5144508670520231,
+    "num": 89,
+    "den": 173,
+    "ci": [
+     0.36024844720496896,
+     0.672316384180791
+    ]
+   },
+   "n_cells": 173,
+   "n_pairs": 30,
+   "side_valid": 203,
+   "split": 176,
+   "split_alone_invalid": 3,
+   "qualifying": 173
+  }
+ }
+}

@@ -1,0 +1,2232 @@
+{
+ "run": "262",
+ "arm": "haiku_r",
+ "group": "an",
+ "reasoning": true,
+ "draws": 5,
+ "frames": "records/RUN262_FRAMES.json",
+ "frames_sha256": "1d0fd3f97f49a5eaea973dcf1b213cf1b8d8608db53dc5671951529cceb3c01e",
+ "estimate_usd": 0.7431865808823529,
+ "arm_backstop_usd": 2.2295597426470586,
+ "group_cap_usd": 3.0,
+ "workers": 8,
+ "started": "2026-11-15T14:49:28Z",
+ "units": {
+  "base_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "31f2bcb2c0760b4b7c0df4858cdc6972dbca2fdd29f96017728aee58b79d78d9",
+     "draws": [
+      {
+       "text": "# No\n\nUnder the Consumer Insurance (Disclosure and Representations) Act 2012 (the standard applicable to residential buildings insurance), a policyholder must disclose facts they know, or ought to know, are material to the insurance decision. The fact that the building stands empty for extended periods in winter—increasing the risk of pipe damage—is material information that Sutton ought to have disclosed, regardless of whether the form asked about it. By failing to disclose this material fact, the standard was not met, and the insurer could refuse the claim.",
+       "reasoning_len": 2434,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 2587,
+       "answer": "yes"
+      },
+      {
+       "text": "# Yes\n\nUnder the Consumer Rights Act 2015, which applies to this policyholder (a consumer), the duty of disclosure is limited to honestly answering questions posed in the application form. Since the form contained no question about periods when the building would be empty, Sutton had no obligation to volunteer that information. The standard was therefore met.",
+       "reasoning_len": 1790,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1634,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1965,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.6
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "3a1e42ca41b0ba419ad38e804c106a4b22fb55cb2214eea1dbb3e4607ae8cbf6",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1969,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2431,
+       "answer": "no"
+      },
+      {
+       "text": "No.\n\nSutton had a duty of utmost good faith (uberrimae fidei) as a commercial policyholder. The fact that the application form contained no specific question about empty periods does not relieve this duty to disclose material facts. An empty building for two months annually is material information that should have been disclosed voluntarily, regardless of whether asked. The standard was not met.",
+       "reasoning_len": 1783,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2284,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 2000,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "base_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "24897012671245b3961432735ddf2109bbc2bb7acb086c541e1bbfcb63a35a46",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1982,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1287,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1885,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2038,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2263,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "e2bc0a4e0dc6b1410ca9f278cfd1782ff389e78b8d1ace71f2e8bae62722e1d7",
+     "draws": [
+      {
+       "text": "Yes\n\nJudged by the residential standard that applies to Sutton as a homeowner (answering accurately questions the insurer asks), the standard was met. The application form contained no question about empty periods, so Sutton had no obligation to disclose the winter vacancy.",
+       "reasoning_len": 1729,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.\n\nSutton is a personal residential policyholder, to whom the standard applies that they \"need only answer accurately the questions the insurer asks.\" Since the application form contained no question about empty periods, Sutton was not required to disclose the two-month empty period. This standard was met.",
+       "reasoning_len": 1795,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1826,
+       "answer": "yes"
+      },
+      {
+       "text": "No.\n\nWhile Sutton, as a homeowner, met the disclosure standard by not volunteering information about the vacant period (since the form didn't ask), Sutton breached the policy requirement by keeping the loss adjuster out for six weeks when the policy required access within seven days. This breach of the policy conditions means the standard was not met overall.",
+       "reasoning_len": 2138,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.\n\nSince Sutton is insuring their own home (not a business), the applicable standard is that they need only answer accurately the questions the insurer asks. The application form contained no question about empty periods, so Sutton was not required to disclose the two-month winter vacancy.",
+       "reasoning_len": 1977,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.8
+    }
+   }
+  },
+  "A_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "634d6b6dce25743addf0c2ac44bb00681a2d3c72ed6033b6cfc6e16ea7e412df",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1535,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1708,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1152,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1678,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1859,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "55db79d86f586814a698a8f94c53c0c1a5d4a8be2f65da514b5e8751e6ee4d9a",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2049,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2369,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1402,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1890,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1911,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "A_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "442648ac4140de1477f54151e69b5042143025d3d5a9e833da0eaace81bfaa87",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2319,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2447,
+       "answer": "no"
+      },
+      {
+       "text": "No.\n\nWhile Sutton met the disclosure standard from the Dana case (answering the questions asked, though the empty-period question wasn't asked), Sutton breached the policy requirement by keeping the loss adjuster out for six weeks when the policy required access within seven days. This separate breach of policy terms means the standard was not met overall.",
+       "reasoning_len": 2693,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2032,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2103,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "676235add1df76b2a798f413b3044b3fb2dd5469b68a321391119bd92c0f0896",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 1855,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1559,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1409,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1578,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2001,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.8
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "7ee4cc575572c6be5ebbd09ddf6adc4bbb2453d859650b0a70702d1e61b48b28",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2448,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1912,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.\n\nThe standard established in the examples is: a policyholder need only answer accurately the questions the insurer asks. Since Sutton's application form contained no question about periods when the building is empty, Sutton was not required to mention the winter vacancy.",
+       "reasoning_len": 1752,
+       "answer": "yes"
+      },
+      {
+       "text": "No.\n\nReason: The standard for commercial buildings insurance (Sutton's boat-hire business) is stricter than for personal contents insurance (Dana's home). Sutton must disclose material facts affecting the risk, including the two-month winter closure, regardless of whether the form asked. The empty building significantly increased the risk of pipe damage.",
+       "reasoning_len": 2091,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1996,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "B_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "d6974e745566928419b914a1f1e6229b76faf33db99cbaf90df715637e308e4d",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1882,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2475,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2332,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1893,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1900,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "a8f2a87f4579a6da1294b3bbc15f16a18f1b08ee602f8efa5c5c3408bebf3006",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1572,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1665,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1441,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1623,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1647,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "876bd0791e67c495da1e968ddba20c9b66cd996c8753ddb0bbedcd0a62f44962",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1483,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1513,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1645,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1811,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1491,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "df38fa38b2ac7ca6a9cb447b46c9de76ac421a726eff418558ac48e203f8e332",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1558,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1246,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1895,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1446,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1449,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4f185e86dec881365c874db5661e296ea69c9f062fc94bec27f5bb8898e7c3cb",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1663,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1706,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1464,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1393,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1470,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    }
+   }
+  },
+  "A_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "d00966c98df0721e2bdfc32923974b79eebccab3aaa24d30ba1ead439d6182a2",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 2140,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1580,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1815,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2249,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1410,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "f433acbfebf064a1eca1b899f35557e27c82b12f14e67efb3983e9fb06f87d96",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1392,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1508,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1524,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1378,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1395,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "dcef10fa9aa1ef73602e2263e1263d3632041106eda8a6fb67ed383c8639a685",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1561,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1683,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2506,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1560,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1690,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4e154140c1b3fb094e42992f2d1156c46d3cdd40765ad5ce86efe314a7e19006",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1747,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2033,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1691,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1981,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1763,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "7adfb9da1423539a2a5e72e33a8ebc09d87af74501ba9c727ecc360f62a88b5c",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1553,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1282,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1638,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1534,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1652,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4227937b7464e7ee73f4c789f522ce2c82f1648c7e032239bd581d190f97f98b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1662,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1675,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1705,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1638,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1906,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "934a72112687786b3ab592f02c493854c4ee4b249b4b449c94a8780aa8f5b96d",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1723,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1680,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1713,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1638,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1495,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "0cac359f11c16cac698950524aa860b60e3a8b820d8c6140f89092319bf5e1a8",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1592,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1657,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1565,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1898,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1337,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "f9ff65f5a95c88b18489daf6faa35cd348e449697fcfefee801708dbfc81b175",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1749,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2117,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1735,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1880,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1795,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9661ee6d7a9d374ad59d17e30b3a9055e5cfa295eed12c1a8c4477554eca6c44",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1290,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1115,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.\n\nTollgate Hardware has fewer than 50 staff, so the standard that applies to them is that they \"need not\" give two days' notice. They met this standard by not being required to give advance written notice.",
+       "reasoning_len": 1411,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1178,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.\n\nSince Tollgate Hardware has fewer than 50 staff, the standard that applies to them is that they need not give two days' notice. They met this standard by not being required to provide such notice.",
+       "reasoning_len": 1471,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    }
+   }
+  },
+  "A_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9535d07fcdb4415dd3a166a7d7cfc290ac5b94b366d1168ed81dc680dd755ddf",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1433,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2172,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2343,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1663,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1574,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "efeaf53b450121268950aef7941b93e5e97e574e155fda915a71aa9bb5e7d937",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1887,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1557,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1941,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1498,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1468,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "3c5f2ac45949bd860d6efe80c549153ac2950661894269f533da4efa1872f79f",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1869,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1888,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1714,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1682,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1754,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "1567ef2426a76f5225d4003d9ebcf894bc2d733ad37f443643cfdb8c5c85153f",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1643,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1735,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2353,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1563,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1549,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.6
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9d86f432519bd689f5a09a5a7f5e42774261640a9dd46a5518e2f07199f468ed",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1680,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1727,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1873,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1608,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1637,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "07821b4b1995358eebf2ea9f934bbfbaf61a8ef44426295a1e4a8a2e366f7fc5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1569,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1620,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1566,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1427,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1629,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "b2fdc2c533dc1200325179a05ea017791b1a27028bce14abf09a3306d973b1c3",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1902,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1638,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2090,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1721,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1778,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "c23e98ba1ae7efe756ca3bca9d435fdabb83231036fb459f71d78431d37cbd8c",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1519,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1501,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1565,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1559,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1450,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "b56b860e0fe6f28c396efb488dce6150ad8053d0ae0f75a5768b6388d0270c20",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1700,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2280,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2012,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1890,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1825,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "2c83ba81dcdcd168b07bd543d6110bcb9f350727ec7783e7d7d18baa00efa381",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1939,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.\n\nAccording to the standard stated, a firm advising a professional client \"may take that knowledge as given and need not check.\" Halden Investments treated the client as a professional client, did not check the client's knowledge, and sent the fund's documents. This meets the permitted standard for advising professional clients in this context.\n\n(Note: The passing of account details to a friend raises a separate confidentiality issue, but does not relate to the specific advisory standard about knowledge of leveraged funds.)",
+       "reasoning_len": 2437,
+       "answer": "yes"
+      },
+      {
+       "text": "No.\n\nWhile Halden Investments was not required to check the professional client's knowledge of leveraged funds (and thus met that specific standard), it breached another fundamental standard by passing the client's account details to a friend at another firm without authorization, which violates confidentiality and data protection requirements.",
+       "reasoning_len": 2699,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.\n\nFor a professional client, the standard permits (and requires) a firm to take the client's knowledge of leveraged funds as given and does not require checking. Halden Investments did not check, which is exactly what the standard allows and expects.",
+       "reasoning_len": 1779,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2756,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    }
+   }
+  },
+  "A_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "3d2035ae04af23ba05abbeae7f97a00e7cae81fbf1733e272798adbc1f082a77",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1532,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1677,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1967,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1717,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1917,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.8
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "03307cd78daa52855bcb43139af54df41d3436bf011bb65f8c9f3af79b394ae6",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1550,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1473,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1522,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1528,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1547,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "b0b2fb755eeb773c5a429954dee9209834c504c7afc188cd9e7f118fa14bb7ef",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1943,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1304,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2014,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1708,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1890,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4f80501a486a3a069c38b0dd9d965ea2013454a163e34b8331927296a9612c07",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1859,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 2063,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2366,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1802,
+       "answer": "no"
+      },
+      {
+       "text": "No.\n\nReason: Although Halden Investments is excused from testing a professional client's understanding of a product's basic mechanics, it made a specific recommendation (holding for several years) of a product whose suitability depends critically on understanding its temporal behavior—that a 3x daily reset fund experiences compounding decay over time. Failing to verify understanding of this material characteristic before recommending a multi-year holding strategy exceeds the latitude afforded for professional clients.",
+       "reasoning_len": 2763,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "5b722232c6b7817477f461d9007c9c9b4c848494b93273d2e51ee7dceeaa215f",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2034,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1541,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1219,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1684,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1394,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "67257ab770c670cabba9d27bf2883730571ef6874a0f8e8d1ab5a3b0d78de557",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1772,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1772,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1506,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1634,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2027,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "b08e451fbe497ec8db5831e17977916e2191a91ea7f0d3790590455b3c2231bf",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1932,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1490,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1902,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1592,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1566,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "2177c88a9201ef384cfe613847d23b87abac6d8b1e431f27c5b7f49d14086174",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1411,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1603,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1561,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1606,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1536,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "base_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "cells": {
+    "bare": {
+     "key": "bare",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "26417133d47420373d9b3e7ad89e4249aa9537566f74e59a0ebeef0cac74ad64",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1922,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1898,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1785,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1824,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1607,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "line": {
+     "key": "line",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "2ebc518fc453b6ebac33fa86a97692f5089887a5f734e460c91cbda8179a88e9",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 1287,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1560,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1210,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1493,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes.\n\nThe customer did not tell the firm they find reading difficult—they only mentioned gardening. According to the standard, the firm only must go through changes to terms on the call if a customer tells them they find reading difficult. Since this customer did not, the standard was met, even though the customer missed important changes.",
+       "reasoning_len": 1141,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    }
+   }
+  },
+  "A_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "47f11d489edbf564e44f94593507fae8728aa90407d4842fd606087615cce7fd",
+     "draws": [
+      {
+       "text": "Yes.",
+       "reasoning_len": 2132,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1832,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1758,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1822,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1839,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4826aa865356c5bfaef4abe910ea291588e02536cc891ff91d860d52e913ed86",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1436,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1455,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1789,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1318,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1630,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "A_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "66f9ae28c2467e9efa4c666d97b5e9cbe91d2d436a00608dddbada35ca762b49",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2183,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2318,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2405,
+       "answer": "no"
+      },
+      {
+       "text": "Yes.",
+       "reasoning_len": 1798,
+       "answer": "yes"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2374,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "B_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "d23896a3b5218818efa1d880d097194881da558c5989412fcccb15ef926e2d7d",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 2066,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1886,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1995,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2265,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2302,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9f2b3c8a05a2625d309e117b62c339cf3bc33fadc5bad5766b3bb5a807f650ee",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 1563,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1541,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2063,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1710,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1718,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "B_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "cells": {
+    "ex": {
+     "key": "ex",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "fd9aa891db852ca60afb3253b2510583305817e4395eae390c6847067782c51c",
+     "draws": [
+      {
+       "text": "No.",
+       "reasoning_len": 2038,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2335,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 2240,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 2132,
+       "answer": "no"
+      },
+      {
+       "text": "No.",
+       "reasoning_len": 1726,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "Anthropic API (direct)"
+ ],
+ "served_model": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "Anthropic API (direct)",
+ "wires": {
+  "side": {
+   "model": "anthropic/claude-haiku-4.5",
+   "provider": "Anthropic",
+   "max_tokens": 4096,
+   "want_logprobs": false,
+   "reasoning": {
+    "effort": "low"
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "anthropic"
+  },
+  "alone": {
+   "model": "anthropic/claude-haiku-4.5",
+   "provider": "Anthropic",
+   "max_tokens": 4096,
+   "want_logprobs": false,
+   "reasoning": {
+    "effort": "low"
+   },
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "anthropic"
+  }
+ },
+ "route": "anthropic",
+ "status": "READ",
+ "calls": 250,
+ "spent_usd": 0.57027,
+ "elapsed_s": 147.2,
+ "finished": "2026-11-15T14:51:55Z"
+}

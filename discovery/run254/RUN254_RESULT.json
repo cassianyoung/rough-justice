@@ -1,0 +1,1477 @@
+{
+ "run": "254",
+ "arms_read": [
+  "gpt6s_s",
+  "llama70b",
+  "qwen80b"
+ ],
+ "arms_unread": [],
+ "failed_cells": {
+  "gpt6s_s": [],
+  "llama70b": [],
+  "qwen80b": []
+ },
+ "per_arm": {
+  "gpt6s_s": {
+   "anchors": {
+    "floor_run252": 1.223095889763168,
+    "note": "Anchor references carry no name (run 252: 'This is an organisation's annual report'); the new items' references keep the name. Anchor and new references are not directly comparable.",
+    "OR1": {
+     "S": 3.1500000000000004,
+     "A": 2.2,
+     "share": 0.6984126984126984,
+     "holds_alone": true,
+     "F_minus_ref": 1.0,
+     "O_minus_ref": -1.2,
+     "both_legs_move": false,
+     "run252": {
+      "S": 3.4000000000000004,
+      "A": 2.8000000000000003,
+      "share": 0.8235294117647058,
+      "alone": {
+       "F": 4.2,
+       "O": 1.4
+      },
+      "refs": {
+       "ref": 3.0,
+       "F": 4.2,
+       "O": 1.4,
+       "F_minus_ref": 1.2000000000000002,
+       "O_minus_ref": -1.6
+      }
+     }
+    },
+    "OR2": {
+     "S": 3.3000000000000003,
+     "A": 3.3999999999999995,
+     "share": 1.03030303030303,
+     "holds_alone": true,
+     "F_minus_ref": 1.6999999999999997,
+     "O_minus_ref": -1.6999999999999997,
+     "both_legs_move": true,
+     "run252": {
+      "S": 3.0500000000000003,
+      "A": 3.3,
+      "share": 1.081967213114754,
+      "alone": {
+       "F": 5.6,
+       "O": 2.3
+      },
+      "refs": {
+       "ref": 3.7,
+       "F": 5.6,
+       "O": 2.3,
+       "F_minus_ref": 1.8999999999999995,
+       "O_minus_ref": -1.4000000000000004
+      }
+     }
+    }
+   },
+   "items": {
+    "H": {
+     "floor": {
+      "noise_devs": [
+       -4.440892098500626e-16,
+       -0.30000000000000027,
+       -4.440892098500626e-16
+      ],
+      "noise_floor": 0.329511760032931,
+      "control": {
+       "A": -0.19999999999999973,
+       "S": 0.0
+      },
+      "floor": 0.329511760032931,
+      "leg_noise_floor_beside": 0.741909791611412
+     },
+     "ref": 4.2,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 2.4999999999999996,
+       "S": 2.9,
+       "share": 0.8620689655172412,
+       "holds_alone": true,
+       "small": 5.1,
+       "large": 2.6,
+       "small_minus_ref": 0.8999999999999995,
+       "large_minus_ref": -1.6,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "charity": {
+       "A": 2.1,
+       "S": 2.7,
+       "share": 0.7777777777777778,
+       "holds_alone": true,
+       "small": 5.0,
+       "large": 2.9,
+       "small_minus_ref": 0.7999999999999998,
+       "large_minus_ref": -1.3000000000000003,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "drug": {
+       "A": 3.0,
+       "S": 2.6,
+       "share": 1.1538461538461537,
+       "holds_alone": true,
+       "small": 5.0,
+       "large": 2.0,
+       "small_minus_ref": 0.7999999999999998,
+       "large_minus_ref": -2.2,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "council": {
+       "A": 2.3000000000000003,
+       "S": 2.7,
+       "share": 0.8518518518518519,
+       "holds_alone": true,
+       "small": 4.7,
+       "large": 2.4,
+       "small_minus_ref": 0.5,
+       "large_minus_ref": -1.8000000000000003,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      }
+     },
+     "large_marked_down_every_kind": true,
+     "size_holds_alone_kinds": 4,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.0,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": 5.1,
+        "charity": 5.0,
+        "drug": 5.0,
+        "council": 4.7
+       },
+       "order_kindest_first": [
+        "shop",
+        "charity",
+        "drug",
+        "council"
+       ],
+       "minus_ref": {
+        "shop": 0.8999999999999995,
+        "charity": 0.7999999999999998,
+        "drug": 0.7999999999999998,
+        "council": 0.5
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": 0.8999999999999999,
+       "drug_worse": true,
+       "g_by_kind": {
+        "shop": 2.6,
+        "charity": 2.9,
+        "drug": 2.0,
+        "council": 2.4
+       },
+       "order_kindest_first": [
+        "charity",
+        "shop",
+        "council",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": -1.6,
+        "charity": -1.3000000000000003,
+        "drug": -2.2,
+        "council": -1.8000000000000003
+       }
+      },
+      "side_large": {
+       "S": 0.5,
+       "A": 0.8999999999999999,
+       "share": 1.7999999999999998,
+       "single_case_only": false
+      }
+     }
+    },
+    "C1": {
+     "floor": {
+      "noise_devs": [
+       0.0,
+       -0.09999999999999964,
+       0.3000000000000007
+      ],
+      "noise_floor": 0.39602384888904013,
+      "control": {
+       "A": 0.09999999999999964,
+       "S": 0.0
+      },
+      "floor": 0.39602384888904013,
+      "leg_noise_floor_beside": 0.4850281778756092
+     },
+     "ref": -8.5,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.0,
+       "S": 1.0499999999999998,
+       "share": 0.0,
+       "holds_alone": false,
+       "small": -8.1,
+       "large": -8.1,
+       "small_minus_ref": 0.40000000000000036,
+       "large_minus_ref": 0.40000000000000036,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": 0.5,
+       "S": 0.9500000000000002,
+       "share": 0.5263157894736841,
+       "holds_alone": true,
+       "small": -7.6,
+       "large": -8.1,
+       "small_minus_ref": 0.9000000000000004,
+       "large_minus_ref": 0.40000000000000036,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "drug": {
+       "A": 0.5999999999999996,
+       "S": 0.5499999999999994,
+       "share": 1.0909090909090915,
+       "holds_alone": true,
+       "small": -8.3,
+       "large": -8.9,
+       "small_minus_ref": 0.1999999999999993,
+       "large_minus_ref": -0.40000000000000036,
+       "small_above_ref": false,
+       "large_below_ref": true,
+       "each_off_in_own_direction": false
+      },
+      "council": {
+       "A": 0.09999999999999964,
+       "S": 0.49999999999999956,
+       "share": 0.19999999999999946,
+       "holds_alone": false,
+       "small": -8.1,
+       "large": -8.2,
+       "small_minus_ref": 0.40000000000000036,
+       "large_minus_ref": 0.3000000000000007,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": false,
+     "size_holds_alone_kinds": 2,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.7000000000000011,
+       "drug_worse": true,
+       "g_by_kind": {
+        "shop": -8.1,
+        "charity": -7.6,
+        "drug": -8.3,
+        "council": -8.1
+       },
+       "order_kindest_first": [
+        "charity",
+        "shop",
+        "council",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": 0.40000000000000036,
+        "charity": 0.9000000000000004,
+        "drug": 0.1999999999999993,
+        "council": 0.40000000000000036
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": 0.8000000000000007,
+       "drug_worse": true,
+       "g_by_kind": {
+        "shop": -8.1,
+        "charity": -8.1,
+        "drug": -8.9,
+        "council": -8.2
+       },
+       "order_kindest_first": [
+        "shop",
+        "charity",
+        "council",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": 0.40000000000000036,
+        "charity": 0.40000000000000036,
+        "drug": -0.40000000000000036,
+        "council": 0.3000000000000007
+       }
+      },
+      "side_large": {
+       "S": 0.0,
+       "A": 0.8000000000000007,
+       "share": null,
+       "single_case_only": true
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": -0.7999999999999989,
+      "S": 0.0,
+      "differs_alone": true,
+      "plumber": -8.2,
+      "firm": -7.4
+     },
+     "caveat": "C1 ombudsman caveat (A0.7): councils have an ombudsman route for complaints and the other kinds do not, so a council marked down on C1 may be applying a real complaints standard, not sentiment."
+    },
+    "C2": {
+     "floor": {
+      "noise_devs": [
+       -0.9000000000000004,
+       -1.2999999999999998,
+       0.0
+      ],
+      "noise_floor": 1.2667049994199735,
+      "control": {
+       "A": -0.2999999999999998,
+       "S": 0.0
+      },
+      "floor": 1.2667049994199735,
+      "leg_noise_floor_beside": 1.342982212176402
+     },
+     "ref": -8.5,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.3000000000000007,
+       "S": 0.7999999999999998,
+       "share": null,
+       "holds_alone": false,
+       "small": -6.6,
+       "large": -6.9,
+       "small_minus_ref": 1.9000000000000004,
+       "large_minus_ref": 1.5999999999999996,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": 0.5999999999999996,
+       "S": 0.1499999999999999,
+       "share": null,
+       "holds_alone": false,
+       "small": -7.2,
+       "large": -7.8,
+       "small_minus_ref": 1.2999999999999998,
+       "large_minus_ref": 0.7000000000000002,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "drug": {
+       "A": -0.20000000000000018,
+       "S": 0.6499999999999999,
+       "share": null,
+       "holds_alone": false,
+       "small": -7.2,
+       "large": -7.0,
+       "small_minus_ref": 1.2999999999999998,
+       "large_minus_ref": 1.5,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "council": {
+       "A": -0.8000000000000007,
+       "S": 0.25,
+       "share": null,
+       "holds_alone": false,
+       "small": -7.4,
+       "large": -6.6,
+       "small_minus_ref": 1.0999999999999996,
+       "large_minus_ref": 1.9000000000000004,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": false,
+     "size_holds_alone_kinds": 0,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.0,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -6.6,
+        "charity": -7.2,
+        "drug": -7.2,
+        "council": -7.4
+       },
+       "order_kindest_first": [
+        "shop",
+        "charity",
+        "drug",
+        "council"
+       ],
+       "minus_ref": {
+        "shop": 1.9000000000000004,
+        "charity": 1.2999999999999998,
+        "drug": 1.2999999999999998,
+        "council": 1.0999999999999996
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": -0.7999999999999998,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -6.9,
+        "charity": -7.8,
+        "drug": -7.0,
+        "council": -6.6
+       },
+       "order_kindest_first": [
+        "council",
+        "shop",
+        "drug",
+        "charity"
+       ],
+       "minus_ref": {
+        "shop": 1.5999999999999996,
+        "charity": 0.7000000000000002,
+        "drug": 1.5,
+        "council": 1.9000000000000004
+       }
+      },
+      "side_large": {
+       "S": 0.2999999999999998,
+       "A": -0.7999999999999998,
+       "share": null,
+       "single_case_only": false
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": 0.09999999999999964,
+      "S": 0.0,
+      "differs_alone": false,
+      "plumber": -7.5,
+      "firm": -7.6
+     }
+    }
+   }
+  },
+  "llama70b": {
+   "anchors": {
+    "floor_run252": 1.8509456037185508,
+    "note": "Anchor references carry no name (run 252: 'This is an organisation's annual report'); the new items' references keep the name. Anchor and new references are not directly comparable.",
+    "OR1": {
+     "S": 3.5,
+     "A": 3.375043,
+     "share": 0.964298,
+     "holds_alone": true,
+     "F_minus_ref": 1.6097852000000001,
+     "O_minus_ref": -1.7652577999999997,
+     "both_legs_move": false,
+     "run252": {
+      "S": 3.5,
+      "A": 3.2652309,
+      "share": 0.9329231142857143,
+      "alone": {
+       "F": 5.2653236,
+       "O": 2.0000927
+      },
+      "refs": {
+       "ref": 3.8314855999999997,
+       "F": 5.2653236,
+       "O": 2.0000927,
+       "F_minus_ref": 1.4338380000000006,
+       "O_minus_ref": -1.8313928999999995
+      }
+     }
+    },
+    "OR2": {
+     "S": 2.55,
+     "A": 2.0547184000000005,
+     "share": 0.8057719215686278,
+     "holds_alone": true,
+     "F_minus_ref": 2.0536275,
+     "O_minus_ref": -0.0010909000000003388,
+     "both_legs_move": false,
+     "run252": {
+      "S": 1.75,
+      "A": 2.0568018000000006,
+      "share": null,
+      "alone": {
+       "F": 6.057316800000001,
+       "O": 4.000515
+      },
+      "refs": {
+       "ref": 4.0017484,
+       "F": 6.057316800000001,
+       "O": 4.000515,
+       "F_minus_ref": 2.0555684000000003,
+       "O_minus_ref": -0.0012334000000002732
+      }
+     }
+    }
+   },
+   "items": {
+    "H": {
+     "floor": {
+      "noise_devs": [
+       -0.005811600000000361,
+       0.04742019999999991,
+       0.022185999999999595
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.0035777999999995203,
+       "S": 0.0
+      },
+      "floor": 0.3,
+      "leg_noise_floor_beside": 0.3
+     },
+     "ref": 4.3870065,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 1.9691563999999993,
+       "S": 2.5,
+       "share": 0.7876625599999997,
+       "holds_alone": true,
+       "small": 6.0038098,
+       "large": 4.034653400000001,
+       "small_minus_ref": 1.6168033,
+       "large_minus_ref": -0.3523530999999993,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "charity": {
+       "A": 2.0069392,
+       "S": 1.5000000000000002,
+       "share": 1.3379594666666665,
+       "holds_alone": true,
+       "small": 6.006258,
+       "large": 3.9993187999999997,
+       "small_minus_ref": 1.6192514999999998,
+       "large_minus_ref": -0.3876877000000003,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "drug": {
+       "A": 2.0171861999999994,
+       "S": 0.6000000000000001,
+       "share": 3.3619769999999987,
+       "holds_alone": true,
+       "small": 6.017257,
+       "large": 4.0000708000000005,
+       "small_minus_ref": 1.6302504999999998,
+       "large_minus_ref": -0.38693569999999955,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "council": {
+       "A": 2.0068963,
+       "S": 1.8,
+       "share": 1.114942388888889,
+       "holds_alone": true,
+       "small": 6.0075297,
+       "large": 4.0006334,
+       "small_minus_ref": 1.6205232,
+       "large_minus_ref": -0.38637310000000014,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      }
+     },
+     "large_marked_down_every_kind": true,
+     "size_holds_alone_kinds": 4,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": -0.010998999999999981,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": 6.0038098,
+        "charity": 6.006258,
+        "drug": 6.017257,
+        "council": 6.0075297
+       },
+       "order_kindest_first": [
+        "drug",
+        "council",
+        "charity",
+        "shop"
+       ],
+       "minus_ref": {
+        "shop": 1.6168033,
+        "charity": 1.6192514999999998,
+        "drug": 1.6302504999999998,
+        "council": 1.6205232
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": -0.0007520000000007521,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": 4.034653400000001,
+        "charity": 3.9993187999999997,
+        "drug": 4.0000708000000005,
+        "council": 4.0006334
+       },
+       "order_kindest_first": [
+        "shop",
+        "council",
+        "drug",
+        "charity"
+       ],
+       "minus_ref": {
+        "shop": -0.3523530999999993,
+        "charity": -0.3876877000000003,
+        "drug": -0.38693569999999955,
+        "council": -0.38637310000000014
+       }
+      },
+      "side_large": {
+       "S": 0.5,
+       "A": -0.0007520000000007521,
+       "share": -0.0015040000000015041,
+       "single_case_only": false
+      }
+     }
+    },
+    "C1": {
+     "floor": {
+      "noise_devs": [
+       0.15859099999999948,
+       0.7079764999999991,
+       -0.0015074000000012688
+      ],
+      "noise_floor": 0.707927866252225,
+      "control": {
+       "A": -0.0003767999999997329,
+       "S": 0.0
+      },
+      "floor": 0.707927866252225,
+      "leg_noise_floor_beside": 0.987365738493628
+     },
+     "ref": -8.9941086,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -0.018805799999999095,
+       "S": 1.0,
+       "share": -0.018805799999999095,
+       "holds_alone": false,
+       "small": -8.996827,
+       "large": -8.9780212,
+       "small_minus_ref": -0.0027183999999991215,
+       "large_minus_ref": 0.016087399999999974,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": 0.0007844000000005735,
+       "S": 1.0,
+       "share": 0.0007844000000005735,
+       "holds_alone": false,
+       "small": -8.9851516,
+       "large": -8.985936,
+       "small_minus_ref": 0.008957000000000548,
+       "large_minus_ref": 0.008172599999999974,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "drug": {
+       "A": -0.05511869999999952,
+       "S": 0.5,
+       "share": null,
+       "holds_alone": false,
+       "small": -8.99883,
+       "large": -8.9437113,
+       "small_minus_ref": -0.004721399999999321,
+       "large_minus_ref": 0.0503973000000002,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "council": {
+       "A": -0.01573319999999967,
+       "S": 1.0,
+       "share": -0.01573319999999967,
+       "holds_alone": false,
+       "small": -8.9827984,
+       "large": -8.9670652,
+       "small_minus_ref": 0.011310200000000492,
+       "large_minus_ref": 0.027043400000000162,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": false,
+     "size_holds_alone_kinds": 0,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.013678399999999868,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.996827,
+        "charity": -8.9851516,
+        "drug": -8.99883,
+        "council": -8.9827984
+       },
+       "order_kindest_first": [
+        "council",
+        "charity",
+        "shop",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": -0.0027183999999991215,
+        "charity": 0.008957000000000548,
+        "drug": -0.004721399999999321,
+        "council": 0.011310200000000492
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": -0.042224700000000226,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.9780212,
+        "charity": -8.985936,
+        "drug": -8.9437113,
+        "council": -8.9670652
+       },
+       "order_kindest_first": [
+        "drug",
+        "council",
+        "shop",
+        "charity"
+       ],
+       "minus_ref": {
+        "shop": 0.016087399999999974,
+        "charity": 0.008172599999999974,
+        "drug": 0.0503973000000002,
+        "council": 0.027043400000000162
+       }
+      },
+      "side_large": {
+       "S": 0.14999999999999947,
+       "A": -0.042224700000000226,
+       "share": null,
+       "single_case_only": false
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": 0.02888099999999838,
+      "S": 0.5,
+      "differs_alone": false,
+      "plumber": -8.970688,
+      "firm": -8.999569
+     },
+     "caveat": "C1 ombudsman caveat (A0.7): councils have an ombudsman route for complaints and the other kinds do not, so a council marked down on C1 may be applying a real complaints standard, not sentiment."
+    },
+    "C2": {
+     "floor": {
+      "noise_devs": [
+       -0.05649460000000239,
+       -0.05629960000000267,
+       -0.04931320000000383
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": -0.004990999999998635,
+       "S": 0.0
+      },
+      "floor": 0.3,
+      "leg_noise_floor_beside": 0.3
+     },
+     "ref": -8.824449600000001,
+     "label_effect": true,
+     "positions_read": false,
+     "size": {
+      "shop": {
+       "A": -0.054254699999999545,
+       "S": 0.2999999999999998,
+       "share": null,
+       "holds_alone": false,
+       "small": -8.437823,
+       "large": -8.3835683
+      },
+      "charity": {
+       "A": 0.056504600000002014,
+       "S": 0.5,
+       "share": 0.11300920000000403,
+       "holds_alone": false,
+       "small": -8.003581599999999,
+       "large": -8.0600862
+      },
+      "drug": {
+       "A": -0.017317299999998426,
+       "S": 0.2999999999999998,
+       "share": null,
+       "holds_alone": false,
+       "small": -8.029311799999999,
+       "large": -8.0119945
+      },
+      "council": {
+       "A": 0.07855570000000078,
+       "S": 0.5,
+       "share": 0.15711140000000157,
+       "holds_alone": false,
+       "small": -8.0464161,
+       "large": -8.1249718
+      }
+     },
+     "large_marked_down_every_kind": null,
+     "size_holds_alone_kinds": 0,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.025730199999999925,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.437823,
+        "charity": -8.003581599999999,
+        "drug": -8.029311799999999,
+        "council": -8.0464161
+       },
+       "order_kindest_first": [
+        "charity",
+        "drug",
+        "council",
+        "shop"
+       ]
+      },
+      "large": {
+       "A_charity_minus_drug": -0.048091700000000515,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.3835683,
+        "charity": -8.0600862,
+        "drug": -8.0119945,
+        "council": -8.1249718
+       },
+       "order_kindest_first": [
+        "drug",
+        "charity",
+        "council",
+        "shop"
+       ]
+      },
+      "side_large": {
+       "S": 0.0,
+       "A": -0.048091700000000515,
+       "share": null,
+       "single_case_only": false
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": 0.026836899999999275,
+      "S": 0.0,
+      "differs_alone": false,
+      "plumber": -8.000709,
+      "firm": -8.0275459
+     }
+    }
+   }
+  },
+  "qwen80b": {
+   "anchors": {
+    "floor_run252": 0.3243995409975731,
+    "note": "Anchor references carry no name (run 252: 'This is an organisation's annual report'); the new items' references keep the name. Anchor and new references are not directly comparable.",
+    "OR1": {
+     "S": 4.0,
+     "A": 2.3560875999999995,
+     "share": 0.5890218999999999,
+     "holds_alone": true,
+     "F_minus_ref": 1.9727443999999994,
+     "O_minus_ref": -0.3833432000000001,
+     "both_legs_move": true,
+     "run252": {
+      "S": 4,
+      "A": 2.3409207,
+      "share": 0.585230175,
+      "alone": {
+       "F": 4.915825,
+       "O": 2.5749043
+      },
+      "refs": {
+       "ref": 2.9364103,
+       "F": 4.915825,
+       "O": 2.5749043,
+       "F_minus_ref": 1.9794147,
+       "O_minus_ref": -0.3615059999999999
+      }
+     }
+    },
+    "OR2": {
+     "S": 4.5,
+     "A": 2.6255821,
+     "share": 0.5834626888888889,
+     "holds_alone": true,
+     "F_minus_ref": 1.8828172999999997,
+     "O_minus_ref": -0.7427648000000002,
+     "both_legs_move": true,
+     "run252": {
+      "S": 4.5,
+      "A": 2.6691018,
+      "share": 0.5931337333333333,
+      "alone": {
+       "F": 4.885897,
+       "O": 2.2167952
+      },
+      "refs": {
+       "ref": 3.0033748,
+       "F": 4.885897,
+       "O": 2.2167952,
+       "F_minus_ref": 1.8825222,
+       "O_minus_ref": -0.7865796
+      }
+     }
+    }
+   },
+   "items": {
+    "H": {
+     "floor": {
+      "noise_devs": [
+       0.22881579999999957,
+       0.39421970000000073,
+       0.33634450000000005
+      ],
+      "noise_floor": 0.3,
+      "control": {
+       "A": 0.07525580000000032,
+       "S": 0.0
+      },
+      "floor": 0.3,
+      "leg_noise_floor_beside": 0.40729694409157347
+     },
+     "ref": 3.3656943999999998,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 0.6902836999999997,
+       "S": 3.8,
+       "share": 0.18165360526315782,
+       "holds_alone": true,
+       "small": 3.5818971,
+       "large": 2.8916134000000002,
+       "small_minus_ref": 0.2162027000000002,
+       "large_minus_ref": -0.47408099999999953,
+       "small_above_ref": false,
+       "large_below_ref": true,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": 0.9593873999999998,
+       "S": 3.65,
+       "share": 0.26284586301369856,
+       "holds_alone": true,
+       "small": 3.9174677,
+       "large": 2.9580803,
+       "small_minus_ref": 0.5517733000000002,
+       "large_minus_ref": -0.40761409999999954,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "drug": {
+       "A": 1.7992453999999998,
+       "S": 3.9499999999999997,
+       "share": 0.455505164556962,
+       "holds_alone": true,
+       "small": 4.5331724,
+       "large": 2.733927,
+       "small_minus_ref": 1.167478,
+       "large_minus_ref": -0.6317673999999998,
+       "small_above_ref": true,
+       "large_below_ref": true,
+       "each_off_in_own_direction": true
+      },
+      "council": {
+       "A": 1.1756809000000001,
+       "S": 3.5999999999999996,
+       "share": 0.32657802777777784,
+       "holds_alone": true,
+       "small": 3.3367901,
+       "large": 2.1611092,
+       "small_minus_ref": -0.028904299999999772,
+       "large_minus_ref": -1.2045852,
+       "small_above_ref": false,
+       "large_below_ref": true,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": true,
+     "size_holds_alone_kinds": 4,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": -0.6157046999999998,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": 3.5818971,
+        "charity": 3.9174677,
+        "drug": 4.5331724,
+        "council": 3.3367901
+       },
+       "order_kindest_first": [
+        "drug",
+        "charity",
+        "shop",
+        "council"
+       ],
+       "minus_ref": {
+        "shop": 0.2162027000000002,
+        "charity": 0.5517733000000002,
+        "drug": 1.167478,
+        "council": -0.028904299999999772
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": 0.22415330000000022,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": 2.8916134000000002,
+        "charity": 2.9580803,
+        "drug": 2.733927,
+        "council": 2.1611092
+       },
+       "order_kindest_first": [
+        "charity",
+        "shop",
+        "drug",
+        "council"
+       ],
+       "minus_ref": {
+        "shop": -0.47408099999999953,
+        "charity": -0.40761409999999954,
+        "drug": -0.6317673999999998,
+        "council": -1.2045852
+       }
+      },
+      "side_large": {
+       "S": 0.0,
+       "A": 0.22415330000000022,
+       "share": null,
+       "single_case_only": false
+      }
+     }
+    },
+    "C1": {
+     "floor": {
+      "noise_devs": [
+       0.26426719999999904,
+       0.24069220000000158,
+       0.7875805000000007
+      ],
+      "noise_floor": 0.5881676735942637,
+      "control": {
+       "A": 0.132794800000001,
+       "S": 0.0
+      },
+      "floor": 0.5881676735942637,
+      "leg_noise_floor_beside": 0.6839653687824535
+     },
+     "ref": -8.727511,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": -0.03782480000000099,
+       "S": 4.3,
+       "share": -0.0087964651162793,
+       "holds_alone": false,
+       "small": -8.0571768,
+       "large": -8.019352,
+       "small_minus_ref": 0.6703341999999992,
+       "large_minus_ref": 0.7081590000000002,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": -0.1068592000000006,
+       "S": 1.8500000000000005,
+       "share": -0.05776172972973004,
+       "holds_alone": false,
+       "small": -8.1864212,
+       "large": -8.079562,
+       "small_minus_ref": 0.5410898,
+       "large_minus_ref": 0.6479490000000006,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "drug": {
+       "A": -0.27308350000000026,
+       "S": 1.7000000000000002,
+       "share": -0.1606373529411766,
+       "holds_alone": false,
+       "small": -8.6857161,
+       "large": -8.4126326,
+       "small_minus_ref": 0.0417948999999993,
+       "large_minus_ref": 0.31487839999999956,
+       "small_above_ref": false,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "council": {
+       "A": 0.24845760000000006,
+       "S": 1.0,
+       "share": 0.24845760000000006,
+       "holds_alone": false,
+       "small": -8.0971706,
+       "large": -8.3456282,
+       "small_minus_ref": 0.6303403999999997,
+       "large_minus_ref": 0.38188279999999963,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": false,
+     "size_holds_alone_kinds": 0,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.49929490000000065,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.0571768,
+        "charity": -8.1864212,
+        "drug": -8.6857161,
+        "council": -8.0971706
+       },
+       "order_kindest_first": [
+        "shop",
+        "council",
+        "charity",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": 0.6703341999999992,
+        "charity": 0.5410898,
+        "drug": 0.0417948999999993,
+        "council": 0.6303403999999997
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": 0.333070600000001,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.019352,
+        "charity": -8.079562,
+        "drug": -8.4126326,
+        "council": -8.3456282
+       },
+       "order_kindest_first": [
+        "shop",
+        "charity",
+        "council",
+        "drug"
+       ],
+       "minus_ref": {
+        "shop": 0.7081590000000002,
+        "charity": 0.6479490000000006,
+        "drug": 0.31487839999999956,
+        "council": 0.38188279999999963
+       }
+      },
+      "side_large": {
+       "S": 1.0,
+       "A": 0.333070600000001,
+       "share": 0.333070600000001,
+       "single_case_only": false
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": 0.26879209999999887,
+      "S": 1.0499999999999998,
+      "differs_alone": false,
+      "plumber": -8.721448,
+      "firm": -8.9902401
+     },
+     "caveat": "C1 ombudsman caveat (A0.7): councils have an ombudsman route for complaints and the other kinds do not, so a council marked down on C1 may be applying a real complaints standard, not sentiment."
+    },
+    "C2": {
+     "floor": {
+      "noise_devs": [
+       -0.3543371000000004,
+       0.33621619999999997,
+       0.20454319999999981
+      ],
+      "noise_floor": 0.6975092939772167,
+      "control": {
+       "A": 0.07629099999999944,
+       "S": 0.0
+      },
+      "floor": 0.6975092939772167,
+      "leg_noise_floor_beside": 1.0672659316681066
+     },
+     "ref": -8.447489,
+     "label_effect": false,
+     "positions_read": true,
+     "size": {
+      "shop": {
+       "A": 1.0195089999999993,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": true,
+       "small": -7.55227,
+       "large": -8.571779,
+       "small_minus_ref": 0.8952189999999991,
+       "large_minus_ref": -0.12429000000000023,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "charity": {
+       "A": 0.4882318000000003,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "small": -7.047521,
+       "large": -7.5357528,
+       "small_minus_ref": 1.3999679999999994,
+       "large_minus_ref": 0.9117361999999991,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "drug": {
+       "A": -0.17959799999999948,
+       "S": 4.5,
+       "share": -0.03991066666666655,
+       "holds_alone": false,
+       "small": -7.223125,
+       "large": -7.043527,
+       "small_minus_ref": 1.2243639999999996,
+       "large_minus_ref": 1.403961999999999,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      },
+      "council": {
+       "A": -0.43681400000000004,
+       "S": 0.0,
+       "share": null,
+       "holds_alone": false,
+       "small": -7.563318,
+       "large": -7.126504,
+       "small_minus_ref": 0.8841709999999994,
+       "large_minus_ref": 1.3209849999999994,
+       "small_above_ref": true,
+       "large_below_ref": false,
+       "each_off_in_own_direction": false
+      }
+     },
+     "large_marked_down_every_kind": false,
+     "size_holds_alone_kinds": 1,
+     "sentiment": {
+      "small": {
+       "A_charity_minus_drug": 0.17560399999999987,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -7.55227,
+        "charity": -7.047521,
+        "drug": -7.223125,
+        "council": -7.563318
+       },
+       "order_kindest_first": [
+        "charity",
+        "drug",
+        "shop",
+        "council"
+       ],
+       "minus_ref": {
+        "shop": 0.8952189999999991,
+        "charity": 1.3999679999999994,
+        "drug": 1.2243639999999996,
+        "council": 0.8841709999999994
+       }
+      },
+      "large": {
+       "A_charity_minus_drug": -0.49222579999999994,
+       "drug_worse": false,
+       "g_by_kind": {
+        "shop": -8.571779,
+        "charity": -7.5357528,
+        "drug": -7.043527,
+        "council": -7.126504
+       },
+       "order_kindest_first": [
+        "drug",
+        "council",
+        "charity",
+        "shop"
+       ],
+       "minus_ref": {
+        "shop": -0.12429000000000023,
+        "charity": 0.9117361999999991,
+        "drug": 1.403961999999999,
+        "council": 1.3209849999999994
+       }
+      },
+      "side_large": {
+       "S": 3.6,
+       "A": -0.49222579999999994,
+       "share": -0.13672938888888886,
+       "single_case_only": false
+      }
+     },
+     "framing": {
+      "A_plumber_minus_firm": 0.1610074000000008,
+      "S": 0.0,
+      "differs_alone": false,
+      "plumber": -7.1160646,
+      "firm": -7.277072
+     }
+    }
+   }
+  }
+ },
+ "pooled": {
+  "anchors": {
+   "OR1": {
+    "share_median": 0.6984126984126984,
+    "holds_alone": "3/3",
+    "both_legs_move": "1/3"
+   },
+   "OR2": {
+    "share_median": 0.8057719215686278,
+    "holds_alone": "3/3",
+    "both_legs_move": "2/3"
+   }
+  },
+  "items": {
+   "H": {
+    "label_effect": [],
+    "size_holds_alone": {
+     "shop": "3/3",
+     "charity": "3/3",
+     "drug": "3/3",
+     "council": "3/3"
+    },
+    "large_marked_down_every_kind": [
+     "gpt6s_s",
+     "llama70b",
+     "qwen80b"
+    ],
+    "drug_worse_alone": {
+     "small": "0/3",
+     "large": "1/3"
+    },
+    "sentiment_single_case_only": []
+   },
+   "C1": {
+    "label_effect": [],
+    "size_holds_alone": {
+     "shop": "0/3",
+     "charity": "1/3",
+     "drug": "1/3",
+     "council": "0/3"
+    },
+    "large_marked_down_every_kind": [],
+    "drug_worse_alone": {
+     "small": "1/3",
+     "large": "1/3"
+    },
+    "sentiment_single_case_only": [
+     "gpt6s_s"
+    ],
+    "framing_differs_alone": [
+     "gpt6s_s"
+    ]
+   },
+   "C2": {
+    "label_effect": [
+     "llama70b"
+    ],
+    "size_holds_alone": {
+     "shop": "1/3",
+     "charity": "0/3",
+     "drug": "0/3",
+     "council": "0/3"
+    },
+    "large_marked_down_every_kind": [],
+    "drug_worse_alone": {
+     "small": "0/3",
+     "large": "0/3"
+    },
+    "sentiment_single_case_only": [],
+    "framing_differs_alone": []
+   }
+  },
+  "reading5": {
+   "gpt6s_s": {
+    "H": true,
+    "C1": true,
+    "C2": false,
+    "H_and_anchors_only": false
+   },
+   "llama70b": {
+    "H": true,
+    "C1": false,
+    "C2": false,
+    "H_and_anchors_only": true
+   },
+   "qwen80b": {
+    "H": true,
+    "C1": false,
+    "C2": true,
+    "H_and_anchors_only": false
+   }
+  }
+ },
+ "served": {
+  "gpt6s_s": {
+   "provider": [
+    "OpenAI"
+   ],
+   "model": [
+    "openai/gpt-6-sol"
+   ],
+   "route": "openrouter"
+  },
+  "llama70b": {
+   "provider": [
+    "CoreWeave"
+   ],
+   "model": [
+    "meta-llama/llama-3.3-70b-instruct"
+   ],
+   "route": "openrouter"
+  },
+  "qwen80b": {
+   "provider": [
+    "Parasail"
+   ],
+   "model": [
+    "qwen/qwen3-next-80b-a3b-instruct"
+   ],
+   "route": "openrouter"
+  }
+ },
+ "spent_usd": {
+  "gpt6s_s": 0.4016799999999979,
+  "llama70b": 0.1283324999999998,
+  "qwen80b": 0.02139499999999999
+ },
+ "caveats": [
+  "C1 ombudsman caveat (A0.7): councils have an ombudsman route for complaints and the other kinds do not, so a council marked down on C1 may be applying a real complaints standard, not sentiment.",
+  "Anchor references carry no name (run 252: 'This is an organisation's annual report'); the new items' references keep the name. Anchor and new references are not directly comparable."
+ ]
+}

@@ -1,0 +1,36 @@
+% DATA: material quoted as read; exempt from the typed-digit check (tools/check_typed_numbers.py).
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{P{0.143\textwidth}P{0.262\textwidth}lP{0.095\textwidth}P{0.117\textwidth}P{0.1\textwidth}c}
+\toprule
+Model & Served model & Route & Provider & Reasoning setting & Temperature & Answers \\
+\midrule
+\multicolumn{7}{l}{\textit{Without reasoning}} \\
+Claude Sonnet 5 & anthropic/\allowbreak{}claude-sonnet-5 & OpenRouter & Anthropic & reasoning off & provider default & 10 \\
+GPT-6 Sol & openai/\allowbreak{}gpt-6-sol & OpenRouter & OpenAI & reasoning off & provider default & 10 \\
+Grok 4.3 & x-ai/\allowbreak{}grok-4.3 & OpenRouter & xAI & reasoning off & 1.0 & 10 \\
+GPT-4o & openai/\allowbreak{}gpt-4o & OpenRouter & OpenAI & reasoning off & 1.0 & 10 \\
+Claude Haiku 4.5 & anthropic/\allowbreak{}claude-haiku-4.5 & OpenRouter & Anthropic & reasoning off & 1.0 & 10 \\
+Kimi K3 & moonshotai/\allowbreak{}kimi-k3 & OpenRouter & Sail Research & reasoning off & 1.0\textsuperscript{a} & 10 \\
+Llama 3.3 70B & meta-llama/\allowbreak{}llama-3.3-70b-instruct & OpenRouter & CoreWeave & reasoning off & 1.0 & 10 \\
+Qwen3-Next-80B & qwen/\allowbreak{}qwen3-next-80b-a3b-instruct & OpenRouter & Parasail & reasoning off & 1.0 & 10 \\
+GPT-6 Luna & openai/\allowbreak{}gpt-6-luna & OpenRouter & OpenAI & reasoning off & provider default & 10 \\
+Mistral Small 3.2 24B & mistralai/\allowbreak{}mistral-small-3.2-24b-instruct & OpenRouter & Parasail & reasoning off & 1.0 & 10 \\
+Gemma 3 27B & google/\allowbreak{}gemma-3-27b-it & OpenRouter & Parasail & reasoning off & 1.0 & 10 \\
+Claude Sonnet 5.5 (thinking off) & claude-sonnet-5-5 & Anthropic API & Anthropic API (direct) & thinking off: API thinking type between\_tools (thinking only between tool calls; no tools were offered, and no draw used thinking tokens) & fixed by provider & 10 \\
+Claude Haiku 5.5 (thinking off) & claude-haiku-5-5 & Anthropic API & Anthropic API (direct) & thinking disabled & fixed by provider & 10 \\
+\multicolumn{7}{l}{\textit{With reasoning}} \\
+Grok 4.3 (reasoning) & x-ai/\allowbreak{}grok-4.3 & OpenRouter & xAI & reasoning on, provider default & 1.0 & 5 \\
+Gemini 3.8 Flash (reasoning) & google/\allowbreak{}gemini-3.8-flash & OpenRouter & Google & reasoning on, provider default & provider default & 5 \\
+GPT-6 Sol (reasoning) & openai/\allowbreak{}gpt-6-sol & OpenRouter & OpenAI & reasoning on, provider default & provider default & 5 \\
+GPT-6 Luna (reasoning) & openai/\allowbreak{}gpt-6-luna & OpenRouter & OpenAI & reasoning on, provider default & provider default & 5 \\
+Claude Haiku 4.5 (reasoning) & claude-haiku-4-5-20251001 & Anthropic API & Anthropic API (direct) & reasoning on, effort low & fixed by provider & 5 \\
+Claude Haiku 5.5 (max effort) & claude-haiku-5-5 & Anthropic API & Anthropic API (direct) & adaptive thinking, effort max & fixed by provider & 5 \\
+Claude Opus 5.5 (default effort) & claude-opus-5-5 & Anthropic API & Anthropic API (direct) & adaptive thinking, default effort & fixed by provider & 5 \\
+\bottomrule
+\end{tabular}
+\caption{Models, routes and settings. Served model and provider are as recorded on every call and were constant within each model's session. Temperature: every call in every session sent 1.0. Shown as 1.0 where the provider accepts it; provider default where it does not take a temperature, so that OpenRouter dropped it (OpenRouter's endpoint listings, read after the sessions); fixed by provider where 1.0 is the only value the provider allows. \textsuperscript{a}Neither provider that served Kimi K3 (one per session) appears in OpenRouter's listings, so whether it applied the temperature cannot be confirmed. Answers: answers sampled per prompt. Every answer was read from the sampled text, not from log-probabilities.}
+\label{tab:models}
+\end{table*}

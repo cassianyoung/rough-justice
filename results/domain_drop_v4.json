@@ -1,0 +1,40 @@
+{
+ "definition": "side by side (A) minus alone (B) share decided correctly, models without reasoning, by domain",
+ "source": "results/outcomes_run259_v6.json#main.NoReasoning.<Domain>.A/B.share",
+ "drop": {
+  "Insurance": 0.5364635364635364,
+  "Thresholds": 0.43743589743589745,
+  "Seniority": 0.6666666666666667,
+  "Dismissal": 0.4078947368421053,
+  "Suitability": 0.7051282051282052,
+  "Vulnerable": 0.6282051282051283
+ },
+ "ci": {
+  "Insurance": [
+   0.28205128205128205,
+   0.7692307692307693
+  ],
+  "Thresholds": [
+   0.23992673992673996,
+   0.6555786555786556
+  ],
+  "Seniority": [
+   0.4230769230769231,
+   0.8717948717948718
+  ],
+  "Dismissal": [
+   0.1891891891891892,
+   0.637029637029637
+  ],
+  "Suitability": [
+   0.44871794871794873,
+   0.9230769230769231
+  ],
+  "Vulnerable": [
+   0.38461538461538464,
+   0.8461538461538461
+  ]
+ },
+ "min": "Dismissal",
+ "max": "Suitability"
+}

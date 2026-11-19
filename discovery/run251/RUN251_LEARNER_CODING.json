@@ -1,0 +1,725 @@
+{
+ "method": "A1.2 coding of domain 12 abstract_reason answers: keyword-assisted (supervis*; inexperience/developing/learning/skills/proficiency/competence; law/legal/Nettleship), every answer then read by hand by CC on 2026-11-09 and the code confirmed. The abstract question names no passenger, so supervision can only enter from the model.",
+ "rows": [
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 0,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in legal terms, though **yes** in instructional/practical terms) — I should clarify this, as the answer genuinely depends on the context:\n\n**Legally:** No — in most jurisdictions (e.g., UK, per *Nettleship v Weston*), learner drivers are held to the same objective standard of care as a competent, experienced driver when it comes to civil liability for accidents, because other road users and passengers deserve consistent protection regardless of who is behind the wheel.\n\n**Pedagogically/practically:** Yes — an instructor or examiner assessing a learner's *progress* on only their third lesson would reasonably expect lower skill levels (e.g., clutch control, mirror checks, confidence) than a full license holder, since learning to drive is a gradual process.\n\nSo the honest answ"
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 1,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in the legal sense).\n\nIn English law (*Nettleship v Weston*), a learner driver is judged against the standard of a reasonably competent qualified driver, not a lower standard, because the law protects the public and other road users who are entitled to expect a consistent standard of care regardless of the driver's experience—though this is purely a legal liability standard, and it's entirely reasonable to have different pedagogical/practical expectations for a learner's skill level in a teaching context."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 2,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in terms of legal liability for negligence) — though informally most people expect a learner to drive less skillfully, the law in most jurisdictions (e.g., the UK case *Nettleship v Weston*) holds learner drivers to the same objective standard of care as a reasonably competent qualified driver, because road users and the public need consistent protection regardless of the driver's experience level."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 3,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** — in English law (Nettleship v Weston), learner drivers are legally held to the same objective standard of the reasonably competent qualified driver as anyone else, since the standard of care owed to others on the road doesn't vary with the driver's individual experience or skill."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 4,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in legal terms) — though this needs a quick clarification, because the answer differs depending on whether you mean *legal* standards or *practical/pedagogical* standards.\n\nIn law (at least in the UK and most common law jurisdictions, per cases like *Nettleship v Weston*), a learner driver is held to the **same standard as a reasonably competent qualified driver**, not a lower one — because the public and other road users are entitled to expect the same level of safety regardless of the driver's experience.\n\nHowever, in a **practical teaching/learning context**, an instructor will of course have lower *expectations* of skill and smoothness on a third lesson compared to an experienced driver — but this is a pedagogical standard, not a legal one.\n\nSo: **No**, because the legal duty of care owed to others on the road does not"
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 5,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in the legal sense, though yes in a practical/pedagogical sense) — this needs a quick clarification because the answer genuinely differs depending on context:\n\n- **Legally** (at least in UK law, per *Nettleship v Weston*): No, a learner driver is held to the same objective standard of care as a qualified, competent driver, because the law judges the standard of driving, not the individual driver's experience — this protects other road users and insurance/liability systems from uncertainty.\n\n- **Pedagogically/instructionally**: Yes, an instructor or examiner would reasonably expect lower skill levels, more mistakes, and slower decision-making from someone on their third lesson compared to an experienced driver, and would adjust teaching expectations accordingly.\n\nSo: **for legal liability purposes,"
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 6,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (in the context of legal liability for negligence, such as in the famous UK case *Nettleship v Weston*) — the law judges a learner driver by the same objective standard as a competent, experienced driver, because the public and other road users are entitled to expect a reasonable standard of driving regardless of the driver's actual skill or experience level, though this is distinct from moral judgment, where most people would naturally be more forgiving of a beginner's mistakes."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 7,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (at least from a legal standpoint, though informally many people would say the practical expectations differ).\n\nIn English law (Nettleship v Weston), the standard of care required of a learner driver is the same objective standard as that of a reasonably competent qualified driver, because the law judges conduct by reference to the risk posed to others, not the personal characteristics or experience of the defendant—so for legal liability purposes, no, but as a matter of fairness and practical instruction, many would argue a learner should be given more patience and allowance for mistakes while learning."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 8,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No.**\n\nIn negligence law, a learner driver is legally held to the same objective standard as a reasonably competent qualified driver, because the law judges the standard of care owed to others (such as passengers or pedestrians) by reference to the activity being undertaken, not the personal skill or experience of the individual performing it—this ensures victims aren't denied compensation simply because they had the misfortune of being harmed by a novice rather than an expert."
+  },
+  {
+   "arm": "claude",
+   "pair": "D1",
+   "draw": 9,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** — in civil law (such as negligence claims), a learner driver is legally held to the same standard as a reasonably competent, experienced driver, because the law prioritizes protecting other road users over accommodating the defendant's personal inexperience."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 0,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "No — at least, not in the legal sense: for the purposes of civil liability (like a negligence claim after an accident), the law typically judges a learner driver against the same objective standard of a reasonably competent, qualified driver, rather than lowering the bar to match their experience level, because the standard protects other road users and victims who deserve consistent protection regardless of who is behind the wheel.\n\nThat said, if you're asking about a *driving instructor's or examiner's pedagogical standard* (how a lesson is assessed for learning purposes), then the answer shifts to **yes** — instructors naturally calibrate expectations to a student's stage of training, focusing on gradual skill-building rather than expecting mastery equivalent to a seasoned driver.\n\nSo the answer depends on context:\n- **Legal/liability standard"
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 1,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No.**\n\nLegally (at least in UK law, e.g. *Nettleship v Weston*), a learner driver is held to the same objective standard of care as a reasonably competent qualified driver, because the standard of care in negligence is based on the nature of the activity (driving) rather than the personal experience or skill of the individual performing it, in order to protect other road users and ensure fair compensation for victims regardless of who caused the harm."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 2,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "No, because the legal standard of care in driving (particularly for negligence purposes) is that of a reasonably competent qualified driver, applied objectively regardless of the individual's experience, so that victims of accidents aren't denied compensation simply because the person who harmed them was a novice."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 3,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (from a legal standard perspective, though yes in practical/pedagogical terms).\n\nIn law—at least in UK and many other common-law jurisdictions—a learner driver is held to the same objective standard of care as a competent, experienced driver (as established in cases like *Nettleship v Weston*), because the standard of care in negligence is based on the nature of the task (driving) rather than the individual's experience, in order to protect other road users and maintain a consistent, predictable standard of care; however, in terms of actual skill and instructional expectations, instructors and examiners naturally allow for a learner's developing competence while still requiring them to act safely at all times."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 4,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (as a matter of legal standard, though yes in practical/instructional expectations).\n\nIn negligence law, a learner driver is held to the same objective standard of care as a reasonably competent experienced driver, because the public and other road users are entitled to expect a basic standard of safety regardless of the driver's experience—though in a non-legal, instructional context, a driving instructor would naturally have lower practical expectations of skill and polish from someone on their third lesson."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 5,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No.**\n\nIn most legal contexts (such as determining liability for negligence or an accident), a learner driver is held to the same standard as a reasonably competent, experienced driver, because the law prioritizes the safety and protection of others on the road over the driver's personal level of skill or experience."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 6,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No.**\n\nIn most legal contexts (such as determining liability for an accident), the law actually holds learner drivers to the same objective standard of a reasonably competent qualified driver—not a lower standard—because the public interest in road safety requires a consistent standard that doesn't depend on the driver's experience level.\n\nThat said, if your question is about *pedagogical* standards (i.e., what a driving instructor should expect in terms of skill mastery during training), then yes, instructors naturally calibrate expectations to a learner's stage of progress—but this is a practical teaching approach, not a legal or safety standard."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 7,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** — at least not in the legal sense: the law (famously in *Nettleship v Weston*) judges all drivers, including learners, against the single objective standard of a reasonably competent qualified driver, because road users and insurers need a consistent, predictable standard to rely on regardless of the driver's actual experience."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 8,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No** (at least from a legal/civil liability standpoint).\n\nIn most common law jurisdictions, the standard of care owed by a learner driver to other road users, pedestrians, and passengers is the same objective standard as that of a reasonably competent, experienced driver, because the public (and insurers) need a consistent, predictable standard to rely on regardless of the driver's personal experience—though morally and pedagogically, we might still expect patience and tolerance for mistakes during the learning process itself, which is a separate matter from legal liability."
+  },
+  {
+   "arm": "claude",
+   "pair": "D2",
+   "draw": 9,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": true,
+   "text": "**No.**\n\nIn English law (and many similar jurisdictions), the standard of care expected from a driver is that of a reasonably competent, experienced driver, regardless of how long the person has been learning—this objective standard exists to protect other road users, who are owed the same duty of care whether the person behind the wheel is a novice or an expert (as established in *Nettleship v Weston*)."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 0,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No. A learner may need more guidance, but they must still meet the same safety standards on the road."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 1,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No, because a learner’s inexperience may affect how mistakes are judged, but they must still drive safely enough to protect other road users."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 2,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No. A learner driver should meet the same safety standard on the road, though their inexperience should be taken into account when assessing their mistakes."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 3,
+   "answer": "no",
+   "code": "BOTH",
+   "cites_law": false,
+   "text": "No. A learner’s inexperience calls for more supervision, but both drivers must meet the same standard of care to keep others safe."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 4,
+   "answer": "no",
+   "code": "BOTH",
+   "cites_law": false,
+   "text": "No. A learner driver must meet the same standard of care toward other road users, although their inexperience may affect how they are taught and supervised."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 5,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No. A learner’s inexperience may affect how their actions are judged, but the standard of safe driving needed to protect others remains the same."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 6,
+   "answer": "no",
+   "code": "SUPERVISION",
+   "cites_law": false,
+   "text": "No, because all drivers must meet the same standard of safety on the road, even though a learner may need more guidance and supervision."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 7,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No, because the same safety standards apply to everyone on the road, though a learner’s inexperience should be taken into account when assessing their mistakes."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 8,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No. A learner’s inexperience may affect how a mistake is judged, but the standard of safe driving on the road is the same for everyone."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D1",
+   "draw": 9,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No. A learner driver must meet the same standard of care on the road as an experienced driver to protect other road users."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 0,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No, because all drivers must meet the same standard of care to keep other road users safe, though an instructor should account for the learner’s inexperience."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 1,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No. A learner’s inexperience may affect how their mistakes are assessed, but they must still drive safely and follow the same road rules as an experienced driver."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 2,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No. A learner may need more guidance, but they must meet the same safety standards as any other driver on the road."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 3,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No. A learner may be expected to make more mistakes, but must still meet the same standard of reasonable care for the safety of others."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 4,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No, because a learner’s inexperience does not reduce the standard of care needed to keep other road users safe."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 5,
+   "answer": "no",
+   "code": "BOTH",
+   "cites_law": false,
+   "text": "No, because all drivers must meet the same standard of care to protect other road users, although a learner’s inexperience may call for closer supervision."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 6,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No, because a learner’s inexperience may affect how their mistakes are judged, but it does not reduce the standard of care needed to keep others safe."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 7,
+   "answer": "no",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "No. A learner’s inexperience may affect how their conduct is assessed, but they must meet the same standard of care as an experienced driver."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 8,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No, because learner drivers must meet the same standard of care as experienced drivers to protect other road users."
+  },
+  {
+   "arm": "gpt6s_s",
+   "pair": "D2",
+   "draw": 9,
+   "answer": "no",
+   "code": "NEITHER",
+   "cites_law": false,
+   "text": "No, because all drivers must meet the same standard of care for the safety of others, regardless of experience."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 0,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and gaining experience, and it would be unfair to expect them to meet the same standards as a more experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 1,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 2,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on a third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 3,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and knowledge, and is not yet expected to have the same level of competence as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 4,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and has limited experience, whereas an experienced driver has had time to refine their abilities and is expected to demonstrate a higher level of competence."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 5,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still in the process of developing their skills and may not have the same level of proficiency or experience as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 6,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and gaining experience, and therefore cannot be expected to demonstrate the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 7,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 8,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and gaining experience, and it is unreasonable to expect them to demonstrate the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D1",
+   "draw": 9,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on a third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 0,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and gaining experience, and therefore cannot be expected to demonstrate the same level of competence as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 1,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 2,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 3,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and has limited experience, and therefore should not be expected to demonstrate the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 4,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on a third lesson is still developing their skills and has limited experience, and therefore cannot be expected to demonstrate the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 5,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still in the process of developing their skills and has not yet had the opportunity to practice and refine their driving abilities to the same level as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 6,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still in the process of developing their skills and knowledge, and is not yet expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 7,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still in the process of developing their driving skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 8,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "llama70b",
+   "pair": "D2",
+   "draw": 9,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because a learner driver on their third lesson is still developing their skills and is not expected to have the same level of proficiency as an experienced driver."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 0,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are assumed to have mastered fundamental driving competencies."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 1,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 2,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full competency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 3,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 4,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full competency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 5,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full licensing standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 6,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed to have mastered basic driving competencies."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 7,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are assumed to have mastered basic driving competencies."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 8,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D1",
+   "draw": 9,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full competency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 0,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 1,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are assumed to have mastered fundamental driving competencies."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 2,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are required to demonstrate consistent competence."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 3,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are assumed to have mastered basic driving competencies."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 4,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full competency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 5,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are assumed to have mastered fundamental driving abilities."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 6,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full competency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 7,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are held to full proficiency standards."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 8,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  },
+  {
+   "arm": "qwen80b",
+   "pair": "D2",
+   "draw": 9,
+   "answer": "yes",
+   "code": "INEXPERIENCE",
+   "cites_law": false,
+   "text": "Yes, because learner drivers are still developing their skills and are expected to make mistakes as part of the learning process, unlike experienced drivers who are presumed competent."
+  }
+ ]
+}

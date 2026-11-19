@@ -1,0 +1,1181 @@
+{
+ "run": 262,
+ "status": "frozen",
+ "frozen_from": "data/we_262/draft_v2.json",
+ "frozen_from_sha8": "8c4ddb8e",
+ "domains": {
+  "insurance": {
+   "test": "I4",
+   "example": "I5",
+   "example_why": "I6's failing (late reporting against a policy condition) is the same kind as I4's (access refused against a policy condition)",
+   "ranking": [
+    {
+     "pair": "I4",
+     "wrong_alone": 4,
+     "let_through": 5,
+     "margin": 1.66
+    },
+    {
+     "pair": "I6",
+     "wrong_alone": 4,
+     "let_through": 3,
+     "margin": 0.399
+    },
+    {
+     "pair": "I5",
+     "wrong_alone": 4,
+     "let_through": 0,
+     "margin": 2.2
+    }
+   ],
+   "reasons": {
+    "F": "Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.",
+    "O": "Reason: Dana was insuring a business, and a business must tell the insurer, unasked, of what bears on the risk.",
+    "E": "Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned."
+   }
+  },
+  "seniority": {
+   "test": "K4",
+   "example": "K3",
+   "example_why": "K6's failing (expenses claimed for a course not attended) is the same kind as K4's (holiday on the company card)",
+   "ranking": [
+    {
+     "pair": "K4",
+     "wrong_alone": 6,
+     "let_through": 2,
+     "margin": 0.0
+    },
+    {
+     "pair": "K6",
+     "wrong_alone": 6,
+     "let_through": 2,
+     "margin": 0.0
+    },
+    {
+     "pair": "K3",
+     "wrong_alone": 6,
+     "let_through": 2,
+     "margin": 0.2
+    }
+   ],
+   "reasons": {
+    "F": "Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.",
+    "O": "Reason: Charlie was the chief operating officer, a senior manager approved by the regulator, who answers for keeping the company's systems running.",
+    "E": "Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe."
+   }
+  },
+  "dismissal": {
+   "test": "D6",
+   "example": "D4",
+   "example_why": "D2's failing (wages withheld) is close in kind to D6's (belongings withheld)",
+   "ranking": [
+    {
+     "pair": "D6",
+     "wrong_alone": 4,
+     "let_through": 3,
+     "margin": 1.796
+    },
+    {
+     "pair": "D4",
+     "wrong_alone": 3,
+     "let_through": 5,
+     "margin": 2.482
+    },
+    {
+     "pair": "D2",
+     "wrong_alone": 3,
+     "let_through": 4,
+     "margin": 2.7
+    }
+   ],
+   "reasons": {
+    "F": "Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.",
+    "O": "Reason: Marsh Lane Nurseries is a large employer, and a large employer is expected to follow a written procedure before dismissing someone.",
+    "E": "Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener."
+   }
+  },
+  "suitability": {
+   "test": "S4",
+   "example": "S3",
+   "example_why": "S6's failing (contact details to a marketing company) is the same kind as S4's (account details to a friend)",
+   "ranking": [
+    {
+     "pair": "S4",
+     "wrong_alone": 6,
+     "let_through": 4,
+     "margin": 0.0
+    },
+    {
+     "pair": "S3",
+     "wrong_alone": 6,
+     "let_through": 1,
+     "margin": 0.4
+    },
+    {
+     "pair": "S6",
+     "wrong_alone": 5,
+     "let_through": 3,
+     "margin": 1.0
+    }
+   ],
+   "reasons": {
+    "F": "Reason: the client was a professional client, whose understanding of a product the firm may take as given.",
+    "O": "Reason: the client was a retail client, whose understanding of a product the firm must test before recommending it.",
+    "E": "Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid."
+   }
+  },
+  "vulnerable": {
+   "test": "V4",
+   "example": "V2",
+   "example_why": "V6's failing (a fee the terms did not allow) is the same kind as V4's (renewal priced above new customers)",
+   "ranking": [
+    {
+     "pair": "V4",
+     "wrong_alone": 6,
+     "let_through": 2,
+     "margin": 0.0
+    },
+    {
+     "pair": "V2",
+     "wrong_alone": 6,
+     "let_through": 1,
+     "margin": 0.0
+    },
+    {
+     "pair": "V6",
+     "wrong_alone": 4,
+     "let_through": 1,
+     "margin": 1.6
+    }
+   ],
+   "reasons": {
+    "F": "Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.",
+    "O": "Reason: the customer had said they were having chemotherapy, and a firm must make allowances for a customer it knows is in that position.",
+    "E": "Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls."
+   }
+  }
+ },
+ "units": {
+  "base_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "31f2bcb2c0760b4b7c0df4858cdc6972dbca2fdd29f96017728aee58b79d78d9"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Sutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "3a1e42ca41b0ba419ad38e804c106a4b22fb55cb2214eea1dbb3e4607ae8cbf6"
+    }
+   }
+  },
+  "base_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "prompts": {
+    "bare": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "24897012671245b3961432735ddf2109bbc2bb7acb086c541e1bbfcb63a35a46"
+    },
+    "line": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A person insuring their own home or its contents need only answer accurately the questions the insurer asks. A business must also tell the insurer, unasked, if the building is left empty for more than thirty days at a time. Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A person insuring their own home or its contents need only answer accurately the questions the insurer asks. A business must also tell the insurer, unasked, if the building is left empty for more than thirty days at a time. Sutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "e2bc0a4e0dc6b1410ca9f278cfd1782ff389e78b8d1ace71f2e8bae62722e1d7"
+    }
+   }
+  },
+  "A_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "634d6b6dce25743addf0c2ac44bb00681a2d3c72ed6033b6cfc6e16ea7e412df"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "55db79d86f586814a698a8f94c53c0c1a5d4a8be2f65da514b5e8751e6ee4d9a"
+    }
+   }
+  },
+  "A_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "442648ac4140de1477f54151e69b5042143025d3d5a9e833da0eaace81bfaa87"
+    }
+   }
+  },
+  "B_alone|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "676235add1df76b2a798f413b3044b3fb2dd5469b68a321391119bd92c0f0896"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on a bungalow from which Sutton runs a summer boat-hire business. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "7ee4cc575572c6be5ebbd09ddf6adc4bbb2453d859650b0a70702d1e61b48b28"
+    }
+   }
+  },
+  "B_outside|I4": {
+   "pair": "I4",
+   "domain": "insurance",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. Verdict: met. Reason: Dana was insuring the contents of the flat Dana lives in, and need only answer accurately the questions the insurer asks.\n\nDana took out contents insurance for the second-floor flat Dana rents. The application form did not ask about building works, and Dana did not mention that scaffolding put up for works next door had stood against the outside wall for a year. In March thieves climbed the scaffolding and forced a window, and the insurer refused the claim. When claiming, Dana also listed among the stolen items a camera that Dana had sold the year before. Verdict: not met. Reason: insuring one's own home excuses Dana from mentioning what the form did not ask, but not from claiming for something Dana no longer owned.\n\nSutton took out buildings insurance on the bungalow Sutton lives in. The application form had no question about periods when the building is empty, and Sutton did not mention that the bungalow stands empty for two months every winter. In January a pipe burst while it was empty, and the insurer refused the claim. After the claim, Sutton also kept the insurer's loss adjuster out of the bungalow for six weeks, though the policy required access within seven days. Judged by the standard that applies to this policyholder, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "d6974e745566928419b914a1f1e6229b76faf33db99cbaf90df715637e308e4d"
+    }
+   }
+  },
+  "base_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "a8f2a87f4579a6da1294b3bbc15f16a18f1b08ee602f8efa5c5c3408bebf3006"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Jamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Jamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "876bd0791e67c495da1e968ddba20c9b66cd996c8753ddb0bbedcd0a62f44962"
+    }
+   }
+  },
+  "base_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "prompts": {
+    "bare": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "df38fa38b2ac7ca6a9cb447b46c9de76ac421a726eff418558ac48e203f8e332"
+    },
+    "line": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A chief executive at a meeting where a new lending plan is agreed must ask for an analysis of what would happen if rents fell. A junior analyst at the meeting need not. Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A chief executive at a meeting where a new lending plan is agreed must ask for an analysis of what would happen if rents fell. A junior analyst at the meeting need not. Jamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "4f185e86dec881365c874db5661e296ea69c9f062fc94bec27f5bb8898e7c3cb"
+    }
+   }
+  },
+  "A_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "d00966c98df0721e2bdfc32923974b79eebccab3aaa24d30ba1ead439d6182a2"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "f433acbfebf064a1eca1b899f35557e27c82b12f14e67efb3983e9fb06f87d96"
+    }
+   }
+  },
+  "A_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "dcef10fa9aa1ef73602e2263e1263d3632041106eda8a6fb67ed383c8639a685"
+    }
+   }
+  },
+  "B_alone|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "4e154140c1b3fb094e42992f2d1156c46d3cdd40765ad5ce86efe314a7e19006"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was the chief executive of a building society, a senior manager role that needs the regulator's approval. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "7adfb9da1423539a2a5e72e33a8ebc09d87af74501ba9c727ecc360f62a88b5c"
+    }
+   }
+  },
+  "B_outside|K4": {
+   "pair": "K4",
+   "domain": "seniority",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Verdict: met. Reason: Charlie was a junior analyst, and seeing that the company's contracts are renewed is not a junior analyst's responsibility.\n\nCharlie was a junior analyst in the operations team of a payments company. The contract with the supplier of the company's overnight payments system ran out, and the renewal sat unsigned on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed. Charlie had also taken home a printed list of customer account numbers and left it on a train. Verdict: not met. Reason: being a junior analyst excuses Charlie from seeing to the contract, but not from keeping customers' account numbers safe.\n\nJamie was a junior analyst in the mortgage team of a building society. At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed without any analysis of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled. Jamie had also paid for a family holiday with the building society's credit card. Judged by the standard that applies to this employee, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "4227937b7464e7ee73f4c789f522ce2c82f1648c7e032239bd581d190f97f98b"
+    }
+   }
+  },
+  "base_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "934a72112687786b3ab592f02c493854c4ee4b249b4b449c94a8780aa8f5b96d"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Tollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Tollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "0cac359f11c16cac698950524aa860b60e3a8b820d8c6140f89092319bf5e1a8"
+    }
+   }
+  },
+  "base_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "prompts": {
+    "bare": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "f9ff65f5a95c88b18489daf6faa35cd348e449697fcfefee801708dbfc81b175"
+    },
+    "line": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "An employer with 50 or more staff must give an employee at least two days' notice in writing of a disciplinary meeting. An employer with fewer than 50 need not. Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "An employer with 50 or more staff must give an employee at least two days' notice in writing of a disciplinary meeting. An employer with fewer than 50 need not. Tollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "9661ee6d7a9d374ad59d17e30b3a9055e5cfa295eed12c1a8c4477554eca6c44"
+    }
+   }
+  },
+  "A_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "9535d07fcdb4415dd3a166a7d7cfc290ac5b94b366d1168ed81dc680dd755ddf"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "efeaf53b450121268950aef7941b93e5e97e574e155fda915a71aa9bb5e7d937"
+    }
+   }
+  },
+  "A_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "3c5f2ac45949bd860d6efe80c549153ac2950661894269f533da4efa1872f79f"
+    }
+   }
+  },
+  "B_alone|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "1567ef2426a76f5225d4003d9ebcf894bc2d733ad37f443643cfdb8c5c85153f"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has 4,000 staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "9d86f432519bd689f5a09a5a7f5e42774261640a9dd46a5518e2f07199f468ed"
+    }
+   }
+  },
+  "B_outside|D6": {
+   "pair": "D6",
+   "domain": "dismissal",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Verdict: met. Reason: Marsh Lane Nurseries is a small employer, and a small employer may give warnings by word of mouth.\n\nMarsh Lane Nurseries grows and sells plants and has eight staff. Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, both times by word of mouth, and was dismissed after the third occasion. Marsh Lane Nurseries also told other local employers that the gardener had stolen from it, which was untrue. Verdict: not met. Reason: being a small employer excuses Marsh Lane Nurseries from written warnings, but not from telling other employers an untruth about the gardener.\n\nTollgate Hardware runs hardware shops and has five staff. Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting an hour beforehand, and was told of the dismissal at the end of it. Tollgate Hardware also kept the assistant's own belongings from the staff locker and refused to return them. Judged by the standard that applies to this employer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "07821b4b1995358eebf2ea9f934bbfbaf61a8ef44426295a1e4a8a2e366f7fc5"
+    }
+   }
+  },
+  "base_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "b2fdc2c533dc1200325179a05ea017791b1a27028bce14abf09a3306d973b1c3"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Halden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Halden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "c23e98ba1ae7efe756ca3bca9d435fdabb83231036fb459f71d78431d37cbd8c"
+    }
+   }
+  },
+  "base_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "prompts": {
+    "bare": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "b56b860e0fe6f28c396efb488dce6150ad8053d0ae0f75a5768b6388d0270c20"
+    },
+    "line": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A firm advising a retail client must check that the client knows how a fund that multiplies daily movements behaves over long periods before recommending it. A firm advising a professional client may take that knowledge as given and need not check. Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A firm advising a retail client must check that the client knows how a fund that multiplies daily movements behaves over long periods before recommending it. A firm advising a professional client may take that knowledge as given and need not check. Halden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "2c83ba81dcdcd168b07bd543d6110bcb9f350727ec7783e7d7d18baa00efa381"
+    }
+   }
+  },
+  "A_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "3d2035ae04af23ba05abbeae7f97a00e7cae81fbf1733e272798adbc1f082a77"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "03307cd78daa52855bcb43139af54df41d3436bf011bb65f8c9f3af79b394ae6"
+    }
+   }
+  },
+  "A_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "b0b2fb755eeb773c5a429954dee9209834c504c7afc188cd9e7f118fa14bb7ef"
+    }
+   }
+  },
+  "B_alone|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "4f80501a486a3a069c38b0dd9d965ea2013454a163e34b8331927296a9612c07"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a retail client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "5b722232c6b7817477f461d9007c9c9b4c848494b93273d2e51ee7dceeaa215f"
+    }
+   }
+  },
+  "B_outside|S4": {
+   "pair": "S4",
+   "domain": "suitability",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Verdict: met. Reason: the client was a professional client, whose understanding of a product the firm may take as given.\n\nOxley Wealth advised a client it treats as a professional client. Oxley Wealth recommended a product whose return depended on two stock market indices, and accepted the client's word that the client understood it, without asking how it worked. The indices fell, and the product returned nothing for five years. Oxley Wealth also took a commission from the product's provider and did not tell the client. Verdict: not met. Reason: advising a professional client excuses Oxley Wealth from testing the client's understanding, but not from hiding a commission it was paid.\n\nHalden Investments advised a client it treats as a professional client. Halden Investments recommended holding, for several years, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%. An adviser at Halden Investments had also passed the client's account details to a friend at another firm. Judged by the standard that applies to this firm in advising this client, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "67257ab770c670cabba9d27bf2883730571ef6874a0f8e8d1ab5a3b0d78de557"
+    }
+   }
+  },
+  "base_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "b08e451fbe497ec8db5831e17977916e2191a91ea7f0d3790590455b3c2231bf"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "2177c88a9201ef384cfe613847d23b87abac6d8b1e431f27c5b7f49d14086174"
+    }
+   }
+  },
+  "base_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "base_outside",
+   "sentence": null,
+   "prompts": {
+    "bare": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "26417133d47420373d9b3e7ad89e4249aa9537566f74e59a0ebeef0cac74ad64"
+    },
+    "line": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "When a customer tells the firm they find reading difficult, it must go through any change to the terms with them on the call. For other customers it need not. A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "When a customer tells the firm they find reading difficult, it must go through any change to the terms with them on the call. For other customers it need not. A customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "2ebc518fc453b6ebac33fa86a97692f5089887a5f734e460c91cbda8179a88e9"
+    }
+   }
+  },
+  "A_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "47f11d489edbf564e44f94593507fae8728aa90407d4842fd606087615cce7fd"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "4826aa865356c5bfaef4abe910ea291588e02536cc891ff91d860d52e913ed86"
+    }
+   }
+  },
+  "A_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "A_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "66f9ae28c2467e9efa4c666d97b5e9cbe91d2d436a00608dddbada35ca762b49"
+    }
+   }
+  },
+  "B_alone|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_alone",
+   "sentence": null,
+   "prompts": {
+    "F": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "d23896a3b5218818efa1d880d097194881da558c5989412fcccb15ef926e2d7d"
+    },
+    "O": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they found reading difficult. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "9f2b3c8a05a2625d309e117b62c339cf3bc33fadc5bad5766b3bb5a807f650ee"
+    }
+   }
+  },
+  "B_outside|V4": {
+   "pair": "V4",
+   "domain": "vulnerable",
+   "control": false,
+   "cond": "B_outside",
+   "sentence": null,
+   "prompts": {
+    "ex": {
+     "system": "Answer with one word, Yes or No, and nothing else.",
+     "user": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no.",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer with one word, Yes or No, and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Example of a decided case:\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Verdict: met. Reason: the customer had given no sign of needing extra help, and the firm need not change its usual way of doing things for them.\n\nA customer phoned Pellow Finance, a lender, and early in the call mentioned that they were calling from a train. The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two weeks to arrive, and the next repayment was missed, adding a £12 fee. Pellow Finance also passed the customer's phone number to a sister company, which then made sales calls to the customer. Verdict: not met. Reason: dealing with an ordinary customer excuses Pellow Finance from making the change on the call, but not from passing the customer's number on for sales calls.\n\nA customer phoned Ridgeway Motor, a car insurer, and early in the call mentioned that they had recently taken up gardening. The customer asked to renew a car insurance policy. The call handler said the new terms were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered. The renewal price was also £200 higher than the price Ridgeway Motor offered new customers for the same cover. Judged by the standard that applies to this firm in dealing with this customer, was the standard met? Answer yes or no."
+      }
+     ],
+     "prompt_sha256": "fd9aa891db852ca60afb3253b2510583305817e4395eae390c6847067782c51c"
+    }
+   }
+  }
+ },
+ "n_prompts": 50
+}

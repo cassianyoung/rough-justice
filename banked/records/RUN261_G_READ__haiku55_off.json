@@ -1,0 +1,4620 @@
+{
+ "run": "261",
+ "block": "G-milder",
+ "arm": "haiku55_off",
+ "draws": 10,
+ "cells": [
+  "D1",
+  "D2",
+  "D4",
+  "D5",
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5",
+  "K6",
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5",
+  "S6",
+  "V1",
+  "V2",
+  "V3",
+  "V4",
+  "V5",
+  "V6",
+  "W1",
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6"
+ ],
+ "frames": "records/RUN261_G_FRAMES.json",
+ "frames_sha256": "6e57868fc64f90cc4e0a785932fb8d66beb6e751769af4141b130599986f211a",
+ "estimate_usd": 0.009928747140007958,
+ "group_cap_usd": 3.0,
+ "started": "2026-11-16T19:08:52Z",
+ "units": {
+  "G|D1": {
+   "block": "G-milder",
+   "pair": "D1",
+   "domain": "dismissal",
+   "dim": "how far the business looked for other work",
+   "attr": "When Ferncombe Bakery stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c2994128ecd7bd39a740a295a1576bbb12977a88552f12beeeab081504f1a749",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "774f384210213ea61f026d14921fbc25fdf0eb5b4e08d6d28fc637f4b15dce5e",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|D2": {
+   "block": "G-milder",
+   "pair": "D2",
+   "domain": "dismissal",
+   "dim": "how far the appeal was heard apart from the decision",
+   "attr": "Ashgrove Dental dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, with a second manager sitting in, and was upheld.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4012536b832d7b212a51bfd8b8676eaaa72b2ae8f10e3fb62368d16c25f98439",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f5fa323576d1e4a05d8964572b935e4ffaa23aad8ac54fe2392e25aa5b2a9bb4",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|D4": {
+   "block": "G-milder",
+   "pair": "D4",
+   "domain": "dismissal",
+   "dim": "how the earlier warnings were given",
+   "attr": "Marsh Lane Nurseries dismissed a gardener for using the company van for personal trips. The gardener had been warned twice before, once in writing and once by word of mouth, and was dismissed after the third occasion.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "117e0f76cd6e2df88e66dbb461787fc83da2f4241b943b1221ff5dc7ddd601d5",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9a32c6700ac3d250d8a4cf4768a7cb481b0a3d4ffcde5abcb18380f9addc4a7c",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    }
+   }
+  },
+  "G|D5": {
+   "block": "G-milder",
+   "pair": "D5",
+   "domain": "dismissal",
+   "dim": "what the choice was based on",
+   "attr": "When orders fell, Harbour Print chose which machine operator to make redundant by the manager's reading of each operator's attendance record, without scoring the operators against any written criteria.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f39528b2932922e3e47b5db9989b711134b41cc3a26f73044cdf6b4365c5bd61",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "8690b6edd789e73233923508cf14dcc5f00fefed6973834660b42a1b9717bcfc",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K1": {
+   "block": "G-milder",
+   "pair": "K1",
+   "domain": "seniority",
+   "dim": "how plainly and how often the warning came",
+   "attr": "Sam was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. Sam read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c11a085011da7b6a12aa5bec665269bb8a189fc35b860b13ab2aa9f963d325d7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "a77d781b62a93e5f45d8a485cf00d0967452c71a5473d222afcedd7fc77e1db9",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K2": {
+   "block": "G-milder",
+   "pair": "K2",
+   "domain": "seniority",
+   "dim": "how long the report had shown the breach",
+   "attr": "The firm's monthly breach report, which Alex received, showed one fund over its limit on holdings in a single company for the first time that month. Alex took no step, and the breach went on for five more months until an auditor raised it.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "44bf71d6beb8639b1dbf1bc4718a8b5dafe93d8a4fb9db3e80e08b211bdef9b9",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "02360e314c506a5f44732c2956af9b43f8a37f70c2a6745a75a64e7001c71c9f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K3": {
+   "block": "G-milder",
+   "pair": "K3",
+   "domain": "seniority",
+   "dim": "how long the renewal sat unsigned",
+   "attr": "The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "14584d6850021dcc0d2a99adce17ab2e40c765d47fc878bd4962b20a5512d806",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b7bddb9692b22a4d859f95e888982b362a6b46d146da5e9c0a9c7bbdc288fb9f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K4": {
+   "block": "G-milder",
+   "pair": "K4",
+   "domain": "seniority",
+   "dim": "how much was known of the risk when the plan was agreed",
+   "attr": "At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4e5e7e1b8cbc6f871ce2ed9c27ffb1d56bfd13bd8cb9f868a4200d5239458982",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "14b4536d938557e30bef95b4a37fa18963279017c5c0302afb9a209824dc8c56",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K5": {
+   "block": "G-milder",
+   "pair": "K5",
+   "domain": "seniority",
+   "dim": "how much of the model was reviewed",
+   "attr": "A new pricing model went live after Emery had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "37a284e683837678591663233de0c77fd331e86329ab0b92027e10ee0513cb48",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "9a094006bbda37d2d004017cbc8dbfb8bd7b4293b003ac761de63e3b70c4115b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K6": {
+   "block": "G-milder",
+   "pair": "K6",
+   "domain": "seniority",
+   "dim": "how sharply complaints had risen",
+   "attr": "The quarterly complaints figures reached Finley and showed complaints about one savings account rising threefold in a year. Finley passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "ff58a11dbd4ae1efe8c2423233d27a7a12555e73be43e6fd4df6345cb9e05fd0",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "0fc65684cfe66b510c853d12d213b24c958bed2eb65279dba475e65d1ce7c04a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S1": {
+   "block": "G-milder",
+   "pair": "S1",
+   "domain": "suitability",
+   "dim": "how much of the money went into the fund",
+   "attr": "Tarn Capital recommended putting a tenth of the money the client had to invest into a fund that trades currency options, without asking what experience the client had of such funds. The fund lost 40% in a year.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "ff4f1473c3391bd99a606660548a6c35bbab2d8665273ae3a388748cf032a11a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "39819ee9e9d5052fda6a0ae3fc3d8b6738a0e6ced1bec4c7091d8b4d34a7cff1",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S2": {
+   "block": "G-milder",
+   "pair": "S2",
+   "domain": "suitability",
+   "dim": "what the firm sent about the bond",
+   "attr": "Brindle Partners recommended a bank bond that converts into shares if the bank gets into difficulty. It sent the bond's terms with a one-page guide to such bonds but did not check whether the client knew how such bonds work. The bank got into difficulty, the bond was converted, and the client lost 60% of the sum invested.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "494f46c5e175c312cd11a33ff7dbeca84f9ccd1d079ca586f99433ff59cc3d1c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c02137908c290f1df9f6a3c431d172a0de069edd1fec756180c46be2afe58272",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S3": {
+   "block": "G-milder",
+   "pair": "S3",
+   "domain": "suitability",
+   "dim": "how far the firm tested understanding",
+   "attr": "Oxley Wealth recommended a product whose return depended on two stock market indices, asked the client one question about how it worked, and accepted a vague answer. The indices fell, and the product returned nothing for five years.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "fdc99c5e59bb5dcd9e6232f1b4d2a9352282d400c1becf5d621e6f641eb54c09",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "b533bd7cfa5520e4fd4dd73e9a194d8ac2726d5a8ed04e6926303571c127f4e8",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S4": {
+   "block": "G-milder",
+   "pair": "S4",
+   "domain": "suitability",
+   "dim": "how long the fund was to be held",
+   "attr": "Halden Investments recommended holding, for a year, a fund that aims to return three times the daily movement of a share index. It sent the fund's documents but did not check whether the client knew how such funds behave over long periods. The index rose over three years, and the fund lost 20%.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "04cbc023f92d14435c7813438b19dd8b10543ae1c73050e61e3753f7f3607d7a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d0ff43d3a6dfb66ec32e2aa1505c844b2d0756183b894387a7433a1791e4ad81",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S5": {
+   "block": "G-milder",
+   "pair": "S5",
+   "domain": "suitability",
+   "dim": "how much of the money went into the fund",
+   "attr": "Penrose Advisers recommended putting a tenth of the money into a property fund that can stop investors taking their money out, without asking what experience the client had of such funds. A year later the client asked to sell, and the fund had stopped withdrawals for nine months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "85886461c67b283174afd5fd23e62a51655ecb4d119c7dad011130575a8e7140",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f598de3cf5d04e65d1bb47f58e1adba91eb5d637a8de6d3ac85588f414a8b4d0",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|S6": {
+   "block": "G-milder",
+   "pair": "S6",
+   "domain": "suitability",
+   "dim": "how concentrated the holding was",
+   "attr": "Lowther Advisory recommended a bond issued by a small unlisted company, as one of five bonds, without asking whether the client had held such bonds before. The company failed two years later, and the bond was worth nothing.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "db700edfb7382eb05a58c6df9dee7752bd95852b834c8e4b356e27c79cdc3b50",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "48fffd953861b77c8dbf068c754c6150a0759cb0be47aafe3b10e0df9a15971f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V1": {
+   "block": "G-milder",
+   "pair": "V1",
+   "domain": "vulnerable",
+   "dim": "how far the details were checked on the call",
+   "attr": "The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "440eae4529596f7c8637ee23690d92c17c7677fc3970c7372f1fafea30e39212",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "256a94df89ade07b4de919f04f6f7cc18a142b58653011eb33409fff4c24c528",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V2": {
+   "block": "G-milder",
+   "pair": "V2",
+   "domain": "vulnerable",
+   "dim": "how hard the only way to make the change was",
+   "attr": "The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "ae77d4f4f9601fc4a72ea06c3dc170c1db61482328ef3a60cfecc9a23fe4f403",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "af9fbea7b9e53815de07782e793c0e391224cb16113c090b58df62da313454ad",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V3": {
+   "block": "G-milder",
+   "pair": "V3",
+   "domain": "vulnerable",
+   "dim": "how the process was explained",
+   "attr": "The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "c704cf388059fa9a99e32f20acf36c7c610bef155b16968c62f909b8768ac95f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f2ca656efc28d74feff646b23106adc2e1f475892660e6b1c9fb7b6630701189",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V4": {
+   "block": "G-milder",
+   "pair": "V4",
+   "domain": "vulnerable",
+   "dim": "what the customer was told about the change",
+   "attr": "The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "aeaa7a2b647359a9d12356083a5ad56c6d1538e9556183d77a853a36d9a24c2c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "258837e10dcfd81b598123b76dd440fdb66bdd5d48c7762efa88baeeca94d56c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V5": {
+   "block": "G-milder",
+   "pair": "V5",
+   "domain": "vulnerable",
+   "dim": "how the call-back time was set",
+   "attr": "The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "02a3517570a011f3ab7078245e99640b3d17847f6d1d7c3b3917d4ea8a13c691",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "648f3b062b47a9152ac79f12ade6e886e2b1a202e28e3edb24875227a305a08f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V6": {
+   "block": "G-milder",
+   "pair": "V6",
+   "domain": "vulnerable",
+   "dim": "how far the risk was gone through",
+   "attr": "The customer asked to move their pension savings into a different fund. The call handler read out the fund's risk description twice, made the switch on the call, and did not suggest waiting until someone could help. The new fund fell 15% over the following months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "ca124907203b2864a3c51b63ee272e00c7c0fb50f00ec2351206715313b51a85",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "d61f81835e58a432d5dac7d2cc4eaa812dee433c327af81e2a0c9d145d2a7fb7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W1": {
+   "block": "G-milder",
+   "pair": "W1",
+   "domain": "education",
+   "dim": "how many words were misspelt",
+   "attr": "A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "22c1cc9687f87de6441c9059ae0d62d493621753fc1387846a3cff3206ec0a08",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "722ce467c875afc04d57039918adaba04283ebd33ac0650f50a680b9d976c393",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W2": {
+   "block": "G-milder",
+   "pair": "W2",
+   "domain": "education",
+   "dim": "how many sentences ran together",
+   "attr": "The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "1a58607048f349766214a7f6f3c1b6b41da1c6b47cd4c48a42ce63a490ebc894",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2e8417c98f9a80e87c1eddd99c7854ba02c7ccd254a541130a48be8691193c84",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W3": {
+   "block": "G-milder",
+   "pair": "W3",
+   "domain": "education",
+   "dim": "how many points had no support",
+   "attr": "The essay made four points about Roman roads but gave a reason for one of them and none for the other three.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "f653bba82cd54345c689cd1973e0ced8f75cf5aca261ed196a95d2f1989f5f58",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "2a8b590e5713247d959d2f868bb335ddb0ad0b1971dddc27bec55736743526c8",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W4": {
+   "block": "G-milder",
+   "pair": "W4",
+   "domain": "education",
+   "dim": "how much of the essay was chatty",
+   "attr": "The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "e85cacc04ff163e50d9479314b822d97c892e891da5e36866a21c8e01dc99da5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "6be9e1c8de67b90e809d8e5f0a81626e27398f43bfd88d13b9611e79a453b022",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.1
+    }
+   }
+  },
+  "G|W5": {
+   "block": "G-milder",
+   "pair": "W5",
+   "domain": "education",
+   "dim": "how often the point was repeated",
+   "attr": "The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "52b9c76345f45976559f8a8f8ef9de1bfd74ccb61fe8b574d1fe5408cb34bd41",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "4b657b204aabdc53351efe5bc80844f23262fd01851fdb788eb6309d6145b52b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W6": {
+   "block": "G-milder",
+   "pair": "W6",
+   "domain": "education",
+   "dim": "how many stages were left out",
+   "attr": "The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "3141275be0abe47f6786078c01351a792e6fdb4cae6d0171f239b1d141e5b4c2",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "abstract_yn",
+     "readout": "sampled",
+     "n_asked": 10,
+     "n_parsed": 10,
+     "n_void": 0,
+     "prompt_sha256": "1adfcba829f718afe4eef8727b56da19f1a247642d9ef2fb496c810ca424c976",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "thinking_tokens": 0,
+       "answer": "no"
+      }
+     ],
+     "n_thought": 0,
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "Anthropic API (direct)"
+ ],
+ "served_model": [
+  "claude-haiku-5-5"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "Anthropic API (direct)",
+ "wires": {
+  "side": {
+   "model": "claude-haiku-5-5",
+   "provider": "anthropic-direct",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "anthropic",
+   "thinking": {
+    "type": "disabled"
+   },
+   "effort": null,
+   "arm_class": "off"
+  },
+  "alone": {
+   "model": "claude-haiku-5-5",
+   "provider": "anthropic-direct",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "anthropic",
+   "thinking": {
+    "type": "disabled"
+   },
+   "effort": null,
+   "arm_class": "off"
+  },
+  "abstract_yn": {
+   "model": "claude-haiku-5-5",
+   "provider": "anthropic-direct",
+   "max_tokens": 256,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "anthropic",
+   "thinking": {
+    "type": "disabled"
+   },
+   "effort": null,
+   "arm_class": "off"
+  }
+ },
+ "route": "anthropic",
+ "status": "READ",
+ "calls": 560,
+ "spent_usd": 0.009550999999999997,
+ "elapsed_s": 213.6,
+ "finished": "2026-11-16T19:12:25Z"
+}

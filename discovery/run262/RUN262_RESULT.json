@@ -1,0 +1,1005 @@
+{
+ "run": 262,
+ "rows": [
+  {
+   "arm": "claude",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 1.0,
+    "O": 1.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 1.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.1,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "claude",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "claude",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "claude",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "claude",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.8,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.3,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_s",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 0.1,
+   "alone_bare": {
+    "F": 1.0,
+    "O": 0.8,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.1,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.8,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_s",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_s",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.9,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_A": {
+    "F": 0.6,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.6,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_s",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.9,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.6,
+    "let_through": true
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_s",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 0.2,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "qwen80b",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 3.7303353558526667e-06,
+   "alone_bare": {
+    "F": 0.8985319871268731,
+    "O": 0.7310586257997623,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.9704383449860023,
+    "O": 0.0955564801475508,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.9944635104811527,
+    "O": 0.12463547476191866,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.0007096706962307752,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 3.05902221823938e-07,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 5.312546027072869e-08,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "qwen80b",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 1.685225794486702e-08,
+   "alone_bare": {
+    "F": 4.8933918909021466e-08,
+    "O": 6.637664990376239e-09,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.0009110514530168616,
+    "O": 1.939809649699249e-07,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0001047636368428829,
+    "O": 1.7818775165313988e-07,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 3.1441391421504836e-07,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.00010033223522503425,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 1.195649393104092e-06,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "qwen80b",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 0.00012339464382589687,
+   "alone_bare": {
+    "F": 0.9800781359744646,
+    "O": 0.977914008285552,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.9977880003889056,
+    "O": 0.9987973229487449,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.9997965730889073,
+    "O": 0.9920875937098333,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 3.812023094673962e-05,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.005615246425650376,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 3.4010069953202587e-06,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "qwen80b",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 3.00970725147867e-08,
+   "alone_bare": {
+    "F": 7.280011992458241e-08,
+    "O": 1.53234451349892e-08,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.00019847088288155594,
+    "O": 3.0815490859035674e-08,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 3.333741545767932e-05,
+    "O": 1.865186281113091e-08,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 6.144174505633234e-06,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 7.188191211417085e-08,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 4.1166301886796836e-08,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "qwen80b",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 1.5509833760880507e-07,
+   "alone_bare": {
+    "F": 1.1253516107206167e-07,
+    "O": 6.825602858061415e-08,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 8.315280204640986e-07,
+    "O": 5.5495551469598674e-08,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 5.104368966463643e-06,
+    "O": 4.668300956771856e-08,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 2.1174446375701543e-06,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 7.803585167542341e-08,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 6.105608018416001e-07,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "llama70b",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 7.889262536312817e-06,
+   "alone_bare": {
+    "F": 0.002308858467738039,
+    "O": 0.003102679028100712,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.9999978459179271,
+    "O": 0.9999840374725225,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.9513080998259028,
+    "O": 0.00036391282603113274,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.9984988180700596,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0002982711576405431,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 5.700206444786573e-05,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "llama70b",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 4.944450456789574e-09,
+   "alone_bare": {
+    "F": 1.8117881801609676e-07,
+    "O": 9.483439984799366e-09,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.022478291428452493,
+    "O": 1.5948690507285042e-06,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.6564910262530822,
+    "O": 2.074533751919034e-06,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.01572073118992189,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0010144369997728794,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 9.296821284147517e-06,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "llama70b",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 6.279409441888288e-07,
+   "alone_bare": {
+    "F": 0.010505060928488437,
+    "O": 0.02741178531133753,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.7356976434142577,
+    "O": 2.988685984765159e-06,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.9998590845753136,
+    "O": 2.144497801336391e-05,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.9999119824644074,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 1.1856290414055175e-05,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 8.113351319996139e-06,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "llama70b",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 1.066071200556281e-07,
+   "alone_bare": {
+    "F": 1.5223705167426248e-05,
+    "O": 4.4194421752694856e-07,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.9925121051622333,
+    "O": 1.5219387652934632e-07,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.999942631920932,
+    "O": 3.6442079587996767e-06,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.9955596127093356,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 9.883165416132121e-05,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 1.765013548699769e-05,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "llama70b",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 1.2153890678586298e-08,
+   "alone_bare": {
+    "F": 1.0777406595181526e-07,
+    "O": 3.238726963636122e-08,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 5.21297765287527e-05,
+    "O": 9.653640758874356e-09,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.21353103152389094,
+    "O": 4.135109392908818e-08,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 0.999996438226407,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 1.4278642705372513e-06,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.00011247775715853886,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_r",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.4,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_r",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_r",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 0.6,
+   "alone_bare": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_A": {
+    "F": 0.4,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_r",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 1.0,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.6,
+    "let_through": true
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "gpt6s_r",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "haiku_r",
+   "domain": "insurance",
+   "pair": "I4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.6,
+    "O": 0.2,
+    "correct": true
+   },
+   "alone_A": {
+    "F": 1.0,
+    "O": 0.2,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.8,
+    "O": 0.2,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 0.8,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "haiku_r",
+   "domain": "seniority",
+   "pair": "K4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.4,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "haiku_r",
+   "domain": "dismissal",
+   "pair": "D6",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.6,
+    "O": 0.0,
+    "correct": true
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "haiku_r",
+   "domain": "suitability",
+   "pair": "S4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.8,
+    "O": 0.0,
+    "correct": true
+   },
+   "alone_B": {
+    "F": 0.2,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 0.4,
+    "let_through": false
+   },
+   "out_A": {
+    "yes": 0.0,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  },
+  {
+   "arm": "haiku_r",
+   "domain": "vulnerable",
+   "pair": "V4",
+   "fail_bare": 0.0,
+   "alone_bare": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_A": {
+    "F": 0.4,
+    "O": 0.0,
+    "correct": false
+   },
+   "alone_B": {
+    "F": 0.0,
+    "O": 0.0,
+    "correct": false
+   },
+   "out_rule": {
+    "yes": 1.0,
+    "let_through": true
+   },
+   "out_A": {
+    "yes": 0.2,
+    "let_through": false
+   },
+   "out_B": {
+    "yes": 0.0,
+    "let_through": false
+   }
+  }
+ ],
+ "spent_usd": {
+  "claude": 0.34452000000000027,
+  "gpt6s_s": 0.2458800000000002,
+  "qwen80b": 0.01200399999999999,
+  "llama70b": 0.08904820000000005,
+  "gpt6s_r": 0.32785,
+  "haiku_r": 0.57027
+ },
+ "spent_openrouter": 1.0193022000000005,
+ "spent_anthropic": 0.57027
+}

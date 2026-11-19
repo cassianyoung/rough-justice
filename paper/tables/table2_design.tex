@@ -1,0 +1,18 @@
+% DATA: material quoted as read; exempt from the typed-digit check (tools/check_typed_numbers.py).
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{P{0.17\textwidth}P{0.24\textwidth}P{0.51\textwidth}}
+\toprule
+Condition & What the model sees & Example \\
+\midrule
+Side by side & Both cases in one prompt & Case FIVE: The employer runs dental surgeries and has five staff. [...] Case TWO\_THOUSAND: The employer runs dental surgeries and has 2,000 staff. [...] \\
+Alone & One case & Ashgrove Dental runs dental surgeries and has five staff. Ashgrove Dental dismissed a receptionist for repeatedly missing shifts. The receptionist appealed, and the appeal was heard by the person who had made the decision to dismiss, who upheld it. \\
+Alone, told in principle & One case, plus a sentence on who is held to more & A large employer is held to a higher standard of procedure before dismissing someone than a small employer. \\
+Alone, told a precise rule & One case, plus a rule that decides it & An employer with 50 or more staff must have an appeal against a dismissal heard by someone other than the person who decided on it. An employer with fewer than 50 need not. \\
+Outside the rule & The precise-rule case, plus a failing the rule does not cover & Ashgrove Dental also did not pay the receptionist for the last two weeks worked. \\
+\bottomrule
+\end{tabular}
+\caption{Five of the seven conditions (the worked example and the failing outside it are described in the text), with one dismissal pair (\pairid{D2}) quoted as the models read it. [...] stands for the conduct both cases share, given in full in the Alone row (side by side, the firm is \emph{the employer}). The told-in-principle sentence and the precise rule come before the case, and the failing outside the rule after it. Side by side ends \emph{Judged by the standard that applies to each employer, was the standard met in each case? Answer in exactly this form: FIVE=<yes or no> TWO\_THOUSAND=<yes or no>}; every other prompt ends \emph{Judged by the standard that applies to this employer, was the standard met? Answer yes or no.} Each alone condition is read for both firms separately; the failing outside the rule is read for the firm held to less.}
+\label{tab:design}
+\end{table*}

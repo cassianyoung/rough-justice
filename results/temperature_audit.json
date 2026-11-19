@@ -1,0 +1,455 @@
+{
+ "_note": "SENT. Every per-call log record of runs 259 (logs/), 261 (logs/, g_logs/) and 263 (logs/) under AI_ETHICS/runs/run*/\ncarries the temperature the harness put in the request body (or_harness.py, anthropic_route.py and\nanthropic_route_259.py all copy it into the payload unchanged). Counted per configuration and session.",
+ "arms": {
+  "claude": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4800
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 4080
+    },
+    "261": {
+     "provider default": 4800
+    }
+   },
+   "temperature": 1.0
+  },
+  "gemini_r": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2330
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 2040
+    },
+    "261": {
+     "provider default": 2330
+    }
+   },
+   "temperature": 1.0
+  },
+  "gemma27b": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4780
+    },
+    "263": {
+     "1.0": 3240
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4780
+    },
+    "263": {
+     "accepted": 3240
+    }
+   },
+   "temperature": 1.0
+  },
+  "gpt4o": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4820
+    },
+    "263": {
+     "1.0": 3240
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4820
+    },
+    "263": {
+     "accepted": 3240
+    }
+   },
+   "temperature": 1.0
+  },
+  "gpt6l_r": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2330
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 2040
+    },
+    "261": {
+     "provider default": 2330
+    }
+   },
+   "temperature": 1.0
+  },
+  "gpt6l_s": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4820
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 4080
+    },
+    "261": {
+     "provider default": 4820
+    }
+   },
+   "temperature": 1.0
+  },
+  "gpt6s_r": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2340
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 2040
+    },
+    "261": {
+     "provider default": 2340
+    }
+   },
+   "temperature": 1.0
+  },
+  "gpt6s_s": {
+   "changed_between_sessions": false,
+   "one_status": "provider default",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4780
+    }
+   },
+   "status": {
+    "259": {
+     "provider default": 4080
+    },
+    "261": {
+     "provider default": 4780
+    }
+   },
+   "temperature": 1.0
+  },
+  "grok43_r": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2350
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 2040
+    },
+    "261": {
+     "accepted": 2350
+    }
+   },
+   "temperature": 1.0
+  },
+  "grok43_s": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4740
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4740
+    }
+   },
+   "temperature": 1.0
+  },
+  "haiku55_ah": {
+   "changed_between_sessions": false,
+   "one_status": "fixed by provider",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2300
+    }
+   },
+   "status": {
+    "259": {
+     "fixed by provider": 2040
+    },
+    "261": {
+     "fixed by provider": 2300
+    }
+   },
+   "temperature": 1.0
+  },
+  "haiku55_off": {
+   "changed_between_sessions": false,
+   "one_status": "fixed by provider",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4840
+    }
+   },
+   "status": {
+    "259": {
+     "fixed by provider": 4080
+    },
+    "261": {
+     "fixed by provider": 4840
+    }
+   },
+   "temperature": 1.0
+  },
+  "haiku_r": {
+   "changed_between_sessions": false,
+   "one_status": "fixed by provider",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2440
+    }
+   },
+   "status": {
+    "259": {
+     "fixed by provider": 2040
+    },
+    "261": {
+     "fixed by provider": 2440
+    }
+   },
+   "temperature": 1.0
+  },
+  "haiku_s": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4880
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4880
+    }
+   },
+   "temperature": 1.0
+  },
+  "kimi": {
+   "changed_between_sessions": false,
+   "one_status": "unverified",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 5032
+    }
+   },
+   "status": {
+    "259": {
+     "unverified": 4080
+    },
+    "261": {
+     "unverified": 5003
+    }
+   },
+   "temperature": 1.0
+  },
+  "llama70b": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4800
+    },
+    "263": {
+     "1.0": 3240
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4800
+    },
+    "263": {
+     "accepted": 3240
+    }
+   },
+   "temperature": 1.0
+  },
+  "mistral24b": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4821
+    },
+    "263": {
+     "1.0": 3240
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4820
+    },
+    "263": {
+     "accepted": 3240
+    }
+   },
+   "temperature": 1.0
+  },
+  "opus55_ad": {
+   "changed_between_sessions": false,
+   "one_status": "fixed by provider",
+   "sent": {
+    "259": {
+     "1.0": 2040
+    },
+    "261": {
+     "1.0": 2310
+    }
+   },
+   "status": {
+    "259": {
+     "fixed by provider": 2040
+    },
+    "261": {
+     "fixed by provider": 2310
+    }
+   },
+   "temperature": 1.0
+  },
+  "qwen80b": {
+   "changed_between_sessions": false,
+   "one_status": "accepted",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4840
+    },
+    "263": {
+     "1.0": 3240
+    }
+   },
+   "status": {
+    "259": {
+     "accepted": 4080
+    },
+    "261": {
+     "accepted": 4840
+    },
+    "263": {
+     "accepted": 3240
+    }
+   },
+   "temperature": 1.0
+  },
+  "sonnet55_off": {
+   "changed_between_sessions": false,
+   "one_status": "fixed by provider",
+   "sent": {
+    "259": {
+     "1.0": 4080
+    },
+    "261": {
+     "1.0": 4820
+    }
+   },
+   "status": {
+    "259": {
+     "fixed by provider": 4080
+    },
+    "261": {
+     "fixed by provider": 4820
+    }
+   },
+   "temperature": 1.0
+  }
+ }
+}

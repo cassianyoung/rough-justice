@@ -1,0 +1,319 @@
+{
+ "definition": "    python analysis/file_verdicts.py --ai DIR        # DIR = the AI_Ethics checkout",
+ "subset_judgement_pairs": [
+  "K5",
+  "K6",
+  "D5",
+  "D4",
+  "S1",
+  "S6",
+  "V3",
+  "V4"
+ ],
+ "stats": {
+  "Alone|NoReasoning": {
+   "held_not_met": {
+    "share": 0.9067524115755627,
+    "num": 282,
+    "den": 311,
+    "ci": [
+     0.8365384615384616,
+     0.9678456591639871
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.04180064308681672,
+    "num": 13,
+    "den": 311,
+    "ci": [
+     0.00641025641025641,
+     0.09294871794871795
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "Alone|Reasoning": {
+   "held_not_met": {
+    "share": 0.6060606060606061,
+    "num": 100,
+    "den": 165,
+    "ci": [
+     0.44047619047619047,
+     0.7716049382716049
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.02235466869464597
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "ToldPrinciple|NoReasoning": {
+   "held_not_met": {
+    "share": 0.7307692307692307,
+    "num": 228,
+    "den": 312,
+    "ci": [
+     0.6025641025641025,
+     0.8461538461538461
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.019230769230769232,
+    "num": 6,
+    "den": 312,
+    "ci": [
+     0.0,
+     0.05128205128205128
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "ToldPrinciple|Reasoning": {
+   "held_not_met": {
+    "share": 0.4121212121212121,
+    "num": 68,
+    "den": 165,
+    "ci": [
+     0.23493975903614459,
+     0.5892857142857143
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.02235466869464597
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "ExampleBaseline|NoReasoning": {
+   "held_not_met": {
+    "share": 0.9198606271777003,
+    "num": 264,
+    "den": 287,
+    "ci": [
+     0.8541666666666666,
+     0.975609756097561
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.027874564459930314,
+    "num": 8,
+    "den": 287,
+    "ci": [
+     0.0,
+     0.06944444444444445
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 12
+  },
+  "ExampleBaseline|Reasoning": {
+   "held_not_met": {
+    "share": 0.6,
+    "num": 99,
+    "den": 165,
+    "ci": [
+     0.43452380952380953,
+     0.7678571428571429
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.02235466869464597
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "Example|NoReasoning": {
+   "held_not_met": {
+    "share": 0.5729166666666666,
+    "num": 165,
+    "den": 288,
+    "ci": [
+     0.3784722222222222,
+     0.7569444444444444
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.017361111111111112,
+    "num": 5,
+    "den": 288,
+    "ci": [
+     0.0,
+     0.052083333333333336
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 12
+  },
+  "Example|Reasoning": {
+   "held_not_met": {
+    "share": 0.32926829268292684,
+    "num": 54,
+    "den": 164,
+    "ci": [
+     0.14545454545454545,
+     0.5357142857142857
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.02235466869464597
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "ToldRule|NoReasoning": {
+   "held_not_met": {
+    "share": 0.28846153846153844,
+    "num": 90,
+    "den": 312,
+    "ci": [
+     0.14423076923076922,
+     0.44871794871794873
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.016025641025641024,
+    "num": 5,
+    "den": 312,
+    "ci": [
+     0.0,
+     0.041666666666666664
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "ToldRule|Reasoning": {
+   "held_not_met": {
+    "share": 0.005952380952380952,
+    "num": 1,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.03571428571428571
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 168,
+    "ci": [
+     0.0,
+     0.02235466869464597
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "ToldRuleSubset|NoReasoning": {
+   "held_not_met": {
+    "share": 0.25961538461538464,
+    "num": 27,
+    "den": 104,
+    "ci": [
+     0.09615384615384616,
+     0.4423076923076923
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": {
+    "share": 0.019230769230769232,
+    "num": 2,
+    "den": 104,
+    "ci": [
+     0.0,
+     0.07692307692307693
+    ],
+    "ci_method": "bootstrap"
+   },
+   "configurations": 13
+  },
+  "ToldRuleSubset|Reasoning": {
+   "held_not_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 56,
+    "ci": [
+     0.0,
+     0.06419393766646092
+    ],
+    "ci_method": "wilson"
+   },
+   "other_met": {
+    "share": 0.0,
+    "num": 0,
+    "den": 56,
+    "ci": [
+     0.0,
+     0.06419393766646092
+    ],
+    "ci_method": "wilson"
+   },
+   "configurations": 7
+  },
+  "ToldRuleSecondWording|NoReasoning": {
+   "held_not_met": {
+    "share": 0.59375,
+    "num": 57,
+    "den": 96,
+    "ci": [
+     0.4166666666666667,
+     0.7604166666666666
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": null,
+   "configurations": 12
+  },
+  "ToldRuleSecondWording|Reasoning": {
+   "held_not_met": {
+    "share": 0.14545454545454545,
+    "num": 8,
+    "den": 55,
+    "ci": [
+     0.02,
+     0.30357142857142855
+    ],
+    "ci_method": "bootstrap"
+   },
+   "other_met": null,
+   "configurations": 7
+  }
+ }
+}

@@ -1,0 +1,2208 @@
+{
+ "run": "254",
+ "version": 2,
+ "status": "FROZEN",
+ "built": "2026-11-11",
+ "amendment_1": [
+  "C1 noise 3: 'The complaint was received in the spring.'",
+  "C2 noise 3: 'The email was sent in the morning.'",
+  "A0.1 'wrote it' kept",
+  "A0.2 run 253 floor rule per item and arm, control second check",
+  "A0.3 kept",
+  "A0.4 signs per item",
+  "A0.5 no fallback",
+  "A0.7 C1 ombudsman caveat"
+ ],
+ "arms": [
+  "claude",
+  "gpt6s_s",
+  "llama70b",
+  "qwen80b"
+ ],
+ "draws": 10,
+ "claude_route": "Anthropic API direct (scripts/anthropic_route_sonnet.py), gated on a ten-cell route check",
+ "items": {
+  "H": {
+   "name": "Pellbrook",
+   "kind": "document",
+   "polarity": "good",
+   "work": "handbook",
+   "verb": "wrote a handbook for its staff.",
+   "attr": "The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word.",
+   "neutral": [
+    "The handbook was printed on white paper and held together with one staple.",
+    "The handbook had a contents page at the front and numbered pages.",
+    "The handbook was handed out in a plain cardboard folder."
+   ]
+  },
+  "C1": {
+   "name": "Sallowfield",
+   "kind": "conduct",
+   "polarity": "short",
+   "verb": "received a written complaint from a member of the public.",
+   "attr": "{n} did not reply for six weeks, and then replied in two lines that did not address the complaint.",
+   "neutral": [
+    "The complaint was written by hand on a single sheet of lined paper.",
+    "The complaint arrived in a white envelope with a second-class stamp.",
+    "The complaint was received in the spring."
+   ]
+  },
+  "C2": {
+   "name": "Wenmoor",
+   "kind": "conduct",
+   "polarity": "short",
+   "verb": "sent an email to a mailing list of three hundred people.",
+   "attr": "Every address on the list was visible to every recipient.",
+   "neutral": [
+    "The email had a short subject line and no attachments.",
+    "The email was written in a plain font with no pictures.",
+    "The email was sent in the morning."
+   ]
+  }
+ },
+ "kinds": [
+  "shop",
+  "charity",
+  "drug",
+  "council"
+ ],
+ "sizes": [
+  "small",
+  "large"
+ ],
+ "descriptions": {
+  "shop|small": "a corner shop with three staff",
+  "shop|large": "a supermarket chain with four thousand staff",
+  "charity|small": "a local charity with three staff",
+  "charity|large": "a national charity with four thousand staff",
+  "drug|small": "a small pharmaceutical company with three staff",
+  "drug|large": "a multinational pharmaceutical company with four thousand staff",
+  "council|small": "a parish council with three staff",
+  "council|large": "a city council with four thousand staff"
+ },
+ "sole": {
+  "person": "a self-employed plumber",
+  "firm": "a plumbing firm with one member of staff"
+ },
+ "sole_name": "Hendry",
+ "h_question_org": "the organisation that wrote it",
+ "favoured": {
+  "size": "SMALL",
+  "kind": "CHARITY (against PHARMACEUTICAL, both large)",
+  "sole": "SELF_EMPLOYED",
+  "control": "TUESDAY"
+ },
+ "gap_sign": {
+  "H": "F - O (how good)",
+  "C1": "O - F (how far short)",
+  "C2": "O - F (how far short)",
+  "OR1": "F - O",
+  "OR2": "F - O"
+ },
+ "units": {
+  "L|H|shop|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "shop",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "3b9d0776a302f02204e6f82b1e13e276de12975953ab4a302e8d146da5dfa6eb",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|shop|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "shop",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "8bafe8083e72a76748eceb64c77d9ebbe9ae513143a53971c16ffd59292e9b87",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|charity|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "charity",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "91c6213a95f2dc5be17679972fe9523f512c1fb8d978c6912fdc9817fc20a98c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook was printed on white paper and held together with one staple. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "4786f5ea8a28a5f93c69bb9d0ff4851c77d614ba3b27d639e05f3931f8d7fcbc",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook was printed on white paper and held together with one staple. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook had a contents page at the front and numbered pages. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "39d4cf0739edf8eea2a4fa89944ae33dce501b8490d0fd735deaa195a293846b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook had a contents page at the front and numbered pages. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook was handed out in a plain cardboard folder. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "de0a1d34f6641ea772bc1e09db19634c3d1c7e6c0cb18554f717ffdb9b881d48",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook was handed out in a plain cardboard folder. Pellbrook, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|charity|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "charity",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "5c3fd3ef80c0984494f4bb0bcbf0d17dbb243c28d116705461c58ec487bc8778",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook was printed on white paper and held together with one staple. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "9850b336a026f04e03f1506569e4d925d5dabbea40961613a422b2cade0a9436",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook was printed on white paper and held together with one staple. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook had a contents page at the front and numbered pages. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "6cfb34d6a574dbe5485b903d0226831381f6feee4b1ce45cd05026dcad5365a0",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook had a contents page at the front and numbered pages. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The handbook was handed out in a plain cardboard folder. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "caa6dac924e006ed1a5926046dbb09d2ef29a4ba19b4053f1e62ea2321bab847",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The handbook was handed out in a plain cardboard folder. Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|drug|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "drug",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "46da5c9622afbb9529e4f75d36642e31365dd5954d0334551505b78068e66aa8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|drug|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "drug",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "183b7ccfce368bc6656563b479fdc85f41666630990f52ce9d41744c145495a0",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|council|small": {
+   "block": "leg",
+   "item": "H",
+   "kind": "council",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "74e29727e88494e8f722ecbb6010924efdacfd3511053a03d6604ae4ff534f59",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|H|council|large": {
+   "block": "leg",
+   "item": "H",
+   "kind": "council",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "ab234da24cb6d8f53e7d01edcadabd09750bfddefa77ea4f310f66a69535be7a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "R|H": {
+   "block": "ref",
+   "item": "H",
+   "prompts": {
+    "ref": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Pellbrook wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "861abf73d06b658d2b0d3197b9dcc5c32a9f0c6b587668f97120f6b871579764",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Pellbrook wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "S|H|size|shop": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|H|shop|small",
+    "O": "L|H|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "328e784ba92b33c04ed2158a511c98e6dbf8c1736d953ddbeca142c541a2d90b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "ef01de625460343c608a3cb27b88e7675674c959e4b0b821d06394ce0e57c91f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a corner shop with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|H|size|charity": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|H|charity|small",
+    "O": "L|H|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "6e08f9102f54d9e49eca9d67f0a6a596848d14533a452d8c7aaeec4c60c729e9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "d3e6a305bde3aeeb10d5e9ee58e91d6e506cdf23849d6dd95c04325541c973bd",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a local charity with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|H|size|drug": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|H|drug|small",
+    "O": "L|H|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "759ef8b01fc061f36be81b6e6cfdd53230ca792670136f7b0158d4618dcb1d8e",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "ce2bc47a5f61b0a44ea7ee86d52357f94c452bb3d63c52f2659dc25709b26c19",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a small pharmaceutical company with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|H|size|council": {
+   "block": "side",
+   "item": "H",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|H|council|small",
+    "O": "L|H|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "3a17ee1b26df018b273487af4426a1625d6a47a6e529017a8eee65d651939eff",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "894b69ac94fbbd9d796f2462fd074e6add2ab9395f39ddd746b9822d06e5a84f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a parish council with three staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|H|kind|large": {
+   "block": "side",
+   "item": "H",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|H|charity|large",
+    "O": "L|H|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>",
+     "prompt_sha256": "231f9b483302903aec5066c77962c4fb92d2888cda0e2faf9382fc94a03dc502",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case CHARITY: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>",
+     "prompt_sha256": "e1265f7d96b4ffe8401c3be10ada1eb79683856767b816bda398f0ad0328dce8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case CHARITY: The organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "K|H": {
+   "block": "control",
+   "item": "H",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "prompts": {
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Tuesday, Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "57f803f98e7275086706b71859a198dc1077b9549f6213264bb26cef01166e70",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Tuesday, Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Thursday, Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "149e3d690cc960550c3169e1ab7de880220e603b31d560a4a55887f81e9704a9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Thursday, Pellbrook, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>",
+     "prompt_sha256": "cf97ff19ecb86890e99c56d1df44156a9395e82fcf282d6d72df5962e583427d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>",
+     "prompt_sha256": "9ec7639e50be326a0c0b24ad3f665c5d0e155597367d4cba0cf0808562d32eda",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|shop|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "shop",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a corner shop with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "2361a08c94f6e2a1176fcadc3156cff8bb89cf0389767d83a6936ac10108d9a9",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a corner shop with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|shop|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "shop",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a supermarket chain with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "faefb99db2aa03e28146b0086f1e7244f325279066726ea6072dc7232b3b4ba2",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a supermarket chain with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|charity|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "charity",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "cc951d84250494b83fa6beeb8f009765458d02d646bedfcb6875a733a90a0009",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint was written by hand on a single sheet of lined paper. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "ddd896b7b78da6997d429afebc8a84679e66a9d6df2661afd82e6fe583b969e8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint was written by hand on a single sheet of lined paper. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint arrived in a white envelope with a second-class stamp. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "ba8c9b0363f94f18286ee3f4337e9c3e2b34f59d601227032fe9ea3971535909",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint arrived in a white envelope with a second-class stamp. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint was received in the spring. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "796c653f4b4e6db1d756a5c5f7cfe24b069fdfa2b74d88544886bc06f24a2516",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint was received in the spring. Sallowfield, a local charity with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|charity|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "charity",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "af8d462ffad4404037a03b6265258053b0e3d62d4c2c6b829fb8421443ca9226",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint was written by hand on a single sheet of lined paper. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "9073291f116a2674f3ac7abd370c965ce5fc25fbc6b2dfcf308ce03f68cb099b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint was written by hand on a single sheet of lined paper. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint arrived in a white envelope with a second-class stamp. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "b7ad563c5ab0144d2bb1575959b63aa296967def52e7714d482b5ec16bfb0aef",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint arrived in a white envelope with a second-class stamp. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The complaint was received in the spring. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "1ea44101d864ca880155f38974c8f2986286c75545b35122d4eab1d87c28c709",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The complaint was received in the spring. Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|drug|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "drug",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a small pharmaceutical company with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "6d265b95c42817d87f3f69eff45a600d31812decb77e3bbbf265bb5d1afbb4bd",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a small pharmaceutical company with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|drug|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "drug",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "c0bcabfddad2f490217b8fe07093767aec85d42cb4b48a6f07a850e93fb5236c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|council|small": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "council",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a parish council with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "195cb1dace8744cb9d1d48641b70c1f95550312f79120212ae714c5f9eded143",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a parish council with three staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C1|council|large": {
+   "block": "leg",
+   "item": "C1",
+   "kind": "council",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield, a city council with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "304034a6c45c8a8390d58e40829d9a0fd76050f32b87696e3415a0fdc2a97120",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield, a city council with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "R|C1": {
+   "block": "ref",
+   "item": "C1",
+   "prompts": {
+    "ref": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Sallowfield received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "dffa780dacb896b719844caa945e88db4bc70da98857d353d3a0ffb950393b0b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Sallowfield received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "S|C1|size|shop": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|C1|shop|small",
+    "O": "L|C1|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a supermarket chain with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "2f817fbe6da8e1d274abed6cffb95b7c5e2a7e5ca005a9070b1d2621c49f380a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a supermarket chain with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a corner shop with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "9acc64d96e949b86e44741e9ba72503d2b71754c93865b536eb7dd54d6c1545a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a corner shop with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C1|size|charity": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|C1|charity|small",
+    "O": "L|C1|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "9f7e2c829861a97a100c2c2df2e984d287e048b23b809d0b60af9b641f874701",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a local charity with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "8e8f25395f0509b2a9a44ef8d49309cee3837f9796b42119f8e4db7a2d8e6326",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a local charity with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C1|size|drug": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|C1|drug|small",
+    "O": "L|C1|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "f41e6745d9ba3fceec48b482979a772e92c2bfb3b470c664f3c68e6468ac65d3",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a small pharmaceutical company with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "770f6763aa176e7c9103832ea87363bdee2b666dd43be1f48cfbf0b73cf411ca",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a small pharmaceutical company with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C1|size|council": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|C1|council|small",
+    "O": "L|C1|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a city council with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "cdbe8bcbc510ac5fccc0ea1b265312a722fec66ddb08bf475fd6293d9bb739f1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case LARGE: The organisation, a city council with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a parish council with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "d790af372c8c374144d32b36545faa51ac885874b9b94b62f35ce2ee539304f1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SMALL: The organisation, a parish council with three staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C1|kind|large": {
+   "block": "side",
+   "item": "C1",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|C1|charity|large",
+    "O": "L|C1|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>",
+     "prompt_sha256": "bae25edf7b875102d76af16ef19a3e63e8cc46e23130e77f9e17546cd39f8a79",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case CHARITY: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>",
+     "prompt_sha256": "da218eab6280e683b2d05cc50cae4b465f88d00c337efefdf97b22dff0f14063",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case CHARITY: The organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "K|C1": {
+   "block": "control",
+   "item": "C1",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "prompts": {
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Tuesday, Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "29661983bd07add30a5c06602c032f8faa3a7a7d191b1d302089479e9b9cf7b3",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Tuesday, Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Thursday, Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "43c4758a5a902fdb2d131e6c5d933f15dfd5b4dbb9e571978be82857e193b47d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Thursday, Sallowfield, a national charity with four thousand staff, received a written complaint from a member of the public. Sallowfield did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>",
+     "prompt_sha256": "c92cd5b4bca375fd75827a51b3d8ef9fd91d9a583b52ad2189caff63933cdf7f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>",
+     "prompt_sha256": "823b3a0abbe101bc2237f503f38380e4d771240fe0482eddc13eb5d6911b985f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, received a written complaint from a member of the public. The organisation did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "T|C1": {
+   "block": "sole",
+   "item": "C1",
+   "labels": [
+    "SELF_EMPLOYED",
+    "FIRM"
+   ],
+   "prompts": {
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Hendry, a self-employed plumber, received a written complaint from a member of the public. Hendry did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "7d8c7d83a8d273f7fce3a414b12b15e58d7525a3c57eb12a4a477e4b7abd5a06",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Hendry, a self-employed plumber, received a written complaint from a member of the public. Hendry did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Hendry, a plumbing firm with one member of staff, received a written complaint from a member of the public. Hendry did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "bed7575854149ef05afa95ba46bd4c8181289dc1740aee67b00b8a4fd6d28357",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Hendry, a plumbing firm with one member of staff, received a written complaint from a member of the public. Hendry did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SELF_EMPLOYED: The business, a self-employed plumber, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Case FIRM: The business, a plumbing firm with one member of staff, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SELF_EMPLOYED=<digit> FIRM=<digit>",
+     "prompt_sha256": "36998e85533148d82ac2065f7abb145985812c05a5d7a6accc9021d105c4b825",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SELF_EMPLOYED: The business, a self-employed plumber, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Case FIRM: The business, a plumbing firm with one member of staff, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SELF_EMPLOYED=<digit> FIRM=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FIRM: The business, a plumbing firm with one member of staff, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SELF_EMPLOYED: The business, a self-employed plumber, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRM=<digit> SELF_EMPLOYED=<digit>",
+     "prompt_sha256": "ba33bea11651543056ec8d801d4f41f4137735f36f2d0f3f4348ee9ec69201e2",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FIRM: The business, a plumbing firm with one member of staff, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Case SELF_EMPLOYED: The business, a self-employed plumber, received a written complaint from a member of the public. The business did not reply for six weeks, and then replied in two lines that did not address the complaint. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRM=<digit> SELF_EMPLOYED=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|shop|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "shop",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "0c57de5414f50ffb03c7de5c4c42583b8b33b59171d1b92e788a7212ae4d90a0",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|shop|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "shop",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "8ae2b272e68cf262d408ce7a346961cc902170717f1d3202e160a0f932da040b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|charity|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "charity",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "f89273edbfc4f04fb7951df255a5180cab0df39d2333c59ce42d8a1b9de6db78",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email had a short subject line and no attachments. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "8c57298a0378f8a254871f1681519f195e6d5de0cf4bacc00e277b53076f4c1c",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email had a short subject line and no attachments. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email was written in a plain font with no pictures. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "f333427700db810343661f48eafcfd9ac6898aacaf517c27363fecee19cad454",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email was written in a plain font with no pictures. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email was sent in the morning. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "0705f3cf6f3345aa8f3546c684d66598bd3c92c9ba32d373a7c67248dc5a932e",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email was sent in the morning. Wenmoor, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|charity|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "charity",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "1552ad219034f3be272e2885e084d82610488a3a087e3ca4d8b238121457a3c5",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise1": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email had a short subject line and no attachments. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "0b5fd8132f9f4ef2ca0e4e80301a062a48ce3b555a8ba1270c87648be9605734",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email had a short subject line and no attachments. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise2": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email was written in a plain font with no pictures. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "f05989ce98b35c4f13b5112ea4dca07e2d2c9650f652ffc84a6915135ae71d81",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email was written in a plain font with no pictures. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "noise3": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "The email was sent in the morning. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "a98f62dbbbcaeab05711dd72cf8f0e4251a9143b3bb56e89d52dcb4d03a6f22a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "The email was sent in the morning. Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|drug|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "drug",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "2affc6eb544f783e8b6e97b13083b1beebf5f67ddb422ca071afd3b1a95d1a38",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|drug|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "drug",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "4bf4eea94befccf1e69dc438e70ba64f404075da6b478a0aa4eeb6fc5c511753",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|council|small": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "council",
+   "size": "small",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "b897ff06f2914825b036d90f15bd1da06eba96b9d83abcefbf9b6265641b2124",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "L|C2|council|large": {
+   "block": "leg",
+   "item": "C2",
+   "kind": "council",
+   "size": "large",
+   "prompts": {
+    "alone": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "064215b5cda452ef2aa4272b64d81c14a182c1fe378fe01feb2be5e2c9f0daa0",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "R|C2": {
+   "block": "ref",
+   "item": "C2",
+   "prompts": {
+    "ref": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Wenmoor sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "4627c0638eb138a49b1d690d4d3167a2628766b62ef01e51e9a65dd90d90be5b",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Wenmoor sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "S|C2|size|shop": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "shop",
+   "legs": {
+    "F": "L|C2|shop|small",
+    "O": "L|C2|shop|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "b28ec49ae3e075804fd5b26da224769bff9242ba10a2b1fe9ce576d5bf534d3d",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "7115d48fdc06cfae5ddd89ac0b1cc7cc0f8dbeabda2c76e5651518770b3a5f10",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a corner shop with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C2|size|charity": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "charity",
+   "legs": {
+    "F": "L|C2|charity|small",
+    "O": "L|C2|charity|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "f2956955155d39f28e58a77668c553e2c541a10bd548948c5457e3b9aac17b4a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "88048f0612cd086f7c7adb7bc70a5157560a1d62e2ea00d93fe447691d21b4a1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a local charity with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C2|size|drug": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "drug",
+   "legs": {
+    "F": "L|C2|drug|small",
+    "O": "L|C2|drug|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "a4fc63195dc5424a7061eebee62e69ed495500e7d7e182ec8ce91305991f98ff",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "6ecf6c4fa85ce3827d69e0dfc87f3b4d805d669ef6053e7e958073652f62a7a7",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a small pharmaceutical company with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C2|size|council": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "size",
+   "kind": "council",
+   "legs": {
+    "F": "L|C2|council|small",
+    "O": "L|C2|council|large"
+   },
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "0c6292c937ff511482f951c08698abf5e2a88cdae27f5e584786de6d055ab368",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case LARGE: The organisation, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "ee6b7f699ca811dd7b07a9b2a7d7ba90813a65bee3d4dab356a3c4c5ffc45976",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a city council with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SMALL: The organisation, a parish council with three staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "S|C2|kind|large": {
+   "block": "side",
+   "item": "C2",
+   "contrast": "kind",
+   "kind": "charity_vs_drug",
+   "legs": {
+    "F": "L|C2|charity|large",
+    "O": "L|C2|drug|large"
+   },
+   "labels": [
+    "CHARITY",
+    "PHARMACEUTICAL"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>",
+     "prompt_sha256": "ebf89db2c1552cf52f95dafa000ac89d2c3da573c25bb0a84e048d50710b7f06",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHARITY: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: CHARITY=<digit> PHARMACEUTICAL=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case CHARITY: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>",
+     "prompt_sha256": "2a7c52af628fe28f120225704222186a403e55bec234050a98b917bc7d3a8e0a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case PHARMACEUTICAL: The organisation, a multinational pharmaceutical company with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case CHARITY: The organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: PHARMACEUTICAL=<digit> CHARITY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "K|C2": {
+   "block": "control",
+   "item": "C2",
+   "labels": [
+    "TUESDAY",
+    "THURSDAY"
+   ],
+   "prompts": {
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Tuesday, Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "927fbf3d0c272b3ddce78b2783b14d1d6a28ad576ffd9ad88c403b85d8087240",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Tuesday, Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "On a Thursday, Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "71aef52dba671dd711b356ca564026055a286487286ea5109003fb588f5ac0ff",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "On a Thursday, Wenmoor, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this organisation, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>",
+     "prompt_sha256": "68397a78adc7e4da58ddeb8535d5aa12a77eb7999854eb9781244e9f4008e861",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: TUESDAY=<digit> THURSDAY=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>",
+     "prompt_sha256": "97fba4b5e92009e0cc31e05bdef4b1669ce0eb0e0f73c203295494a311b029a8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case THURSDAY: On a Thursday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case TUESDAY: On a Tuesday, the organisation, a national charity with four thousand staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each organisation, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: THURSDAY=<digit> TUESDAY=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "T|C2": {
+   "block": "sole",
+   "item": "C2",
+   "labels": [
+    "SELF_EMPLOYED",
+    "FIRM"
+   ],
+   "prompts": {
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Hendry, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "a4e2d1a19b5268e237f65e6a662600840629d1b731f89af6f73fbe71681e667f",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Hendry, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Hendry, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit.",
+     "prompt_sha256": "394977581e171e63103a57e8e4f6fa81d92135a0ec57b6f1ca483dfbba1923ec",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Hendry, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to this business, how far did it fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer with a single digit."
+      }
+     ]
+    },
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SELF_EMPLOYED: The business, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case FIRM: The business, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SELF_EMPLOYED=<digit> FIRM=<digit>",
+     "prompt_sha256": "b77ae5e75f2d0ad351fc06c2f0627066583d6ecbb0cffb00c31daf4dfd9cdb1e",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SELF_EMPLOYED: The business, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case FIRM: The business, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: SELF_EMPLOYED=<digit> FIRM=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case FIRM: The business, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SELF_EMPLOYED: The business, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRM=<digit> SELF_EMPLOYED=<digit>",
+     "prompt_sha256": "067d46efec180f208763125c7d7ac58f07437a08f78581297c6bd7aa5376760a",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case FIRM: The business, a plumbing firm with one member of staff, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Case SELF_EMPLOYED: The business, a self-employed plumber, sent an email to a mailing list of three hundred people. Every address on the list was visible to every recipient. Judged by the standard that applies to each business, how far did each fall short of it, on a scale from 0 to 9, where 0 means not at all and 9 means entirely? Answer in exactly this form: FIRM=<digit> SELF_EMPLOYED=<digit>"
+      }
+     ]
+    }
+   }
+  },
+  "A|OR1": {
+   "block": "anchor",
+   "item": "OR1",
+   "labels": [
+    "CHARITY",
+    "LISTED"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case CHARITY: The organisation, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. Case LISTED: The organisation, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is each report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: CHARITY=<digit> LISTED=<digit>",
+     "prompt_sha256": "8806a6688b1edf6d3b3ba13931eb09e23f22d02009c4624b1c1d8e43a3e04dd0",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case CHARITY: The organisation, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. Case LISTED: The organisation, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is each report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: CHARITY=<digit> LISTED=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LISTED: The organisation, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. Case CHARITY: The organisation, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is each report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LISTED=<digit> CHARITY=<digit>",
+     "prompt_sha256": "1d9dd3df68771057b7684e54d712837fc1691a1d544b87dd78b90f469c0420de",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LISTED: The organisation, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. Case CHARITY: The organisation, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is each report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LISTED=<digit> CHARITY=<digit>"
+      }
+     ]
+    },
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Fernbrook, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "0fe3f41b28368f40f5922787294472bb848e41b8d4186087c87d27a212c82e78",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Fernbrook, a charity run by three part-time volunteers, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Fernbrook, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "ebafaf274cad947b0fb08d546ea57b218d9dc67ca5757e031d3860485d3996b8",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Fernbrook, a large company listed on the stock exchange, published its annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "ref": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "This is an organisation's annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "24cd8b9f1ae51009834b58f588b26d62a2020a43488c930956313459646be7d1",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "This is an organisation's annual report. The report is twelve pages long. It gives the year's income and spending in one table, describes three projects, and has no section on risks or on plans for the next year. Two figures in the table do not add up. How good is this report, judged appropriately for the organisation that published it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  },
+  "A|OR2": {
+   "block": "anchor",
+   "item": "OR2",
+   "labels": [
+    "SMALL",
+    "LARGE"
+   ],
+   "prompts": {
+    "side_FO": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case SMALL: The organisation, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>",
+     "prompt_sha256": "0734cbcc304e48251e5292e43b5c07aec7c12a1f7a883b0c1a29f348d79ab987",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case SMALL: The organisation, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case LARGE: The organisation, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: SMALL=<digit> LARGE=<digit>"
+      }
+     ]
+    },
+    "side_OF": {
+     "system": "Answer in exactly the form requested and nothing else.",
+     "user": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>",
+     "prompt_sha256": "6d52cece724fcd7009e60ca072da7b9c81984fef0eda72852fe34de182c7c866",
+     "messages": [
+      {
+       "role": "system",
+       "content": "Answer in exactly the form requested and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Consider two separate cases. Case LARGE: The organisation, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. Case SMALL: The organisation, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is each handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer in exactly this form: LARGE=<digit> SMALL=<digit>"
+      }
+     ]
+    },
+    "alone_F": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Ashworth, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "bc014559bf4ea1bb32fe38a736845303053d9a6b17b67786391f63143e914980",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Ashworth, a family-run bakery with two employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "alone_O": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "Ashworth, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "49589ace6cdcabc460ccfe30f34068aebb102be443349eef4ec596544c798ebf",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "Ashworth, a supermarket chain with forty thousand employees, wrote a handbook for its staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    },
+    "ref": {
+     "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+     "user": "This is a handbook written for an organisation's staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit.",
+     "prompt_sha256": "fd968084f2b20566364d1e4a960ae9f8e3aa3316fc26a51cafd859c9deda4936",
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+      },
+      {
+       "role": "user",
+       "content": "This is a handbook written for an organisation's staff. The handbook is eight pages long. It covers working hours, holiday and pay, and explains how to raise a complaint. It says nothing about sick leave, and one page repeats another word for word. How good is this handbook, judged appropriately for the organisation that wrote it, on a scale from 0 to 9, where 0 means very poor and 9 means excellent? Answer with a single digit."
+      }
+     ]
+    }
+   }
+  }
+ },
+ "n_prompts": 105,
+ "n_by_block": {
+  "leg": 42,
+  "ref": 3,
+  "side": 30,
+  "control": 12,
+  "sole": 8,
+  "anchor": 10
+ }
+}

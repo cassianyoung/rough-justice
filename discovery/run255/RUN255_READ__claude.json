@@ -1,0 +1,18 @@
+{
+ "run": "255",
+ "arm": "claude",
+ "draws": 10,
+ "frames": "records/RUN255_FRAMES.json",
+ "frames_sha256": "762d0897ffa147cd0bcb98b5fb5bfd1ae151c84547e3168ac27bbeb483ff4fee",
+ "prereg": "records/PREREG_RUN255_SCALE_CEILING.md",
+ "estimate_usd": 0.7066006584082758,
+ "arm_backstop_usd": 2.1198019752248274,
+ "group_cap_usd": 1.5,
+ "started": "2026-11-11T14:10:32Z",
+ "status": "UNREAD",
+ "unread_reason": "stopped by the group cap: group off projected $1.72 > cap $1.50; this arm is the most expensive still running, so it stops (cheapest first)",
+ "calls": 0,
+ "spent_usd": 0.0,
+ "elapsed_s": 1.3,
+ "finished": "2026-11-11T14:10:33Z"
+}

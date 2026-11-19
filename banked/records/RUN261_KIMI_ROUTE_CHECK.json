@@ -1,0 +1,34 @@
+{
+ "run": "261",
+ "arm": "kimi",
+ "route": {
+  "run259": "Sail Research",
+  "run261": "ParetoAlpha (pareto-alpha/us), reasoning off"
+ },
+ "verdict_match": {
+  "alone_C_baseline_vs_run259": {
+   "match": 100,
+   "of": 108,
+   "share": 0.9259259259259259
+  },
+  "side_by_side_D_12_pairs_both_orders": {
+   "match": 41,
+   "of": 48,
+   "share": 0.8541666666666666
+  },
+  "combined": {
+   "match": 141,
+   "of": 156,
+   "share": 0.9038461538461539
+  }
+ },
+ "same_route_control": {
+  "what": "every other configuration's C-baseline alone re-read against its run 259 (run 263 for the five open models) alone reads, same prompts",
+  "median_no_reasoning": 0.991,
+  "min_no_reasoning": 0.933,
+  "kimi_rank": "lowest of 20"
+ },
+ "verdict": "verdict = yes-rate above or below one half (0.5 a tie); cells with a failed gate on either side left out",
+ "decision": "Kimi's run 261 figures are reported apart from the pooled no-reasoning figures compared with run 259, with a footnote on the route change (combined agreement 90.4% clears 90% but side by side is 85.4% and the alone agreement is below every same-route model's); revisable by Cassian",
+ "written": "2026-11-16"
+}

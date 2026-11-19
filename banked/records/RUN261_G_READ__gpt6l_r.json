@@ -1,0 +1,1767 @@
+{
+ "run": "261",
+ "block": "G-milder",
+ "arm": "gpt6l_r",
+ "draws": 5,
+ "cells": [
+  "D1",
+  "D6",
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5",
+  "K6",
+  "V1",
+  "V2",
+  "V3",
+  "V4",
+  "V5",
+  "W1",
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6"
+ ],
+ "frames": "records/RUN261_G_FRAMES.json",
+ "frames_sha256": "6e57868fc64f90cc4e0a785932fb8d66beb6e751769af4141b130599986f211a",
+ "estimate_usd": 0.03423163396887696,
+ "group_cap_usd": 2.707,
+ "started": "2026-11-16T19:08:50Z",
+ "units": {
+  "G|D1": {
+   "block": "G-milder",
+   "pair": "D1",
+   "domain": "dismissal",
+   "dim": "how far the business looked for other work",
+   "attr": "When Ferncombe Bakery stopped making deliveries, it made a delivery driver redundant after asking its one manager whether there was other work the driver could do, but without looking further.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "c2994128ecd7bd39a740a295a1576bbb12977a88552f12beeeab081504f1a749",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1700,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 429,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 528,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "774f384210213ea61f026d14921fbc25fdf0eb5b4e08d6d28fc637f4b15dce5e",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 443,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|D6": {
+   "block": "G-milder",
+   "pair": "D6",
+   "domain": "dismissal",
+   "dim": "how much warning of the meeting the assistant had",
+   "attr": "Tollgate Hardware dismissed a sales assistant for taking money from the till, after watching security footage. The assistant was told of the meeting the day before, and was told of the dismissal at the end of it.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "1d874f9fbec0e24d672368f66ec702db295c452680553d9a630376101178a920",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1687,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1129,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 566,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 483,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "786fae5d2194c227540a024118b6cb7b5688b9e8d8fc889854ee96bed7caecae",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1085,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1155,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 468,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K1": {
+   "block": "G-milder",
+   "pair": "K1",
+   "domain": "seniority",
+   "dim": "how plainly and how often the warning came",
+   "attr": "Sam was copied into an email from a colleague saying, among other points, that a large borrower's loan had been graded using out-of-date accounts. Sam read the email and did nothing further. The borrower defaulted four months later, and the bank lost £2 million more than it would have done had the loan been graded on current accounts.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "c11a085011da7b6a12aa5bec665269bb8a189fc35b860b13ab2aa9f963d325d7",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 447,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "a77d781b62a93e5f45d8a485cf00d0967452c71a5473d222afcedd7fc77e1db9",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 466,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 539,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K2": {
+   "block": "G-milder",
+   "pair": "K2",
+   "domain": "seniority",
+   "dim": "how long the report had shown the breach",
+   "attr": "The firm's monthly breach report, which Alex received, showed one fund over its limit on holdings in a single company for the first time that month. Alex took no step, and the breach went on for five more months until an auditor raised it.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "44bf71d6beb8639b1dbf1bc4718a8b5dafe93d8a4fb9db3e80e08b211bdef9b9",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 412,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 477,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 504,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "02360e314c506a5f44732c2956af9b43f8a37f70c2a6745a75a64e7001c71c9f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K3": {
+   "block": "G-milder",
+   "pair": "K3",
+   "domain": "seniority",
+   "dim": "how long the renewal sat unsigned",
+   "attr": "The contract with the supplier of the company's overnight payments system ran out, and the renewal had sat unsigned for a week on a shared list of tasks that Charlie read each week. The system failed for a day in June, and 40,000 customer payments were delayed.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "14584d6850021dcc0d2a99adce17ab2e40c765d47fc878bd4962b20a5512d806",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 417,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1010,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 447,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "b7bddb9692b22a4d859f95e888982b362a6b46d146da5e9c0a9c7bbdc288fb9f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K4": {
+   "block": "G-milder",
+   "pair": "K4",
+   "domain": "seniority",
+   "dim": "how much was known of the risk when the plan was agreed",
+   "attr": "At a meeting Jamie attended, a plan to lend more to buy-to-let landlords was agreed after a short discussion, but no written analysis, of what would happen if rents fell, and Jamie raised no question about it. Rents fell the following year, and arrears on those loans tripled.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4e5e7e1b8cbc6f871ce2ed9c27ffb1d56bfd13bd8cb9f868a4200d5239458982",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "14b4536d938557e30bef95b4a37fa18963279017c5c0302afb9a209824dc8c56",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 517,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K5": {
+   "block": "G-milder",
+   "pair": "K5",
+   "domain": "seniority",
+   "dim": "how much of the model was reviewed",
+   "attr": "A new pricing model went live after Emery had looked over its results and most of its assumptions, but not the one about the cost of claims. One assumption about the rising cost of claims was out of date, and home insurance premiums were set too low for a year, costing the insurer £5 million.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "37a284e683837678591663233de0c77fd331e86329ab0b92027e10ee0513cb48",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 454,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "9a094006bbda37d2d004017cbc8dbfb8bd7b4293b003ac761de63e3b70c4115b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|K6": {
+   "block": "G-milder",
+   "pair": "K6",
+   "domain": "seniority",
+   "dim": "how sharply complaints had risen",
+   "attr": "The quarterly complaints figures reached Finley and showed complaints about one savings account rising threefold in a year. Finley passed the figures on without comment, and the cause, interest paid at the wrong rate, went uncorrected for another eight months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "ff58a11dbd4ae1efe8c2423233d27a7a12555e73be43e6fd4df6345cb9e05fd0",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 542,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "0fc65684cfe66b510c853d12d213b24c958bed2eb65279dba475e65d1ce7c04a",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 457,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V1": {
+   "block": "G-milder",
+   "pair": "V1",
+   "domain": "vulnerable",
+   "dim": "how far the details were checked on the call",
+   "attr": "The customer asked to set up a standing order. The call handler took the details, read them back once, set it up, and sent nothing in writing. The customer had given the wrong amount, and £900 instead of £90 left the account each month for three months.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "440eae4529596f7c8637ee23690d92c17c7677fc3970c7372f1fafea30e39212",
+     "draws": [
+      {
+       "text": "Yes",
+       "reasoning_len": 522,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 1.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "256a94df89ade07b4de919f04f6f7cc18a142b58653011eb33409fff4c24c528",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 419,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 479,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V2": {
+   "block": "G-milder",
+   "pair": "V2",
+   "domain": "vulnerable",
+   "dim": "how hard the only way to make the change was",
+   "attr": "The customer asked to move the date of a loan repayment. The call handler said this could only be done on a paper form sent by post, which took two days to arrive, and the next repayment was missed, adding a £12 fee.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "ae77d4f4f9601fc4a72ea06c3dc170c1db61482328ef3a60cfecc9a23fe4f403",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 478,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 527,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "af9fbea7b9e53815de07782e793c0e391224cb16113c090b58df62da313454ad",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 493,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V3": {
+   "block": "G-milder",
+   "pair": "V3",
+   "domain": "vulnerable",
+   "dim": "how the process was explained",
+   "attr": "The customer asked how to claim for a burst pipe. The call handler explained the claims process twice, did not offer to put it in writing, and ended the call. The customer missed the deadline for sending photographs, and the claim was delayed by a month.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "c704cf388059fa9a99e32f20acf36c7c610bef155b16968c62f909b8768ac95f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1024,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1115,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "f2ca656efc28d74feff646b23106adc2e1f475892660e6b1c9fb7b6630701189",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 469,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 459,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V4": {
+   "block": "G-milder",
+   "pair": "V4",
+   "domain": "vulnerable",
+   "dim": "what the customer was told about the change",
+   "attr": "The customer asked to renew a car insurance policy. The call handler said that some terms had changed and were in the renewal letter, did not go through them, and renewed the policy. The new terms no longer covered driving abroad, and the customer had an accident in France the next month that was not covered.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "aeaa7a2b647359a9d12356083a5ad56c6d1538e9556183d77a853a36d9a24c2c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 471,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 483,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "258837e10dcfd81b598123b76dd440fdb66bdd5d48c7762efa88baeeca94d56c",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 470,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 467,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 450,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|V5": {
+   "block": "G-milder",
+   "pair": "V5",
+   "domain": "vulnerable",
+   "dim": "how the call-back time was set",
+   "attr": "The customer asked to close a savings account. The call handler said a call back would be needed to finish the closure and booked one for 10am the next day without asking whether that time suited, and said it could be moved by phoning back. The customer missed the call, and the request lapsed.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "02a3517570a011f3ab7078245e99640b3d17847f6d1d7c3b3917d4ea8a13c691",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "648f3b062b47a9152ac79f12ade6e886e2b1a202e28e3edb24875227a305a08f",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 596,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 423,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 518,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 485,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W1": {
+   "block": "G-milder",
+   "pair": "W1",
+   "domain": "education",
+   "dim": "how many words were misspelt",
+   "attr": "A few everyday words in the essay were misspelt, among them 'becuase', 'beutiful' and 'thier'.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "22c1cc9687f87de6441c9059ae0d62d493621753fc1387846a3cff3206ec0a08",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 1012,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 508,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 490,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "722ce467c875afc04d57039918adaba04283ebd33ac0650f50a680b9d976c393",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 459,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W2": {
+   "block": "G-milder",
+   "pair": "W2",
+   "domain": "education",
+   "dim": "how many sentences ran together",
+   "attr": "The essay was written as one long block with no paragraphs, and a few of its sentences ran into each other without full stops.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "1a58607048f349766214a7f6f3c1b6b41da1c6b47cd4c48a42ce63a490ebc894",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1067,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 474,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 436,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "2e8417c98f9a80e87c1eddd99c7854ba02c7ccd254a541130a48be8691193c84",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 535,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 437,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 564,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W3": {
+   "block": "G-milder",
+   "pair": "W3",
+   "domain": "education",
+   "dim": "how many points had no support",
+   "attr": "The essay made four points about Roman roads but gave a reason for one of them and none for the other three.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "f653bba82cd54345c689cd1973e0ced8f75cf5aca261ed196a95d2f1989f5f58",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 559,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 921,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "2a8b590e5713247d959d2f868bb335ddb0ad0b1971dddc27bec55736743526c8",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1043,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1065,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W4": {
+   "block": "G-milder",
+   "pair": "W4",
+   "domain": "education",
+   "dim": "how much of the essay was chatty",
+   "attr": "The essay was mostly formal, with a little slang such as 'gonna' and 'loads' and text abbreviations such as 'u' and 'b4'.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "e85cacc04ff163e50d9479314b822d97c892e891da5e36866a21c8e01dc99da5",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 1620,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 900,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.4
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "6be9e1c8de67b90e809d8e5f0a81626e27398f43bfd88d13b9611e79a453b022",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 476,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 1615,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  },
+  "G|W5": {
+   "block": "G-milder",
+   "pair": "W5",
+   "domain": "education",
+   "dim": "how often the point was repeated",
+   "attr": "The essay made the same point, that a good friend is kind, twice in slightly different words, and said little else.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "52b9c76345f45976559f8a8f8ef9de1bfd74ccb61fe8b574d1fe5408cb34bd41",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 494,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 929,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "4b657b204aabdc53351efe5bc80844f23262fd01851fdb788eb6309d6145b52b",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 446,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "Yes",
+       "reasoning_len": 0,
+       "answer": "yes"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.2
+    }
+   }
+  },
+  "G|W6": {
+   "block": "G-milder",
+   "pair": "W6",
+   "domain": "education",
+   "dim": "how many stages were left out",
+   "attr": "The essay described rain falling and rivers running to the sea, but mentioned evaporation only in passing, so it never explained how the water gets back into the clouds.",
+   "labels": [
+    "F",
+    "O"
+   ],
+   "cells": {
+    "F": {
+     "key": "F",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "3141275be0abe47f6786078c01351a792e6fdb4cae6d0171f239b1d141e5b4c2",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 481,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 500,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 347,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    },
+    "O": {
+     "key": "O",
+     "wire": "alone",
+     "readout": "sampled",
+     "n_asked": 5,
+     "n_parsed": 5,
+     "n_void": 0,
+     "prompt_sha256": "1adfcba829f718afe4eef8727b56da19f1a247642d9ef2fb496c810ca424c976",
+     "draws": [
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 400,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 509,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      },
+      {
+       "text": "No",
+       "reasoning_len": 0,
+       "answer": "no"
+      }
+     ],
+     "gate": "PASSED",
+     "yes_rate": 0.0
+    }
+   }
+  }
+ },
+ "provider_served": [
+  "OpenAI"
+ ],
+ "served_model": [
+  "openai/gpt-6-luna"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "provider_refusals": [],
+ "served_expected": "OpenAI",
+ "wires": {
+  "side": {
+   "model": "openai/gpt-6-luna",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  },
+  "alone": {
+   "model": "openai/gpt-6-luna",
+   "provider": "openai",
+   "max_tokens": 8192,
+   "want_logprobs": false,
+   "reasoning": null,
+   "reasoning_off": false,
+   "temperature": 1.0,
+   "top_k": null,
+   "readout": "sampled",
+   "route": "openrouter"
+  }
+ },
+ "route": "openrouter",
+ "status": "READ",
+ "calls": 190,
+ "spent_usd": 0.024283999999999997,
+ "elapsed_s": 450.8,
+ "finished": "2026-11-16T19:16:21Z"
+}
